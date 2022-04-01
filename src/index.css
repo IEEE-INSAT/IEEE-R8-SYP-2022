@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/Futura\ Light\ font.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/Futura\ Light\ Italic\ font.ttf");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/Futura\ Book\ font.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/Futura\ Book\ Italic\ font.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/futura\ medium\ bt.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/futura\ medium\ condensed\ bt.ttf");
+  font-weight: 400;
+  font-stretch: condensed;
+}
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/Futura\ Bold\ font.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/Futura\ Bold\ Italic\ font.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/Futura\ Extra\ Black\ font.ttf");
+  font-weight: 600 bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/Futura\ Extra\ Black\ font.ttf");
+  font-weight: 700 bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: Futura;
+  src: url("./assets//fonts/Futura\ XBlk\ BT.ttf");
+  font-weight: 800;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: Futura;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
