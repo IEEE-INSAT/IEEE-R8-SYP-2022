@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 480px) {
     .leaflet-container {
-        width: 100vw;
+        width: 85vw;
         height: 50vh;
     }
 }

@@ -7,7 +7,7 @@ import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet';
 
 const pinIcon = L.icon({
         iconUrl: require('../../assets/images/CapitalPin.png'),
-        iconSize: [20, 45]
+        iconSize: [18, 45]
     }
 )
 export default function Location() {
@@ -16,7 +16,7 @@ export default function Location() {
             <h4>EVENT LOCATION</h4>
             <h2>Location</h2>
             <div id="map">
-                <MapContainer center={[36.8001, 10.1864]} zoom={7}>
+                <MapContainer center={[34.972, 9.575]} zoom={7}>
                     <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png"
