@@ -1,0 +1,99 @@
+header{
+    width: 100vw;
+}
+
+.headerWave{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -50000;
+}
+
+.logo{
+    margin: 30px;
+}
+
+.beb{
+    max-width: 90vw;
+    min-width: 32vw;
+    transform: translate(-100px, -100px);
+}
+
+.descr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descr h1{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 80px;
+    /* identical to box height, or 89% */
+
+    letter-spacing: -2px;
+
+    color: #333333;
+    margin-bottom: 4px;
+
+}
+
+.descr p{
+    font-family: 'Futura Hv BT';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 32px;
+    width: 445px;
+    margin-bottom: 40px;
+
+    color: #787878;
+
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    max-width: 90vw;
+}
+
+
+@media screen and (max-width: 1230px) {
+    .welcome{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .beb{
+        transform: translate(0, 50px);
+    }   
+    .descr h1{
+        font-family: 'Futura';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        color: #FBDAA4;
+        max-width: 90vw;
+    }
+    .descr p{
+        font-family: 'Futura Hv BT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        max-width: 90vw;
+        color: #FFFFFF;
+    }
+    .headerWave{
+        min-width: 150vw;
+    }
+    .logo{
+        width: 64px;
+    }
+}
