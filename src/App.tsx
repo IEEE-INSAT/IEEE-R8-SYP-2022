@@ -6,7 +6,6 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './pages/Home';
-import AboutEvent from './Components/AboutEvent';
 
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          
         </Routes>
       </BrowserRouter>
     </div>
