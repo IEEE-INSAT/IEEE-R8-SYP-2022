@@ -1,0 +1,38 @@
+.Location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Futura;
+
+}
+.Location h4 {
+    color: #CB8B4E;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.Location h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 56px;
+
+}
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+    width: 70%;
+
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
