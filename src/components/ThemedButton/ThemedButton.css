@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+.btn{
+    font-family: 'Spartan', sans-serif;
+    padding: 15px 40px;
+    min-width: 120px;
+    font-size: 16px;
+    line-height: -1px;
+    border: none;
+    border-radius: 4px;
+    transition:.4s;
+}
+.btn:hover{
+    filter: brightness(.85);
+    cursor: pointer;
+}
