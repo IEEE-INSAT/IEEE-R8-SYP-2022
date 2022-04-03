@@ -1,7 +1,8 @@
 import React from "react";
 import AboutEvent from "../../components/AboutEvent";
 import Header from "../../components/Header" ;
-import Location from "../../components/Location"
+import Sponsors from "../../components/Sponsors";
+import sponsorsList from "../../data/sponsors.json";
 import './Home.css';
 
 export default function Home(){
@@ -9,8 +10,7 @@ export default function Home(){
         <div>
             <Header />
             <AboutEvent />
-            <Location/>
-
+            <Sponsors items={sponsorsList["sponsors"]}/>
         </div>
     )
 }

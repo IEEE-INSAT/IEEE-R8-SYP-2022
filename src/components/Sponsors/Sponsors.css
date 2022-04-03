@@ -1,0 +1,49 @@
+.sponsors-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Futura;
+}
+
+.sponsors-container h4 {
+    color: #CB8B4E;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.sponsors-container h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 56px;
+}
+
+@media screen and (max-width: 340px) {
+    .sponsors-container h2 {
+        font-size: 50px;
+    }
+}
+
+.sponsors-description {
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 60px;
+    width: 50vw;
+}
+
+.sponsor-logo-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 36px;
+    width: 100vw;
+
+}
+
+.sponsor-logo {
+    width: 144px;
+    height: 144px;
+    border-radius: 72px;
+}

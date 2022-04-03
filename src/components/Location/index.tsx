@@ -4,7 +4,6 @@ import './Location.css';
 import L from 'leaflet';
 import {MapContainer, TileLayer, Marker, Popup} from 'react-leaflet';
 
-
 const pinIcon = L.icon({
         iconUrl: require('../../assets/images/CapitalPin.png'),
         iconSize: [18, 45]
