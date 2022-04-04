@@ -25,7 +25,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="navigatios">
+                <div className="navigations">
                     <div className="navSection">Home</div>
                     <div className="navSection">About SYP</div>
                     <div className="navSection">Sponsors</div>
@@ -33,6 +33,12 @@ export default function Footer() {
                     <div className="navSection">Team</div>
                     <div className="navSection">Registrations</div>
                     <div className="navSection">FAQ</div>
+                </div>
+                <div className="icons small">
+                    <FontAwesomeIcon className="icon" icon={faFacebookF} />
+                    <FontAwesomeIcon className="icon" icon={faInstagram} />
+                    <FontAwesomeIcon className="icon" icon={faTwitter} />
+                    <FontAwesomeIcon className="icon" icon={faLinkedin} />
                 </div>
                 <div className="copyright">
                     © 2022&nbsp;<div className="subCpyRight">All rights reserved.</div>&nbsp;SYP
