@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sponsors.css';
-import img from "../../data/sponsor-logos/sp-ph.jpeg";
+
 
 interface SponsorItem {
     name: string;
@@ -25,9 +25,10 @@ export default function Sponsors({items}: SponsorsProps) {
             <div className="sponsor-logo-container">
                 {
                     items.map((sponsor, i) => (
-                        <img className="sponsor-logo" src={sponsor.path} alt={sponsor.name} key={i}/>
+                            <img className="sponsor-logos" src={sponsor.path} alt={sponsor.name} key={i}/>
                     ))
                 }
+
             </div>
         </div>
     );
