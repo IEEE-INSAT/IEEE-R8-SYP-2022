@@ -19,3 +19,8 @@
     font-weight: 500;
     font-size: 56px;
 }
+@media screen and (max-width: 480px) {
+    .sponsors-container h2 {
+        font-size: 40px;
+    }
+}

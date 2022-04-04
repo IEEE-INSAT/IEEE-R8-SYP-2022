@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     font-family: Futura;
+    height: 80vh;
 }
 
 .Location h4 {
@@ -21,17 +22,22 @@
 }
 
 #map {
-    height: 180px;
+    height: 100%;
 }
 
 .leaflet-container {
     width: 70vw;
-    height: 70vh;
+    height: 100%;
 }
 
 @media screen and (max-width: 480px) {
     .leaflet-container {
         width: 85vw;
         height: 50vh;
+    }
+}
+@media screen and (max-width: 480px) {
+    .sponsors-container h2 {
+        font-size: 40px;
     }
 }
