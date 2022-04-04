@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    width: 99vw;
+    height: fit-content;
+    background-image: url('./../../assets/images/wave.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15%;
+    padding-bottom: 2%;
+}
+
+.upper_side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85vw;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.logo{
+    height: 100px;
+}
+
+.desc_content{
+    width: 30vw;
+    font-family: 'Arimo';
+    color: #BFBFBF;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+}
+
+.contacts{
+    margin-top: 3%;
+    width: 30vw;
+}
+
+.contact_content{
+    font-family: 'FuturaBoldCondensedBT';
+    font-size: clamp(1rem, 3vw, 1.8rem);
+    color: #fff;
+}
+
+.icon{
+    background-color: #fff;
+    color: #8A422D;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 12px;
+
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.navigatios{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-family: 'FuturaBoldCondensedBT';
+    gap: 15px;
+    justify-content: center;
+
+    margin-top: 4%;
+}
+
+.navSection{
+    cursor: pointer;
+}
+
+.copyright{
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+
+}
+
+.subCpyRight{
+    font-family: 'Arimo';
+}
+
+@font-face{
+    font-family: "FuturaBoldCondensedBT";
+    src: local('FuturaBoldCondensedBT'), url('./../../assets/fonts/FuturaBoldCondensedBT.ttf');
+}
+
+@media only screen and (max-width: 900px) {
+    footer{
+        padding-top:25%;
+    }
+}
