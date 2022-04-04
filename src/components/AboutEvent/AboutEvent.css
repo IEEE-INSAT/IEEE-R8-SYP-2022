@@ -48,7 +48,7 @@
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1230px) {
   .text{
     text-align: center;
     padding-left: 0px;
@@ -78,7 +78,7 @@
   
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1230px) {
     .about{
         display: grid;
     }
