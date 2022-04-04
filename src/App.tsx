@@ -6,6 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './pages/Home';
+import CardSlider from './carousel/CardSlider';
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<CardSlider />} />
         </Routes>
       </BrowserRouter>
     </div>
