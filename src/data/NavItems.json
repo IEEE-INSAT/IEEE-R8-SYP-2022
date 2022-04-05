@@ -1,0 +1,11 @@
+{
+    "items": [
+        { "name": "Home", "path": "/" },
+        { "name": "About SYP", "path": "/about" },
+        { "name": "Sponsors", "path": "/sponsors" },
+        { "name": "Program", "path": "/program" },
+        { "name": "Team", "path": "/team" },
+        { "name": "Registrations", "path": "/registrations" },
+        { "name": "FAQ", "path": "/faq" }
+    ]
+}

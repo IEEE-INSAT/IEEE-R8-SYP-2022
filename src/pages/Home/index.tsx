@@ -1,10 +1,13 @@
 import React from "react";
+import AboutEvent from "../../components/AboutEvent";
+import Header from "../../components/Header" ;
 import './Home.css';
 
 export default function Home() {
     return (
         <div>
-            <h1>Welcome !</h1>
+            <Header />
+            <AboutEvent />
         </div>
     )
 }
