@@ -2,14 +2,10 @@ import React from 'react'
 import './Slider.css'
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill} from 'react-icons/bs'
 import Card from './Card'
+import * as data from './CardData.json'
 
 const CardSlider =(props) =>{
-    const slides = [{name:'Khaldoun Taktak',position:'Congress Chairman',imageURL:'Khaldoun 1.png'},
-    {name:'Khaldoun Taktak',position:'Congress Chairman',imageURL:'Khaldoun 1.png'},
-    {name:'Khaldoun Taktak',position:'Congress Chairman',imageURL:'Khaldoun 1.png'},
-    {name:'Khaldoun Taktak',position:'Congress Chairman',imageURL:'Khaldoun 1.png'},
-    {name:'Khaldoun Taktak',position:'Congress Chairman',imageURL:'Khaldoun 1.png'},
-];
+    const slides = data;
 
     const slideLeft = () =>{
         var slider = document.getElementById("slider");
@@ -27,7 +23,7 @@ const CardSlider =(props) =>{
             {
                 slides.map((slide,index) =>{
                     return(
-                        <Card index={index} imgURL={slide.imageURL} name={slide.name} position={slide.position} key={index}/>
+                        <Card imgURL={slide.imageURL} name={slide.name} position={slide.position} key={index}/>
                     )
 
                 })
