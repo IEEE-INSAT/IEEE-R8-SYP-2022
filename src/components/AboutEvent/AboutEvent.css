@@ -37,6 +37,7 @@
     /* position: relative; */
     max-width: 600px;
 }
+
 @media (max-width: 400px) {
   .child{
     top: calc(-5vh);
@@ -89,6 +90,7 @@
         grid-column-end: 3;
     }
     .text{
+
         padding-left: 20px;
         grid-column-start: 4;
         grid-column-end: 5;
@@ -96,6 +98,7 @@
     }
 }
 .text{
+    padding-left: 20px;
     padding-top: 60px;
     /* display: inline-block; */
   /* display: inline-grid; */
