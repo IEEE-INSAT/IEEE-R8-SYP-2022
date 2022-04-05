@@ -28,15 +28,47 @@
 
 .testimonial {
     display: flex;
-    width: 60vw;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+
+}
+.testimonial-image-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    position: relative;
+    overflow-wrap: normal;
 }
 
+.testimonial-image-container .main-image {
+    height: 50vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: 2;
+}
+.testimonial-image-container .orange-circle {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    z-index: 1;
+    height: 50%;
+}
+.testimonial-image-container .blue-circle {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    z-index: 1;
+    height: 50%;
+}
 .testimonial-text-container {
-    width: 60%;
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
-
+.testimonial-text-container .description {
+    margin-bottom: 60px;
+}
 .testimonial-text-container .role {
     font-family: Futura;
     font-weight: 500;

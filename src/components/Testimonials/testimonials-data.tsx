@@ -3,7 +3,8 @@ const data = [
         id: 0,
         name: "Essia Ben Hamida",
         role: "Human Ressources",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text ."
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text .",
+        image: require('./testimonials-images/Essia 1.png')
     },
     {
         id: 1,
