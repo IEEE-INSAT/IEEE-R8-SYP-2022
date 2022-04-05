@@ -1,0 +1,21 @@
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Futura;
+}
+
+.testimonials-container h4 {
+    color: #CB8B4E;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.testimonials-container h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 56px;
+}
