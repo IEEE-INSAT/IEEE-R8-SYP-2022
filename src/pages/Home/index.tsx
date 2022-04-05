@@ -11,8 +11,8 @@ import './Home.css';
 export default function Home(){
     return (
         <div>
-            <Location/>
-            <AboutEvent/>
+            <Testimonials/>
+            <Sponsors items={sponsorsList["sponsors"]}/>
         </div>
     )
 }
