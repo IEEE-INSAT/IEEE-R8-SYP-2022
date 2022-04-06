@@ -6,9 +6,9 @@ import Countdown from "../../components/Countdown";
 
 import Footer from "../../components/Footer";
 import Header from "../../components/Header" ;
-import Location from "../../components/Location";
 import Sponsors from "../../components/Sponsors";
 import Testimonials from "../../components/Testimonials";
+import Location from "../../components/Location";
 import sponsorsList from "../../data/sponsors.json";
 
 import './Home.css';

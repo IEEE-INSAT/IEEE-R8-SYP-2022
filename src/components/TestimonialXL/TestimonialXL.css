@@ -1,0 +1,49 @@
+
+.testimonial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.testimonial-image-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    position: relative;
+    overflow-wrap: normal;
+}
+
+.testimonial-image-container .main-image {
+    padding-left: 50px;
+    padding-right: 50px;
+    z-index: 2;
+    width: 380px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.testimonial-image-container .orange-circle {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    z-index: 1;
+    height: 50%;
+}
+
+.testimonial-image-container .blue-circle {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    z-index: 1;
+    height: 50%;
+}
+
+
+

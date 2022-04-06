@@ -10,12 +10,14 @@ const pinIcon = L.icon({
     }
 )
 export default function Location() {
+    const windowWidth = window.innerWidth;
+    const windowHeight = window.innerHeight;
     return (
         <div className={"Location"}>
             <h4>EVENT LOCATION</h4>
             <h2>Location</h2>
             <div id="map">
-                <MapContainer center={[34.972, 9.575]} zoom={7}>
+                <MapContainer center={[34.972, 9.575]} zoom={ 5 }>
                     <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png"
