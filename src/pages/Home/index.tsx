@@ -2,6 +2,7 @@ import React from "react";
 import AboutEvent from "../../components/AboutEvent";
 
 import AboutLocation from "../../components/AboutLocation";
+import Countdown from "../../components/Countdown";
 
 import Footer from "../../components/Footer";
 import Header from "../../components/Header" ;
@@ -18,6 +19,7 @@ export default function Home() {
             <Header />
             <AboutEvent />
             <Location />
+            <Countdown />
             <AboutLocation />
             <Testimonials />
             <Sponsors items={sponsorsList["sponsors"]}/>
