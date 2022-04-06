@@ -9,8 +9,8 @@ header{
     z-index: -50000;
 }
 
-.logo{
-    margin: 30px;
+header .logo{
+    margin: 50px;
 }
 
 .beb{
@@ -94,6 +94,6 @@ header{
         min-width: 150vw;
     }
     .logo{
-        width: 64px;
+        width: 70px;
     }
 }
