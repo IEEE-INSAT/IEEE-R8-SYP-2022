@@ -11,14 +11,14 @@ const data = [
         name: "Essia Ben Hamida",
         role: "Human Ressources",
         description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text .",
-        image: require('./testimonials-images/Essia 1.png')
+        image: require('./testimonials-images/Essia1.png')
     },
     {
         id: 2,
         name: "Khaldoun Taktak",
         role: "President",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-        image: require('./testimonials-images/Khaldoun 1.png')
+        image: require('./testimonials-images/Khaldoun1.png')
     }
 
 ]

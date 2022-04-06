@@ -1,26 +1,3 @@
-.testimonials-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Futura;
-    margin-bottom: 100px;
-}
-
-.testimonials-container h4 {
-    color: #80B3E8;
-    letter-spacing: 2px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.testimonials-container h2 {
-    margin-top: 10px;
-    margin-bottom: 40px;
-    color: #333333;
-    font-weight: 500;
-    font-size: 56px;
-}
-
 
 .testimonial {
     display: flex;
@@ -31,7 +8,6 @@
     left: 0;
     width: 100%;
     height: 100%;
-
     opacity: 0;
     transition: all 0.3s linear;
 
@@ -70,56 +46,15 @@
     height: 50%;
 }
 
-.testimonial-text-container {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.testimonial-text-container .description {
-    margin-bottom: 60px;
-    font-size: 24px;
-}
-
-.testimonial-text-container .name {
-
-    font-size: 20px;
-}
-
-.testimonial-text-container .role {
-    font-family: Futura;
-    font-weight: 500;
-    font-size: 20px;
-    color: rgba(51, 51, 51, 0.5);
-}
-
-.section-center {
-    margin-top: 4rem;
-    width: 80vw;
-    height: 450px;
-    position: relative;
-}
-
-.testimonial.activeSlide {
-    opacity: 1;
-    transform: translateX(0);
-}
-
-.testimonial.lastSlide {
-    transform: translateX(-100%);
-}
-
-.testimonial.nextSlide {
-    transform: translateX(100%);
-}
-
 .buttons {
     margin-right: 16px;
 }
 
 .prev,
 .next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: 100px;
     width: 48px;
@@ -127,7 +62,6 @@
     border-color: transparent;
     border-radius: 100px;
     cursor: pointer;
-
 }
 
 .prev:hover,
@@ -145,8 +79,3 @@
     right: 45%;
 }
 
-@media screen and (max-width: 480px) {
-    .testimonials-container h2 {
-        font-size: 40px;
-    }
-}

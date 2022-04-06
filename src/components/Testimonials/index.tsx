@@ -1,12 +1,15 @@
 import React from "react";
 import {useState, useEffect} from "react";
 
-import data from "./testimonials-data";
+
 import TestimonialXL from "../TestimonialXL";
 import TestimonialSM from "../TestimonialSM";
+
+import data from "./testimonials-data";
+import LeftArrow from "./assets/LeftArrow.png";
+import RightArrow from "./assets/RightArrow.png";
+
 import './Testimonials.css';
-
-
 
 
 export default function Testimonials() {
@@ -56,15 +59,21 @@ export default function Testimonials() {
                             position = "lastSlide";
                         }
                         return (
-                            (window.innerWidth > 1300) ? <TestimonialXL key={id} position={position} description={description} name={name}
-                                           role={role} src={image}/> : <TestimonialSM key={id} position={position} description={description} name={name}
-                                                                                      role={role} src={image}/>
+                            (window.innerWidth > 1300) ?
+                                <TestimonialXL key={id} position={position} description={description} name={name}
+                                               role={role} src={image}/> :
+                                <TestimonialSM key={id} position={position} description={description} name={name}
+                                               role={role} src={image}/>
                         );
                     })
                 }
                 <div className="buttons">
-                    <button className="prev" onClick={() => setIndex(index - 1)}/>
-                    <button className="next" onClick={() => setIndex(index + 1)}/>
+                    <div className="prev" onClick={() => setIndex(index - 1)}>
+                        <img src={LeftArrow} alt=""/>
+                    </div>
+                    <div className="next" onClick={() => setIndex(index + 1)}>
+                        <img src={RightArrow} alt=""/>
+                    </div>
                 </div>
             </div>
         </div>
