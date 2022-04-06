@@ -2,10 +2,12 @@ import React from "react";
 import {useState, useEffect} from "react";
 
 import data from "./testimonials-data";
-import orangeCircle from "./assets/OrangeCircle.png";
-import blueCircle from "./assets/BlueCircle.png";
-
+import TestimonialXL from "../TestimonialXL";
+import TestimonialSM from "../TestimonialSM";
 import './Testimonials.css';
+
+
+
 
 export default function Testimonials() {
     const [people] = useState(data);
@@ -54,18 +56,9 @@ export default function Testimonials() {
                             position = "lastSlide";
                         }
                         return (
-                            <div className={"testimonial " + position} key={id}>
-                                <div className="testimonial-text-container">
-                                    <p className="description">{description}</p>
-                                    <span className="name">{name}</span>
-                                    <span className="role">{role}</span>
-                                </div>
-                                <div className="testimonial-image-container">
-                                    <img className="main-image " src={image} alt={name}/>
-                                    <img className="orange-circle" src={orangeCircle} alt=""/>
-                                    <img className="blue-circle" src={blueCircle} alt=""/>
-                                </div>
-                            </div>
+                            (window.innerWidth > 1300) ? <TestimonialXL key={id} position={position} description={description} name={name}
+                                           role={role} src={image}/> : <TestimonialSM key={id} position={position} description={description} name={name}
+                                                                                      role={role} src={image}/>
                         );
                     })
                 }

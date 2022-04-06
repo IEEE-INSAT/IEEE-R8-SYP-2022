@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Testimonials/testimonials-images/rjiba.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Testimonials/Testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials/Testimonials.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Testimonials/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Testimonials/testimonials-data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials/testimonials-data.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -91,6 +86,7 @@
       <workItem from="1649106442060" duration="1072000" />
       <workItem from="1649153524274" duration="10989000" />
       <workItem from="1649172525953" duration="5761000" />
+      <workItem from="1649254747805" duration="2538000" />
     </task>
     <servers />
   </component>
