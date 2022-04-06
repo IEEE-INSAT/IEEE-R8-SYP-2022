@@ -17,7 +17,7 @@ export default function Location() {
             <h4>EVENT LOCATION</h4>
             <h2>Location</h2>
             <div id="map">
-                <MapContainer center={[34.972, 9.575]} zoom={windowWidth > 480 || windowHeight > 1000 ? 7 : 6}>
+                <MapContainer center={[34.972, 9.575]} zoom={ 5 }>
                     <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://tiles.stadiamaps.com/tiles/outdoors/{z}/{x}/{y}{r}.png"
