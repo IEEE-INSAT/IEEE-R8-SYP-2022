@@ -2,26 +2,10 @@ import React from 'react'
 import './Slider.css'
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill} from 'react-icons/bs'
 import Card from './Card'
-import * as data from './CardData.json'
+import data from './CardData.json'
 
-const CardSlider =(props) =>{
-    const slides = [
-    {
-        "name": "Khaldoun Taktak",
-        "position": "Congress Chairman",
-        "imageURL": "Khaldoun 1.png"
-    },
-    {
-        "name": "Khaldoun Taktak",
-        "position": "Congress Chairman",
-        "imageURL": "Khaldoun 1.png"
-    },
-    {
-        "name": "Khaldoun Taktak",
-        "position": "Congress Chairman",
-        "imageURL": "Khaldoun 1.png"
-    }
-];
+const CardSlider =() =>{
+    const slides = data;
 
     const slideLeft = () =>{
         var slider = document.getElementById("slider");
