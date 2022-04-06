@@ -5,7 +5,23 @@ import Card from './Card'
 import * as data from './CardData.json'
 
 const CardSlider =(props) =>{
-    const slides = data;
+    const slides = [
+    {
+        "name": "Khaldoun Taktak",
+        "position": "Congress Chairman",
+        "imageURL": "Khaldoun 1.png"
+    },
+    {
+        "name": "Khaldoun Taktak",
+        "position": "Congress Chairman",
+        "imageURL": "Khaldoun 1.png"
+    },
+    {
+        "name": "Khaldoun Taktak",
+        "position": "Congress Chairman",
+        "imageURL": "Khaldoun 1.png"
+    }
+];
 
     const slideLeft = () =>{
         var slider = document.getElementById("slider");
@@ -23,7 +39,7 @@ const CardSlider =(props) =>{
             {
                 slides.map((slide,index) =>{
                     return(
-                        <Card imgURL={slide.imageURL} name={slide.name} position={slide.position} key={index}/>
+                        <Card imgURL={slide.imageURL} name={slide.name} position={slide.position} key={index} />
                     )
 
                 })

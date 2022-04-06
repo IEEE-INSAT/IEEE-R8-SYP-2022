@@ -34,7 +34,7 @@ const Card=(props) => {
 
     )
 } 
-Card.PropTypes = {
+Card.propTypes = {
     imgURL: PropTypes.any,
     name: PropTypes.any,
     position: PropTypes.any
