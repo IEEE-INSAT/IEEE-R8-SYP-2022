@@ -13,6 +13,16 @@ import './Testimonials.css';
 
 
 export default function Testimonials() {
+    const [width, setWidth] = React.useState(window.innerWidth);
+    const breakpoint = 900;
+    React.useEffect(() => {
+        const handleResizeWindow = () => setWidth(window.innerWidth);
+        window.addEventListener("resize", handleResizeWindow);
+        return () => {
+            window.removeEventListener("resize", handleResizeWindow);
+        };
+    }, []);
+
     const [people] = useState(data);
     const [index, setIndex] = useState(0);
 
@@ -59,7 +69,7 @@ export default function Testimonials() {
                             position = "lastSlide";
                         }
                         return (
-                            (window.innerWidth > 1300) ?
+                            (width > breakpoint) ?
                                 <TestimonialXL key={id} position={position} description={description} name={name}
                                                role={role} src={image}/> :
                                 <TestimonialSM key={id} position={position} description={description} name={name}

@@ -10,7 +10,6 @@
     height: 100%;
     opacity: 0;
     transition: all 0.3s linear;
-
 }
 
 .testimonial-image-container {
@@ -46,36 +45,5 @@
     height: 50%;
 }
 
-.buttons {
-    margin-right: 16px;
-}
 
-.prev,
-.next {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 100px;
-    width: 48px;
-    height: 45px;
-    border-color: transparent;
-    border-radius: 100px;
-    cursor: pointer;
-}
-
-.prev:hover,
-.next:hover {
-    background: hsl(21, 62%, 45%);
-}
-
-.prev {
-    left: 45%;
-    background: #F0F2F6;
-}
-
-.next {
-    background: #CB8B4E;
-    right: 45%;
-}
 

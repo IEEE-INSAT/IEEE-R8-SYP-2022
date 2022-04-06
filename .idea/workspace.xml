@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TestimonialSM/TestimonialSM.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TestimonialSM/TestimonialSM.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TestimonialSM/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TestimonialSM/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TestimonialXL/TestimonialXL.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TestimonialXL/TestimonialXL.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Testimonials/Testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials/Testimonials.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Testimonials/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Testimonials/testimonials-data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials/testimonials-data.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Testimonials/testimonials-images/Essia 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials/testimonials-images/Essia1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Testimonials/testimonials-images/Khaldoun 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials/testimonials-images/Khaldoun1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +88,7 @@
       <workItem from="1649106442060" duration="1072000" />
       <workItem from="1649153524274" duration="10989000" />
       <workItem from="1649172525953" duration="5761000" />
-      <workItem from="1649254747805" duration="10489000" />
+      <workItem from="1649254747805" duration="14712000" />
     </task>
     <servers />
   </component>

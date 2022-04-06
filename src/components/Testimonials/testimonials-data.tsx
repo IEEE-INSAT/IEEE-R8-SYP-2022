@@ -18,7 +18,7 @@ const data = [
         name: "Khaldoun Taktak",
         role: "President",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt",
-        image: require('./testimonials-images/Khaldoun1.png')
+        image: require('./testimonials-images/khaldoun1.jpg')
     }
 
 ]
