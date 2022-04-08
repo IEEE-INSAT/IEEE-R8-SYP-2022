@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/FuturaBoldCondensedBT.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/archaelogical-site.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/sidi-bou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/tunis-night.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/wave.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/wave_small.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AboutLocation/AboutLocation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AboutLocation/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Countdown/Countdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Countdown/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutEvent/AboutEvent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutEvent/AboutEvent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TestimonialSM/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TestimonialSM/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TestimonialXL/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TestimonialXL/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Testimonials/Testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Testimonials/Testimonials.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +87,7 @@
       <workItem from="1649172525953" duration="5761000" />
       <workItem from="1649254747805" duration="15376000" />
       <workItem from="1649361006954" duration="672000" />
-      <workItem from="1649402557134" duration="938000" />
+      <workItem from="1649402557134" duration="1095000" />
     </task>
     <servers />
   </component>
