@@ -17,7 +17,7 @@ export default function Header(){
         <img className="logo" src={logo} alt="SYP" />
         <div className="welcome">
             <div className="descr">
-                <h1>IEEE R8 SYP</h1>
+                <h1>IEEE R8 SYP<br />CONGRESS </h1>
                 <p>Student and Young Professional Congress is the largest student event in all Region 8</p>
                 <ThemedButton text={"Apply for funding"} onClick={() => alert("testing")} />
             </div>

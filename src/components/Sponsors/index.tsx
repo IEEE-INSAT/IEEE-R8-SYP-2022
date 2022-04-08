@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sponsors.css';
-
+import {Animated} from "react-animated-css";
 
 interface SponsorItem {
     name: string;
@@ -25,7 +25,9 @@ export default function Sponsors({items}: SponsorsProps) {
             <div className="sponsor-logo-container">
                 {
                     items.map((sponsor, i) => (
-                            <img className="sponsor-logos" src={sponsor.path} alt={sponsor.name} key={i}/>
+                        <Animated animationInDelay={i*150} key={i} animationIn="fadeIn" animationOut="fadeIn" isVisible={true}>
+                            <img className="sponsor-logos" src={sponsor.path} alt={sponsor.name} />
+                        </Animated>    
                     ))
                 }
 

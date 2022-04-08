@@ -41,7 +41,7 @@ export default function Footer() {
                     <FontAwesomeIcon className="icon" icon={faLinkedin} />
                 </div>
                 <div className="copyright">
-                    © 2022&nbsp;<div className="subCpyRight">All rights reserved.</div>&nbsp;SYP
+                    © 2022&nbsp;<div className="subCpyRight">All rights reserved.</div>&nbsp;IEEE INSAT SB
                 </div>
             </div>
 
