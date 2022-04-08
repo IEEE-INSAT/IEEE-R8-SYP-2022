@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css"
 
 import HeaderWave from "../../assets/images/headerWave.png";
+import HeaderWaveNav from "../../assets/images/headerWave nav.png";
 import logo from "../../assets/images/logo180-black.png";
 import beb from "../../assets/images/bebAzra9.png";
 import ThemedButton from "../ThemedButton";
@@ -9,19 +10,27 @@ import NavBar from "../NavBar";
 import NavItems from "../../data/NavItems.json";
 
 
-export default function Header(){
+interface HeaderProps{
+    mode?: "HOMEPAGE" | "PAGE";
+    title: string;
+    description?: string;
+    buttonText? : string;
+    handleBtnClick?: () => void;
+}
+
+export default function Header({ mode = "PAGE", title, description, buttonText, handleBtnClick }: HeaderProps){
     return (
     <header>
-        <img className="headerWave" src={HeaderWave} alt="" />
+        <img className="headerWave" src={(mode=="HOMEPAGE" || window.innerWidth < 1230) ? HeaderWave : HeaderWaveNav} style={mode=="PAGE" ? { width: "70vw" } : {}} alt="" />
         <NavBar items={NavItems["items"]} />
         <img className="logo" src={logo} alt="SYP" />
         <div className="welcome">
-            <div className="descr">
-                <h1>IEEE R8 SYP<br />CONGRESS </h1>
-                <p>Student and Young Professional Congress is the largest student event in all Region 8</p>
-                <ThemedButton text={"Apply for funding"} onClick={() => alert("testing")} />
+            <div className={mode=="PAGE" ? "descr descrpage" : "descr"} style={mode=="PAGE" ? { alignItems: "flex-start", textAlign: "center" } : {}}>
+                <h1>{title}</h1>
+                <p>{description}</p>
+                {buttonText && (<ThemedButton text={buttonText} onClick={handleBtnClick} />)}
             </div>
-            <div><img className="beb" src={beb} alt="welcome"/></div>
+           {mode=="HOMEPAGE" && (<div><img className="beb" src={beb} alt="welcome"/></div>)}
         </div>
     </header>
     )

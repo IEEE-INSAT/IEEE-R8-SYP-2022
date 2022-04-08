@@ -8,6 +8,9 @@ header{
     right: 0;
     z-index: -50000;
 }
+.headerWavePage{
+    width: 70vw;
+}
 
 header .logo{
     margin: 50px;
@@ -24,6 +27,30 @@ header .logo{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    max-width: 900px;
+}
+
+.descrpage{
+    align-items: center;
+    text-align: center;
+}
+
+.descrpage h1{
+    align-self: center;
+    font-size: 128px;
+    line-height: 80px;
+    font-stretch: condensed;
+    font-weight: 800;
+    font-size: 125px !important;
+    /* or 62% */
+
+    text-align: center;
+    letter-spacing: -2px;
+    margin-bottom: 30px !important;
+}
+
+.descrpage p{
+    font-size: 24px !important;
 }
 
 .descr h1{
@@ -61,7 +88,6 @@ header .logo{
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    max-width: 90vw;
 }
 
 
@@ -69,6 +95,7 @@ header .logo{
     .welcome{
         flex-direction: column;
         margin-left: 20px;
+        max-width: 90vw;
     }
     .beb{
         transform: translate(0, 50px);
@@ -89,6 +116,15 @@ header .logo{
         line-height: 32px;
         max-width: 90vw;
         color: #FFFFFF;
+    }
+    .descrpage h1{
+        color: #333333;
+        font-size: 80px !important;
+        margin-bottom: 5px !important;
+    }
+    .descrpage p{
+        color: #787878;
+        font-size: 13px !important;
     }
     .headerWave{
         min-width: 150vw;

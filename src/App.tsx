@@ -6,6 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './pages/Home';
+import FAQ from './pages/FAQ';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/faq" element={<FAQ />} />
         </Routes>
       </BrowserRouter>
     </div>

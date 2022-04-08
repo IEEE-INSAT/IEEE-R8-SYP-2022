@@ -25,7 +25,7 @@ export default function Home() {
     return (
         <div className="home">
             <Animated animationIn="fadeIn" animationOut="fadeIn" isVisible={true}>
-                <Header />  
+                <Header buttonText={"Apply for funding"} handleBtnClick={() => alert("testing")} title={"IEEE R8 SYP CONGRESS"} mode="HOMEPAGE" description="Student and Young Professional Congress is the largest student event in all Region 8" />  
             </Animated>
             <Zoom>
                 <AboutEvent />
