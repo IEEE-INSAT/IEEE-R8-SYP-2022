@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -12,6 +15,7 @@
     "@types/react-dom": "^17.0.14",
     "leaflet": "^1.7.1",
     "react": "^18.0.0",
+    "react-countdown": "^2.3.2",
     "react-dom": "^18.0.0",
     "react-leaflet": "^3.2.5",
     "react-router-dom": "6",

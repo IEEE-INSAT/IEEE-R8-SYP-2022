@@ -34,6 +34,7 @@ nav{
     position: absolute;
     top: 0;
     right: 1vw;
+    margin: 50px;
 }
 
 .MenuIcon div {

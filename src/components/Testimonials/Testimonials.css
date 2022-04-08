@@ -23,6 +23,7 @@
         font-size: 40px;
     }
 }
+
 .testimonial.activeSlide {
     opacity: 1;
     transform: translateX(0);
@@ -35,6 +36,7 @@
 .testimonial.nextSlide {
     transform: translateX(100%);
 }
+
 .section-center {
     margin-top: 4rem;
     width: 80vw;
@@ -126,9 +128,10 @@
     background: hsl(21, 62%, 45%);
 }
 
-.prev:hover{
-    background : #adb7bd;
+.prev:hover {
+    background: #adb7bd;
 }
+
 .prev {
     left: 45%;
     background: #F0F2F6;
@@ -138,6 +141,7 @@
     background: #CB8B4E;
     right: 45%;
 }
+
 /* --------------------------MEDIUM SCREEN CSS -----------------------------*/
 @media (min-width: 900px ) and (max-width: 1100px) {
 
@@ -145,20 +149,25 @@
         width: 350px;
         height: 450px;
     }
+
     .testimonial-text-container {
         width: 100%;
     }
+
     .section-center {
         width: 90vw;
     }
+
     .prev {
         left: 27%;
     }
+
     .next {
         right: 60%;
     }
 
 }
+
 @media (min-width: 1100px ) and (max-width: 1300px) {
 
     .testimonial-image-container {
@@ -178,13 +187,16 @@
         right: 0;
         bottom: 10%;
     }
+
     .prev {
         left: 27%;
     }
+
     .next {
         right: 60%;
     }
 }
+
 /* --------------------------SMALL SCREEN CSS -----------------------------*/
 
 @media (max-width: 900px) {
@@ -192,6 +204,7 @@
         margin-top: 10px;
         margin-bottom: 0;
     }
+
     .section-center {
         display: flex;
         flex-direction: column;
@@ -200,6 +213,7 @@
         height: 450px;
         position: relative;
     }
+
     .testimonial {
         overflow: hidden;
         position: absolute;
@@ -233,6 +247,7 @@
     .testimonial-text-container .role {
         font-size: 20px;
     }
+
     .prev,
     .next {
         bottom: 50px;
@@ -246,6 +261,7 @@
         right: 10%;
     }
 }
+
 @media (max-width: 370px) {
     .testimonial-text-container .description {
         font-size: 20px;
