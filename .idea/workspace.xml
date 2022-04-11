@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Location/Location.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Location/Location.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Location/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Location/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +52,8 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v16.14.1/bin/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v16.14.1/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -88,6 +86,8 @@
       <workItem from="1649153524274" duration="10989000" />
       <workItem from="1649172525953" duration="5761000" />
       <workItem from="1649254747805" duration="15376000" />
+      <workItem from="1649361006954" duration="672000" />
+      <workItem from="1649402557134" duration="1095000" />
     </task>
     <servers />
   </component>
