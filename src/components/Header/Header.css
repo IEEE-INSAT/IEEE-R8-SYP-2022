@@ -84,7 +84,6 @@ header .logo{
 .welcome{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
@@ -96,6 +95,7 @@ header .logo{
         flex-direction: column;
         margin-left: 20px;
         max-width: 90vw;
+        flex-wrap: wrap;
     }
     .beb{
         transform: translate(0, 50px);
