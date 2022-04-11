@@ -3,7 +3,7 @@ import AboutEvent from "../../components/AboutEvent";
 
 import AboutLocation from "../../components/AboutLocation";
 import Countdown from "../../components/Countdown";
-
+import Location from "../../components/Location";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header" ;
 import Sponsors from "../../components/Sponsors";
