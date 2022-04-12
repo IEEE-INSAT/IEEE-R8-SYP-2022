@@ -1,0 +1,28 @@
+.currencyContainer{
+    height: fit-content;
+}
+
+.currencyBlockTitle{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #333333;
+}
+
+.currencyBlockDesc{
+    font-family: "Arimo";
+    margin-bottom: 1.7rem;
+
+}
+
+.currencyInputBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.currencyConvertBtn{
+    margin-top: 1.7rem;
+}
+
+.arrow{
+    width: 20%;
+}

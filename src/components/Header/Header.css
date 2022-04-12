@@ -74,7 +74,8 @@ header .logo{
     font-weight: 900;
     font-size: 16px;
     line-height: 32px;
-    width: 445px;
+    width: 100%;
+
     margin-bottom: 40px;
 
     color: #787878;
