@@ -11,21 +11,21 @@ import Testimonials from "../../components/Testimonials";
 import sponsorsList from "../../data/sponsors.json";
 
 import './Home.css';
-import {Animated} from "react-animated-css";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Fade from "react-reveal/Fade";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Zoom from "react-reveal/Zoom"
+import Carousel from "../../components/Carousel";
 
 
 export default function Home() {
     return (
         <div className="home">
-            <Animated animationIn="fadeIn" animationOut="fadeIn" isVisible={true}>
+            <Fade>
                 <Header buttonText={"Apply for funding"} handleBtnClick={() => alert("testing")} title={"IEEE R8 SYP CONGRESS"} mode="HOMEPAGE" description="Student and Young Professional Congress is the largest student event in all Region 8" />  
-            </Animated>
+            </Fade>
             <Zoom>
                 <AboutEvent />
             </Zoom>
@@ -35,6 +35,7 @@ export default function Home() {
             <Fade>
                 <Countdown />
             </Fade>
+            <Carousel />
             <Zoom>
                 <AboutLocation />
             </Zoom>

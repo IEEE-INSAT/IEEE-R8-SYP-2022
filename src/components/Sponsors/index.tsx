@@ -1,6 +1,8 @@
 import React from 'react';
 import './Sponsors.css';
-import {Animated} from "react-animated-css";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import Fade from "react-reveal/Fade";
 
 interface SponsorItem {
     name: string;
@@ -25,9 +27,9 @@ export default function Sponsors({items}: SponsorsProps) {
             <div className="sponsor-logo-container">
                 {
                     items.map((sponsor, i) => (
-                        <Animated animationInDelay={i*150} key={i} animationIn="fadeIn" animationOut="fadeIn" isVisible={true}>
+                        <Fade key={i}>
                             <img className="sponsor-logos" src={sponsor.path} alt={sponsor.name} />
-                        </Animated>    
+                        </Fade>    
                     ))
                 }
 

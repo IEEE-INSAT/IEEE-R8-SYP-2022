@@ -1,0 +1,43 @@
+
+.carousel > div{
+    height: 800px;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.carousel > div >img{
+    cursor: pointer;
+    transition: .4s ease;
+    z-index: 200;
+}
+
+.carousel > div >img:hover{
+    filter: brightness(.87);
+}
+
+.carousel > div > img:first-child{
+    transform: rotate(180deg);
+}
+
+.carousel > div > div{
+    position: relative;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+.carousel > p{
+    font-family: 'Amatic SC', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    /* or 160% */
+
+    text-align: center;
+
+    color: #333333;
+}
