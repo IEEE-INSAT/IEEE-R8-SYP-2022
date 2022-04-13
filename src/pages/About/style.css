@@ -1,3 +1,10 @@
 .infoContainer{
     margin-top: 90px;
 }
+
+@media only screen and (max-width: 550px) {
+    .desktopBills{
+        display: none;
+    }
+}
+

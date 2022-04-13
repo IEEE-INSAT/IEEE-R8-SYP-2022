@@ -34,3 +34,16 @@
     font-size: 0.9rem;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 550px) {
+    .currencyInputArea{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .currencyInputArea{
+        width: 70%;
+    }
+}

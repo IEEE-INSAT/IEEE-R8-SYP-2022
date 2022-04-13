@@ -8,6 +8,10 @@
     color: #333333;
 }
 
+.mobileBills{
+    display: none;
+}
+
 .currencyBlockDesc{
     font-family: "Arimo";
     margin-bottom: 1.7rem;
@@ -25,4 +29,27 @@
 
 .arrow{
     width: 20%;
+}
+
+@media only screen and (max-width: 550px) {
+    .mobileBills{
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .arrow{
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .currencyInputBlock{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .arrow{
+        width: 30%;
+    }
 }

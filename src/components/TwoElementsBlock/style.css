@@ -11,3 +11,18 @@
 .blockElement{
     width: 45%;
 }
+
+@media only screen and (max-width: 550px) {
+    .twoElmContainer{
+        flex-wrap: wrap;
+        gap: 75px;
+    }
+
+    .reverse{
+        flex-wrap: wrap-reverse;
+    }
+
+    .blockElement{
+        width: 80vw;
+    }
+}

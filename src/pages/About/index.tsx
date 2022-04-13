@@ -30,7 +30,7 @@ export default function About() {
                     <VideoDisplay />
                 </TwoElementsBlock>
 
-                <TwoElementsBlock>
+                <TwoElementsBlock direction="reverse">
                     <img className="tunLocation" src={tunLocation} />
                     <TextBlock title="From North Africa">
                         <div>
@@ -43,7 +43,9 @@ export default function About() {
 
                 <TwoElementsBlock>
                     <CurrencyConverter />
-                    <CurrencyBills />
+                    <div className="desktopBills">
+                        <CurrencyBills />
+                    </div>
                 </TwoElementsBlock>
             </div>
             <Footer />
