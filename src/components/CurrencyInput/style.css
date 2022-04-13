@@ -15,7 +15,7 @@
     font-size: 1rem;
     font-family: "Arimo";
     padding: 10px;
-    padding-left: 20px;
+    padding-left: 15%;
     box-sizing:border-box;
 }
 
@@ -27,8 +27,8 @@
     flex-direction: column;
     justify-content: center;
     background-color: #E8E8E8;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
     border-radius: 5px;
     font-family: "Arimo";
     font-size: 0.9rem;
@@ -42,7 +42,7 @@
     }
 }
 
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 500px){
     .currencyInputArea{
         width: 70%;
     }

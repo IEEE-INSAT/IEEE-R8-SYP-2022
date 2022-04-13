@@ -4,7 +4,7 @@ import './style.css';
 
 export default function CurrencyBills() {
     return (
-        <div className="billsContainer blockElement">
+        <div className=" billsContainer">
             <BillContainer bill="5" />
             <BillContainer bill="10" />
             <BillContainer bill="20" />

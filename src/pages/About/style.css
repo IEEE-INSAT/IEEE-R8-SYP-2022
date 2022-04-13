@@ -2,7 +2,11 @@
     margin-top: 90px;
 }
 
-@media only screen and (max-width: 550px) {
+.desktopBills{
+    width: 45%;
+}
+
+@media only screen and (max-width: 600px) {
     .desktopBills{
         display: none;
     }
