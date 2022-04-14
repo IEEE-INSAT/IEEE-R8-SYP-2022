@@ -14,8 +14,7 @@ import VideoDisplay from "../../components/VideoDisplay";
 import CurvedWaveSection from "../../components/CurvedWaveSection";
 import Gallery from "../../components/Gallery";
 
-export default function About() {
-
+export default function AboutTn() {
     return (
         <>
             <Fade>

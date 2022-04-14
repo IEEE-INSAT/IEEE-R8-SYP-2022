@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import FAQ from './pages/FAQ';
-import About from './pages/About';
+import AboutTn from './pages/AboutTn';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/faq" element={<FAQ />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/aboutTn" element={<AboutTn />} />
         </Routes>
       </BrowserRouter>
     </div>
