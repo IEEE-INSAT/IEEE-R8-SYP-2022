@@ -1,0 +1,78 @@
+.imgContainer{
+    display: flex;
+    gap: 3vh;
+    width: 100%;
+    height: 45vh;
+}
+
+.soloPicture img{
+    width: 100%;
+    height: 100%;
+}
+
+.reverseContainer{
+    flex-direction: row-reverse;
+}
+
+.groupPicture{
+    width: 50%;
+    display: flex;
+    gap: 2vh;
+}
+
+.soloPicture{
+    background-color: green;
+    width: calc(50% - 3vh);
+}
+
+.groupPicture-grp1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    height: 100%;
+    width: calc(50% - 1vh);
+}
+
+.groupPicture-grp2{
+    width: calc(50% - 1vh);
+}
+
+.groupPicture-grp2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.groupPicture-grp1 img{
+    height: calc(50% - 1vh);
+    width: 100%;
+}
+
+.mobileView{
+    display: none;
+}
+
+.mobileViewImgContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+.mobileViewImgContainer{
+    width: 100%;
+    height: 40vw;
+}
+
+@media only screen and (max-width: 600px){
+    .desktopView{
+        display: none;
+    }
+
+    .imgContainer{
+        width: 48%;
+    }
+
+    .mobileView{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+}

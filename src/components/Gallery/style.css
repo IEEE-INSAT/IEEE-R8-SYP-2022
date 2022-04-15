@@ -1,0 +1,62 @@
+.gallery{
+    width: 80%;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.galleryTitle{
+    font-size: 3rem;
+}
+
+.galleryDescription{
+    font-family: "Arimo";
+    font-size: 0.9rem;
+    color: #7D7D7D;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    line-height: 1.5rem;
+}
+
+.picturesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+}
+
+.seeMoreContainer{
+    width: min(30vw, 230px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .picturesContainer{
+        flex-direction: row;
+        height: fit-content;
+    }
+
+    .galleryTitle{
+        font-size: 1.8rem;
+        color: #333333;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .galleryDescription{
+        color: #333333;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .seeMoreContainer{
+        width: 100%;
+    }
+}

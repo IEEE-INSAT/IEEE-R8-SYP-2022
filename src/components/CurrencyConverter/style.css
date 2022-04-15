@@ -1,0 +1,55 @@
+.currencyContainer{
+    height: fit-content;
+}
+
+.currencyBlockTitle{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: #333333;
+}
+
+.mobileBills{
+    display: none;
+}
+
+.currencyBlockDesc{
+    font-family: "Arimo";
+    margin-bottom: 1.7rem;
+
+}
+
+.currencyInputBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.currencyConvertBtn{
+    margin-top: 1.7rem;
+}
+
+.arrow{
+    width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .mobileBills{
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .arrow{
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .currencyInputBlock{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .arrow{
+        width: 30%;
+    }
+}

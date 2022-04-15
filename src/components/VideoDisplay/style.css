@@ -1,0 +1,47 @@
+.videoImage{
+    filter: blur(2px);
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    margin-top: -5px;
+    margin-left: -5px;
+    position: absolute;
+}
+
+.video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videoContainer{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    position: relative;
+}
+
+.deco{
+    position: absolute;
+}
+
+.top-disk{
+    left: 0;
+    top: 0;
+}
+
+.bottom-disk{
+    right: 0;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 550px) {
+    .videoContainer{
+        flex-wrap: wrap;
+    }
+}

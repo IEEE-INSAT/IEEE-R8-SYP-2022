@@ -1,0 +1,37 @@
+.billValue{
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Arimo";
+    color: #B7B7B7;
+    font-size: 0.9rem;
+}
+
+.billImageContainer{
+    display: flex;
+    justify-content: center;
+    background-image: url('./../../assets/images/bgdecorator.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.billImage{
+    margin-top: 20px;
+    width: 85%;
+}
+
+.pos-10tnd{
+    grid-column: 1;
+    grid-row: 2;
+}
+.pos-5tnd{
+    grid-column: 1;
+    grid-row: 1;
+}
+.pos-20tnd{
+    grid-column: 2;
+    grid-row: 1;
+}
+.pos-50tnd{
+    grid-column: 2;
+    grid-row: 2;
+}

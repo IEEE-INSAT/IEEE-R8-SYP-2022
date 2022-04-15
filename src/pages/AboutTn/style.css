@@ -1,0 +1,14 @@
+.infoContainer{
+    margin-top: 90px;
+}
+
+.desktopBills{
+    width: 45%;
+}
+
+@media only screen and (max-width: 600px) {
+    .desktopBills{
+        display: none;
+    }
+}
+
