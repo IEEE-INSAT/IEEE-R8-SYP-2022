@@ -22,7 +22,7 @@ export default function Header({ mode = "PAGE", title, description, buttonText, 
     return (
     <header>
         <img className="headerWave" src={(mode=="HOMEPAGE") ? HeaderWave : HeaderWaveNav} style={mode=="PAGE" ? { width: "70vw", minHeight: "181px" } : {}} alt="" />
-        <NavBar items={NavItems["items"]} />
+        <NavBar items={NavItems} />
         <img className="logo" src={logo} alt="SYP" />
         <div className="welcome">
             <div className={mode=="PAGE" ? "descr descrpage" : "descr"} style={mode=="PAGE" ? { alignItems: "flex-start", textAlign: "center" } : {}}>

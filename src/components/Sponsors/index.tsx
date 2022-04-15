@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 
 interface SponsorItem {
     name: string;
-    path: string;
+    filename: string;
 }
 
 interface SponsorsProps {
@@ -28,7 +28,7 @@ export default function Sponsors({items}: SponsorsProps) {
                 {
                     items.map((sponsor, i) => (
                         <Fade key={i}>
-                            <img className="sponsor-logos" src={sponsor.path} alt={sponsor.name} />
+                            <img className="sponsor-logos" src={require(`../../assets/images/sponsors/${sponsor.filename}`)} alt={sponsor.name} />
                         </Fade>    
                     ))
                 }

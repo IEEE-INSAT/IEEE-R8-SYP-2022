@@ -4,11 +4,19 @@ import {useState, useEffect} from "react";
 import TestimonialXL from '../TestimonialXL';
 import TestimonialSM from '../TestimonialSM';
 
-import data from './testimonials-data';
-import LeftArrow from './assets/LeftArrow.png';
-import RightArrow from './assets/RightArrow.png';
+import data from '../../data/Testimonials.json';
+import LeftArrow from '../../assets/LeftArrow.png';
+import RightArrow from '../../assets/RightArrow.png';
 
 import './Testimonials.css';
+
+
+interface person {
+    name: string;
+    role: string;
+    description: string;
+}
+
 
 export default function Testimonials() {
     const [width, setWidth] = React.useState(window.innerWidth);
@@ -43,21 +51,13 @@ export default function Testimonials() {
         };
     }, [index]);
 
-    interface person {
-        id: number;
-        name: string;
-        role: string;
-        description: string;
-        image: any;
-    }
-
     return (
         <div className="testimonials-container">
             <h4>WHAT OTHERS SAY</h4>
             <h2>Testimonials</h2>
             <div className="section-center">
                 {people.map((item: person, indexPeople) => {
-                    const { id, name, role, description, image } = item;
+                    const {  name, role, description } = item;
                     let position = 'nextSlide';
                     if (indexPeople === index) {
                         position = 'activeSlide';
@@ -67,21 +67,21 @@ export default function Testimonials() {
                     }
                     return width > breakpoint ? (
                         <TestimonialXL
-                            key={id}
+                            key={indexPeople}
                             position={position}
                             description={description}
                             name={name}
                             role={role}
-                            src={image}
+                            src={require(`../../assets/images/testimonials/${name}.jpg`)}
                         />
                     ) : (
                         <TestimonialSM
-                            key={id}
+                            key={indexPeople}
                             position={position}
                             description={description}
                             name={name}
                             role={role}
-                            src={image}
+                            src={require(`../../assets/images/testimonials/${name}.jpg`)}
                         />
                     );
                 })}

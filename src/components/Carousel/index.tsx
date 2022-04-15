@@ -9,6 +9,7 @@ import ReactCardCarousel from 'react-card-carousel';
 import Card from "../Card";
 import "./Carousel.css"
 import arrow from "../../assets/arrow.svg";
+import data from "../../data/Team.json"
 
 export default function Carousel(){
     const [carousel, setCarousel] = useState(null);
@@ -21,9 +22,10 @@ export default function Carousel(){
             <div>
                 <img src={arrow} alt="" onClick={() => carousel.prev()} />
                 <ReactCardCarousel ref={ Carousel => setCarousel(Carousel) } spread="wide" autoplay={ true } autoplay_speed={ 2500 }>
-                    <Card name="Khaldoun Taktak" role="Congress Chair" />
-                    <Card name="Khaldoun Taktak" role="Congress Chair" />
-                    <Card name="Khaldoun Taktak" role="Congress Chair" />
+                    {data.map((member, id) => (
+                        <Card name={member.name} role={member.role} key={id}/>
+                    ))}
+            
                 </ReactCardCarousel>
                 <img src={arrow} alt="" onClick={() => carousel.next()} />
             </div>
