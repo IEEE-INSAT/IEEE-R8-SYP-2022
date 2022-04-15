@@ -1,0 +1,87 @@
+
+.faqs {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.category-title-container {
+    background-color: #dec1bc;
+
+    width: 80%;
+    max-width: 780px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.category-title-container::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+    background-image: url(" /src/assets/images/Chechiya.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    transform: translate(-30%, -40%);
+}
+
+.category-title {
+    padding: 6px;
+    color: #372217;
+    font-family: Futura;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.faqs .faq {
+    margin: 15px;
+    padding: 15px 30px;
+    position: relative;
+    background-color: #FFF;
+
+    border-radius: 14px;
+    border: solid #E5CCBB;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    align-self: stretch;
+}
+
+.faqs .faq::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    max-width: 20px;
+    overflow: hidden;
+    background-image: url("/src/assets/images/closed-answer-bar.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.faqs .faq.open::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    background-image: url("/src/assets/images/open-answer-bar.svg");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.6s ease;
+}

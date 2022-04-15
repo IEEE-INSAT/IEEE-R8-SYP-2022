@@ -1,0 +1,57 @@
+.faqs .faq .faq-question {
+    position: relative;
+    font-size: 20px;
+    padding-right: 80px;
+    transition: all 0.6s linear;
+    padding-left: 60px;
+}
+
+
+.faqs .faq .faq-answer {
+    font-family: "Futura Lt BT";
+    font-weight: 300;
+    opacity: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all 0.6s linear;
+    font-size: 16px;
+
+}
+
+.faqs .faq.open .faq-question {
+    margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq-question::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url("/src/assets/images/moins.svg");
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.faqs .faq .faq-question::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 34px;
+    height: 32px;
+
+    background-image: url("/src/assets/images/plus.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.faqs .faq.open .faq-answer {
+    max-height: 1000px;
+    opacity: 1;
+    padding: 16px;
+    transition: all 0.6s linear;
+}
