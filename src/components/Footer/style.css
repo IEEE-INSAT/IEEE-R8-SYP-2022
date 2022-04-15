@@ -81,6 +81,8 @@ footer .logo{
 
 .navSection{
     cursor: pointer;
+    color: #fff;
+    text-decoration: none;
 }
 
 .copyright{

@@ -3,8 +3,11 @@ import "./style.css";
 import Logo from './../../assets/images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTwitter, faLinkedin, } from '@fortawesome/free-brands-svg-icons';
+import { Link } from "react-router-dom";
+import NavItems from "../../data/NavItems.json";
 
 export default function Footer() {
+    console.log(NavItems)
     return (
         <footer>
             <div className="footer_content">
@@ -26,13 +29,9 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="navigations">
-                    <div className="navSection">Home</div>
-                    <div className="navSection">About SYP</div>
-                    <div className="navSection">Sponsors</div>
-                    <div className="navSection">Program</div>
-                    <div className="navSection">Team</div>
-                    <div className="navSection">Registrations</div>
-                    <div className="navSection">FAQ</div>
+                    {NavItems.map((item, i) => {
+                        return (<Link to={item.path} key={i} className="navSection">{item.name}</Link>)
+                    } )}
                 </div>
                 <div className="icons small">
                     <FontAwesomeIcon className="icon" icon={faFacebookF} />
