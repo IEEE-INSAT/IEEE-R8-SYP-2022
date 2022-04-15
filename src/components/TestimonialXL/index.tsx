@@ -1,6 +1,6 @@
 import React from 'react';
-import orangeCircle from '../Testimonials/assets/OrangeCircle.png';
-import blueCircle from '../Testimonials/assets/BlueCircle.png';
+import orangeCircle from '../../assets/OrangeCircle.png';
+import blueCircle from '../../assets/BlueCircle.png';
 import './TestimonialXL.css';
 
 export default function TestimonialXL(props: {
