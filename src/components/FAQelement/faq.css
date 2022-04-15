@@ -2,7 +2,7 @@
     position: relative;
     font-size: 20px;
     padding-right: 80px;
-    transition: all 0.6s linear;
+    transition: all 0.3s ease;
     padding-left: 60px;
 }
 
@@ -13,7 +13,7 @@
     opacity: 0;
     max-height: 0;
     overflow-y: hidden;
-    transition: all 0.6s linear;
+    transition: all 0.3s ease;
     font-size: 16px;
 
 }
@@ -53,5 +53,5 @@
     max-height: 1000px;
     opacity: 1;
     padding: 16px;
-    transition: all 0.6s linear;
+    transition: all 0.3s ease;
 }
