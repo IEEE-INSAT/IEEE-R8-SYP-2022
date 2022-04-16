@@ -4,6 +4,7 @@ import tunis_night from '../../assets/images/tunis-night.png'
 import archaelogical_site from '../../assets/images/archaelogical-site.png'
 import sidi_bou from '../../assets/images/sidi-bou.png'
 import ThemedButton from '../ThemedButton';
+import { Link } from 'react-router-dom';
 
 
 
@@ -19,7 +20,7 @@ function AboutLocation() {
                     It&apos;home to a centuries-old medina and the Bardo, an archaeology museum where celebrated Roman mosaics are displayed in a 15th-century palace complex.
                     The parklike ruins of ancient Carthage sit in the city&apos;s northern suburbs.
                 </p>
-                <ThemedButton text='Meet the venue' onClick={() => alert("meet venue")} color="secondary" />
+                <Link to="/tunisia" ><ThemedButton text='Meet the host contry'  color="secondary" /></Link> 
             </div>
             <div className="tn-pictures">
                 <img className='big-image' src={tunis_night} alt="Tunis in the night"/>
