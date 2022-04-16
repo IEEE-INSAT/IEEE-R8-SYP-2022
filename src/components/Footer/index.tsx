@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTwitter, faLinkedin, } from '@fortawesome/free-brands-svg-icons';
 import { Link } from "react-router-dom";
 import NavItems from "../../data/NavItems.json";
+import SocialMedia from "../../data/SocialMedia.json";
 
 export default function Footer() {
     console.log(NavItems)
@@ -21,10 +22,10 @@ export default function Footer() {
                     <div className="contacts">
                         <div className="contact_content">Stay in touch</div>
                         <div className="icons">
-                            <FontAwesomeIcon className="icon" icon={faFacebookF} />
-                            <FontAwesomeIcon className="icon" icon={faInstagram} />
-                            <FontAwesomeIcon className="icon" icon={faTwitter} />
-                            <FontAwesomeIcon className="icon" icon={faLinkedin} />
+                            <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faFacebookF} /></a> 
+                            <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
+                            <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faTwitter} /> </a>
+                            <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
                         </div>
                     </div>
                 </div>
