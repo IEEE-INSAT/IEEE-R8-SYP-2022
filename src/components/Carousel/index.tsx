@@ -16,7 +16,7 @@ export default function Carousel(){
 
     return (
         <div className="carousel testimonials-container" >
-            <h4>Organizers</h4>
+            <h4>ORGANIZING COMMITTEE</h4>
             <h2>Meet the Team</h2>
             <p>A pack of diligent students yearning for improvement and development.</p>
             <div>

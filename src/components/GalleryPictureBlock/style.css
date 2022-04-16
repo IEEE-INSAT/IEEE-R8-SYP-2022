@@ -8,6 +8,7 @@
 .soloPicture img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .reverseContainer{
@@ -40,11 +41,13 @@
 .groupPicture-grp2 img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .groupPicture-grp1 img{
     height: calc(50% - 1vh);
     width: 100%;
+    object-fit: cover;
 }
 
 .mobileView{
@@ -54,6 +57,7 @@
 .mobileViewImgContainer img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .mobileViewImgContainer{

@@ -8,8 +8,8 @@ import beb from "../../assets/images/bebAzra9.png";
 import ThemedButton from "../ThemedButton";
 import NavBar from "../NavBar";
 import NavItems from "../../data/NavItems.json";
-
-
+import { Link } from "react-router-dom";
+ 
 interface HeaderProps{
     mode?: "HOMEPAGE" | "PAGE";
     title: string;
@@ -22,13 +22,13 @@ export default function Header({ mode = "PAGE", title, description, buttonText, 
     return (
     <header>
         <img className="headerWave" src={(mode=="HOMEPAGE") ? HeaderWave : HeaderWaveNav} style={mode=="PAGE" ? { width: "70vw", minHeight: "181px" } : {}} alt="" />
-        <NavBar items={NavItems} />
+        <NavBar navItems={NavItems} />
         <img className="logo" src={logo} alt="SYP" />
         <div className="welcome">
             <div className={mode=="PAGE" ? "descr descrpage" : "descr"} style={mode=="PAGE" ? { alignItems: "flex-start", textAlign: "center" } : {}}>
                 <h1>{title}</h1>
                 <p>{description}</p>
-                {buttonText && (<ThemedButton text={buttonText} onClick={handleBtnClick} />)}
+                {buttonText && (<Link to="/applyforfunding" ><ThemedButton text={buttonText} /></Link>)}
             </div>
            {mode=="HOMEPAGE" && (<div><img className="beb" src={beb} alt="welcome"/></div>)}
         </div>

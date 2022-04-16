@@ -7,6 +7,7 @@ import bill50TND from './../../assets/images/bills/50tnd.png';
 
 interface IBillContainer {
     bill: "5" | "10" | "20" | "50";
+    coversionCoef: number;
 }
 
 const billImages = {
@@ -16,14 +17,14 @@ const billImages = {
     "50": bill50TND,
 }
 
-export default function BillContainer({ bill }: IBillContainer) {
+export default function BillContainer({ bill, coversionCoef }: IBillContainer) {
     return (
         <div className={"pos-" + bill + "tnd"}>
             <div className="billImageContainer">
                 <img className="billImage" src={billImages[bill]} />
             </div>
             <div className="billValue">
-                {bill} TND = 69 USD
+                {bill} TND = {(parseFloat(bill) * coversionCoef).toFixed(2)} USD
             </div>
         </div>
     );

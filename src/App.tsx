@@ -8,6 +8,7 @@ import {
 import Home from './pages/Home';
 import FAQ from './pages/FAQ';
 import AboutTn from './pages/AboutTn';
+import ApplyForFunding from './pages/ApplyForFunding';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/faq" element={<FAQ />} />
-          <Route path="/aboutTn" element={<AboutTn />} />
+          <Route path="/tunisia" element={<AboutTn />} />
+          <Route path="/applyforfunding" element={<ApplyForFunding />} />
         </Routes>
       </BrowserRouter>
     </div>

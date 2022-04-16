@@ -20,43 +20,44 @@ export default function AboutTn() {
             <Fade>
                 <Header title={"ABOUT TUNISIA"} description="Know more about Tunisia" />
             </Fade>
-            <div className="infoContainer">
-                <TwoElementsBlock>
-                    <TextBlock title="Tunisia - تونس">
-                        There&apos;s so much to see and do in each region of Tunisia: a wide variety of landscapes,
-                        a coastline spanning 1,250km, studded with islands and archipelagos, a fantastic array of
-                        traditions and customs and a rich historical heritage. We are delighted to introduce you
-                        to these regions by breaking them down into this video.
-                    </TextBlock>
-                    <VideoDisplay />
-                </TwoElementsBlock>
+            <Fade>
+                <div className="infoContainer">
+                    <TwoElementsBlock>
+                        <TextBlock title="Tunisia - تونس">
+                        There’s so much to see and do in each region of Tunisia: a wide variety of landscapes, a coastline spanning 1,250km, studded with islands and archipelagos, a fantastic array of traditions and customs and a rich historical heritage. We are delighted to introduce you to these regions by breaking them down into this video.
+                        </TextBlock>
+                        <VideoDisplay />
+                    </TwoElementsBlock>
 
-                <TwoElementsBlock direction="reverse">
-                    <img className="blockElement" src={tunLocation} />
-                    <TextBlock title="From North Africa">
-                        <>
-                            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-                            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-                            Bla Bla Bla
-                        </>
-                    </TextBlock>
-                </TwoElementsBlock>
+                    <TwoElementsBlock direction="reverse">
+                        <img className="blockElement" src={tunLocation} />
+                        <TextBlock title="From North Africa">
+                            <>
+                            Tunisia is a vibrant country located in North Africa. It is characterized by the many cultures and civilizations that were established on its land. Tunisia is a true melting pot of  Amazigh, Arab Muslim, Ottoman, Roman, and  Carthage cultures. 
 
-                <TwoElementsBlock>
-                    <CurrencyConverter />
-                    <div className="desktopBills">
-                        <CurrencyBills />
-                    </div>
-                </TwoElementsBlock>
-            </div>
+                            </>
+                        </TextBlock>
+                    </TwoElementsBlock>
 
-            <CurvedWaveSection title="Headline" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+                    <TwoElementsBlock>
+                        <CurrencyConverter coversionCoef={0.33} />
+                        <div className="desktopBills">
+                            <CurrencyBills />
+                        </div>
+                    </TwoElementsBlock>
+                </div>
+            </Fade>
+            <Fade>
+                <CurvedWaveSection title="Tunisia" content="It has a long coastline spanning 1,250km which makes Tunisia a prime destination for tourists during summer to enjoy its sunny beaches. 
+                Tunisia is famous for its historic sites including  eight UNESCO World Heritage Sites(Amphitheatre of El Jem, Archaeological Site of Carthage, Dougga / Thugga, Kairouan, Medina of Sousse, Medina of Tunis, Punic Town of Kerkuane and its Necropolis). Besides its aerobiological and historic sites, Tunisia is famous for its breathtaking touristic places such as Sidi Bou Said, tozeur and Nefta, Tataouine, Gabes and matmata, Tabarka, Djerba, Sbetla
+                Tunisia also is famous for her unique and special Meals. Actually Tunisian cuisine has similarities with the Middle Eastern cuisine, and mainly builds on the Northern African Maghreb tradition.
+                " />
 
-            <Gallery
-                title="Pictures from your next destination"
-                description="Sub headline - Sub headline - Sub headline - Sub headline - Sub headline - Sub headline - Sub headline - Sub headline - Sub headline - Sub headline - Sub headline"
-            />
-
+                <Gallery
+                    title="sneak peek from your next destination"
+                    description="The culture of Tunisia is mixed due to its long established history of outside influence from people."
+                />
+            </Fade>
             <Footer />
         </>
     );

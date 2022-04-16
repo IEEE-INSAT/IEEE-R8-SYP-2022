@@ -8,7 +8,7 @@ interface ButtonProps {
     text: string;
     mode?: "dark" | "light";
     color?: "primary" | "secondary";
-    onClick: MouseEventHandler | undefined;
+    onClick?: MouseEventHandler | undefined;
 }
 
 export default function ThemedButton({ height, width, text, mode = "light", color = "primary", onClick }: ButtonProps) {

@@ -24,7 +24,7 @@ export default function Home() {
     return (
         <div className="home">
             <Fade>
-                <Header buttonText={"Apply for funding"} handleBtnClick={() => alert("testing")} title={"IEEE R8 SYP CONGRESS"} mode="HOMEPAGE" description="Student and Young Professional Congress is the largest student event in all Region 8" />  
+                <Header buttonText={"Apply for funding"} handleBtnClick={() => alert("testing")} title={"IEEE R8 SYP CONGRESS"} mode="HOMEPAGE" description="Student and Young Professional Congress is the largest student and young professionals event in all Region 8" />  
             </Fade>
             <Zoom>
                 <AboutEvent />

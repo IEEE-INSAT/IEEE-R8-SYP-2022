@@ -8,10 +8,10 @@ interface NavItem{
     path: string;
 }
 interface NavBarProps{
-    items : NavItem[]
+    navItems : NavItem[];
 }
 
-export default function NavBar({ items }: NavBarProps){
+export default function NavBar({ navItems }: NavBarProps){
     const [active, setActive] = useState(false);
 
     useEffect(() => {
@@ -26,10 +26,13 @@ export default function NavBar({ items }: NavBarProps){
             <div className="bar3"></div>
         </div>
         <div className={active ? "items active" : "items"} >
-            {items.map((item, i) => (
+            {navItems.map((item, i) => (
                 <Link to={item.path} key={i} className="NavItem">{item.name}</Link>
             ) )}
-            <ThemedButton text={"Apply for funding"} color="secondary" mode="dark" onClick={() => alert("testing")} />
+            <Link to="/applyforfunding" >
+                <ThemedButton text={"Apply for funding"} color="secondary" mode="dark" />
+            </Link>
+        
         </div>
     </nav>
     )
