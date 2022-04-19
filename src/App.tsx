@@ -15,14 +15,7 @@ import UnderConstruction from './pages/UnderConstruction';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/tunisia" element={<AboutTn />} />
-          <Route path="/applyforfunding" element={<ApplyForFunding />} />
-        </Routes>
-      </BrowserRouter>
+      <UnderConstruction />
     </div>
   );
 }
