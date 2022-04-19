@@ -24,15 +24,15 @@
 
 #map {
     height: 100%;
+    width: 70vw;
 }
 
 .leaflet-container {
-    width: 70vw;
     height: 100%;
 }
 
 @media screen and (max-width: 480px) {
-    .leaflet-container {
+    #map {
         width: 85vw;
         height: 50vh;
     }

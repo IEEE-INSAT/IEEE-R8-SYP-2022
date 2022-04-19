@@ -8,7 +8,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header" ;
 import Sponsors from "../../components/Sponsors";
 import Testimonials from "../../components/Testimonials";
-import sponsorsList from "../../data/sponsors.json";
+import sponsorsList from "../../data/Sponsors.json";
 
 import './Home.css';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -24,7 +24,7 @@ export default function Home() {
     return (
         <div className="home">
             <Fade>
-                <Header buttonText={"Apply for funding"} handleBtnClick={() => alert("testing")} title={"IEEE R8 SYP CONGRESS"} mode="HOMEPAGE" description="Student and Young Professional Congress is the largest student and young professionals event in all Region 8" />  
+                <Header buttonText={"Apply for funding"} title={"IEEE R8 SYP CONGRESS"} mode="HOMEPAGE" description="Student and Young Professional Congress is the largest student and young professionals event in all Region 8" />  
             </Fade>
             <Zoom>
                 <AboutEvent />
