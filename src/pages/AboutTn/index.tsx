@@ -17,10 +17,7 @@ import Gallery from "../../components/Gallery";
 export default function AboutTn() {
     return (
         <>
-            <Fade>
                 <Header title={"ABOUT TUNISIA"} description="Know more about Tunisia" />
-            </Fade>
-            <Fade>
                 <div className="infoContainer">
                     <TwoElementsBlock>
                         <TextBlock title="Tunisia - تونس">
@@ -46,8 +43,8 @@ export default function AboutTn() {
                         </div>
                     </TwoElementsBlock>
                 </div>
-            </Fade>
-            <Fade>
+          
+            
                 <CurvedWaveSection title="Tunisia" content="It has a long coastline spanning 1,250km which makes Tunisia a prime destination for tourists during summer to enjoy its sunny beaches. 
                 Tunisia is famous for its historic sites including  eight UNESCO World Heritage Sites(Amphitheatre of El Jem, Archaeological Site of Carthage, Dougga / Thugga, Kairouan, Medina of Sousse, Medina of Tunis, Punic Town of Kerkuane and its Necropolis). Besides its aerobiological and historic sites, Tunisia is famous for its breathtaking touristic places such as Sidi Bou Said, tozeur and Nefta, Tataouine, Gabes and matmata, Tabarka, Djerba, Sbetla
                 Tunisia also is famous for her unique and special Meals. Actually Tunisian cuisine has similarities with the Middle Eastern cuisine, and mainly builds on the Northern African Maghreb tradition.
@@ -57,7 +54,7 @@ export default function AboutTn() {
                     title="sneak peek from your next destination"
                     description="The culture of Tunisia is mixed due to its long established history of outside influence from people."
                 />
-            </Fade>
+           
             <Footer />
         </>
     );

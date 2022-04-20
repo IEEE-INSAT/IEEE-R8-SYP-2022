@@ -6,9 +6,9 @@ import { faFacebookF, faInstagram, faTwitter, faLinkedin, } from '@fortawesome/f
 import { Link } from "react-router-dom";
 import NavItems from "../../data/NavItems.json";
 import SocialMedia from "../../data/SocialMedia.json";
+import insatsb from "../../assets/images/IEEESB.png";
 
 export default function Footer() {
-    console.log(NavItems)
     return (
         <footer>
             <div className="footer_content">
@@ -27,6 +27,8 @@ export default function Footer() {
                             <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faTwitter} /> </a>
                             <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
                         </div>
+                        <div className="contact_content" style={{ marginTop : "50px" }}>Powered By</div>
+                        <a href="https://insat.ieee.tn/" ><img src={insatsb} alt="IEEE INSAT SB"  /></a> 
                     </div>
                 </div>
                 <div className="navigations">
@@ -34,11 +36,14 @@ export default function Footer() {
                         return (<Link to={item.path} key={i} className="navSection">{item.name}</Link>)
                     } )}
                 </div>
-                <div className="icons small">
-                    <FontAwesomeIcon className="icon" icon={faFacebookF} />
-                    <FontAwesomeIcon className="icon" icon={faInstagram} />
-                    <FontAwesomeIcon className="icon" icon={faTwitter} />
-                    <FontAwesomeIcon className="icon" icon={faLinkedin} />
+                <div className="small">
+                    <a href="https://insat.ieee.tn/" ><img src={insatsb} alt="IEEE INSAT SB" width={120} /></a> 
+                    <div className="icons">
+                        <FontAwesomeIcon className="icon" icon={faFacebookF} />
+                        <FontAwesomeIcon className="icon" icon={faInstagram} />
+                        <FontAwesomeIcon className="icon" icon={faTwitter} />
+                        <FontAwesomeIcon className="icon" icon={faLinkedin} />
+                    </div>
                 </div>
                 <div className="copyright">
                     © 2022&nbsp;<div className="subCpyRight">All rights reserved.</div>&nbsp;IEEE INSAT SB
