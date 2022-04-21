@@ -1,16 +1,8 @@
 import React from 'react';
 import './Location.css';
 
-import L from 'leaflet';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-
-const pinIcon = L.icon({
-    iconUrl: require('../../assets/images/CapitalPin.png'),
-    iconSize: [18, 45],
-});
 export default function Location() {
-    const windowWidth = window.innerWidth;
-    const windowHeight = window.innerHeight;
+
     return (
         <div className={'Location'}>
             <h4>EVENT LOCATION</h4>
