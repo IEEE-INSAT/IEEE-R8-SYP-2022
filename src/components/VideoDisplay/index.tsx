@@ -16,7 +16,7 @@ export default function VideoDisplay({ pictureOnly = false, img }: IVideoDisplay
 
             <div className="video">
             <iframe className={"videoImage"}  width="1280" height="720" src="https://www.youtube.com/embed/izQqZEEy1cU" title="True Tunisia" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-*            </div>
+            </div>
         </div>
     );
 }
