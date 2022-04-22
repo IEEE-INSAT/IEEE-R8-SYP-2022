@@ -1,5 +1,4 @@
 import React, { CSSProperties, MouseEventHandler } from "react";
-import internal from "stream";
 import "./ThemedButton.css";
 
 interface ButtonProps {

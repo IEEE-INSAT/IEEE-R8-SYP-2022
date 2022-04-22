@@ -1,9 +1,6 @@
 import React from "react";
 import CurrencyConverter from "../../components/CurrencyConverter";
 import Header from "../../components/Header";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import Fade from "react-reveal/Fade";
 import TwoElementsBlock from "../../components/TwoElementsBlock";
 import Footer from "../../components/Footer";
 import CurrencyBills from "../../components/CurrencyBills";
