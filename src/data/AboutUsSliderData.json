@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Activities",
+        "data": [
+            {
+                "title": "Activity 1",
+                "picture": "images/ieee_members.png",
+                "description": "description"
+            },
+            {
+                "title": "Activity 2",
+                "picture": "",
+                "description": "desc 2"
+            },
+            {
+                "title": "Activity 3",
+                "picture": "",
+                "description": "desc 3"
+            }
+        ]
+    },
+    {
+        "name": "Events",
+        "data": [
+            {
+                "title": "Activity 1",
+                "picture": "",
+                "description": "desc 1"
+            },
+            {
+                "title": "Activity 2",
+                "picture": "",
+                "description": "desc 2"
+            },
+            {
+                "title": "Activity 3",
+                "picture": "",
+                "description": "desc 3"
+            }
+        ]
+    },
+    {
+        "name": "Awards",
+        "data": [
+            {
+                "title": "Activity 1",
+                "picture": "",
+                "description": "desc 1"
+            },
+            {
+                "title": "Activity 2",
+                "picture": "",
+                "description": "desc 2"
+            },
+            {
+                "title": "Activity 3",
+                "picture": "",
+                "description": "desc 3"
+            }
+        ]
+    }
+]

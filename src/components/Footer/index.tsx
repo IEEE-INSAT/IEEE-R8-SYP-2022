@@ -34,7 +34,7 @@ export default function Footer() {
                 <div className="navigations">
                     {NavItems.map((item, i) => {
                         return (<Link to={item.path} key={i} className="navSection">{item.name}</Link>)
-                    } )}
+                    })}
                 </div>
                 <div className="small">
                     <a href="https://insat.ieee.tn/" ><img src={insatsb} alt="IEEE INSAT SB" width={120} /></a> 

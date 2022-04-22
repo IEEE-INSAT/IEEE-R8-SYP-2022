@@ -1,10 +1,15 @@
 .videoImage{
-    filter: blur(2px);
-    width: calc(100% + 10px);
-    height: calc(100% + 10px);
+    width: calc(100%);
+    height: calc(100%);
     margin-top: -5px;
     margin-left: -5px;
     position: absolute;
+}
+
+.blurry{
+    filter: blur(2px);
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
 }
 
 .video{
