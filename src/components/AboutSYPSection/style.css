@@ -3,7 +3,7 @@
     height: max-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40vh;
+    margin-top: 10vw;
     text-align: center;
     line-height: 25px;
 }
@@ -22,6 +22,7 @@
 .about-syp-section-picture{
     margin-top: 4vh;
     height: 75vh;
+    max-height: calc(80vw*0.9);
 }
 .about-syp-section-picture img{
     height: 100%;

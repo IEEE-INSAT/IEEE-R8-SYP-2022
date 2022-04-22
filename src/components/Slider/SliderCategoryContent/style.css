@@ -8,6 +8,7 @@
     height: 70%;
     margin-top: 5%;
     margin-bottom: 5%;
+    max-height: calc(80vw*0.33);
 }
 
 .slider-category-content-picture img{

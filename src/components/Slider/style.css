@@ -1,6 +1,7 @@
 .slider-container{
     width: 80vw;
     height: 70vh;
+    max-height: calc(80vw*0.7);
     margin-left: auto;
     margin-right: auto;
 }
