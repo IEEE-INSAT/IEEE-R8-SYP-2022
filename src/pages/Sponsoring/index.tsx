@@ -25,7 +25,7 @@ export default function Sponsoring(){
                     </TextBlock>
                     <div style={{ display: "flex", flexDirection: "column", padding : "150px", justifyContent: "center", alignItems: "center", height : "100%" }} >
                         <img src={sponsorshipDossier} alt="sponsorshipDossier" width={250} />
-                        <ThemedButton text="DOWNLOAD" color="secondary" width="400px" style={{ marginTop: "50px" }} />
+                        <a href="/Sponsorship-Dossier.pdf²" download><ThemedButton text="DOWNLOAD" color="secondary" width="400px" style={{ marginTop: "50px" }} /></a> 
                     </div>
             </TwoElementsBlock>
             </TwoElementsBlock>

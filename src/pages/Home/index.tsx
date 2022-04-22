@@ -39,9 +39,6 @@ export default function Home() {
             <Zoom>
                 <AboutLocation />
             </Zoom>
-            <Fade>
-                <Testimonials />
-            </Fade>
             <Fade >
                 <Sponsors items={sponsorsList}/>
             </Fade>

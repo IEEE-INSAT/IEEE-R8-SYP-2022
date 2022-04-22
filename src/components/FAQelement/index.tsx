@@ -25,7 +25,7 @@ export default function FAQelement({faq,index,toggleFAQ}:FAQProps) : JSX.Element
             onClick={() => toggleFAQ(index,faq.category)}
         >
             <div className="faq-question">
-                {faq.question}
+                {"Question "+ (index+1) + ": " + faq.question}
             </div>
             <div className="faq-answer">
                 {faq.answer}

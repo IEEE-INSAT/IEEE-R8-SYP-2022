@@ -23,11 +23,11 @@ export default function Footer() {
                         <div className="contact_content">Stay in touch</div>
                         <div className="icons">
                             <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faFacebookF} /></a> 
-                            <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
-                            <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faTwitter} /> </a>
-                            <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
+                            <a href={SocialMedia["instagram"]}><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
+                            <a href={SocialMedia["twitter"]}><FontAwesomeIcon className="icon" icon={faTwitter} /> </a>
+                            <a href={SocialMedia["linkedin"]}><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
                         </div>
-                        <div className="contact_content" style={{ marginTop : "50px" }}>Powered By</div>
+                        <div className="contact_content" style={{ marginTop : "50px" }  }>Hosted By</div>
                         <a href="https://insat.ieee.tn/" ><img src={insatsb} alt="IEEE INSAT SB"  /></a> 
                     </div>
                 </div>
@@ -39,10 +39,10 @@ export default function Footer() {
                 <div className="small">
                     <a href="https://insat.ieee.tn/" ><img src={insatsb} alt="IEEE INSAT SB" width={120} /></a> 
                     <div className="icons">
-                        <FontAwesomeIcon className="icon" icon={faFacebookF} />
-                        <FontAwesomeIcon className="icon" icon={faInstagram} />
-                        <FontAwesomeIcon className="icon" icon={faTwitter} />
-                        <FontAwesomeIcon className="icon" icon={faLinkedin} />
+                        <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faFacebookF} /></a> 
+                        <a href={SocialMedia["instagram"]}><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
+                        <a href={SocialMedia["twitter"]}><FontAwesomeIcon className="icon" icon={faTwitter} /> </a>
+                        <a href={SocialMedia["linkedin"]}><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
                     </div>
                 </div>
                 <div className="copyright">

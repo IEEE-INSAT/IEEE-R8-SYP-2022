@@ -15,6 +15,7 @@ import Sponsoring from './pages/Sponsoring';
 // @ts-ignore
 import Fade from "react-reveal/Fade";
 
+import './components/Testimonials/Testimonials.css';
 
 function App() {
   return (
