@@ -49,8 +49,6 @@ export default function AboutUs() {
 
             </TwoElementsBlock>
 
-            <SliderSectionAboutUs />
-
             <AboutSYPSection />
 
             <PoweredBy />
