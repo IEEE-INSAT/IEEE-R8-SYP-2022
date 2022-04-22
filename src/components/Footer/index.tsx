@@ -24,8 +24,8 @@ export default function Footer() {
                         <div className="icons">
                             <a href={SocialMedia["facebook"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faFacebookF} /></a> 
                             <a href={SocialMedia["instagram"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
-                            <a href={SocialMedia["twitter"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faTwitter} /> </a>
-                            <a href={SocialMedia["linkedin"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
+                           {/* <a href={SocialMedia["twitter"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faTwitter} /> </a>
+                            <a href={SocialMedia["linkedin"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>  */}
                         </div>
                         <div className="contact_content" style={{ marginTop : "50px" }  }>Hosted By</div>
                         <a href="https://insat.ieee.tn/" ><img src={insatsb} alt="IEEE INSAT SB"  /></a> 
@@ -41,8 +41,8 @@ export default function Footer() {
                     <div className="icons">
                         <a href={SocialMedia["facebook"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faFacebookF} /></a> 
                         <a href={SocialMedia["instagram"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
-                        <a href={SocialMedia["twitter"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faTwitter} /> </a>
-                        <a href={SocialMedia["linkedin"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
+                        {/*<a href={SocialMedia["twitter"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faTwitter} /> </a>
+                        <a href={SocialMedia["linkedin"]} target="_blank" rel="noreferrer" ><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>*/}
                     </div>
                 </div>
                 <div className="copyright">
