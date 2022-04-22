@@ -20,10 +20,8 @@ import '../../components/VideoDisplay/style.css';
 export default function AboutUs() {
     return (
         <>
-            <Fade>
-                <Header title={"ABOUT US"} description="Know more about us" />
-            </Fade>
 
+            <Header title={"ABOUT US"} description="Know more about us" />
             <TwoElementsBlock >
                 <TextBlock title="About IEEE Tunisia Section">
                     The section is a part of the Region 8, IEEE Tunisia Section aims to spread IEEE Activities to all corners of the country through educational and technical activities, networking opportunities, and to develop technology and its applications for humanitarian goals. The section supports chapters, special interest groups, student activities and student awards.
