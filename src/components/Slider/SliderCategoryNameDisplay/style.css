@@ -1,0 +1,20 @@
+.slide-display-category-name{
+    color: #5A7184;
+    font-family: "Arimo";
+    font-weight: bold;
+
+    border: #B3BAC5 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+
+    min-width: 80px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.slide-selected-category{
+    color: #8A422D;
+    border: #8A422D 2px solid;
+
+}

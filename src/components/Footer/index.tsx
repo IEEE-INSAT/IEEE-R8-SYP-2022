@@ -22,7 +22,7 @@ export default function Footer() {
                     <div className="contacts">
                         <div className="contact_content">Stay in touch</div>
                         <div className="icons">
-                            <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faFacebookF} /></a> 
+                            <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faFacebookF} /></a>
                             <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
                             <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faTwitter} /> </a>
                             <a href={SocialMedia["facebook"]}><FontAwesomeIcon className="icon" icon={faLinkedin} /></a>
@@ -32,7 +32,7 @@ export default function Footer() {
                 <div className="navigations">
                     {NavItems.map((item, i) => {
                         return (<Link to={item.path} key={i} className="navSection">{item.name}</Link>)
-                    } )}
+                    })}
                 </div>
                 <div className="icons small">
                     <FontAwesomeIcon className="icon" icon={faFacebookF} />

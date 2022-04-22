@@ -1,0 +1,27 @@
+.slider-category-content{
+    width: 32%;
+    height: 100%;
+}
+
+.slider-category-content-picture{
+    background-color: #8A422D;
+    height: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.slider-category-content-picture img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider-category-content-description{
+    color: #5A7184;
+    margin-left: 5%;
+    font-family: "Open Sans";
+    font-size: 0.8rem;
+}
+
+.slider-category-content-title{
+    font-size: 1.5rem;
+}

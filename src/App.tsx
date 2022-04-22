@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import FAQ from './pages/FAQ';
 import AboutTn from './pages/AboutTn';
 import ApplyForFunding from './pages/ApplyForFunding';
+import AboutUs from './pages/About';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/tunisia" element={<AboutTn />} />
           <Route path="/applyforfunding" element={<ApplyForFunding />} />
+          <Route path="/about" element={<AboutUs />} />
         </Routes>
       </BrowserRouter>
     </div>
