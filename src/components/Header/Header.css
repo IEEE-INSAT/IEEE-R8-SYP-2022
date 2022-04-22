@@ -135,3 +135,15 @@ header .logo{
         width: 70px;
     }
 }
+
+@media screen and (max-width: 600px) {   
+    .descr h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .descr p{
+        font-size: 12px;
+        max-width: 90vw;
+    }
+
+}
