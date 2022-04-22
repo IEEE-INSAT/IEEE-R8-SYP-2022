@@ -20,7 +20,7 @@ function AboutLocation() {
                     It&apos;home to a centuries-old medina and the Bardo, an archaeology museum where celebrated Roman mosaics are displayed in a 15th-century palace complex.
                     The parklike ruins of ancient Carthage sit in the city&apos;s northern suburbs.
                 </p>
-                <Link to="/tunisia" ><ThemedButton text='Meet the host contry'  color="secondary" /></Link> 
+                <Link to="/tunisia" ><ThemedButton text='Meet the host contry'  onClick={() => window.scrollTo(0, 0)} color="secondary" /></Link> 
             </div>
             <div className="tn-pictures">
                 <img className='big-image' src={tunis_night} alt="Tunis in the night"/>

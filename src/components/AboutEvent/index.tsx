@@ -1,8 +1,8 @@
 import React from 'react';
 import './AboutEvent.css';
-import syp_congress from '../../assets/images/syp_congress.png'
+import syp_congress from '../../assets/images/syp_congress.png';
 import ThemedButton from '../ThemedButton';
-
+import { Link } from 'react-router-dom';
 
 
 function AboutEvent() {
@@ -18,7 +18,7 @@ function AboutEvent() {
                     SYP&apos;s main goal is to enhance and foster the engineering sense and capabilities through different activities both technically and culturally.
                     It also provides an opportunity to network.
                 </p>
-                <ThemedButton text='Explore' onClick={() => alert("xplore")} color="secondary" />
+                <Link to="/about" ><ThemedButton text='Explore' color="secondary" /></Link>
             </div>
             <div className="pictures">
                 <div className="gradient parent">
