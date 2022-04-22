@@ -18,7 +18,7 @@ function AboutEvent() {
                     SYP&apos;s main goal is to enhance and foster the engineering sense and capabilities through different activities both technically and culturally.
                     It also provides an opportunity to network.
                 </p>
-                <Link to="/about" ><ThemedButton text='Explore' color="secondary" /></Link>
+                <Link to="/about" ><ThemedButton text='Explore' onClick={() => window.scrollTo(0, 0)} color="secondary" /></Link>
             </div>
             <div className="pictures">
                 <div className="gradient parent">

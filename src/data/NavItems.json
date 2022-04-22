@@ -1,7 +1,7 @@
 [
     { "name": "Home", "path": "/" },
     { "name": "About Tunisia", "path": "/tunisia" },
-    { "name": "About SYP", "path": "/about" },
+    { "name": "About US", "path": "/about" },
     { "name": "Sponsors", "path": "/sponsors" },
     { "name": "FAQ", "path": "/faq" }
 ]

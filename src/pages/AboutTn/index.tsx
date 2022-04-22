@@ -34,7 +34,7 @@ export default function AboutTn() {
                     </TwoElementsBlock>
 
                     <TwoElementsBlock>
-                        <CurrencyConverter coversionCoef={0.33} />
+                        <CurrencyConverter coversionCoef={3.01} />
                         <div className="desktopBills">
                             <CurrencyBills />
                         </div>
