@@ -6,57 +6,50 @@ interface question {
 }
 export const faqCategories = [
     "General Questions",
-    "Visa",
-    "Program"
+   
 ]
 export const FAQs: question[] = [
     {
         category: "General Questions",
-        question: "Question 1:When and where the R8 SYP will be held?",
+        question: "When and where the R8 SYP will be held?",
         answer: "From August 3rd to August 7th, 2022. It will take place in Tunis, Tunisia.",
         open: false,
     },
     {
         category: "General Questions",
-        question: "Question 2:How much are the registration fees?",
-        answer: "The registration fees are 300$(+/- 50 $)",
+        question: "What do the registration fees include?",
+        answer: "The registration fees cover the accommodation, meals, transportation and congress fees. Allowing our participants to attend the SYP congress 22 and therefore attend technical sessions, a career fair and many entertaining activities.",
         open: false,
     },
-    {
+    /*{
         category: "General Questions",
-        question: "Question 3:What do the registration fees include?",
-        answer: "The registration fees include accommodation, transportation during the congress, meals, and a welcome pack.",
+        question: "Is there a possibility to have accommodation on my own?",
+        answer: "As a participant in the SYP 22, you are free to choose the accommodation that suits you best. You can have accommodation on your own, but you will just need to join the other congress participants at an assembly point when moving from one place to another at a given time. Place and time will be communicated later by the Congress Participants Coordinator.",
         open: false,
-    },
+    },*/
     {
         category: "General Questions",
-        question: "Question 4:Is there a possibility to have accommodation on my own?",
-        answer: "Yes, you can have accommodation on your own but you should consider that transportation from your stay place to the congress venues is not our responsibility.",
-        open: false,
-    },
-    {
-        category: "General Questions",
-        question: "Question 5:Where can I find information from past congress editions?",
-        answer: "You can check our social media the Facebook page \"IEEE R8 Student & Young Professional Congress 2022\" or our Instagram account \"r8syp\" ",
+        question: "Where can I find information from past congress editions?",
+        answer: "You can consult past edition’s websites: SYP Porto 2018: https://syp.ieee-pt.org/ SYP Regensburg 2016: https://www.facebook.com/syp2016/ SYP Kraków 2014: https://www.facebook.com/sypcongress2014/ For more information about this year’s edition follows us on: Facebook page: IEEE R8 Student & Young Professional Congress 2022 Instagram page: r8syp",
         open: false,
     },
 
     {
-        category: "Visa",
+        category: "General Questions",
         question: "Is a VISA needed to enter TUNISIA? ",
-        answer: "You should first check if you need a VISA to enter Tunisia from your country If yes you can contact us to send you an invitation letter to support your VISA file",
+        answer: "You will find out all the needed information in the following website: https://www.visatunisia.com/tourist-visas/ If yes, we will send you all the required letters the moment you confirm your registration to support your VISA File.",
         open: false,
     },
     {
-        category: "Program",
-        question: "How can I participate in technical and social activities?",
-        answer: "Before the congress a form will be open with program details and you can choose your social and technical activities.        ",
+        category: "General Questions",
+        question: "How can I choose which technical activities to attend?",
+        answer: "A form will open before the congress where you will be able to choose the technical activities (workshops, keynotes) you want to attend.",
         open: false,
     },
     {
-        category: "Program",
+        category: "General Questions",
         question: "How do I become a sponsor or an exhibitor?",
-        answer: "You can contact us at r8syp@ieee.org for more details.",
+        answer: "You can visit our sponsorship page to take a glimpse at out sponsorship file or contact us at r8syp@ieee.org for more details.",
         open: false,
     },
 ]

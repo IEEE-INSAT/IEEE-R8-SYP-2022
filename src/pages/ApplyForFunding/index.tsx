@@ -12,7 +12,7 @@ export default function ApplyForFunding(){
     return (
         <div className="applyForFunding">
             <Fade>
-                <Header title={"APPLY FOR FUNDING"} description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla aliquet turpis. Pellentesque nec lacus ligula. Donec vitae dui vitae urna varius facilisis. Maecenas tincidunt semper ipsum. Vivamus vel ante sed magna pellentesque bibendum nec vel nibh. "/>
+                <Header title={"APPLY FOR FUNDING"} description="The form will be available soon... "/>
             </Fade>  
             <Footer/>
         </div>

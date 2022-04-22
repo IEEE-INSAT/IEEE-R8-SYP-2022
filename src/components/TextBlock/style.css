@@ -18,3 +18,19 @@
     line-height: 32px;
     color: #333333;
 }
+
+.gras{
+    font-family: Futura;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 800px){
+    .textBlock-title{
+        font-size: 2rem;
+    }
+
+    .textBlock-body{
+        font-size: 1rem;
+    }
+}

@@ -8,6 +8,7 @@
     border: none;
     border-radius: 4px;
     transition:.4s;
+    max-width: 95vw;
 }
 .btn:hover{
     filter: brightness(.85);

@@ -4,9 +4,6 @@ import {faqCategories, FAQs} from "../../data/FAQs";
 import FAQelement from "../../components/FAQelement";
 import "./faq.css";
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import Fade from "react-reveal/Fade";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
@@ -29,10 +26,8 @@ export default function FAQ() {
     }
 
     return (
-        <div className="faq">
-            <Fade>
+        <div className="">
                 <Header title={"FAQs"} description="Find your answers here"/>
-            </Fade>
             {
                 faqCategories.map((category, i) =>
                     <div className="faqs" key={i}>

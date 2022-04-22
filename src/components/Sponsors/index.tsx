@@ -3,6 +3,8 @@ import './Sponsors.css';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Fade from "react-reveal/Fade";
+import ThemedButton from '../ThemedButton';
+import { Link } from 'react-router-dom';
 
 interface SponsorItem {
     name: string;
@@ -20,9 +22,7 @@ export default function Sponsors({items}: SponsorsProps) {
             <h4>EVENT SPONSORS</h4>
             <h2>Official Sponsors</h2>
             <p className="sponsors-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat.
+            If you want to increase awareness for your company, You’re in the right place ! 
             </p>
             <div className="sponsor-logo-container">
                 {
@@ -32,6 +32,7 @@ export default function Sponsors({items}: SponsorsProps) {
                         </Fade>    
                     ))
                 }
+                <Link to="/sponsors" ><ThemedButton text='CONTACT US' color='secondary' width='500px' /></Link> 
 
             </div>
         </div>

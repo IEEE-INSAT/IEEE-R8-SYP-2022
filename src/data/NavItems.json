@@ -3,7 +3,5 @@
     { "name": "About Tunisia", "path": "/tunisia" },
     { "name": "About SYP", "path": "/about" },
     { "name": "Sponsors", "path": "/sponsors" },
-    { "name": "Team", "path": "/team" },
-    { "name": "Registrations", "path": "/registrations" },
     { "name": "FAQ", "path": "/faq" }
 ]

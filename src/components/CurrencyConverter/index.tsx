@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import CurrencyInput from "../CurrencyInput";
 import arrow from '../../assets/images/arrow.svg'
 import './style.css';
