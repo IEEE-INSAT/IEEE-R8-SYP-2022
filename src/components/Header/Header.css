@@ -139,7 +139,7 @@ header .logo{
 @media screen and (max-width: 600px) {   
     .descr h1{
         font-size: 25px;
-        line-height: 30px;
+        line-height: 80px;
     }
     .descr p{
         font-size: 12px;
