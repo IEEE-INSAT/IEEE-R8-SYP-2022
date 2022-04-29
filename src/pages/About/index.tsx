@@ -49,7 +49,6 @@ export default function AboutUs() {
 
             <AboutSYPSection />
 
-            <PoweredBy />
 
             <Footer />
         </>

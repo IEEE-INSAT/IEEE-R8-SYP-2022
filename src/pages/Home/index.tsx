@@ -17,6 +17,7 @@ import Fade from "react-reveal/Fade";
 // @ts-ignore
 import Zoom from "react-reveal/Zoom"
 import Carousel from "../../components/Carousel";
+import PoweredBy from "../../components/PoweredBy";
 
 
 export default function Home() {
@@ -38,6 +39,9 @@ export default function Home() {
             <Zoom>
                 <AboutLocation />
             </Zoom>
+            <Fade>
+                <PoweredBy />
+            </Fade>
             <Fade >
                 <Sponsors items={sponsorsList} />
             </Fade>

@@ -85,6 +85,7 @@
     }
     .numbers{
         font-size: 20px;
+        padding: 0 10px;
     }
     .timer div{
         margin: 0 5px;

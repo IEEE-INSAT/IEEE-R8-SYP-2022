@@ -1,6 +1,18 @@
 [
-    "images/powered by/ieee_r8_sac.png",
-    "images/powered by/ieee_r8.png",
-    "images/powered by/ieee_tn_section.png",
-    "images/powered by/ieee_young_prof.png"
+    {
+        "website": "http://sac.ieeer8.org/",
+        "imgUrl": "images/powered by/ieee_r8_sac.png"
+    },
+    {
+        "website": "https://ieeer8.org/",
+        "imgUrl": "images/powered by/ieee_r8.png"
+    },
+    {
+        "imgUrl": "images/powered by/ieee_tn_section.png",
+        "website": "https://ieee.tn/"
+    },
+    {
+        "imgUrl": "images/powered by/ieee_young_prof.png",
+        "website": "https://yp.ieee.org/"
+    }
 ]
