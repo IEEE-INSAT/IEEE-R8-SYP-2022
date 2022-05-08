@@ -91,6 +91,10 @@ header .logo{
     padding: 40px 0;
 }
 
+.welcome p {
+    max-width: 45vw;
+}
+
 
 @media screen and (max-width: 1230px) {
     .welcome{
