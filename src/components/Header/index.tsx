@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 interface HeaderProps{
     mode?: "HOMEPAGE" | "PAGE";
     title: string;
-    description?: string;
+    description?: React.ReactNode;
     buttonText? : string;
     handleBtnClick?: () => void;
 }
@@ -27,7 +27,7 @@ export default function Header({ mode = "PAGE", title, description, buttonText, 
         <div className="welcome">
             <div className={mode=="PAGE" ? "descr descrpage" : "descr"} style={mode=="PAGE" ? { alignItems: "flex-start", textAlign: "center" } : {}}>
                 <h1>{title}</h1>
-                <p>{description}</p>
+                {description}
                 {buttonText && (<Link to="/applyforfunding" ><ThemedButton text={buttonText} /></Link>)}
             </div>
            {mode=="HOMEPAGE" && (<div><img className="beb" src={beb} alt="welcome"/></div>)}

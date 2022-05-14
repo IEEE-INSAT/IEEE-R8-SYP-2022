@@ -14,7 +14,7 @@ import Gallery from "../../components/Gallery";
 export default function AboutTn() {
     return (
         <>
-                <Header title={"ABOUT TUNISIA"} description="Know more about Tunisia" />
+                <Header title={"ABOUT TUNISIA"} description={<p>Know more about Tunisia</p>} />
                 <div className="infoContainer">
                     <TwoElementsBlock>
                         <TextBlock title="Tunisia - تونس">

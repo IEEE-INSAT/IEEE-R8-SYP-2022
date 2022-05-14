@@ -27,7 +27,7 @@ export default function FAQ() {
 
     return (
         <div className="">
-                <Header title={"FAQs"} description="Find your answers here"/>
+                <Header title={"FAQs"} description={<p>Find your answers here</p>}/>
             {
                 faqCategories.map((category, i) =>
                     <div className="faqs" key={i}>
