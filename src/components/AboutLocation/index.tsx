@@ -15,10 +15,7 @@ function AboutLocation() {
                 <h5>ABOUT THE LOCATION</h5>
                 <h1>Tunis, Tunisia</h1>
                 <p>
-                    Tunis is the sprawling capital of Tunisia, a country in North Africa.
-                    It sits along Lake Tunis, just inland from the Mediterranean Sea&apos;Gulf of Tunis.
-                    It&apos;home to a centuries-old medina and the Bardo, an archaeology museum where celebrated Roman mosaics are displayed in a 15th-century palace complex.
-                    The parklike ruins of ancient Carthage sit in the city&apos;s northern suburbs.
+                In Tunisia&#39;s capital, the term &#34;living history&#34; really does apply. Here, periods of conquest, trade and independence have woven into the city&#39;s fabric and culture a rich and complex flavor that becomes apparent wherever you explore.
                 </p>
                 <Link to="/tunisia" ><ThemedButton text='Meet the host country'  onClick={() => window.scrollTo(0, 0)} color="secondary" /></Link> 
             </div>
