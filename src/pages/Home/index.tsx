@@ -21,7 +21,7 @@ import PoweredBy from "../../components/PoweredBy";
 
 
 const HeaderDescription = () => (<>
-    <p className="date">See you from the 3rd to the 7th of August 2022 at Tunisia</p>
+    <p className="date">See you from the 3rd to the 7th of August 2022 in Tunisia</p>
     <p>Student and Young Professional Congress is the largest student and young professionals event in Region 8</p>
     </>
 )
