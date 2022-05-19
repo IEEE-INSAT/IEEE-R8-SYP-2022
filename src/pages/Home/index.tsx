@@ -17,13 +17,20 @@ import Fade from "react-reveal/Fade";
 // @ts-ignore
 import Zoom from "react-reveal/Zoom"
 import Carousel from "../../components/Carousel";
+import PoweredBy from "../../components/PoweredBy";
 
+
+const HeaderDescription = () => (<>
+    <p className="date">See you from the 3rd to the 7th of August 2022 in Tunisia</p>
+    <p>Student and Young Professional Congress is the largest student and young professionals event in Region 8</p>
+    </>
+)
 
 export default function Home() {
     return (
         <div className="home">
             <Fade>
-                <Header buttonText={"Apply for funding"} title={"IEEE R8 SYP CONGRESS"} mode="HOMEPAGE" description="Student and Young Professional Congress is the largest student and young professionals event in all Region 8" />
+                <Header buttonText={"Apply for funding"} title={"IEEE R8 SYP CONGRESS"} mode="HOMEPAGE" description={<HeaderDescription />}   />
             </Fade>
             <Zoom>
                 <AboutEvent />
@@ -38,6 +45,9 @@ export default function Home() {
             <Zoom>
                 <AboutLocation />
             </Zoom>
+            <Fade>
+                <PoweredBy />
+            </Fade>
             <Fade >
                 <Sponsors items={sponsorsList} />
             </Fade>

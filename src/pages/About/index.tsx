@@ -13,22 +13,30 @@ import Footer from '../../components/Footer';
 import SliderSectionAboutUs from '../../components/SliderSectionAboutUs';
 import AboutSYPSection from '../../components/AboutSYPSection';
 import PoweredBy from '../../components/PoweredBy';
+import top_disk from './../../assets/images/browndisk.svg';
+import bot_disk from './../../assets/images/bluedisk.svg';
+import '../../components/VideoDisplay/style.css';
 
 export default function AboutUs() {
     return (
         <>
-            <Fade>
-                <Header title={"ABOUT US"} description="Know more about us" />
-            </Fade>
 
+            <Header title={"ABOUT US"} description={<p>Know more about us</p>} />
             <TwoElementsBlock >
                 <TextBlock title="About IEEE Tunisia Section">
                     The section is a part of the Region 8, IEEE Tunisia Section aims to spread IEEE Activities to all corners of the country through educational and technical activities, networking opportunities, and to develop technology and its applications for humanitarian goals. The section supports chapters, special interest groups, student activities and student awards.
                     <div className='about-explore-btn'>
-                        <ThemedButton text='Explore' color='secondary' />
+                        <a href='https://ieee.tn/'  target="_blank" rel="noreferrer" ><ThemedButton text='Explore' color='secondary' /></a>
                     </div>
                 </TextBlock>
-                <VideoDisplay pictureOnly={true} img="images/ieee_logo.png" />
+                <div className='videoContainer blockElement'>
+                    <img className="deco top-disk" src={top_disk} />
+                    <img className="deco bottom-disk" src={bot_disk} />
+
+                    <div className="video">
+                        <img className={"videoImage"} src={"images/ieee_logo.png"} alt="tunisia section" />
+                    </div>
+                </div>
             </TwoElementsBlock>
 
             <TwoElementsBlock direction='reverse'>
@@ -39,11 +47,8 @@ export default function AboutUs() {
 
             </TwoElementsBlock>
 
-            <SliderSectionAboutUs />
-
             <AboutSYPSection />
 
-            <PoweredBy />
 
             <Footer />
         </>

@@ -9,20 +9,18 @@ export default function PoweredBy({ }) {
             <h2>Powered by</h2>
 
             <div className='powered-by-logos'>
-                <div className="powered-by-col small-logo">
-                    <img src={logos[0]} alt="" />
-                </div>
-                <div className="powered-by-col">
-                    <img src={logos[1]} alt="" />
-                </div>
-                <div className="powered-by-col powered-by-row-container">
-                    <div className="powered-by-image-row">
-                        <img src={logos[2]} alt="" />
-                    </div>
-                    <div className="powered-by-image-row">
-                        <img src={logos[3]} alt="" />
-                    </div>
-                </div>
+                <a href={logos[0]["website"]} className="powered-by-image-row">
+                    <img src={logos[0]["imgUrl"]} alt="" />
+                </a>
+                <a href={logos[1]["website"]}  className="powered-by-image-row">
+                    <img src={logos[1]["imgUrl"]} alt="" />
+                </a>
+                <a href={logos[2]["website"]} className="powered-by-image-row">
+                    <img src={logos[2]["imgUrl"]} alt="" />
+                </a>
+                <a href={logos[3]["website"]} className="powered-by-image-row">
+                    <img src={logos[3]["imgUrl"]} alt="" />
+                </a>
             </div>
         </div>
     );

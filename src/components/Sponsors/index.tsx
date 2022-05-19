@@ -32,7 +32,7 @@ export default function Sponsors({items}: SponsorsProps) {
                         </Fade>    
                     ))
                 }
-                <Link to="/sponsors" ><ThemedButton text='CONTACT US' color='secondary' width='500px' /></Link> 
+                <Link to="/sponsors" ><ThemedButton text='CONTACT US' onClick={() => window.scrollTo(0, 0)} color='secondary' width='500px' /></Link> 
 
             </div>
         </div>

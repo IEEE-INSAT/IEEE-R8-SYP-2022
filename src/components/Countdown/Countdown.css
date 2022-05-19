@@ -78,3 +78,23 @@
         padding-right: 30px;
     }
 }
+
+@media only screen and (max-width: 550px) {
+    .countdown h2{
+        font-size: 20px;
+    }
+    .numbers{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .timer div{
+        margin: 0 5px;
+    }
+    .timer div:first-of-type{
+        padding-right: 10px;
+    }
+    .countdown {
+        height: 300px;
+    }
+}
+

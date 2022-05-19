@@ -12,18 +12,15 @@
     width: 60%;
 }
 
-.powered-by-col{
-    width: 40%;
-    height: 30%;
-}
 
 .small-logo{
-    width: 15% !important;
+    width: 100% !important;
 }
 
 .powered-by-col img{
     width: 100%;
     height: 100%;
+    object-fit: scale-down;
 }
 
 .powered-by-row-container{
