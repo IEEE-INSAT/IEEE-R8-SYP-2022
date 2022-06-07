@@ -1,0 +1,22 @@
+.schedule-text-section{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: flex-start;
+}
+
+.schedule-text-section-title{
+    font-family: 'Futura BdCn BT';
+    font-size: 3rem;
+    color: #333333;
+}
+
+.schedule-text-section-comment{
+    font-family: 'Futura Hv BT';
+    color: #999999;
+}
+
+.map2{
+    height: 100% !important;
+    width: 100% !important;
+}
