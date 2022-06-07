@@ -11,6 +11,7 @@ import AboutTn from './pages/AboutTn';
 import ApplyForFunding from './pages/ApplyForFunding';
 import Sponsoring from './pages/Sponsoring';
 import AboutUs from './pages/About';
+import Schedule from './pages/Schedule';
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
@@ -22,16 +23,17 @@ function App() {
   return (
     <div className="App">
       <Fade>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/tunisia" element={<AboutTn />} />
-          <Route path="/applyforfunding" element={<ApplyForFunding />} />
-          <Route path="/sponsors" element={<Sponsoring />} />
-          <Route path="/about" element={<AboutUs />} />
-        </Routes>
-      </BrowserRouter>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/tunisia" element={<AboutTn />} />
+            <Route path="/applyforfunding" element={<ApplyForFunding />} />
+            <Route path="/sponsors" element={<Sponsoring />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/schedule" element={<Schedule />} />
+          </Routes>
+        </BrowserRouter>
       </Fade>
     </div>
   );
