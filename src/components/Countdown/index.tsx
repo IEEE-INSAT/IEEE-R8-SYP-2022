@@ -53,7 +53,7 @@ export default function CountdownSection(){
 
     return(
         <Countdown
-            date={new Date("20 Aug 2022")}
+            date={new Date("3 Aug 2022")}
             renderer={renderer}
         />
     )
