@@ -41,7 +41,7 @@ export default function Home() {
             <Fade>
                 <Countdown />
             </Fade>
-            <Carousel />
+
             <Zoom>
                 <AboutLocation />
             </Zoom>

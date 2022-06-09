@@ -13,6 +13,7 @@ import Footer from '../../components/Footer';
 import SliderSectionAboutUs from '../../components/SliderSectionAboutUs';
 import AboutSYPSection from '../../components/AboutSYPSection';
 import PoweredBy from '../../components/PoweredBy';
+import Carousel from '../../components/Carousel';
 import top_disk from './../../assets/images/browndisk.svg';
 import bot_disk from './../../assets/images/bluedisk.svg';
 import '../../components/VideoDisplay/style.css';
@@ -48,7 +49,7 @@ export default function AboutUs() {
             </TwoElementsBlock>
 
             <AboutSYPSection />
-
+            <Carousel />
 
             <Footer />
         </>
