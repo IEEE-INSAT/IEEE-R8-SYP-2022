@@ -4,6 +4,7 @@ import {
   BrowserRouter,
   Routes,
   Route,
+  Navigate,
 } from "react-router-dom";
 import Home from './pages/Home';
 import FAQ from './pages/FAQ';
@@ -27,9 +28,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/tunisia" element={<AboutTn />} />
-          <Route path="/applyforfunding" element={<ApplyForFunding />} />
           <Route path="/sponsors" element={<Sponsoring />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path='*' element={<Navigate replace to="/" />} />
         </Routes>
       </BrowserRouter>
       </Fade>
