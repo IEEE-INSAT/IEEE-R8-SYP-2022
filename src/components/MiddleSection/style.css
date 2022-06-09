@@ -12,13 +12,18 @@
 
 .schedule-text-section-title{
     font-family: 'Futura BdCn BT';
-    font-size: 3rem;
+    font-size: clamp(2rem, 3.2vw, 3rem);
     color: #333333;
 }
 
 .schedule-text-section-comment{
     font-family: 'Futura Hv BT';
     color: #999999;
+    font-size: clamp(0.95rem, 2vw, 1.2rem);
+}
+
+.schedule-text-section-content{
+    font-size: clamp(0.95rem, 2vw, 1.2rem);
 }
 
 .map2{
