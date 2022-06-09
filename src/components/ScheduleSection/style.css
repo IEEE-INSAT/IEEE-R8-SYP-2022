@@ -1,0 +1,53 @@
+.planning-date-program{
+    background-image: url('../../assets/images/schedule-bg.svg');
+    width: 80%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+
+.planning-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+.planning-date-section{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.planning-month-section{
+    font-family: 'Amatica SC';
+    color: #333333;
+    text-align: center;
+
+}
+
+@media (max-width: 600px){
+    .planning-date-program{
+        /* transform: rotate(90deg); */
+        flex-direction: column;
+        height: max-content;
+        padding-top: max(35px, 15%);
+        padding-bottom: max(35px, 15%);
+        gap: 20px;
+        background-image: url('../../assets/images/schedule-bg-rot.svg');
+        
+    }
+}

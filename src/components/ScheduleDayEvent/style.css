@@ -1,0 +1,70 @@
+.schedule-content-event{
+    background-color: white;
+    width: 20%;
+    max-width: 210px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: max(1vh, 10px);
+    border-radius: 10px;
+    border: 1px solid #B03842;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.event-background-color-special{
+    background: linear-gradient(93.31deg, #B03842 -14.42%, #CB8B4E 115.75%);
+    border: 0;
+}
+
+.event-background-color-special div{
+    color: white;
+}
+
+.event-background-color-special .schedule-content-event-icon svg path{
+    fill: #fff;
+}
+
+.schedule-content-event-info{
+    font-family: 'Futura Hv BT';
+    text-align: center;
+    font-size: max(min(0.8rem, 2vmin), 0.7rem);
+    color: #999999;
+}
+
+.schedule-content-event-title{
+    text-align: center;
+    color: #B95346;
+    font-size: max(min(3vmin, 1.2rem), 0.9rem);
+    font-weight: bold;
+}
+
+.schedule-content-event-icon{
+    width: 80%;
+    height: 65%;
+}
+
+.schedule-content-event-icon *{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 600px){
+    .schedule-content-event{
+        width: 75%;
+        height: 190px;
+
+    }
+
+    .schedule-content-event-icon{
+        width: 40%;
+    }
+
+    .schedule-content-event-title{
+        font-size: max(min(5vmin, 1.3rem), 0.9rem);
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "1": {
+        "date": {
+            "day": "SUN",
+            "nb": 3
+        },
+        "program": []
+    },
+    "2": {
+        "date": {
+            "day": "SUN",
+            "nb": 4
+        },
+        "program": [
+            {
+                "title": "Arrivals & Check-In",
+                "icon": "plane",
+                "location": "Airport",
+                "time": "07:00 - 14:00",
+                "color": "special"
+            },
+            {
+                "title": "Congress Check-In",
+                "icon": "checkin",
+                "location": "Hotel El Mouradi Gammarth",
+                "time": "14:00 - 16:00",
+                "color": "white"
+            },
+            {
+                "title": "Opening Ceromony",
+                "icon": "openingCer",
+                "location": "City of Culture Tunis",
+                "time": "17:00 - 19:00",
+                "color": "white"
+            }
+        ]
+    },
+    "3": {
+        "date": {
+            "day": "SUN",
+            "nb": 5
+        },
+        "program": []
+    },
+    "4": {
+        "date": {
+            "day": "SUN",
+            "nb": 6
+        },
+        "program": []
+    },
+    "5": {
+        "date": {
+            "day": "SUN",
+            "nb": 7
+        },
+        "program": []
+    }
+}

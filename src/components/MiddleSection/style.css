@@ -5,6 +5,11 @@
     align-items: flex-start;
 }
 
+.schedule-text-section img{
+    width: 40%;
+    max-width: 120px;
+}
+
 .schedule-text-section-title{
     font-family: 'Futura BdCn BT';
     font-size: 3rem;
