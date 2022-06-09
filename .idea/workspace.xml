@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

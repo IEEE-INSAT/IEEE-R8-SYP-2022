@@ -16,7 +16,6 @@ import Fade from "react-reveal/Fade";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Zoom from "react-reveal/Zoom"
-import Carousel from "../../components/Carousel";
 import PoweredBy from "../../components/PoweredBy";
 
 
