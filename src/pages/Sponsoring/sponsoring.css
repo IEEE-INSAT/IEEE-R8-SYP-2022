@@ -1,4 +1,4 @@
-.twoElmContainer {
+.sponsoring  .twoElmContainer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -9,19 +9,19 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .twoElmContainer {
-        gap:50px;
+    .sponsoring  .twoElmContainer {
+        gap: 50px;
         justify-content: center;
     }
 }
 
-.textBlockContainer {
-    min-width:45vw;
+.sponsoring  .textBlockContainer {
+    min-width: 45vw;
     flex: 2;
     margin-right: 100px;
 }
 
-.textBlock-title {
+.sponsoring  .textBlock-title {
     margin-bottom: 30px;
     font-family: 'Futura BdCn BT';
     font-style: normal;
@@ -31,7 +31,7 @@
     color: #333333;
 }
 
-.textBlock-body {
+.sponsoring  .textBlock-body {
     font-family: "Futura";
     color: #333333;
     font-style: normal;
@@ -40,26 +40,27 @@
     line-height: 32px;
 }
 
-.gras {
+.sponsoring  .gras {
     font-family: Futura;
     font-weight: 400;
 }
 
 
 @media only screen and (max-width: 900px) {
-    .textBlockContainer {
-        margin-right: 0px;
+    .sponsoring  .textBlockContainer {
+        margin-right: 0;
     }
-    .textBlock-title {
+
+    .sponsoring  .textBlock-title {
         font-size: 2rem;
     }
 
-    .textBlock-body {
+    .sponsoring > .textBlock-body {
         font-size: 1rem;
     }
 }
 
-.dossierContainer {
+.sponsoring  .dossierContainer {
     flex: 1;
     display: flex;
     flex-direction: column;
