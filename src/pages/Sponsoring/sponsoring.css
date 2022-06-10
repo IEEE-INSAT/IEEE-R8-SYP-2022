@@ -1,0 +1,70 @@
+.twoElmContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: max(14vh, 90px);
+    margin-top: 100px;
+    width: 90vw;
+}
+
+@media only screen and (max-width: 900px) {
+    .twoElmContainer {
+        gap:50px;
+        justify-content: center;
+    }
+}
+
+.textBlockContainer {
+    min-width:45vw;
+    flex: 2;
+    margin-right: 100px;
+}
+
+.textBlock-title {
+    margin-bottom: 30px;
+    font-family: 'Futura BdCn BT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -2px;
+    color: #333333;
+}
+
+.textBlock-body {
+    font-family: "Futura";
+    color: #333333;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.gras {
+    font-family: Futura;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .textBlockContainer {
+        margin-right: 0px;
+    }
+    .textBlock-title {
+        font-size: 2rem;
+    }
+
+    .textBlock-body {
+        font-size: 1rem;
+    }
+}
+
+.dossierContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+}
