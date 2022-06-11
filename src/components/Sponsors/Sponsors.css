@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     font-family: Futura;
+
 }
 
 .sponsors-container h4 {
@@ -40,7 +41,7 @@
     flex-wrap: wrap;
     gap: 36px;
     width: 100vw;
-
+    margin-bottom: 36px;
 }
 
 .sponsor-logos {

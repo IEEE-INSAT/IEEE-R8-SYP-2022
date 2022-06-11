@@ -9,12 +9,14 @@ import TextBlock from "../../components/TextBlock";
 import sponsorshipDossier from "../../assets/images/sponsorshipDossier.png";
 import ThemedButton from "../../components/ThemedButton";
 
+
 export default function Sponsoring(){
     return(
         <div className="sponsoring">
             <Fade>
                 <Header title={"SPONSORS"} description=""/>
             </Fade>  
+
 
             <div className="twoElmContainer">
                     <TextBlock title="Do you want to be part of SYP?">

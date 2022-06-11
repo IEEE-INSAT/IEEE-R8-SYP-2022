@@ -21,20 +21,21 @@ export default function Sponsors({items}: SponsorsProps) {
         <div className="sponsors-container">
             <h4>EVENT SPONSORS</h4>
             <h2>Official Sponsors</h2>
-            <p className="sponsors-description">
-            If you want to increase awareness for your company, You’re in the right place ! 
-            </p>
             <div className="sponsor-logo-container">
                 {
                     items.map((sponsor, i) => (
                         <Fade key={i}>
                             <img className="sponsor-logos" src={require(`../../assets/images/sponsors/${sponsor.filename}`)} alt={sponsor.name} />
-                        </Fade>    
+                        </Fade>
                     ))
-                }
+                } </div>
+            <p className="sponsors-description">
+            If you want to increase awareness for your company, You’re in the right place ! 
+            </p>
+
                 <Link to="/sponsors" ><ThemedButton text='CONTACT US' onClick={() => window.scrollTo(0, 0)} color='secondary' width='500px' /></Link> 
 
-            </div>
+
         </div>
     );
 }
