@@ -13,11 +13,7 @@ import ThemedButton from "../../components/ThemedButton";
 export default function Sponsoring(){
     return(
         <div className="sponsoring">
-            <Fade>
                 <Header title={"SPONSORS"} description=""/>
-            </Fade>  
-
-
             <div className="twoElmContainer">
                     <TextBlock title="Do you want to be part of SYP?">
                         The IEEE R8 Students and Young Professionals Congress is the largest student event in all of region 8 (Europe, Middle East, Africa). It occurs every two years and gathers both students and young professionals members from all Sections in this Region. Sponsorship helps us bring together this event, a Congress that not only consists of <span className="gras" >social and networking events</span>, but also <span className="gras" >technical events</span>, such as <span className="gras" >workshops</span> and <span className="gras" >talks</span>.

@@ -9,7 +9,9 @@ import ThemedButton from "../ThemedButton";
 import NavBar from "../NavBar";
 import NavItems from "../../data/NavItems.json";
 import { Link } from "react-router-dom";
- 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import Fade from "react-reveal/Fade";
 interface HeaderProps{
     mode?: "HOMEPAGE" | "PAGE";
     title: string;
@@ -23,7 +25,8 @@ export default function Header({ mode = "PAGE", title, description, buttonText, 
     <header>
         <img className="headerWave" src={(mode=="HOMEPAGE") ? HeaderWave : HeaderWaveNav} style={mode=="PAGE" ? { width: "70vw", minHeight: "181px" } : {}} alt="" />
         <NavBar navItems={NavItems} />
-        <Link to="/" ><img className="logo" src={logo} alt="SYP" /></Link> 
+        <Link to="/" ><img className="logo" src={logo} alt="SYP" /></Link>
+        <Fade>
         <div className="welcome">
             <div className={mode=="PAGE" ? "descr descrpage" : "descr"} style={mode=="PAGE" ? { alignItems: "flex-start", textAlign: "center" } : {}}>
                 <h1>{title}</h1>
@@ -32,6 +35,7 @@ export default function Header({ mode = "PAGE", title, description, buttonText, 
             </div>
            {mode=="HOMEPAGE" && (<div><img className="beb" src={beb} alt="welcome"/></div>)}
         </div>
+        </Fade>
     </header>
     )
 }

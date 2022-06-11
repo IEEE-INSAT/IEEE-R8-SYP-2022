@@ -1,5 +1,6 @@
 header{
     width: 100vw;
+    position: relative;
 }
 
 .headerWave{
@@ -27,6 +28,7 @@ header .logo{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-left: 40px;
     max-width: 900px;
 }
 
