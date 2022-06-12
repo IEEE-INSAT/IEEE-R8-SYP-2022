@@ -29,7 +29,6 @@ export default function NavBar({ navItems }: NavBarProps){
             {navItems.map((item, i) => (
                 <Link to={item.path} key={i} className="NavItem">{item.name}</Link>
             ) )}
-            <a target='_blank' rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfz6Pmg4dJeODT3fyeKYLSLaA3rmELCYvX1PsSWrwajQ2vBvQ/viewform" ><ThemedButton text={"Apply for funding"} color="secondary" mode="dark" /></a>
         </div>
     </nav>
     )
