@@ -1,0 +1,20 @@
+.registrationOffer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.registrationOffer > h1 {
+    font-family: 'Futura BdCn BT';
+    font-style: normal;
+    font-size: 50px;
+}
+
+.offersCards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 100px;
+
+}
