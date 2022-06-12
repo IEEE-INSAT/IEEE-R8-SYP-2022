@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="removed unrelated picture">
+    <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegistrationCard/RegistrationCardStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegistrationCard/RegistrationCardStyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegistrationCard/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegistrationCard/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Registration/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Registration/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Sponsoring/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Sponsoring/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Registration/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Registration/registration.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -63,8 +62,8 @@
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v16.14.1/bin/node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v16.14.1/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -75,6 +74,15 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/sponsor-logos" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,6 +110,8 @@
       <workItem from="1654856474075" duration="4150000" />
       <workItem from="1654940188370" duration="372000" />
       <workItem from="1654963851269" duration="3870000" />
+      <workItem from="1655035587742" duration="20635000" />
+      <workItem from="1655068884233" duration="5106000" />
     </task>
     <servers />
   </component>
