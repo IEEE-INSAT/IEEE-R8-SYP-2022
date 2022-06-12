@@ -1,0 +1,91 @@
+.registrationCard {
+    position: relative;
+    min-width: 400px;
+    min-height: 500px;
+    background: linear-gradient(26.98deg, rgba(133, 22, 22, 0.73) 13.23%, #CB8B4E 92.57%);
+    border-radius: 10%;
+}
+
+.registrationCardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    left: 10%;
+    top: 7%;
+    height: 70%;
+    width: 80%;
+
+    background: rgba(255, 249, 249, 0.8);
+    border-radius: 10%;
+}
+
+.registrationCardContent > h3 {
+    font-family: 'Spartan';
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.registrationCardIcons {
+    display: flex;
+    gap: 10px;
+    margin-left: 16px;
+}
+
+.registrationCardElements {
+    list-style-type: circle;
+    font-family: 'Futura Lt BT';
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.registrationCardElements > li {
+    padding-top: 6px;
+}
+
+.registrationCardPrices {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+
+}
+
+.cardBedIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 13px;
+    background: rgba(255, 249, 249, 0.8);
+    padding: 10px;
+    min-width: 40px;
+}
+
+.priceInfoContainer {
+    display: flex;
+}
+
+.price {
+    border-radius: 10px;
+    background: rgba(255, 249, 249, 0.8);
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+.registrationCard {
+    width: 80vw;
+    min-width: 300px;
+    min-height: 550px;
+}
+}
+@media screen and (max-width: 450px) {
+    .price {
+        font-size: 10px;
+        align-self: center;
+    }
+}
