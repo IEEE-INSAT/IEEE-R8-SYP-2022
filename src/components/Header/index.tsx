@@ -23,6 +23,7 @@ interface HeaderProps{
 export default function Header({ mode = "PAGE", title, description, buttonText, handleBtnClick }: HeaderProps){
     return (
     <header>
+
         <img className="headerWave" src={(mode=="HOMEPAGE") ? HeaderWave : HeaderWaveNav} style={mode=="PAGE" ? { width: "60vw", minHeight: "181px" } : {}} alt="" />
         <NavBar navItems={NavItems} />
         <Link to="/" ><img className="logo" src={logo} alt="SYP" /></Link>
