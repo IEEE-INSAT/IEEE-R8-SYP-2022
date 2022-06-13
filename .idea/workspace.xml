@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegistrationCardsSection/RegistrationCardsSectionStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegistrationCardsSection/RegistrationCardsSectionStyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegistrationOffer/RegistrationOfferStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegistrationOffer/RegistrationOfferStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/NavItems.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/NavItems.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AboutTn/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutTn/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Registration/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Registration/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,7 @@
       <workItem from="1654963851269" duration="3870000" />
       <workItem from="1655035587742" duration="20635000" />
       <workItem from="1655068884233" duration="5106000" />
-      <workItem from="1655075805329" duration="2314000" />
+      <workItem from="1655075805329" duration="3317000" />
     </task>
     <servers />
   </component>
