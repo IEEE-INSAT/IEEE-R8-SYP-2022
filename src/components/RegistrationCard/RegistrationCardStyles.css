@@ -76,6 +76,7 @@
 }
 
 @media screen and (max-width: 500px) {
+
     .registrationCard {
         width: 80vw;
         min-width: 300px;

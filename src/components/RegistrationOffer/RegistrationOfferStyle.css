@@ -11,6 +11,7 @@
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
+
 }
 
 .offersCards {
@@ -18,11 +19,11 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 100px;
-
 }
 
-@media screen  and (max-width: 500px){
+@media screen  and (max-width: 500px) {
     .registrationOffer > h1 {
         font-size: 35px;
     }
+
 }
