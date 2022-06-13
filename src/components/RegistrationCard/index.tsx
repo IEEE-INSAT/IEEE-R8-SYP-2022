@@ -100,7 +100,7 @@ export default function RegistrationCard({
                     </div>
                 </div>
             ) : type === 'withAcc' && oneBedPrice ? (
-                <div className="registrationCardPrices" style={{ left: '59%' }}>
+                <div className="registrationCardPrices" style={{ left: '53%' }}>
                     <div className="priceInfoContainer twoBeds">
                         <div className="cardBedIcons">
                             <img src={BedIcon} alt="BedIcon" />
