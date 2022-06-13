@@ -73,7 +73,10 @@
     background: rgba(255, 249, 249, 0.8);
     padding: 10px;
 }
-
+.threeBeds {
+    position: relative;
+    right: -15%;
+}
 @media screen and (max-width: 500px) {
 
     .registrationCard {
@@ -81,7 +84,10 @@
         min-width: 300px;
         min-height: 550px;
     }
-
+    .threeBeds {
+        position: relative;
+        right: 0;
+    }
     .registrationCardContent {
         height: 73%;
     }
