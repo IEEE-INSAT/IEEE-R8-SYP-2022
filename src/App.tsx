@@ -31,7 +31,7 @@ function App() {
           <Route path="/tunisia" element={<AboutTn />} />
           <Route path="/sponsors" element={<Sponsoring />} />
           <Route path="/about" element={<AboutUs />} />
-            <Route path="/registration" element={<Registration />} />
+            <Route path="/registrations" element={<Registration />} />
           <Route path='*' element={<Navigate replace to="/" />} />
         </Routes>
       </BrowserRouter>

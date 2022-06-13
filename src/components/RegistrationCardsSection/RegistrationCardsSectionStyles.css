@@ -3,11 +3,13 @@
     flex-direction: column;
     margin: 100px;
     margin-bottom :0;
-    margin-top :0px;
+    margin-top :0;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width:600px){
     .registrationCardsSection {
         margin:50px;
         margin-bottom :0;
+        margin-top :0;
     }
+
 }

@@ -52,7 +52,6 @@
     position: absolute;
     left: 10%;
     bottom: 10%;
-
 }
 
 .cardBedIcons {
@@ -77,12 +76,17 @@
 }
 
 @media screen and (max-width: 500px) {
-.registrationCard {
-    width: 80vw;
-    min-width: 300px;
-    min-height: 550px;
+    .registrationCard {
+        width: 80vw;
+        min-width: 300px;
+        min-height: 550px;
+    }
+
+    .registrationCardContent {
+        height: 73%;
+    }
 }
-}
+
 @media screen and (max-width: 450px) {
     .price {
         font-size: 10px;

@@ -6,9 +6,11 @@
 }
 
 .registrationOffer > h1 {
-    font-family: 'Futura BdCn BT';
+    color: #333;
+    font-family: Futura BdCn BT;
+    font-size: 56px;
     font-style: normal;
-    font-size: 50px;
+    font-weight: 700;
 }
 
 .offersCards {
@@ -17,4 +19,10 @@
     flex-wrap: wrap;
     gap: 100px;
 
+}
+
+@media screen  and (max-width: 500px){
+    .registrationOffer > h1 {
+        font-size: 35px;
+    }
 }
