@@ -6,6 +6,7 @@ import LunchIcon from './../../assets/images/registration/lunch.svg';
 import DinnerIcon from './../../assets/images/registration/meals.svg';
 import TransportIcon from './../../assets/images/registration/transport.svg';
 import BedIcon from './../../assets/images/registration/bed.svg';
+import BreakfastIcon from './../../assets/images/registration/breakfast.svg';
 
 /*
 import { ReactComponent as BedIcon } from './../../assets/images/registration/bed.svg';
@@ -65,8 +66,9 @@ export default function RegistrationCard({
                         <img src={ConferenceIcon} alt="ConferenceIcon" />
                         <img src={TransportIcon} alt="TransportIcon" />
                         <img src={HotelIcon} alt="HotelIcon" />
-                        <img src={DinnerIcon} alt="DinnerIcon" />
+                        <img src={BreakfastIcon} alt="LunchIcon" />
                         <img src={LunchIcon} alt="LunchIcon" />
+                        <img src={DinnerIcon} alt="DinnerIcon" />
                     </div>
                 ) : (
                     <div className="registrationCardIcons">

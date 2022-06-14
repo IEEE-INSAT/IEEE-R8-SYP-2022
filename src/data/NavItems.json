@@ -1,8 +1,8 @@
 [
     { "name": "Home", "path": "/" },
     { "name": "About Tunisia", "path": "/tunisia" },
-    { "name": "About US", "path": "/about" },
+    { "name": "About us", "path": "/about" },
     { "name": "Sponsors", "path": "/sponsors" },
-    { "name": "FAQ", "path": "/faq" },
-    { "name": "Registrations", "path": "/registrations" }
+    { "name": "Registration", "path": "/registration" },
+    { "name": "FAQ", "path": "/faq" }
 ]
