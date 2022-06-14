@@ -6,14 +6,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: max(1vh, 10px);
     border-radius: 10px;
     border: 1px solid #B03842;
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    z-index: 50;
 }
 
 .event-background-color-special{
@@ -45,7 +46,7 @@
 
 .schedule-content-event-icon{
     width: 80%;
-    height: 65%;
+    height: 50%;
 }
 
 .schedule-content-event-icon *{

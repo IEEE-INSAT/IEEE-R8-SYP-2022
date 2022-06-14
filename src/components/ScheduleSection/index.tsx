@@ -6,10 +6,13 @@ import ScheduleDayEvent from "../ScheduleDayEvent";
 import ScheduleDaySelector from "../ScheduleDaySelector";
 
 import schedule3bg from '../../assets/images/schedule_bg/schedule-bg.svg';
-import scheduleBeginBg from '../../assets/images/schedule_bg/bg-begin.svg';
-import scheduleEndRBg from '../../assets/images/schedule_bg/bg-end-r.svg';
-import scheduleEndLBg from '../../assets/images/schedule_bg/bg-end-l.svg';
-import scheduleMiddleBg from '../../assets/images/schedule_bg/bg-middle.svg';
+import scheduleBeginBg from '../../assets/images/schedule_bg/bg-begin.png';
+import scheduleEndRBg from '../../assets/images/schedule_bg/bg-end-r.png';
+import scheduleEndLBg from '../../assets/images/schedule_bg/bg-end-l.png';
+import scheduleMiddleBg from '../../assets/images/schedule_bg/bg-middle.png';
+import scheduleMiddleMirrorBg from '../../assets/images/schedule_bg/bg-middle-mirror.png';
+import scheduleMobileBg from '../../assets/images/schedule_bg/schedule-bg-rot.svg';
+import scheduleMobileCircleBg from '../../assets/images/schedule_bg/schedule-bg-circle.svg';
 
 type IProgramDays = "1" | "2" | "3" | "4" | "5";
 
@@ -32,7 +35,7 @@ export default function ScheduleSection() {
         }
     }
 
-    //const backgroundStyle = { backgroundImage: `url(${schedule3bg})` };
+    //const backgroundStyle = schedule3bg;
     const displayMatrix = (scheduleData[selectedDay].program as IProgram[]).reduce(
         (rows, key, index) => (index % 3 == 0 ? rows.push([key])
             : rows[rows.length - 1].push(key)) && rows,
@@ -62,48 +65,61 @@ export default function ScheduleSection() {
                     })
                 }
             </div>
-            <div className="planning-row-container">
-                {
-                    displayMatrix.map((row, div_ind) => {
-                        let backgroundStyle;
+            <div>
+                <div className="planning-row-container-circle"><img src={scheduleMobileCircleBg} /></div>
+                <div className="planning-row-container">
+                    <div className="planning-row-container-bg"><img src={scheduleMobileBg} /></div>
 
-                        if (displayMatrix.length == 1) {
-                            backgroundStyle = { backgroundImage: `url(${schedule3bg})` };
-                        }
-                        else {
-                            if (div_ind == 0) {
-                                backgroundStyle = { backgroundImage: `url(${scheduleBeginBg})` };
-                            }
-                            else if (div_ind == displayMatrix.length - 1) {
-                                if (displayMatrix.length % 2 == 0) {
-                                    backgroundStyle = { backgroundImage: `url(${scheduleEndLBg})` };
-                                } else {
-                                    backgroundStyle = { backgroundImage: `url(${scheduleEndRBg})` };
-                                }
+                    {
+                        displayMatrix.map((row, div_ind) => {
+                            let backgroundStyle;
+
+                            if (displayMatrix.length == 1) {
+                                backgroundStyle = schedule3bg;
                             }
                             else {
-                                backgroundStyle = { backgroundImage: `url(${scheduleMiddleBg})` };
-                            }
-                        }
-
-                        return (
-                            <div key={div_ind} style={backgroundStyle} className="planning-date-program">
-                                {
-                                    row.map((elem, ind) => {
-                                        return <ScheduleDayEvent
-                                            key={ind}
-                                            title={elem.title}
-                                            time={elem.time}
-                                            location={elem.location}
-                                            icon={elem.icon}
-                                            color={elem.color}
-                                        />;
-                                    })
+                                if (div_ind == 0) {
+                                    backgroundStyle = scheduleBeginBg;
                                 }
-                            </div>
-                        );
-                    })
-                }
+                                else if (div_ind == displayMatrix.length - 1) {
+                                    if (displayMatrix.length % 2 == 0) {
+                                        backgroundStyle = scheduleEndLBg;
+                                    } else {
+                                        backgroundStyle = scheduleEndRBg;
+                                    }
+                                }
+                                else {
+                                    if (div_ind % 2 == 0) {
+                                        backgroundStyle = scheduleMiddleMirrorBg;
+                                    }
+                                    else {
+                                        backgroundStyle = scheduleMiddleBg;
+                                    }
+                                }
+                            }
+
+                            return (
+                                <div key={div_ind} className="planning-date-program">
+                                    <div className="planning-date-program-bg"><img src={backgroundStyle} /></div>
+                                    {
+                                        row.map((elem, ind) => {
+                                            return <ScheduleDayEvent
+                                                key={ind}
+                                                title={elem.title}
+                                                time={elem.time}
+                                                location={elem.location}
+                                                icon={elem.icon}
+                                                color={elem.color}
+                                            />;
+                                        })
+                                    }
+                                </div>
+                            );
+                        })
+                    }
+                </div>
+                <div className="planning-row-container-circle"><img src={scheduleMobileCircleBg} /></div>
+
             </div>
         </div>
     );

@@ -24,7 +24,28 @@
                 "icon": "plane",
                 "location": "Airport",
                 "time": "07:00 - 14:00",
-                "color": "special"
+                "color": "white"
+            },
+            {
+                "title": "Congress Check-In",
+                "icon": "checkin",
+                "location": "Hotel El Mouradi Gammarth",
+                "time": "14:00 - 16:00",
+                "color": "white"
+            },
+            {
+                "title": "Congress Check-In",
+                "icon": "checkin",
+                "location": "Hotel El Mouradi Gammarth",
+                "time": "14:00 - 16:00",
+                "color": "white"
+            },
+            {
+                "title": "Congress Check-In",
+                "icon": "checkin",
+                "location": "Hotel El Mouradi Gammarth",
+                "time": "14:00 - 16:00",
+                "color": "white"
             },
             {
                 "title": "Congress Check-In",
