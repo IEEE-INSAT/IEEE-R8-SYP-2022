@@ -1,8 +1,8 @@
 .schedule-content-event{
     background-color: white;
     width: 20%;
-    max-width: 210px;
-    height: 220px;
+    max-width: 180px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
