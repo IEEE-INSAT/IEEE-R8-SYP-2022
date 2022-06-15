@@ -1,22 +1,28 @@
-.speakers-container {
+.home-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: Futura;
-
 }
 
-.speakers-container h4 {
+.home-container h4 {
     color: #80B3E8;
     letter-spacing: 2px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.speakers-container h2 {
+.home-container h2 {
     margin-top: 10px;
     margin-bottom: 40px;
     color: #333333;
     font-weight: 500;
     font-size: 56px;
+}
+.sponsors-description {
+    color: #333333;
+    font-weight: 500;
+    margin-bottom: 60px;
+    width: 50vw;
+    text-align: center;
 }

@@ -8,8 +8,6 @@ import Fade from "react-reveal/Fade";
 function Speakers(){
     return(
         <div className="speakers-container">
-            <h4>DISTINGUISHED GUESTS</h4>
-            <h2>Our Speakers</h2>
             <SpeakerGrid/>
         </div>
     );

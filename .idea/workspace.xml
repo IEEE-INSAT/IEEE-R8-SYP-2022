@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="" />
+    <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/Sofiene Daoud.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/sponsors/sp-ph.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SpeakerCard/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SpeakerCard/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Speakers/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Speakers/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Speakers/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Speakers/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors/Sponsors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sponsors/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sponsors/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/NavItems.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/NavItems.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/speakers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/speakers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/sponsors.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/sponsors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Sponsoring/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Sponsoring/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,10 +109,28 @@
       <workItem from="1649361006954" duration="672000" />
       <workItem from="1649402557134" duration="1095000" />
     </task>
+    <task id="LOCAL-00001" summary="Revert &quot;Bump ejs from 3.1.6 to 3.1.8 (#17)&quot;&#10;&#10;This reverts commit 5cd9cbc1">
+      <created>1655319243336</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655319243336</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -107,6 +142,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;Bump ejs from 3.1.6 to 3.1.8 (#17)&quot;&#10;&#10;This reverts commit 5cd9cbc1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Bump ejs from 3.1.6 to 3.1.8 (#17)&quot;&#10;&#10;This reverts commit 5cd9cbc1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
