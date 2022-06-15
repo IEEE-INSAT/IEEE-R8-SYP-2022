@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="" />
+    <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/AboutEvent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutEvent/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/speakers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/speakers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Registration/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Registration/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Sponsoring/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Sponsoring/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +96,7 @@
       <workItem from="1649254747805" duration="15376000" />
       <workItem from="1649361006954" duration="672000" />
       <workItem from="1649402557134" duration="1095000" />
+      <workItem from="1655336701401" duration="294000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;Bump ejs from 3.1.6 to 3.1.8 (#17)&quot;&#10;&#10;This reverts commit 5cd9cbc1">
       <created>1655319243336</created>

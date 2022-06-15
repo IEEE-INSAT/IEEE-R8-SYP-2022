@@ -22,7 +22,7 @@ export default function Sponsoring() {
             <Fade>
                 <div className="twoElmContainer">
                     <TextBlock title="Do you want to be part of SYP?">
-                        The IEEE R8 Students and Young Professionals Congress is the largest student event in all of
+                        The IEEE Region 8 Students and Young Professionals Congress is the largest student event in all of
                         region 8 (Europe, Middle East, Africa). It occurs every two years and gathers both students and
                         young professionals members from all Sections in this Region. Sponsorship helps us bring
                         together this event, a Congress that not only consists of{' '}

@@ -12,7 +12,7 @@ import Fade from "react-reveal/Fade";
 export default function Registration() {
     return (
         <div className="registration">
-            <Header title={'REGISTRATION'} description={<p>Registrations for the R8 SYP 2022 will soon be open.</p>}/>
+            <Header title={'REGISTRATION'} description={<p>Registrations for the Region 8 SYP 2022 will soon be open.</p>}/>
             <RegistrationCardsSection/>
             <Fade>
                 <RegistrationDescription/>
