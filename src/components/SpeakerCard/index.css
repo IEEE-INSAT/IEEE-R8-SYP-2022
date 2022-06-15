@@ -11,7 +11,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  transition:0.5s;
+  transition:0.2s;
   transition-timing-function: ease-out;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
@@ -19,12 +19,16 @@
   width: 103%;
   height: 105%;
 }
+.speakerCardBlur{
+  background-color: #cb8a4e00;
+}
 .card:hover .speakerCardBlur{
-  background-color: rgb(255,255,255,0.5);
+
+  background-color: #cb8a4ed9;
   width:100%;
   height:100%;
   backdrop-filter: blur(10px) ;
-  transition: 0.5s;
+  transition: 0.2s;
   transition-timing-function: ease-out;
 }
 
@@ -64,10 +68,10 @@
   text-align:center;
   padding: 20px 20px;
   position: relative;
+  color: white;
 }
 .card:hover .speakerDescription{
   opacity: 100%;
-  color: black;
 }
 .SpeakerIcon{
   color:white;

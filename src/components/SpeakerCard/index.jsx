@@ -1,12 +1,15 @@
 
 import './index.css';
 import React from 'react';
+import Zoom from "react-reveal/Zoom"
+
 function SpeakerCard(props) {
   /* eslint-disable react/prop-types */
   const {name,linkedin,description,highlight}=props
   return (
+    <Zoom>
       <div  className="card" style={{
-        backgroundImage : `linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 40%) , url("/images/speakers/${name}.jpg")` 
+        backgroundImage : `linear-gradient(0deg, rgba(203, 138, 78, 0.69) 0%, rgba(203, 138, 78, 0) 40%) , url("/images/speakers/${name}.jpg")` 
       }}>
         <div className='speakerCardBlur'>
           <div className='speakerDescription'>
@@ -22,7 +25,7 @@ function SpeakerCard(props) {
           </div>
         </div>
       </div>
-
+      </Zoom>
   );
 }
 

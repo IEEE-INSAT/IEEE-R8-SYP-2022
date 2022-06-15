@@ -1,6 +1,7 @@
 import React from "react";
 import SpeakerCard from "../SpeakerCard";
 import Speakers from '../../data/speakers.json'
+
 import './index.css'
 function SpeakerGrid(){
     const gridElements=Speakers.map( (speaker)=>
@@ -15,6 +16,7 @@ function SpeakerGrid(){
     return(
         <div className="container">
         <div className="auto-grid">
+            
             {gridElements}
             
         </div></div>

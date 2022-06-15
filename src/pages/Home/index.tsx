@@ -36,9 +36,9 @@ export default function Home() {
             <Fade>
                 <Location />
             </Fade>
-            <Zoom>
+            <Fade>
                 <Speakers/>
-            </Zoom>
+            </Fade>
             <Fade>
                 <Countdown />
             </Fade>
