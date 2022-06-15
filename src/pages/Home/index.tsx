@@ -32,7 +32,6 @@ export default function Home() {
     return (
         <div className="home">
             <Header
-                buttonText={'Apply for funding'}
                 title={'IEEE R8 SYP CONGRESS'}
                 mode="HOMEPAGE"
                 description={<HeaderDescription />}
