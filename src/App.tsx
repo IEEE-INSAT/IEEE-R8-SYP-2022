@@ -6,6 +6,8 @@ import FAQ from './pages/FAQ';
 import AboutTn from './pages/AboutTn';
 import Sponsoring from './pages/Sponsoring';
 import AboutUs from './pages/About';
+import Registration from './pages/Registration';
+import SpeakersPage from "./pages/Speakers";
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
@@ -24,6 +26,7 @@ function App() {
                         <Route path="/tunisia" element={<AboutTn/>}/>
                         <Route path="/sponsors" element={<Sponsoring/>}/>
                         <Route path="/about" element={<AboutUs/>}/>
+                        <Route path="/speakers" element={<SpeakersPage/>}/>
                         <Route path='*' element={<Navigate replace to="/"/>}/>
                     </Routes>
                 </BrowserRouter>

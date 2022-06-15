@@ -2,6 +2,7 @@
     { "name": "Home", "path": "/" },
     { "name": "About Tunisia", "path": "/tunisia" },
     { "name": "About us", "path": "/about" },
+    { "name": "Speakers", "path": "/speakers" },
     { "name": "Sponsors", "path": "/sponsors" },
     { "name": "FAQ", "path": "/faq" }
 ]
