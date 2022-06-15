@@ -17,6 +17,7 @@ import Fade from "react-reveal/Fade";
 // @ts-ignore
 import Zoom from "react-reveal/Zoom"
 import PoweredBy from "../../components/PoweredBy";
+import Speakers from "../../components/Speakers";
 
 
 const HeaderDescription = () => (<>
@@ -35,6 +36,9 @@ export default function Home() {
             <Fade>
                 <Location />
             </Fade>
+            <Zoom>
+                <Speakers/>
+            </Zoom>
             <Fade>
                 <Countdown />
             </Fade>
