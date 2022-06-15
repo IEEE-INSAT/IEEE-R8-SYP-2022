@@ -32,7 +32,7 @@ export default function Header({ mode = "PAGE", title, description, buttonText, 
             <div className={mode=="PAGE" ? "descr descrpage" : "descr"} style={mode=="PAGE" ? { alignItems: "flex-start", textAlign: "center" } : {}}>
                 <h1>{title}</h1>
                 {description}
-                {buttonText && (<a target='_blank' rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfz6Pmg4dJeODT3fyeKYLSLaA3rmELCYvX1PsSWrwajQ2vBvQ/viewform" ><ThemedButton text={buttonText} /></a>)}
+                {/*{buttonText && (<a target='_blank' rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfz6Pmg4dJeODT3fyeKYLSLaA3rmELCYvX1PsSWrwajQ2vBvQ/viewform" ><ThemedButton text={buttonText} /></a>)}*/}
             </div>
            {mode=="HOMEPAGE" && (<div><img className="beb" src={beb} alt="welcome"/></div>)}
         </div>
