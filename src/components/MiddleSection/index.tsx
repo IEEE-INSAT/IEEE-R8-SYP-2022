@@ -68,7 +68,7 @@ export default function MiddleSection() {
                             </div>
                         </div>
                     );
-                    return <TwoElementsBlock direction='reverse' key={i}>
+                    return <TwoElementsBlock direction={i % 2 == 0 ? "" : "reverse"} key={i}>
                         {
                             i % 2 == 0 ?
                                 <>{description}{image}</> :
