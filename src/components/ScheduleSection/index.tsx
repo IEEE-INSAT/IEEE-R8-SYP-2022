@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import { IScheduleDescription } from "../../pages/Schedule";
+import ScheduleDayEvent from "../ScheduleDayEvent";
+import ScheduleDaySelector from "../ScheduleDaySelector";
 import './style.css'
 
 import scheduleData from './../../data/ScheduleData.json';
-import ScheduleDayEvent from "../ScheduleDayEvent";
-import ScheduleDaySelector from "../ScheduleDaySelector";
 
 import schedule3bg from '../../assets/images/schedule_bg/schedule-bg.svg';
 import scheduleBeginBg from '../../assets/images/schedule_bg/bg-begin.png';
@@ -24,10 +25,12 @@ interface IProgram {
     location: string;
     time: string;
     color: string;
+    scrollRefInd: number;
 }
 
-export default function ScheduleSection() {
+export default function ScheduleSection({ scrollRefs }: IScheduleDescription) {
     const [selectedDay, setSelectedDay] = useState("2" as IProgramDays);
+    const [selectedEvent, setSelectedEvent] = useState([0, 0]);
 
     const changeSelectedDay = (day: IProgramDays) => {
         if (scheduleData[day]) {
@@ -60,6 +63,7 @@ export default function ScheduleSection() {
                             selected={day == selectedDay}
                             onclick={() => {
                                 setSelectedDay(day)
+                                setSelectedEvent([0, 0])
                             }}
                         />;
                     })
@@ -109,7 +113,13 @@ export default function ScheduleSection() {
                                                 time={elem.time}
                                                 location={elem.location}
                                                 icon={elem.icon}
-                                                color={elem.color}
+                                                color={selectedEvent[0] == div_ind && selectedEvent[1] == ind ? "special" : "white"}
+                                                onClick={() => {
+                                                    scrollRefs.current[elem.scrollRefInd].current?.scrollIntoView({
+                                                        behavior: "smooth"
+                                                    })
+                                                    setSelectedEvent([div_ind, ind])
+                                                }}
                                             />;
                                         })
                                     }

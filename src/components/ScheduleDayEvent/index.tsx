@@ -11,6 +11,7 @@ interface IScheduleDayEvent {
     location: string;
     time: string;
     color: string;
+    onClick: () => void;
 }
 
 // Lezem ikounou imported bch tnajam ta3mel fill l <svg>
@@ -24,9 +25,9 @@ const SCHEDULE_ICONS: {
     "openingCer": <Opening />
 }
 
-export default function ScheduleDayEvent({ title, icon, location, time, color }: IScheduleDayEvent) {
+export default function ScheduleDayEvent({ title, icon, location, time, color, onClick }: IScheduleDayEvent) {
     return (
-        <div className={"schedule-content-event event-background-color-" + color}>
+        <div onClick={onClick} className={"clickable schedule-content-event event-background-color-" + color}>
             <div className="schedule-content-event-title">
                 {title}
             </div>

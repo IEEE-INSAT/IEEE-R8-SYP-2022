@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { createRef, useRef } from 'react';
 import TwoElementsBlock from '../TwoElementsBlock';
+import { IScheduleDescription } from '../../pages/Schedule';
 import './style.css'
 
 import planeIcon from './../../assets/images/plane.svg';
@@ -12,7 +13,7 @@ const icons: { plane: string } = {
     "plane": planeIcon,
 }
 
-export default function MiddleSection() {
+export default function MiddleSection({ scrollRefs }: IScheduleDescription) {
     return (
         <>
             {
@@ -68,13 +69,15 @@ export default function MiddleSection() {
                             </div>
                         </div>
                     );
-                    return <TwoElementsBlock direction={i % 2 == 0 ? "" : "reverse"} key={i}>
-                        {
-                            i % 2 == 0 ?
-                                <>{description}{image}</> :
-                                <>{image}{description}</>
-                        }
-                    </TwoElementsBlock>
+                    return <div key={i} ref={scrollRefs.current[i]}>
+                        <TwoElementsBlock direction={i % 2 == 0 ? "" : "reverse"}>
+                            {
+                                i % 2 == 0 ?
+                                    <>{description}{image}</> :
+                                    <>{image}{description}</>
+                            }
+                        </TwoElementsBlock>
+                    </div>
                 })
             }
         </>
