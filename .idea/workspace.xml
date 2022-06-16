@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FAQ/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FAQ/faq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FAQ/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FAQ/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/checkin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/schedule/checkin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/opening.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/schedule/meals.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/plane.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/schedule/plane.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MiddleSection/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MiddleSection/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScheduleDayEvent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScheduleDayEvent/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ScheduleData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ScheduleData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ScheduleDescription.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ScheduleDescription.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +70,7 @@
       <recent name="$PROJECT_DIR$/public/sponsor-logos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images/schedule" />
       <recent name="$PROJECT_DIR$/public/sponsor-logos" />
     </key>
   </component>

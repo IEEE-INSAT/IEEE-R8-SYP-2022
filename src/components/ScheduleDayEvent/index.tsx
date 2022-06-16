@@ -1,9 +1,9 @@
 import React, { ReactElement } from "react";
 import './style.css';
 
-import { ReactComponent as PlaneLogo } from "./../../assets/images/plane.svg";
-import { ReactComponent as CheckinLogo } from "./../../assets/images/checkin.svg";
-import { ReactComponent as Opening } from "./../../assets/images/opening.svg";
+import { ReactComponent as PlaneIcon } from "../../assets/images/schedule/plane.svg";
+import { ReactComponent as CheckinIcon } from "../../assets/images/schedule/checkin.svg";
+import { ReactComponent as MealsIcon } from "../../assets/images/schedule/meals.svg";
 
 interface IScheduleDayEvent {
     title: string;
@@ -18,11 +18,11 @@ interface IScheduleDayEvent {
 const SCHEDULE_ICONS: {
     "plane": ReactElement,
     "checkin": ReactElement,
-    "openingCer": ReactElement
+    "meals": ReactElement
 } = {
-    "plane": <PlaneLogo />,
-    "checkin": <CheckinLogo />,
-    "openingCer": <Opening />
+    "plane": <PlaneIcon />,
+    "checkin": <CheckinIcon />,
+    "meals": <MealsIcon />
 }
 
 export default function ScheduleDayEvent({ title, icon, location, time, color, onClick }: IScheduleDayEvent) {
@@ -37,7 +37,7 @@ export default function ScheduleDayEvent({ title, icon, location, time, color, o
                         switch (icon) {
                             case "plane": return SCHEDULE_ICONS.plane;
                             case "checkin": return SCHEDULE_ICONS.checkin;
-                            case "openingCer": return SCHEDULE_ICONS.openingCer;
+                            case "meals": return SCHEDULE_ICONS.meals;
                         }
                     }
                 )()}
