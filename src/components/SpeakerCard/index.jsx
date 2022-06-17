@@ -13,7 +13,7 @@ function SpeakerCard(props) {
       }}>
         <div className='speakerCardBlur'>
           <div className='speakerDescription'>
-            <a href={linkedin} style={{lineHeight:'3em'}}><i className="fa fa-linkedin-square SpeakerIcon" ></i></a>
+            <a href={linkedin} style={{lineHeight:'3em'}} target="_blank" rel="noreferrer"><i className="fa fa-linkedin-square SpeakerIcon" ></i></a>
             <p>{description && description.substring(0,370)}</p>
           </div>
           <div className="SpeakerCardRow" style={{margin : "10px"}}>
