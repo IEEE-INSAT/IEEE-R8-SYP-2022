@@ -25,8 +25,6 @@
 
   /*hover animation*/
   filter: blur(0px);
-
-
 }
 .cardHovered{
   width: 103%;
@@ -94,43 +92,17 @@
 }
 
 .SpeakerCardX{
-  font-size: 2em;
+
+  font-size: 1.5em;
   /* position: relative;
   display: flex;
   justify-content: center; */
 }
-/* @media all and (min-width: 1024px)  {
-  .SpeakerCardX{
-    top :10px;
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
-  .SpeakerCardX{
-    top :10px;
-  }
-}
-
-@media all and (min-width: 480px) and (max-width: 768px) { 
-  .SpeakerCardX{
-    top: 5px;
-  }
-}
-@media all and not((min-width: 480px) and (max-width: 768px)) { 
-  .SpeakerCardX{
-    top: 10px;
-  }
-}
-
-@media all and (max-width: 480px) {
-  .SpeakerCardX{
-    top :10px;
-  }
-} */
 
 
 
-/*test*/
+
+/*Tutorial*/
 @keyframes showAndHide {
   from {
     opacity: 0%;
