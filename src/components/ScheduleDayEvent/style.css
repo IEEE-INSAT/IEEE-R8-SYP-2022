@@ -30,6 +30,9 @@
 .event-background-color-special .schedule-content-event-icon svg path{
     fill: #fff;
 }
+.event-background-color-white .schedule-content-event-icon svg path{
+    fill: #B95346;
+}
 
 .schedule-content-event-info{
     font-family: 'Futura Hv BT';

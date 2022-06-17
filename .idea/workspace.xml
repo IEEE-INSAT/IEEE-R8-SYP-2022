@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/checkin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/schedule/checkin.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/images/opening.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/schedule/meals.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/images/plane.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/schedule/plane.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/checkin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/schedule/checkin.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MiddleSection/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MiddleSection/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ScheduleDayEvent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScheduleDayEvent/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScheduleDayEvent/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScheduleDayEvent/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/ScheduleData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ScheduleData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/ScheduleDescription.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ScheduleDescription.json" afterDir="false" />
     </list>
@@ -101,6 +102,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

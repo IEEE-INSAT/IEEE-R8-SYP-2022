@@ -30,7 +30,7 @@
       },
       {
         "title": "Opening Ceremony",
-        "icon": "ceremony",
+        "icon": "opening",
         "location": "Cité de la Culture",
         "time": "16:00 - 18:30",
         "color": "special",
@@ -45,7 +45,7 @@
       },
       {
         "title": "Dinner",
-        "icon": "meals",
+        "icon": "dinner",
         "location": "Hotel",
         "time": "19:30 - 21:00",
         "color": "white"
@@ -59,7 +59,7 @@
       },
       {
         "title": "Party",
-        "icon": "party",
+        "icon": "teambuilding",
         "location": "Hotel",
         "time": "22:00 - 00:00",
         "color": "white"
@@ -74,7 +74,7 @@
     "program": [
       {
         "title": "Breakfast",
-        "icon": "meals",
+        "icon": "breakfast",
         "location": "Hotel",
         "time": "07:00 - 08:00",
         "color": "special",
@@ -129,7 +129,7 @@
       },
       {
         "title": "Lunch",
-        "icon": "meals",
+        "icon": "lunch",
         "location": "Hotel",
         "time": "13:30 - 14:30",
         "color": "white",
@@ -161,7 +161,7 @@
       },
       {
         "title": "Tunisian Dinner",
-        "icon": "meals",
+        "icon": "tunisian",
         "location": "TBD",
         "time": "20:30 - 23:00",
         "color": "white",
@@ -185,7 +185,7 @@
     "program": [
       {
         "title": "Breakfast",
-        "icon": "meals",
+        "icon": "breakfast",
         "location": "Hotel",
         "time": "07:00 - 08:00",
         "color": "special",
@@ -264,7 +264,7 @@
       },
       {
         "title": "Career Fair",
-        "icon": "career",
+        "icon": "teambuilding",
         "location": "Hotel",
         "time": "16:00 - 17:30",
         "color": "white",
@@ -311,7 +311,7 @@
     "program": [
       {
         "title": "Breakfast",
-        "icon": "meals",
+        "icon": "breakfast",
         "location": "Hotel",
         "time": "07:00 - 08:00",
         "color": "special"
@@ -356,14 +356,14 @@
       },
       {
         "title": "Lunch",
-        "icon": "meals",
+        "icon": "lunch",
         "location": "INSAT",
         "time": "13:30 - 15:00",
         "color": "white"
       },
       {
         "title": "Break / Networking",
-        "icon": "meals",
+        "icon": "break",
         "location": "INSAT",
         "time": "15:00 - 15:30",
         "color": "white",
@@ -394,7 +394,7 @@
       },
       {
         "title": "Gala Dinner",
-        "icon": "meals",
+        "icon": "gala",
         "location": "Hotel",
         "time": "19:30 - 00:00",
         "color": "white",
@@ -410,7 +410,7 @@
     "program": [
       {
         "title": "Breakfast",
-        "icon": "meals",
+        "icon": "breakfast",
         "location": "Hotel",
         "time": "07:00 - 08:00",
         "color": "special"
@@ -424,21 +424,23 @@
       },
       {
         "title": "Closing Ceremony",
-        "icon": "ceremony",
+        "icon": "opening",
         "location": "Hotel",
         "time": "08:30 - 10:00",
-        "color": "white"
+        "color": "white",
+        "scrollRefInd": 13
       },
       {
         "title": "Congress Checkout",
-        "icon": "checkout",
+        "icon": "checkin",
         "location": "Hotel",
         "time": "10:00 - 13:30",
-        "color": "white"
+        "color": "white",
+        "scrollRefInd": 14
       },
       {
         "title": "Departure",
-        "icon": "plane",
+        "icon": "departure",
         "location": "",
         "time": "13:30",
         "color": "white"
