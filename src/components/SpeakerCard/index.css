@@ -1,219 +1,204 @@
 @font-face {
-  font-family: futura;
-  src: url("../../assets/fonts/futura\ medium\ bt.ttf");
+    font-family: futura;
+    src: url('../../assets/fonts/futura\ medium\ bt.ttf');
 }
 /* CardBackground */
-.card2{
-  border-radius: 20px;
-  height: 105%;
+.card2 {
+    border-radius: 20px;
+    height: 105%;
 }
 
-.card{
-  width:100%;
-  height: 100%;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  transition:0.2s;
-  transition-timing-function: ease-out;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  -webkit-user-select: none; /* Safari */        
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
-  user-select: none; /* Standard */
+.card {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 
-  /*hover animation*/
-  filter: blur(0px);
+    /*hover animation*/
+    filter: blur(0px);
 }
-.cardHovered{
-  width: 103%;
-  height: 105%;
+.cardHovered {
+    width: 103%;
+    height: 105%;
 }
-.speakerCardBlur{
-  background-color: #cb8a4e00;
+.speakerCardBlur {
+    background-color: #cb8a4e00;
 }
-.cardHovered .speakerCardBlur{
-
-  background-color: #cb8a4ed9;
-  width:100%;
-  height:100%;
-  backdrop-filter: blur(10px) ;
-  transition: 0.2s;
-  transition-timing-function: ease-out;
+.cardHovered .speakerCardBlur {
+    background-color: #cb8a4ed9;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    transition: 0.2s;
+    transition-timing-function: ease-out;
 }
 
 /* name */
-.SpeakerCardRow{
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-content:flex-end;
-  align-items: center;
-  /* opacity: 0; */
-  transition:0.3s;
-
+.SpeakerCardRow {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: center;
+    /* opacity: 0; */
+    transition: 0.3s;
 }
-.cardHovered .SpeakerCardRow{
-  opacity: 0;
+.cardHovered .SpeakerCardRow {
+    opacity: 0;
 }
-.SpeakerCardText{
-  color: white;
-  font-family: futura;
-  /* line-height: 2px; */
+.SpeakerCardText {
+    color: white;
+    font-family: futura;
+    /* line-height: 2px; */
 }
-.SpeakerCardText b{
-  font-size: 1.25em;
+.SpeakerCardText b {
+    font-size: 1.25em;
 }
-
 
 /* speakerDesc */
-.speakerDescription{
-  opacity: 0;
-  transition: 0.5s;
-  margin : auto 0;
-  transition-timing-function: ease-out;
-  text-align:center;
-  padding: 20px 20px;
-  position: relative;
-  color: white;
+.speakerDescription {
+    opacity: 0;
+    transition: 0.5s;
+    margin: auto 0;
+    transition-timing-function: ease-out;
+    text-align: center;
+    padding: 20px 20px;
+    position: relative;
+    color: white;
 }
-.cardHovered .speakerDescription{
-  opacity: 100%;
+.cardHovered .speakerDescription {
+    opacity: 100%;
 }
-.SpeakerIcon{
-  color:white;
-  font-size: 3em;
+.SpeakerIcon {
+    color: white;
+    font-size: 3em;
 }
-.SpeakerIcon:hover{
-  color:rgb(226, 226, 226);
+.SpeakerIcon:hover {
+    color: rgb(226, 226, 226);
 }
 
-.SpeakerCardX{
-
-  font-size: 1.5em;
-  /* position: relative;
+.SpeakerCardX {
+    font-size: 1.5em;
+    /* position: relative;
   display: flex;
   justify-content: center; */
 }
 
-
-
-
 /*Tutorial*/
 @keyframes showAndHide {
-  from {
-    opacity: 0%;
-    backdrop-filter: blur(0px);
-
-  }
-  25%{
-    opacity: 100%;
-    backdrop-filter: blur(5px);
-  }
-  75%{
-    opacity: 100%;
-    backdrop-filter: blur(5px);
-
-  }
-  to {
-    backdrop-filter: blur(0px);
-    opacity: 0%;
-  }
+    from {
+        opacity: 0%;
+        backdrop-filter: blur(0px);
+    }
+    25% {
+        opacity: 100%;
+        backdrop-filter: blur(5px);
+    }
+    75% {
+        opacity: 100%;
+        backdrop-filter: blur(5px);
+    }
+    to {
+        backdrop-filter: blur(0px);
+        opacity: 0%;
+    }
 }
-.Speakertutorial{
-  opacity: 0 !important;
-  width: 100%;
-  height: 100%;
-  z-index: 100;
-  position: absolute;
-  background-color: #cb8a4ed9;
-  color: white;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.Speakertutorial {
+    opacity: 0 !important;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: absolute;
+    background-color: #cb8a4ed9;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.inAnimation{
-  animation: showAndHide;
+.inAnimation {
+    animation: showAndHide;
 }
-.Speakertutorial p{
-  font-size: 1.25em;
+.Speakertutorial p {
+    font-size: 1.25em;
 }
-
-
 
 /*credits for the tap animation : https://codepen.io/gracelle/pen/MeNjQR*/
 /* BASE RULES */
 .Speakertutorial svg {
-	display: inline-block;
-	width: 100px;
+    display: inline-block;
+    width: 100px;
 }
 /* SVG RULES */
 .hand-tap {
-	fill: rgba(255, 255, 255, 0);
-	stroke: rgb(255, 255, 255);
-	stroke-width: 6px;
-	stroke-linecap: round;
-	stroke-linejoin: round;
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgb(255, 255, 255);
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 .tap-1 {
-	fill: transparent;
-	stroke: rgb(255, 255, 255);
-	stroke-width: 6px;
-	stroke-linecap: round;
-	stroke-linejoin: round;
+    fill: transparent;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 .tap-1 {
-	opacity: .5;
+    opacity: 0.5;
 }
 /* ANIMATION KEYFRAMES */
 @keyframes tap {
-	0% {
-		transform: rotateX(0deg);
-	}
-	10% {
-		transform: rotateX(12.5deg);
-	}
-	25% {
-		transform: rotateX(25deg);
-	}
+    0% {
+        transform: rotateX(0deg);
+    }
+    10% {
+        transform: rotateX(12.5deg);
+    }
+    25% {
+        transform: rotateX(25deg);
+    }
 }
 @keyframes tap-circle {
-	0% {
-		transform: scale(0);
-		opacity: 0;
-	}
-	75% {
-		transform: scale(1.05);
-		opacity: .6;
-	}
-	80% {
-		transform: scale(1);
-		opacity: .5;
-	}
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    75% {
+        transform: scale(1.05);
+        opacity: 0.6;
+    }
+    80% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
 }
 /* SVG ANIMATION */
 .wrapper * {
-	transform-origin: 50% 50%;
-	perspective: 100px;
+    transform-origin: 50% 50%;
+    perspective: 100px;
 }
 .hand {
-	transform-origin: 25% 50%;
+    transform-origin: 25% 50%;
 }
 .hand-tap {
-	animation: tap 1.25s ease-out backwards;
-	animation-iteration-count:infinite;
+    animation: tap 1.25s ease-out backwards;
+    animation-iteration-count: infinite;
 }
 .tap-1,
 .tap-2 {
-	animation: tap-circle 1.25s ease-out backwards;
-	animation-iteration-count:infinite;
+    animation: tap-circle 1.25s ease-out backwards;
+    animation-iteration-count: infinite;
 }
-
-
-
- 
