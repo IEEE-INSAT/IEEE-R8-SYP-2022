@@ -2,6 +2,7 @@
 import './index.css';
 import React, {  useState } from 'react';
 import Zoom from "react-reveal/Zoom"
+
 function SpeakerCard(props) {
 
   /* eslint-disable react/prop-types */
@@ -16,9 +17,10 @@ function SpeakerCard(props) {
   }
   let handleHover=()=>{
     if (!touchSupport.matches)
-      setHover(hovered?false:true)
+      setHover(true)
   }
-
+  //optimization : the x button is only added to the document if touch support matches
+  const Xbutton=touchSupport.matches? <div  className='SpeakerCardX'><i  className="fa-solid fa-circle-xmark"></i></div>:<span></span>;
 
   return (
     <Zoom>
@@ -31,16 +33,18 @@ function SpeakerCard(props) {
       onClick={handleClick}
       // onClick={()=>{setHover(hovered?false:true)}}
       >
+        
         <div className='speakerCardBlur'>
           <div className='speakerDescription'>
             <a href={linkedin} style={{lineHeight:'3em'}}> <i className="fa-brands fa-linkedin SpeakerIcon"></i></a>
             <p>{description && description.substring(0,370)}</p>
-            <div onClick={()=>setHover(false)} className='SpeakerCardX'><i  className="fa-solid fa-circle-xmark"></i></div>
+            {Xbutton}
           </div>
           <div className="SpeakerCardRow" style={{margin : "10px"}}>
             <div className="SpeakerCardText">
                 <b>{name}</b>
                 <br></br>
+                
                 {highlight}
             </div>
           </div>
