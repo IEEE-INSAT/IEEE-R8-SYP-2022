@@ -76,9 +76,12 @@
     padding: 20px 20px;
     position: relative;
     color: white;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
 }
 .cardHovered .speakerDescription {
     opacity: 100%;
+    font-size: 103%;
 }
 .SpeakerIcon {
     color: white;
