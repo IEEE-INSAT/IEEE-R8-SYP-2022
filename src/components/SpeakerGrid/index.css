@@ -39,6 +39,6 @@
 @media all and (max-width: 480px) {
     .auto-grid {
         grid-template-columns: 320px  ;
-        grid-auto-rows: 250px;
+        grid-auto-rows: 260px;
     }
   }
