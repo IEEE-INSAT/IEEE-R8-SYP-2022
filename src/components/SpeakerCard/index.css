@@ -23,6 +23,9 @@
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
 
+  /*hover animation*/
+  filter: blur(0px);
+
 
 }
 .cardHovered{
@@ -78,7 +81,6 @@
   padding: 20px 20px;
   position: relative;
   color: white;
-
 }
 .cardHovered .speakerDescription{
   opacity: 100%;
@@ -125,3 +127,282 @@
     top :10px;
   }
 } */
+
+
+
+/*test*/
+@keyframes showAndHide {
+  from {
+    opacity: 0%;
+    backdrop-filter: blur(0px);
+
+  }
+  25%{
+    opacity: 100%;
+    backdrop-filter: blur(5px);
+  }
+  75%{
+    opacity: 100%;
+    backdrop-filter: blur(5px);
+
+  }
+  to {
+    backdrop-filter: blur(0px);
+    opacity: 0%;
+  }
+}
+.Speakertutorial{
+  opacity: 0 !important;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: absolute;
+  background-color: #cb8a4ed9;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inAnimation{
+  animation: showAndHide;
+}
+.Speakertutorial p{
+  font-size: 1.25em;
+}
+
+
+
+
+/* BASE RULES */
+
+
+
+.Speakertutorial svg {
+	display: inline-block;
+	width: 100px;
+}
+
+/* SVG RULES */
+
+.hand, 
+.hand-double, 
+.hand-flick, 
+.hand-hold, 
+.hand-rock, 
+.hand-tap, 
+.hand-x, 
+.hand-y {
+	fill: rgba(255, 255, 255, 0);
+	stroke: rgb(255, 255, 255);
+	stroke-width: 6px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.arrow-down, 
+.arrow-head, 
+.arrow-left, 
+.arrow-right, 
+.arrow-up, 
+.arrow-up-1, 
+.arrow-up-2, 
+.arrow-up-3,   
+.hold-1,
+.hold-2, 
+.line-horizontal, 
+.line-rotate, 
+.line-vertical, 
+.notes, 
+.tap-1, 
+.tap-2 {
+	fill: transparent;
+	stroke: rgb(255, 255, 255);
+	stroke-width: 6px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.arrow-up-2, 
+.hold-1, 
+.tap-1 {
+	opacity: .5;
+}
+
+.arrow-up-1, 
+.hold-2, 
+.tap-2 {
+	opacity: .25;
+}
+
+.arrow-up-3, 
+.swipe-horizontal, 
+.swipe-rotate, 
+.swipe-vertical {
+	opacity: .75;
+}
+
+.hold-1, 
+.hold-2, 
+.notes {
+	opacity: 0;
+}
+
+/* ANIMATION KEYFRAMES */
+
+@keyframes tap-double {
+	0% {
+		transform: rotateX(0deg);
+	}
+	10% {
+		transform: rotateX(12.5deg);
+	}
+	25% {
+		transform: rotateX(25deg);
+	}
+	35% {
+		transform: rotateX(10deg);
+	}
+	50% {
+		transform: rotateX(25deg);
+	}
+}
+
+@keyframes tap {
+	0% {
+		transform: rotateX(0deg);
+	}
+	10% {
+		transform: rotateX(12.5deg);
+	}
+	25% {
+		transform: rotateX(25deg);
+	}
+}
+
+@keyframes tap-circle {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	75% {
+		transform: scale(1.05);
+		opacity: .6;
+	}
+	80% {
+		transform: scale(1);
+		opacity: .5;
+	}
+}
+
+@keyframes hold {
+	0% {
+		transform: rotateX(0deg);
+	}
+	10% {
+		transform: rotateX(12.5deg);
+	}
+	30% {
+		transform: rotateX(25deg);
+	}
+	80% {
+		transform: rotateX(25deg);
+	}
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: .75
+	}
+	80% {
+		opacity: .75;
+	}
+}
+
+@keyframes swipe-x {
+	0% {
+		transform: translateX(0px);
+	}
+	25% {
+		transform: translateX(50px) rotateZ(10deg);
+	}
+	50% {
+		transform: translateX(0px);
+	}
+	75% {
+		transform: translateX(-50px) rotateZ(-10deg);
+	}
+}
+
+@keyframes swipe-y {
+	0% {
+		transform: translateY(0px);
+	}
+	25% {
+		transform: translateY(50px) rotateZ(-10deg);
+	}
+	50% {
+		transform: translateY(0px);
+	}
+	75% {
+		transform: translateY(-50px) rotateZ(10deg);
+	}
+}
+
+@keyframes flick-fade {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 1;
+	}
+}
+
+@keyframes flick {
+	0% {
+		transform: rotateZ(0deg);
+	}
+	10% {
+		transform: translateY(-12px) rotateZ(50deg);
+	}
+	25% {
+		transform: rotateZ(5deg);
+	}
+}
+
+
+
+
+
+
+/* SVG ANIMATION */
+
+.wrapper * {
+	transform-origin: 50% 50%;
+	perspective: 100px;
+}
+
+.hand {
+	transform-origin: 25% 50%;
+}
+
+.hand-tap {
+	animation: tap 1.25s ease-out backwards;
+	animation-iteration-count:infinite;
+}
+
+
+
+.tap-1,
+.tap-2 {
+	animation: tap-circle 1.25s ease-out backwards;
+	animation-iteration-count:infinite;
+}
+
+
+
+ 

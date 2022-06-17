@@ -4,12 +4,13 @@ import Speakers from '../../data/speakers.json'
 
 import './index.css'
 function SpeakerGrid(){
-    const gridElements=Speakers.map( (speaker)=>
+    const gridElements=Speakers.map( (speaker,index)=>
         <SpeakerCard 
             name={speaker.name}
             highlight={speaker.highlight}
             linkedin={speaker.linkedin}
             description={speaker.description}
+            tutorial={index==0}
             key={speaker.name}
         />
     )
