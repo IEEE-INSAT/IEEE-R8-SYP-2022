@@ -12,6 +12,7 @@ function SpeakerGrid(){
             description={speaker.description}
             tutorial={index==0}
             key={speaker.name}
+            image_dir='/images/speakers/'
         />
     )
     return(
