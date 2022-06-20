@@ -32,6 +32,11 @@
 }
 .event-background-color-white .schedule-content-event-icon svg path{
     fill: #B95346;
+}.event-background-color-special .schedule-content-event-icon svg circle{
+    fill: #fff;
+}
+.event-background-color-white .schedule-content-event-icon svg circle{
+    fill: #B95346;
 }
 
 .schedule-content-event-info{

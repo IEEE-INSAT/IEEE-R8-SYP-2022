@@ -12,14 +12,16 @@ import { ReactComponent as KeynotesIcon } from "../../assets/images/schedule/key
 import { ReactComponent as LunchIcon } from "../../assets/images/schedule/lunch.svg";
 import { ReactComponent as OpeningIcon } from "../../assets/images/schedule/opening.svg";
 import { ReactComponent as PreparationsIcon } from "../../assets/images/schedule/preparations.svg";
-import { ReactComponent as TeambuildingIcon } from "../../assets/images/schedule/teambuilding.svg";
+import { ReactComponent as PartyIcon } from "../../assets/images/schedule/party.svg";
 import { ReactComponent as TourIcon } from "../../assets/images/schedule/tour.svg";
 import { ReactComponent as TransportIcon } from "../../assets/images/schedule/transport.svg";
 import { ReactComponent as TunisianIco } from "../../assets/images/schedule/tunisian.svg";
 import { ReactComponent as WorkshopIcon } from "../../assets/images/schedule/workshop.svg";
 import { ReactComponent as DepartureIcon } from "../../assets/images/schedule/departure.svg";
-// import { ReactComponent as Icon } from "../../assets/images/schedule/";
-// import { ReactComponent as Icon } from "../../assets/images/schedule/";
+ import { ReactComponent as CareerIcon } from "../../assets/images/schedule/career.svg";
+import { ReactComponent as PlenaryIcon } from "../../assets/images/schedule/plenary.svg";
+import { ReactComponent as PosterIcon } from "../../assets/images/schedule/poster.svg";
+import { ReactComponent as MulticultureIcon } from "../../assets/images/schedule/multiculture.svg";
 
 interface IScheduleDayEvent {
     title: string;
@@ -43,12 +45,16 @@ const SCHEDULE_ICONS: {
     "lunch" : ReactElement,
     "opening" : ReactElement,
     "preparations" : ReactElement,
-    "teambuilding" : ReactElement,
+    "party" : ReactElement,
     "tour" : ReactElement,
     "transport" : ReactElement,
     "tunisian" : ReactElement,
     "workshop" : ReactElement,
     "departure" : ReactElement,
+    "career" : ReactElement,
+    "plenary" : ReactElement,
+    "poster" : ReactElement,
+    "multiculture" : ReactElement,
 } = {
     "plane": <PlaneIcon />,
     "checkin": <CheckinIcon />,
@@ -61,12 +67,16 @@ const SCHEDULE_ICONS: {
     "lunch" : <LunchIcon/>,
     "opening" : <OpeningIcon/>,
     "preparations" : <PreparationsIcon/>,
-    "teambuilding" : <TeambuildingIcon/>,
+    "party" : <PartyIcon/>,
     "tour" : <TourIcon/>,
     "transport" : <TransportIcon/>,
     "tunisian" : <TunisianIco/>,
     "workshop" : <WorkshopIcon/>,
     "departure" : <DepartureIcon/>,
+    "career" : <CareerIcon/>,
+    "plenary" : <PlenaryIcon/>,
+    "poster" : <PosterIcon/>,
+    "multiculture" : <MulticultureIcon/>,
 }
 
 export default function ScheduleDayEvent({ title, icon, location, time, color, onClick }: IScheduleDayEvent) {
@@ -90,12 +100,16 @@ export default function ScheduleDayEvent({ title, icon, location, time, color, o
                             case "lunch": return SCHEDULE_ICONS.lunch;
                             case "opening": return SCHEDULE_ICONS.opening;
                             case "preparations": return SCHEDULE_ICONS.preparations;
-                            case "teambuilding": return SCHEDULE_ICONS.teambuilding;
+                            case "party": return SCHEDULE_ICONS.party;
                             case "tour": return SCHEDULE_ICONS.tour;
                             case "transport": return SCHEDULE_ICONS.transport;
                             case "tunisian": return SCHEDULE_ICONS.tunisian;
                             case "workshop": return SCHEDULE_ICONS.workshop;
                             case "departure": return SCHEDULE_ICONS.departure;
+                            case "career": return SCHEDULE_ICONS.career;
+                            case "plenary": return SCHEDULE_ICONS.plenary;
+                            case "poster": return SCHEDULE_ICONS.poster;
+                            case "multiculture": return SCHEDULE_ICONS.multiculture;
                         }
                     }
                 )()}

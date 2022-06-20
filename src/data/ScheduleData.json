@@ -59,7 +59,7 @@
       },
       {
         "title": "Party",
-        "icon": "teambuilding",
+        "icon": "party",
         "location": "Hotel",
         "time": "22:00 - 00:00",
         "color": "white"
@@ -264,7 +264,7 @@
       },
       {
         "title": "Career Fair",
-        "icon": "teambuilding",
+        "icon": "career",
         "location": "Hotel",
         "time": "16:00 - 17:30",
         "color": "white",
@@ -295,7 +295,7 @@
       },
       {
         "title": "Multicultural Evening",
-        "icon": "multicultural",
+        "icon": "multiculture",
         "location": "Hotel",
         "time": "21:00 - 00:00",
         "color": "white",
