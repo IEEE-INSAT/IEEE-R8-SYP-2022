@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="" />
+    <list default="true" id="e1c67cca-f61b-4952-9a38-ba753cc40fbd" name="Changes" comment="Revert &quot;Bump ejs from 3.1.6 to 3.1.8 (#17)&quot;&#10;&#10;This reverts commit 5cd9cbc1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/description images/break.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/schedule/description images/break.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/description images/breakfast.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/schedule/description images/breakfast.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/description images/checkin.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/schedule/description images/checkin.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/description images/dinner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/schedule/description images/dinner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/description images/gala.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/schedule/description images/gala.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/description images/keynotes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/schedule/description images/keynotes.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/description images/opening.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/schedule/description images/opening.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/description images/plenary.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/description images/tours.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/schedule/description images/tours.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/schedule/description images/tunisian.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/schedule/description images/tunisian.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MiddleSection/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MiddleSection/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MiddleSection/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MiddleSection/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScheduleDayEvent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScheduleDayEvent/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScheduleDayEvent/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScheduleDayEvent/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ScheduleSection/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScheduleSection/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ScheduleData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ScheduleData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/ScheduleDescription.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/ScheduleDescription.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Schedule/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Schedule/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,11 +37,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
@@ -66,6 +81,8 @@
       <recent name="$PROJECT_DIR$/public/sponsor-logos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/schedule" />
+      <recent name="$PROJECT_DIR$/src/assets/images/schedule" />
       <recent name="$PROJECT_DIR$/public/sponsor-logos" />
     </key>
   </component>
@@ -91,16 +108,8 @@
       <workItem from="1649254747805" duration="15376000" />
       <workItem from="1649361006954" duration="672000" />
       <workItem from="1649402557134" duration="1095000" />
-      <workItem from="1655336701401" duration="605000" />
+      <workItem from="1655718654323" duration="9929000" />
     </task>
-    <task id="LOCAL-00001" summary="Revert &quot;Bump ejs from 3.1.6 to 3.1.8 (#17)&quot;&#10;&#10;This reverts commit 5cd9cbc1">
-      <created>1655319243336</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1655319243336</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,10 +135,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Revert &quot;Bump ejs from 3.1.6 to 3.1.8 (#17)&quot;&#10;&#10;This reverts commit 5cd9cbc1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Bump ejs from 3.1.6 to 3.1.8 (#17)&quot;&#10;&#10;This reverts commit 5cd9cbc1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

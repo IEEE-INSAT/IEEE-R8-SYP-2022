@@ -1,0 +1,56 @@
+.schedule-day-button-area{
+    cursor: pointer;
+    /* background-color: yellow; */
+    width: calc(15%);
+    /* width: 150px; */
+    max-width: 150px;
+    text-align: center;
+}
+
+.schedule-selection-day{
+    color: #999999;
+    font-family: 'Futura LtCn BT';
+}
+
+.schedule-day-button{
+    color: #FFFFFF;
+    font-family: 'Futura Hv BT';
+    background-color: #999999;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    font-size: min(1.5vw, 1.2rem);
+    display: flex;
+    justify-content: center;
+}
+
+.schedule-day-button sup{
+    /* font-size: 0.7rem; */
+    font-size: min(1.5vw, 0.7rem);
+    margin-left: 3px;
+}
+
+.selected-day-button .schedule-selection-day{
+    color: #B95246;
+}
+
+.selected-day-button .schedule-day-button{
+    background: linear-gradient(93.31deg, #B03842 -14.42%, #CB8B4E 115.75%);
+}
+
+@media (max-width: 600px){
+    .schedule-day-button div{
+        display: none;
+    }
+
+    .schedule-day-button-area{
+        width: fit-content;
+    }
+
+    .schedule-day-button{
+        font-size: 0.9rem;
+    }
+}

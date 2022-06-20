@@ -76,7 +76,7 @@ footer .logo{
     gap: 15px;
     justify-content: center;
 
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 .navSection{
@@ -89,8 +89,7 @@ footer .logo{
     color: #fff;
     justify-content: center;
     display: flex;
-    margin-top: 3%;
-
+    margin-top: 10px;
 }
 
 .subCpyRight{

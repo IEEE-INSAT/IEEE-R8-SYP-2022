@@ -1,0 +1,443 @@
+{
+  "1": {
+    "date": {
+      "day": "WED",
+      "nb": 3
+    },
+    "program": [
+      {
+        "title": "Arrivals",
+        "icon": "plane",
+        "location": "Airport",
+        "time": "07:00 - 13:00",
+        "color": "special",
+        "scrollRefInd": 0
+      },
+      {
+        "title": "Congress Check-In",
+        "icon": "checkin",
+        "location": "Hotel",
+        "time": "13:00 - 15:00",
+        "color": "special",
+        "scrollRefInd": 0
+      },
+      {
+        "title": "Transport",
+        "icon": "transport",
+        "location": "",
+        "time": "15:00 - 16:00",
+        "color": "white"
+      },
+      {
+        "title": "Opening Ceremony",
+        "icon": "opening",
+        "location": "Cité de la Culture",
+        "time": "16:00 - 18:30",
+        "color": "special",
+        "scrollRefInd": 1
+      },
+      {
+        "title": "Transport",
+        "icon": "transport",
+        "location": "",
+        "time": "18:30 - 19:30",
+        "color": "white"
+      },
+      {
+        "title": "Dinner",
+        "icon": "dinner",
+        "location": "Hotel",
+        "time": "19:30 - 21:00",
+        "color": "white"
+      },
+      {
+        "title": "Preparations",
+        "icon": "preparations",
+        "location": "",
+        "time": "21:00 - 22:00",
+        "color": "white"
+      },
+      {
+        "title": "Party",
+        "icon": "party",
+        "location": "Hotel",
+        "time": "22:00 - 00:00",
+        "color": "white",
+        "scrollRefInd":2
+      }
+    ]
+  },
+  "2": {
+    "date": {
+      "day": "THU",
+      "nb": 4
+    },
+    "program": [
+      {
+        "title": "Breakfast",
+        "icon": "breakfast",
+        "location": "Hotel",
+        "time": "07:00 - 08:00",
+        "color": "special"
+      },
+      {
+        "title": "Preparations",
+        "icon": "preparations",
+        "location": "Airport",
+        "time": "08:00 - 08:30",
+        "color": "white"
+      },
+      {
+        "title": "Keynotes",
+        "icon": "keynotes",
+        "location": "Hotel",
+        "time": "08:30 - 09:30",
+        "color": "white",
+        "scrollRefInd": 3
+      },
+      {
+        "title": "Break / Networking",
+        "icon": "break",
+        "location": "Hotel",
+        "time": "09:30 - 10:00",
+        "color": "white",
+        "scrollRefInd": 12
+      },
+      {
+        "title": "Workshops",
+        "icon": "workshop",
+        "location": "Hotel",
+        "time": "10:00 - 11:30",
+        "color": "white",
+        "scrollRefInd": 4
+      },
+      {
+        "title": "Break / Networking",
+        "icon": "break",
+        "location": "Hotel",
+        "time": "11:30 - 12:00",
+        "color": "white",
+        "scrollRefInd": 12
+      },
+      {
+        "title": "Workshops",
+        "icon": "workshop",
+        "location": "Hotel",
+        "time": "12:00 - 13:30",
+        "color": "white",
+        "scrollRefInd": 4
+      },
+      {
+        "title": "Lunch",
+        "icon": "lunch",
+        "location": "Hotel",
+        "time": "13:30 - 14:30",
+        "color": "white"
+      },
+      {
+        "title": "Transport",
+        "icon": "transport",
+        "location": "",
+        "time": "14:30 - 15:30",
+        "color": "white"
+      },
+      {
+        "title": "Touristic Tour and Group Photo",
+        "icon": "tour",
+        "location": "TBD",
+        "time": "15:30 - 20:00",
+        "color": "white",
+        "scrollRefInd": 5
+      },
+      {
+        "title": "Transport",
+        "icon": "transport",
+        "location": "",
+        "time": "20:00 - 20:30",
+        "color": "white"
+      },
+      {
+        "title": "Tunisian Dinner",
+        "icon": "tunisian",
+        "location": "TBD",
+        "time": "20:30 - 23:00",
+        "color": "white",
+        "scrollRefInd": 6
+      },
+      {
+        "title": "Transport",
+        "icon": "transport",
+        "location": "",
+        "time": "23:00 - 00:00",
+        "color": "white"
+      }
+    ]
+  },
+  "3": {
+    "date": {
+      "day": "FRI",
+      "nb": 5
+    },
+    "program": [
+      {
+        "title": "Breakfast",
+        "icon": "breakfast",
+        "location": "Hotel",
+        "time": "07:00 - 08:00",
+        "color": "special"
+      },
+      {
+        "title": "Preparations",
+        "icon": "preparations",
+        "location": "Airport",
+        "time": "08:00 - 08:30",
+        "color": "white"
+      },
+      {
+        "title": "Keynotes",
+        "icon": "keynotes",
+        "location": "Hotel",
+        "time": "08:30 - 09:30",
+        "color": "white",
+        "scrollRefInd": 3
+      },
+      {
+        "title": "Break / Networking",
+        "icon": "break",
+        "location": "Hotel",
+        "time": "09:30 - 10:00",
+        "color": "white",
+        "scrollRefInd": 12
+      },
+      {
+        "title": "Workshops",
+        "icon": "workshop",
+        "location": "Hotel",
+        "time": "10:00 - 11:30",
+        "color": "white",
+        "scrollRefInd": 4
+      },
+      {
+        "title": "Break / Networking",
+        "icon": "break",
+        "location": "Hotel",
+        "time": "11:30 - 12:00",
+        "color": "white",
+        "scrollRefInd": 12
+      },
+      {
+        "title": "Workshops",
+        "icon": "workshop",
+        "location": "Hotel",
+        "time": "12:00 - 13:30",
+        "color": "white",
+        "scrollRefInd": 4
+      },
+      {
+        "title": "Lunch",
+        "icon": "meals",
+        "location": "Hotel",
+        "time": "13:30 - 14:30",
+        "color": "white"
+      },
+      {
+        "title": "Break / Networking",
+        "icon": "break",
+        "location": "Hotel",
+        "time": "14:30 - 15:00",
+        "color": "white",
+        "scrollRefInd": 12
+      },
+      {
+        "title": "Keynotes",
+        "icon": "keynotes",
+        "location": "Hotel",
+        "time": "15:00 - 16:00",
+        "color": "white",
+        "scrollRefInd": 3
+      },
+      {
+        "title": "Career Fair",
+        "icon": "career",
+        "location": "Hotel",
+        "time": "16:00 - 17:30",
+        "color": "white",
+        "scrollRefInd": 7
+      },
+      {
+        "title": "Break / Networking",
+        "icon": "break",
+        "location": "Hotel",
+        "time": "17:30 - 18:00",
+        "color": "white",
+        "scrollRefInd": 12
+      },
+      {
+        "title": "Poster Session",
+        "icon": "poster",
+        "location": "Hotel",
+        "time": "18:00 - 20:00",
+        "color": "white",
+        "scrollRefInd": 8
+      },
+      {
+        "title": "Preparations",
+        "icon": "preparations",
+        "location": "Hotel",
+        "time": "20:00 - 21:00",
+        "color": "white"
+      },
+      {
+        "title": "Multicultural Evening",
+        "icon": "multiculture",
+        "location": "Hotel",
+        "time": "21:00 - 00:00",
+        "color": "white",
+        "scrollRefInd": 9
+      }
+    ]
+  },
+  "4": {
+    "date": {
+      "day": "SAT",
+      "nb": 6
+    },
+    "program": [
+      {
+        "title": "Breakfast",
+        "icon": "breakfast",
+        "location": "Hotel",
+        "time": "07:00 - 08:00",
+        "color": "special"
+      },
+      {
+        "title": "Preparations",
+        "icon": "preparations",
+        "location": "Airport",
+        "time": "08:00 - 08:30",
+        "color": "white"
+      },
+      {
+        "title": "Transport",
+        "icon": "transport",
+        "location": "",
+        "time": "08:30 - 09:00",
+        "color": "white"
+      },
+      {
+        "title": "Plenary session",
+        "icon": "plenary",
+        "location": "INSAT",
+        "time": "09:00 - 11:00",
+        "color": "white",
+        "scrollRefInd": 10
+      },
+      {
+        "title": "Break / Networking",
+        "icon": "break",
+        "location": "INSAT",
+        "time": "11:00 - 11:30",
+        "color": "white",
+        "scrollRefInd": 12
+      },
+      {
+        "title": "Plenary session",
+        "icon": "plenary",
+        "location": "INSAT",
+        "time": "12:00 - 13:30",
+        "color": "white",
+        "scrollRefInd": 10
+      },
+      {
+        "title": "Lunch",
+        "icon": "lunch",
+        "location": "INSAT",
+        "time": "13:30 - 15:00",
+        "color": "white"
+      },
+      {
+        "title": "Break / Networking",
+        "icon": "break",
+        "location": "INSAT",
+        "time": "15:00 - 15:30",
+        "color": "white",
+        "scrollRefInd": 12
+      },
+      {
+        "title": "Plenary session",
+        "icon": "plenary",
+        "location": "INSAT",
+        "time": "15:30 - 17:00",
+        "color": "white",
+        "scrollRefInd": 10
+      },
+      {
+        "title": "Transport",
+        "icon": "transport",
+        "location": "INSAT",
+        "time": "17:00 - 18:00",
+        "color": "white"
+      },
+      {
+        "title": "Preparations",
+        "icon": "preparations",
+        "location": "Hotel",
+        "time": "18:00 - 19:30",
+        "color": "white"
+      },
+      {
+        "title": "Gala Dinner",
+        "icon": "gala",
+        "location": "Hotel",
+        "time": "19:30 - 00:00",
+        "color": "white",
+        "scrollRefInd": 12
+      }
+    ]
+  },
+  "5": {
+    "date": {
+      "day": "SUN",
+      "nb": 7
+    },
+    "program": [
+      {
+        "title": "Breakfast",
+        "icon": "breakfast",
+        "location": "Hotel",
+        "time": "07:00 - 08:00",
+        "color": "special"
+      },
+      {
+        "title": "Preparations",
+        "icon": "preparations",
+        "location": "Airport",
+        "time": "08:00 - 08:30",
+        "color": "white"
+      },
+      {
+        "title": "Closing Ceremony",
+        "icon": "opening",
+        "location": "Hotel",
+        "time": "08:30 - 10:00",
+        "color": "white",
+        "scrollRefInd": 13
+      },
+      {
+        "title": "Congress Checkout",
+        "icon": "checkin",
+        "location": "Hotel",
+        "time": "10:00 - 13:30",
+        "color": "white",
+        "scrollRefInd": 14
+      },
+      {
+        "title": "Departure",
+        "icon": "departure",
+        "location": "",
+        "time": "13:30",
+        "color": "white"
+      }
+    ]
+  }
+}
