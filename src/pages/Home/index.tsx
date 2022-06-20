@@ -48,13 +48,15 @@ export default function Home() {
             <Zoom>
                 <AboutLocation />
             </Zoom>
-            <Fade>
-                <div className="home-container">
+            
+            <div className="home-container">
+                <Fade>
                     <h4>DISTINGUISHED GUESTS</h4>
                     <h2>Our Speakers</h2>
-                    <Speakers />
-                </div>
-            </Fade>
+                </Fade>
+                <Speakers />
+            </div>
+          
             <Fade>
                 <PoweredBy />
             </Fade>
