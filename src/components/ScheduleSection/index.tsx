@@ -29,7 +29,7 @@ interface IProgram {
 }
 
 export default function ScheduleSection({ scrollRefs }: IScheduleDescription) {
-    const [selectedDay, setSelectedDay] = useState("2" as IProgramDays);
+    const [selectedDay, setSelectedDay] = useState("1" as IProgramDays);
     const [selectedEvent, setSelectedEvent] = useState([0, 0]);
 
     const changeSelectedDay = (day: IProgramDays) => {

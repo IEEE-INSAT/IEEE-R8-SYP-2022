@@ -6,6 +6,7 @@ import MiddleSection from "../../components/MiddleSection";
 import ScheduleSection from "../../components/ScheduleSection";
 
 import ScheduleDescription from './../../data/ScheduleDescription.json';
+import Gallery from "../../components/Gallery";
 
 export interface IScheduleDescription {
     scrollRefs: React.MutableRefObject<React.RefObject<HTMLDivElement>[]>
@@ -24,8 +25,10 @@ export default function Schedule() {
 
             <ScheduleSection scrollRefs={scrollRefs} />
             <MiddleSection scrollRefs={scrollRefs} />
-            <MeetYourDestination />
-
+            <Gallery
+                title="Meet your destination"
+                description="An Album of photos of your destination"
+            />
             <Footer />
         </>
     );

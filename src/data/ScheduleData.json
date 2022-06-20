@@ -62,7 +62,8 @@
         "icon": "party",
         "location": "Hotel",
         "time": "22:00 - 00:00",
-        "color": "white"
+        "color": "white",
+        "scrollRefInd":2
       }
     ]
   },
@@ -77,8 +78,7 @@
         "icon": "breakfast",
         "location": "Hotel",
         "time": "07:00 - 08:00",
-        "color": "special",
-        "scrollRefInd": 0
+        "color": "special"
       },
       {
         "title": "Preparations",
@@ -132,16 +132,14 @@
         "icon": "lunch",
         "location": "Hotel",
         "time": "13:30 - 14:30",
-        "color": "white",
-        "scrollRefInd": 7
+        "color": "white"
       },
       {
         "title": "Transport",
         "icon": "transport",
         "location": "",
         "time": "14:30 - 15:30",
-        "color": "white",
-        "scrollRefInd": 8
+        "color": "white"
       },
       {
         "title": "Touristic Tour and Group Photo",
@@ -149,15 +147,14 @@
         "location": "TBD",
         "time": "15:30 - 20:00",
         "color": "white",
-        "scrollRefInd": 9
+        "scrollRefInd": 5
       },
       {
         "title": "Transport",
         "icon": "transport",
         "location": "",
         "time": "20:00 - 20:30",
-        "color": "white",
-        "scrollRefInd": 8
+        "color": "white"
       },
       {
         "title": "Tunisian Dinner",
@@ -165,15 +162,14 @@
         "location": "TBD",
         "time": "20:30 - 23:00",
         "color": "white",
-        "scrollRefInd": 8
+        "scrollRefInd": 6
       },
       {
         "title": "Transport",
         "icon": "transport",
         "location": "",
         "time": "23:00 - 00:00",
-        "color": "white",
-        "scrollRefInd": 8
+        "color": "white"
       }
     ]
   },
@@ -188,8 +184,7 @@
         "icon": "breakfast",
         "location": "Hotel",
         "time": "07:00 - 08:00",
-        "color": "special",
-        "scrollRefInd": 0
+        "color": "special"
       },
       {
         "title": "Preparations",
@@ -243,8 +238,7 @@
         "icon": "meals",
         "location": "Hotel",
         "time": "13:30 - 14:30",
-        "color": "white",
-        "scrollRefInd": 7
+        "color": "white"
       },
       {
         "title": "Break / Networking",
@@ -268,7 +262,7 @@
         "location": "Hotel",
         "time": "16:00 - 17:30",
         "color": "white",
-        "scrollRefInd": 4
+        "scrollRefInd": 7
       },
       {
         "title": "Break / Networking",
@@ -284,7 +278,7 @@
         "location": "Hotel",
         "time": "18:00 - 20:00",
         "color": "white",
-        "scrollRefInd": 4
+        "scrollRefInd": 8
       },
       {
         "title": "Preparations",
@@ -299,7 +293,7 @@
         "location": "Hotel",
         "time": "21:00 - 00:00",
         "color": "white",
-        "scrollRefInd": 4
+        "scrollRefInd": 9
       }
     ]
   },
@@ -336,7 +330,7 @@
         "location": "INSAT",
         "time": "09:00 - 11:00",
         "color": "white",
-        "scrollRefInd": 4
+        "scrollRefInd": 10
       },
       {
         "title": "Break / Networking",
@@ -352,7 +346,7 @@
         "location": "INSAT",
         "time": "12:00 - 13:30",
         "color": "white",
-        "scrollRefInd": 4
+        "scrollRefInd": 10
       },
       {
         "title": "Lunch",
@@ -375,7 +369,7 @@
         "location": "INSAT",
         "time": "15:30 - 17:00",
         "color": "white",
-        "scrollRefInd": 4
+        "scrollRefInd": 10
       },
       {
         "title": "Transport",
@@ -389,8 +383,7 @@
         "icon": "preparations",
         "location": "Hotel",
         "time": "18:00 - 19:30",
-        "color": "white",
-        "scrollRefInd": 4
+        "color": "white"
       },
       {
         "title": "Gala Dinner",
@@ -398,7 +391,7 @@
         "location": "Hotel",
         "time": "19:30 - 00:00",
         "color": "white",
-        "scrollRefInd": 4
+        "scrollRefInd": 12
       }
     ]
   },

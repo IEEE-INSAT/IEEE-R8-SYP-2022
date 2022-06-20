@@ -3,8 +3,7 @@
     "icon": "plane",
     "title": "Arrivals & Check-In",
     "comment": [
-      "Airport",
-      "07:00 - 14:00"
+"",""
     ],
     "content": [
       "The check-in will be held in the hotel reception.",
@@ -19,156 +18,156 @@
     "icon": "opening",
     "title": "Opening Ceremony",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "The opening ceremony will be held at the Theater of regions in the city of culture . It will contain a variety of speeches delivered by guests across the Region 8, artistic shows from contemporary and traditional eras and a preview of what’s awaiting you during the days of the congress It will be held in the City of Culture, one of the most prestigious cultural complexes in Tunisia, at the Theater of regions which has  a capacity of 700 seats. The hall is equipped with an orchestra pit and the most modern technical equipment."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/opening.jpg"
   },
   {
     "icon": "party",
     "title": "Party",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "An opportunity where our dear participants will get the chance to get to know over three hundred people from different cultures across Region 8 and break the ice ! Many fun activities will be held allowing you to expand your network. Get ready for a night to remember!"
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/party.jpg"
   },
   {
     "icon": "keynotes",
     "title": "Keynotes",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "A variety of lectures will be organized covering many technical fields or even promoting and introducing many IEEE entities which complete the technical program in order to provide a memorable congress."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/keynotes.jpg"
   },
   {
     "icon": "workshop",
     "title": "Workshop sessions",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "Various workshops in different fields will be held in the hotel dealing with up-to-date topics in diverse technical fields and also related to soft skills."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/workshop.jpg"
   },
   {
     "icon": "tour",
     "title": "Tour and visits",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "Tunisia has always been the crossroad of many Civilizations. From Romans to Carthaginians, we will have a tour on Tunisia’s most fascinating tourist sites presenting these cultures and will surely take advantage of the panoramic views to take our group photos ! Aren’t these the return tickets to moments otherwise gone ? During our Tour, we will take a tour in multiple touristic sites such as the  the archeological site of Oudhna that was a colony of veterans of the Legio XIII Gemina under the reign of Emperor Augustus, The Baths of Antoninus of Carthage which are are the largest set of Roman thermae built on the African continent and one of three largest built in the Roman Empire or even the the Ruins of Carthage."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/tours.jpg"
   },
   {
     "icon": "meals",
     "title": "Tunisian Dinner",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "We are taking you on a trip across Tunisia’s delicious dishes brought to you by the best caterers around the country. You will also enjoy a traditional show covering tunisian music, dances and traditions."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/tunisian.jpg"
   },
   {
     "icon": "career",
     "title": "Career Fair",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "This session will present an opportunity to Youngrofessionals and Students looking for a job or seeking an internship allowing them to interact directly with our exhibitors. Many companies will be presented and you can discover their field of activity. During this session, some interviews will be held and you can even submit your CV!"
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/career.jpg"
   },
   {
     "icon": "poster",
     "title": "Poster Session",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "During this session each Student branch attending the congress will present its activities and projects to  other participants and our dear guests. An award will be given at the end of the congress to the best stall."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/poster.jpg"
   },
   {
     "icon": "multicultre",
     "title": "Multicultural evening",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "Each participant will present his country and its traditions through clothing, food, dance, or even songs."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/culture.jpg"
   },
   {
     "icon": "plenary",
     "title": "Plenary Sessions",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "Plenaries are conferences delivered to all of our participants in the auditorium of the university (National Institute of Applied Sciences and Technology) dealing with various topics and taking many forms such as round tables. Our university, the national institute of applied sciences and technology offers 6 different study fields: network and telecommunications, computer science, industrial IT and automation, industrial maintenance and instrumentation, chemistry and biology.",
       "It was built in 1996, its architecture is similar to a factory.",
       "It has a large garden, classrooms and auditoriums, refectory, air conditioning or heaters when needed, technical equipment and a cafeteria."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/plenary.png"
   },
   {
     "icon": "meals",
     "title": "Gala Dinner",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "Get your fancy clothes ready because we have a gala dinner ! You will profit from a variety of delicious dishes during the dinner. There will also be an award ceremony."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/gala.jpg"
   },
   {
     "icon": "break",
     "title": "Networking (breaks)",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "Everyone needs a break every once in a while, and our coffee breaks will be the perfect moment to exchange experiences and speak in a more relaxed way, making it easier for people to get to know each other."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/break.jpg"
   },
   {
     "icon": "opening",
     "title": "Closing Ceremony",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "a closing ceremony will be held at the university presenting many speeches and summaries of the congress."
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/opening.jpg"
   },
   {
     "icon": "checkin",
     "title": "Congress Check-out",
     "comment": [
-      "07:00 - 14:00 CHANGE THIS"
+      "",""
     ],
     "content": [
       "even the best stories come to an end. We hope our paths will cross again and that you had fun with us!"
     ],
-    "image": "images/decorator_background.png"
+    "image": "images/schedule/description images/checkin.jpg"
   }
 ]

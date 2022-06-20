@@ -18,7 +18,7 @@ import { ReactComponent as TransportIcon } from "../../assets/images/schedule/tr
 import { ReactComponent as TunisianIcon } from "../../assets/images/schedule/tunisian.svg";
 import { ReactComponent as WorkshopIcon } from "../../assets/images/schedule/workshop.svg";
 import { ReactComponent as DepartureIcon } from "../../assets/images/schedule/departure.svg";
- import { ReactComponent as CareerIcon } from "../../assets/images/schedule/career.svg";
+import { ReactComponent as CareerIcon } from "../../assets/images/schedule/career.svg";
 import { ReactComponent as PlenaryIcon } from "../../assets/images/schedule/plenary.svg";
 import { ReactComponent as PosterIcon } from "../../assets/images/schedule/poster.svg";
 import { ReactComponent as MulticultureIcon } from "../../assets/images/schedule/multiculture.svg";
