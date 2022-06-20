@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { IScheduleDescription } from "../../pages/Schedule";
+import React, {useState} from "react";
+import {IScheduleDescription} from "../../pages/Schedule";
 import ScheduleDayEvent from "../ScheduleDayEvent";
 import ScheduleDaySelector from "../ScheduleDaySelector";
 import './style.css'
@@ -28,7 +28,7 @@ interface IProgram {
     scrollRefInd: number;
 }
 
-export default function ScheduleSection({ scrollRefs }: IScheduleDescription) {
+export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
     const [selectedDay, setSelectedDay] = useState("1" as IProgramDays);
     const [selectedEvent, setSelectedEvent] = useState([0, 0]);
 
@@ -39,12 +39,19 @@ export default function ScheduleSection({ scrollRefs }: IScheduleDescription) {
     }
 
     //const backgroundStyle = schedule3bg;
-    const displayMatrix = (scheduleData[selectedDay].program as IProgram[]).reduce(
-        (rows, key, index) => (index % 3 == 0 ? rows.push([key])
-            : rows[rows.length - 1].push(key)) && rows,
-        [] as any[]
+    let displayMatrix = (scheduleData[selectedDay].program as IProgram[]).reduce(
+        (rows, key, index) => {
+            if (index % 3 === 0)
+                rows.push([key]);
+            else
+                rows[rows.length - 1].push(key);
+            return rows;
+        }, [] as any[]
     ) as IProgram[][];
 
+    displayMatrix = displayMatrix.map((row, index) => {
+        return (index % 2 === 1) ? row.reverse() : row;
+    })
     return (
         <div className="planning-section">
             <div className="planning-month-section">
@@ -67,33 +74,30 @@ export default function ScheduleSection({ scrollRefs }: IScheduleDescription) {
                 }
             </div>
             <div>
-                <div className="planning-row-container-circle"><img src={scheduleMobileCircleBg} /></div>
+                <div className="planning-row-container-circle"><img src={scheduleMobileCircleBg}/></div>
                 <div className="planning-row-container">
-                    <div className="planning-row-container-bg"><img src={scheduleMobileBg} /></div>
+                    <div className="planning-row-container-bg"><img src={scheduleMobileBg}/></div>
 
                     {
+
                         displayMatrix.map((row, div_ind) => {
                             let backgroundStyle;
-
+                            console.log(displayMatrix);
                             if (displayMatrix.length == 1) {
                                 backgroundStyle = schedule3bg;
-                            }
-                            else {
+                            } else {
                                 if (div_ind == 0) {
                                     backgroundStyle = scheduleBeginBg;
-                                }
-                                else if (div_ind == displayMatrix.length - 1) {
+                                } else if (div_ind == displayMatrix.length - 1) {
                                     if (displayMatrix.length % 2 == 0) {
                                         backgroundStyle = scheduleEndLBg;
                                     } else {
                                         backgroundStyle = scheduleEndRBg;
                                     }
-                                }
-                                else {
+                                } else {
                                     if (div_ind % 2 == 0) {
                                         backgroundStyle = scheduleMiddleMirrorBg;
-                                    }
-                                    else {
+                                    } else {
                                         backgroundStyle = scheduleMiddleBg;
                                     }
                                 }
@@ -101,9 +105,10 @@ export default function ScheduleSection({ scrollRefs }: IScheduleDescription) {
 
                             return (
                                 <div key={div_ind} className="planning-date-program">
-                                    <div className="planning-date-program-bg"><img src={backgroundStyle} /></div>
+                                    <div className="planning-date-program-bg"><img src={backgroundStyle}/></div>
                                     {
                                         row.map((elem, ind) => {
+
                                             return <ScheduleDayEvent
                                                 key={ind}
                                                 title={elem.title}
@@ -125,7 +130,7 @@ export default function ScheduleSection({ scrollRefs }: IScheduleDescription) {
                         })
                     }
                 </div>
-                <div className="planning-row-container-circle"><img src={scheduleMobileCircleBg} /></div>
+                <div className="planning-row-container-circle"><img src={scheduleMobileCircleBg}/></div>
 
             </div>
         </div>
