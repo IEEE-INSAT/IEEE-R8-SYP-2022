@@ -64,6 +64,21 @@
   font-weight: 800;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatica SC'), url('https://fonts.cdnfonts.com/s/29880/AmaticaSC-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Amatica SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amatica SC'), url('https://fonts.cdnfonts.com/s/29880/AmaticaSC-Bold.woff') format('woff');
+}
+
+
+
 
 body {
   margin: 0;

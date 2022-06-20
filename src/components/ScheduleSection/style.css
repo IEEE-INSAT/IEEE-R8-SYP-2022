@@ -74,7 +74,8 @@
     font-family: 'Amatica SC';
     color: #333333;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 @media (max-width: 600px){
