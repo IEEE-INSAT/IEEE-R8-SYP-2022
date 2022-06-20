@@ -21,7 +21,7 @@ export default function Schedule() {
     );
     return (
         <>
-            <Header title={"SCHEDULE"} description={<p>The congress expected schedule</p>} />
+            <Header title={"SCHEDULE"} description={<p>The congress&#39;s expected schedule</p>} />
 
             <ScheduleSection scrollRefs={scrollRefs} />
             <MiddleSection scrollRefs={scrollRefs} />
