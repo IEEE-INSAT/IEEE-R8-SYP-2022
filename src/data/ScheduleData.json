@@ -83,7 +83,7 @@
       {
         "title": "Preparations",
         "icon": "preparations",
-        "location": "Airport",
+        "location": "",
         "time": "08:00 - 08:30",
         "color": "white"
       },
@@ -189,7 +189,7 @@
       {
         "title": "Preparations",
         "icon": "preparations",
-        "location": "Airport",
+        "location": "",
         "time": "08:00 - 08:30",
         "color": "white"
       },
@@ -313,7 +313,7 @@
       {
         "title": "Preparations",
         "icon": "preparations",
-        "location": "Airport",
+        "location": "",
         "time": "08:00 - 08:30",
         "color": "white"
       },
@@ -411,7 +411,7 @@
       {
         "title": "Preparations",
         "icon": "preparations",
-        "location": "Airport",
+        "location": "",
         "time": "08:00 - 08:30",
         "color": "white"
       },
