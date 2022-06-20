@@ -16,7 +16,7 @@
     "image": "gps"
   },
   {
-    "icon": "",
+    "icon": "opening",
     "title": "Opening Ceremony",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
@@ -27,8 +27,8 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "",
-    "title": "Team Building",
+    "icon": "party",
+    "title": "Party",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
     ],
@@ -38,7 +38,7 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "",
+    "icon": "keynotes",
     "title": "Keynotes",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
@@ -49,7 +49,7 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "",
+    "icon": "workshop",
     "title": "Workshop sessions",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
@@ -60,7 +60,7 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "",
+    "icon": "tour",
     "title": "Tour and visits",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
@@ -82,7 +82,7 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "",
+    "icon": "career",
     "title": "Career Fair",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
@@ -93,7 +93,7 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "",
+    "icon": "poster",
     "title": "Poster Session",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
@@ -104,7 +104,7 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "",
+    "icon": "multicultre",
     "title": "Multicultural evening",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
@@ -115,7 +115,7 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "",
+    "icon": "plenary",
     "title": "Plenary Sessions",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
@@ -139,7 +139,7 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "",
+    "icon": "break",
     "title": "Networking (breaks)",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
@@ -150,7 +150,7 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "",
+    "icon": "opening",
     "title": "Closing Ceremony",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"
@@ -161,7 +161,7 @@
     "image": "images/decorator_background.png"
   },
   {
-    "icon": "checkout",
+    "icon": "checkin",
     "title": "Congress Check-out",
     "comment": [
       "07:00 - 14:00 CHANGE THIS"

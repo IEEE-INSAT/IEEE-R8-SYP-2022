@@ -15,7 +15,7 @@ import { ReactComponent as PreparationsIcon } from "../../assets/images/schedule
 import { ReactComponent as PartyIcon } from "../../assets/images/schedule/party.svg";
 import { ReactComponent as TourIcon } from "../../assets/images/schedule/tour.svg";
 import { ReactComponent as TransportIcon } from "../../assets/images/schedule/transport.svg";
-import { ReactComponent as TunisianIco } from "../../assets/images/schedule/tunisian.svg";
+import { ReactComponent as TunisianIcon } from "../../assets/images/schedule/tunisian.svg";
 import { ReactComponent as WorkshopIcon } from "../../assets/images/schedule/workshop.svg";
 import { ReactComponent as DepartureIcon } from "../../assets/images/schedule/departure.svg";
  import { ReactComponent as CareerIcon } from "../../assets/images/schedule/career.svg";
@@ -70,7 +70,7 @@ const SCHEDULE_ICONS: {
     "party" : <PartyIcon/>,
     "tour" : <TourIcon/>,
     "transport" : <TransportIcon/>,
-    "tunisian" : <TunisianIco/>,
+    "tunisian" : <TunisianIcon/>,
     "workshop" : <WorkshopIcon/>,
     "departure" : <DepartureIcon/>,
     "career" : <CareerIcon/>,

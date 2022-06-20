@@ -6,24 +6,54 @@ import './style.css';
 import top_disk from './../../assets/images/browndisk.svg';
 import bot_disk from './../../assets/images/bluedisk.svg';
 
-import planeIcon from '../../assets/images/schedule/plane.svg';
-import mealsIcon from '../../assets/images/schedule/meals.svg';
-import checkinIcon from '../../assets/images/schedule/checkin.svg';
-// import Icon from '../../assets/images/schedule/';
-// import Icon from '../../assets/images/schedule/';
-// import Icon from '../../assets/images/schedule/';
-// import Icon from '../../assets/images/schedule/';
-// import Icon from '../../assets/images/schedule/';
-// import Icon from '../../assets/images/schedule/';
+import PlaneIcon from '../../assets/images/schedule/plane.svg';
+import CheckinIcon from '../../assets/images/schedule/checkin.svg';
+import MealsIcon from '../../assets/images/schedule/meals.svg';
+import BreakIcon from '../../assets/images/schedule/break.svg';
+import BreakfastIcon from '../../assets/images/schedule/breakfast.svg';
+import DinnerIcon from '../../assets/images/schedule/dinner.svg';
+import GalaIcon from '../../assets/images/schedule/gala.svg';
+import KeynotesIcon from '../../assets/images/schedule/keynotes.svg';
+import LunchIcon from '../../assets/images/schedule/lunch.svg';
+import OpeningIcon from '../../assets/images/schedule/opening.svg';
+import PreparationsIcon from '../../assets/images/schedule/preparations.svg';
+import PartyIcon from '../../assets/images/schedule/party.svg';
+import TourIcon from '../../assets/images/schedule/tour.svg';
+import TransportIcon from '../../assets/images/schedule/transport.svg';
+import TunisianIcon from '../../assets/images/schedule/tunisian.svg';
+import WorkshopIcon from '../../assets/images/schedule/workshop.svg';
+import DepartureIcon from '../../assets/images/schedule/departure.svg';
+import CareerIcon from '../../assets/images/schedule/career.svg';
+import PlenaryIcon from '../../assets/images/schedule/plenary.svg';
+import PosterIcon from '../../assets/images/schedule/poster.svg';
+import MulticultureIcon from '../../assets/images/schedule/multiculture.svg';
 
 import ScheduleDescription from './../../data/ScheduleDescription.json';
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 const icons = {
-    plane: planeIcon,
-    meals: mealsIcon,
-    checkin: checkinIcon,
+    'plane': PlaneIcon,
+    checkin: CheckinIcon,
+    meals: MealsIcon,
+    break: BreakIcon,
+    breakfast: BreakfastIcon,
+    dinner: DinnerIcon,
+    gala: GalaIcon,
+    keynotes: KeynotesIcon,
+    lunch: LunchIcon,
+    opening: OpeningIcon,
+    preparations: PreparationsIcon,
+    party: PartyIcon,
+    tour: TourIcon,
+    transport: TransportIcon,
+    tunisian: TunisianIcon,
+    workshop: WorkshopIcon,
+    departure: DepartureIcon,
+    career: CareerIcon,
+    plenary: PlenaryIcon,
+    poster: PosterIcon,
+    multiculture: MulticultureIcon,
 };
 
 export default function MiddleSection({ scrollRefs }: IScheduleDescription) {
@@ -32,19 +62,26 @@ export default function MiddleSection({ scrollRefs }: IScheduleDescription) {
             {ScheduleDescription.map((elem, i) => {
                 const description = (
                     <div className="schedule-text-section blockElement">
-                        {(() => {
-                            switch (elem.icon) {
-                                case 'plane': {
-                                    return <img src={icons.plane} />;
-                                }
-                                case 'checkin': {
-                                    return <img src={icons.checkin} />;
-                                }
-                                case 'meals': {
-                                    return <img src={icons.meals} />;
-                                }
+                        <img
+                            src={
+                                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                                // @ts-ignore
+                                icons[elem.icon]
                             }
-                        })()}
+                        />
+                        {/*{(() => {*/}
+                        {/*    switch (elem.icon) {*/}
+                        {/*        case 'plane': {*/}
+                        {/*            return <img src={icons.plane} />;*/}
+                        {/*        }*/}
+                        {/*        case 'checkin': {*/}
+                        {/*            return <img src={icons.checkin} />;*/}
+                        {/*        }*/}
+                        {/*        case 'meals': {*/}
+                        {/*            return <img src={icons.meals} />;*/}
+                        {/*        }*/}
+                        {/*    }*/}
+                        {/*})()}*/}
                         <div className="schedule-text-section-title">{elem.title}</div>
                         <div className="schedule-text-section-comment">
                             {elem.comment.map((line, i) => {

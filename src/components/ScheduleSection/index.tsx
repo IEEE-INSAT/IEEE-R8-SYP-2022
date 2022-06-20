@@ -45,9 +45,6 @@ export default function ScheduleSection({ scrollRefs }: IScheduleDescription) {
         [] as any[]
     ) as IProgram[][];
 
-    console.log(displayMatrix)
-
-
     return (
         <div className="planning-section">
             <div className="planning-month-section">
