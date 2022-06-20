@@ -15,7 +15,7 @@ export default function ScheduleDaySelector({ day, date, selected, onclick }: IS
                 DAY {day}
             </div>
             <div className="schedule-day-button">
-                <div>{date.day}</div>&nbsp;{date.nb}<sup>th</sup>&nbsp;
+                <div>{date.day}</div>&nbsp;{date.nb}<sup>{date.nb == 3 ? 'rd' : 'th' }</sup>&nbsp;
             </div>
         </div>
     );
