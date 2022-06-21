@@ -1,34 +1,5 @@
-.sponsors-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Futura;
 
-}
-
-.sponsors-container h4 {
-    color: #80B3E8;
-    letter-spacing: 2px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.sponsors-container h2 {
-    margin-top: 10px;
-    margin-bottom: 40px;
-    color: #333333;
-    font-weight: 500;
-    font-size: 56px;
-}
-
-@media screen and (max-width: 480px) {
-    .sponsors-container h2 {
-        font-size: 40px;
-    }
-}
-
-
-.sponsor-logo-container {
+.sponsor-logo-row {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -36,8 +7,40 @@
     width: 100vw;
     margin-bottom: 36px;
 }
-
-.sponsor-logos {
+.sponsor-container{
+    position: relative;
+}
+.sponsor-logo-row .sponsor-container img{
     width: 144px;
     height: 144px;
+    display: block;
+    border-radius: 20px;
+}
+.sponsor-type-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #cb8a4ed9;
+    border-radius: 20px;
+}
+.sponsor-type-overlay:hover {
+    opacity: 1;
+}
+
+
+.sponsor-type-overlay span {
+    font-family: "Futura Hv BT";
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
