@@ -1,0 +1,72 @@
+
+.scroll-button-container {
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    bottom: 30px;
+    right: 30px;
+}
+
+.scroll-button-container button {
+    height: 100%;
+    width: 100%;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.scroll-icon-style {
+    background-color: #B95346;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all .5s ease-in-out;
+}
+
+.scroll-icon-style:hover {
+    animation: none;
+    background: #fff;
+    color: #B95346;
+    border: 2px solid #B95346;
+
+}
+
+.scroll-button-container:hover svg * {
+    fill: #B95346;
+}
+
+.scroll-button-container svg {
+    height: 100%;
+    width: 100%;
+}
+
+.scroll-button-container svg * {
+fill:#fff;
+}
+
+@keyframes movebtn {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

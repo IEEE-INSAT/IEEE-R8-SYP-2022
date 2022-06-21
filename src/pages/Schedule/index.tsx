@@ -1,11 +1,13 @@
-import React, { createRef, useRef } from "react";
+import React, {createRef, useRef} from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import MiddleSection from "../../components/MiddleSection";
 import ScheduleSection from "../../components/ScheduleSection";
+import Gallery from "../../components/Gallery";
 
 import ScheduleDescription from './../../data/ScheduleDescription.json';
-import Gallery from "../../components/Gallery";
+import ScrollToTop from "../../components/ScrollToTop";
+
 
 export interface IScheduleDescription {
     scrollRefs: React.MutableRefObject<React.RefObject<HTMLDivElement>[]>
@@ -20,15 +22,15 @@ export default function Schedule() {
     );
     return (
         <>
-            <Header title={"SCHEDULE"} description={<p>The congress&#39;s expected schedule</p>} />
-
-            <ScheduleSection scrollRefs={scrollRefs} />
-            <MiddleSection scrollRefs={scrollRefs} />
+            <Header title={"SCHEDULE"} description={<p>The congress&#39;s expected schedule</p>}/>
+            <ScheduleSection scrollRefs={scrollRefs}/>
+            <MiddleSection scrollRefs={scrollRefs}/>
             <Gallery
                 title="Meet your destination"
                 description="An Album of photos of your destination"
             />
-            <Footer />
+            <ScrollToTop/>
+            <Footer/>
         </>
     );
 }

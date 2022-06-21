@@ -9,16 +9,12 @@ import AboutUs from './pages/About';
 import SpeakersPage from "./pages/Speakers";
 import Schedule from "./pages/Schedule";
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-import Fade from "react-reveal/Fade";
-
 import './components/Testimonials/Testimonials.css';
 
 function App() {
     return (
         <div className="App">
-            <Fade>
+
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Home/>}/>
@@ -31,7 +27,6 @@ function App() {
                         <Route path='*' element={<Navigate replace to="/"/>}/>
                     </Routes>
                 </BrowserRouter>
-            </Fade>
         </div>
     );
 }
