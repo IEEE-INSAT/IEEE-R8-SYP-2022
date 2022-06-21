@@ -1,150 +1,207 @@
 @font-face {
-  font-family: futura;
-  src: url("../../assets/fonts/futura\ medium\ bt.ttf");
+    font-family: futura;
+    src: url('../../assets/fonts/futura\ medium\ bt.ttf');
 }
 /* CardBackground */
-.card2{
-  border-radius: 20px;
-  height: 105%;
+.card2 {
+    border-radius: 20px;
+    height: 105%;
 }
 
-.card{
-  width:100%;
-  height: 100%;
-  overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  transition:0.2s;
-  transition-timing-function: ease-out;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  -webkit-user-select: none; /* Safari */        
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
-  user-select: none; /* Standard */
-}
-.cardHovered{
-  width: 103%;
-  height: 105%;
-}
-.speakerCardBlur{
-  background-color: #cb8a4e00;
-}
-.cardHovered .speakerCardBlur{
+.card {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 
-  background-color: #cb8a4ed9;
-  width:100%;
-  height:100%;
-  backdrop-filter: blur(10px) ;
-  transition: 0.2s;
-  transition-timing-function: ease-out;
+    /*hover animation*/
+    filter: blur(0px);
+}
+.cardHovered {
+    width: 103%;
+    height: 105%;
+}
+.speakerCardBlur {
+    background-color: #cb8a4e00;
+}
+.cardHovered .speakerCardBlur {
+    background-color: #cb8a4ed9;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    transition: 0.2s;
+    transition-timing-function: ease-out;
 }
 
 /* name */
-.SpeakerCardRow{
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-content:flex-end;
-  align-items: center;
-  /* opacity: 0; */
-  transition:0.3s;
-
+.SpeakerCardRow {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: center;
+    /* opacity: 0; */
+    transition: 0.3s;
 }
-.cardHovered .SpeakerCardRow{
-  opacity: 0;
+.cardHovered .SpeakerCardRow {
+    opacity: 0;
 }
-.SpeakerCardText{
-  color: white;
-  font-family: futura;
-  /* line-height: 2px; */
+.SpeakerCardText {
+    color: white;
+    font-family: futura;
+    /* line-height: 2px; */
 }
-.SpeakerCardText b{
-  font-size: 1.25em;
+.SpeakerCardText b {
+    font-size: 1.25em;
 }
-
 
 /* speakerDesc */
-.speakerDescription{
-  opacity: 0;
-  transition: 0.5s;
-  margin : auto 0;
-  transition-timing-function: ease-out;
-  text-align:center;
-  padding: 20px 20px;
-  position: relative;
-  color: white;
-
+.speakerDescription {
+    opacity: 0;
+    transition: 0.5s;
+    margin: auto 0;
+    transition-timing-function: ease-out;
+    text-align: center;
+    padding: 20px 20px;
+    position: relative;
+    color: white;
+    transition: 0.2s;
+    transition-timing-function: ease-out;
 }
-.cardHovered .speakerDescription{
-  opacity: 100%;
+.cardHovered .speakerDescription {
+    opacity: 100%;
+    font-size: 103%;
 }
-.SpeakerIcon{
-  color:white;
-  font-size: 3em;
+.SpeakerIcon {
+    color: white;
+    font-size: 3em;
 }
-.SpeakerIcon:hover,.SpeakerCardX:hover{
-  color:rgb(226, 226, 226);
-}
-
-
-/* smartphones, touchscreens */
-@media (hover: none) and (pointer: coarse) {
-  .SpeakerCardX{
-    visibility: visible;
-  }
-}
-/* stylus-based screens */
-@media (hover: none) and (pointer: fine) {
-  .SpeakerCardX{
-    visibility: visible;
-  }
+.SpeakerIcon:hover {
+    color: rgb(226, 226, 226);
 }
 
-/* mouse, touch pad */
-@media (hover: hover) and (pointer: fine) {
-  .SpeakerCardX{
-    visibility: hidden;
-  }
-}
-
-
-
-
-
-.SpeakerCardX{
-  font-size: 1.2em;
-  position: relative;
+.SpeakerCardX {
+    font-size: 1.5em;
+    /* position: relative;
   display: flex;
-  justify-content: center;
-}
-@media all and (min-width: 1024px)  {
-  .SpeakerCardX{
-    top :10px;
-  }
+  justify-content: center; */
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
-  .SpeakerCardX{
-    top :10px;
-  }
+/*Tutorial*/
+@keyframes showAndHide {
+    from {
+        opacity: 0%;
+        backdrop-filter: blur(0px);
+    }
+    25% {
+        opacity: 100%;
+        backdrop-filter: blur(5px);
+    }
+    75% {
+        opacity: 100%;
+        backdrop-filter: blur(5px);
+    }
+    to {
+        backdrop-filter: blur(0px);
+        opacity: 0%;
+    }
+}
+.Speakertutorial {
+    opacity: 0 !important;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: absolute;
+    background-color: #cb8a4ed9;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inAnimation {
+    animation: showAndHide;
+}
+.Speakertutorial p {
+    font-size: 1.25em;
 }
 
-@media all and (min-width: 480px) and (max-width: 768px) { 
-  .SpeakerCardX{
-    top: 5px;
-  }
+/*credits for the tap animation : https://codepen.io/gracelle/pen/MeNjQR*/
+/* BASE RULES */
+.Speakertutorial svg {
+    display: inline-block;
+    width: 100px;
 }
-@media all and not((min-width: 480px) and (max-width: 768px)) { 
-  .SpeakerCardX{
-    top: 10px;
-  }
+/* SVG RULES */
+.hand-tap {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgb(255, 255, 255);
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
-
-@media all and (max-width: 480px) {
-  .SpeakerCardX{
-    top :10px;
-  }
+.tap-1 {
+    fill: transparent;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.tap-1 {
+    opacity: 0.5;
+}
+/* ANIMATION KEYFRAMES */
+@keyframes tap {
+    0% {
+        transform: rotateX(0deg);
+    }
+    10% {
+        transform: rotateX(12.5deg);
+    }
+    25% {
+        transform: rotateX(25deg);
+    }
+}
+@keyframes tap-circle {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    75% {
+        transform: scale(1.05);
+        opacity: 0.6;
+    }
+    80% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+/* SVG ANIMATION */
+.wrapper * {
+    transform-origin: 50% 50%;
+    perspective: 100px;
+}
+.hand {
+    transform-origin: 25% 50%;
+}
+.hand-tap {
+    animation: tap 1.25s ease-out backwards;
+    animation-iteration-count: infinite;
+}
+.tap-1,
+.tap-2 {
+    animation: tap-circle 1.25s ease-out backwards;
+    animation-iteration-count: infinite;
 }
