@@ -7,15 +7,18 @@
     width: 100vw;
     margin-bottom: 36px;
 }
-.sponsor-container{
+
+.sponsor-container {
     position: relative;
 }
-.sponsor-logo-row .sponsor-container img{
+
+.sponsor-logo-row .sponsor-container img {
     width: 144px;
     height: 144px;
     display: block;
     border-radius: 20px;
 }
+
 .sponsor-type-overlay {
     position: absolute;
     top: 0;
@@ -27,6 +30,7 @@
     background-color: #cb8a4ed9;
     border-radius: 20px;
 }
+
 .sponsor-type-overlay:hover {
     opacity: 1;
 }

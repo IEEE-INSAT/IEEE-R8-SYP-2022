@@ -17,7 +17,7 @@ interface SponsorsProps {
 
 export default function Sponsors({items}: SponsorsProps) {
     return (
-        <div className="sponsor-logo-row" >
+        <div className="sponsor-logo-row">
             {
 
                 items.map((sponsor, i) => (
@@ -25,9 +25,9 @@ export default function Sponsors({items}: SponsorsProps) {
                         <div className="sponsor-container">
                             <img className="sponsor-logos"
                                  src={require(`../../assets/images/sponsors/${sponsor.filename}`)} alt={sponsor.name}/>
-                           <div className="sponsor-type-overlay">
-                               <span>{sponsor.type}</span>
-                           </div>
+                            <div className="sponsor-type-overlay">
+                                <span>{sponsor.type}</span>
+                            </div>
                         </div>
 
                     </Fade>
