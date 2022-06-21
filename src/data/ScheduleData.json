@@ -31,7 +31,7 @@
       {
         "title": "Opening Ceremony",
         "icon": "opening",
-        "location": "Cité de la Culture",
+        "location": "Cité de la Culture - Théatre des Régions",
         "time": "16:00 - 18:30",
         "color": "special",
         "scrollRefInd": 1
@@ -83,7 +83,7 @@
       {
         "title": "Preparations",
         "icon": "preparations",
-        "location": "",
+        "location": "Hotel",
         "time": "08:00 - 08:30",
         "color": "white"
       },
@@ -144,10 +144,24 @@
       {
         "title": "Touristic Tour and Group Photo",
         "icon": "tour",
-        "location": "TBD",
-        "time": "15:30 - 20:00",
+        "location": "Carthage",
+        "time": "15:30 - 18:30",
         "color": "white",
         "scrollRefInd": 5
+      },
+      {
+        "title": "Transport",
+        "icon": "transport",
+        "location": "",
+        "time": "18:30 - 19:00",
+        "color": "white"
+      },
+      {
+        "title": "Preparations",
+        "icon": "preparations",
+        "location": "Hotel",
+        "time": "19:00 - 20:00",
+        "color": "white"
       },
       {
         "title": "Transport",
@@ -159,8 +173,8 @@
       {
         "title": "Tunisian Dinner",
         "icon": "tunisian",
-        "location": "TBD",
-        "time": "20:30 - 23:00",
+        "location": "La Perle du Lac",
+        "time": "20:30 - 23:30",
         "color": "white",
         "scrollRefInd": 6
       },
@@ -168,7 +182,7 @@
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "23:00 - 00:00",
+        "time": "23:30 - 00:00",
         "color": "white"
       }
     ]
@@ -313,7 +327,7 @@
       {
         "title": "Preparations",
         "icon": "preparations",
-        "location": "",
+        "location": "Hotel",
         "time": "08:00 - 08:30",
         "color": "white"
       },
@@ -321,14 +335,14 @@
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "08:30 - 09:00",
+        "time": "08:30 - 09:30",
         "color": "white"
       },
       {
         "title": "Plenary session",
         "icon": "plenary",
         "location": "INSAT",
-        "time": "09:00 - 11:00",
+        "time": "09:30 - 10:30",
         "color": "white",
         "scrollRefInd": 10
       },
@@ -336,7 +350,7 @@
         "title": "Break / Networking",
         "icon": "break",
         "location": "INSAT",
-        "time": "11:00 - 11:30",
+        "time": "10:30 - 11:00",
         "color": "white",
         "scrollRefInd": 12
       },
@@ -344,7 +358,7 @@
         "title": "Plenary session",
         "icon": "plenary",
         "location": "INSAT",
-        "time": "12:00 - 13:30",
+        "time": "11:00 - 12:30",
         "color": "white",
         "scrollRefInd": 10
       },
@@ -352,14 +366,14 @@
         "title": "Lunch",
         "icon": "lunch",
         "location": "INSAT",
-        "time": "13:30 - 15:00",
+        "time": "12:30 - 14:30",
         "color": "white"
       },
       {
         "title": "Break / Networking",
         "icon": "break",
         "location": "INSAT",
-        "time": "15:00 - 15:30",
+        "time": "14:30 - 15:00",
         "color": "white",
         "scrollRefInd": 12
       },
@@ -367,14 +381,14 @@
         "title": "Plenary session",
         "icon": "plenary",
         "location": "INSAT",
-        "time": "15:30 - 17:00",
+        "time": "15:00 - 17:00",
         "color": "white",
         "scrollRefInd": 10
       },
       {
         "title": "Transport",
         "icon": "transport",
-        "location": "INSAT",
+        "location": "",
         "time": "17:00 - 18:00",
         "color": "white"
       },
@@ -411,7 +425,7 @@
       {
         "title": "Preparations",
         "icon": "preparations",
-        "location": "",
+        "location": "Hotel",
         "time": "08:00 - 08:30",
         "color": "white"
       },
