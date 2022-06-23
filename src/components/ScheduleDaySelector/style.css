@@ -25,6 +25,7 @@
     font-size: min(1.5vw, 1.2rem);
     display: flex;
     justify-content: center;
+    user-select: none;
 }
 
 .schedule-day-button sup{
