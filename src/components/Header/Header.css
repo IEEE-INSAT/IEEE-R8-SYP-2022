@@ -112,8 +112,6 @@ header .logo {
 @media screen and (max-width: 1230px) {
     .welcome {
         flex-direction: column;
-        margin-left: 20px;
-        max-width: 90vw;
         flex-wrap: wrap;
     }
 

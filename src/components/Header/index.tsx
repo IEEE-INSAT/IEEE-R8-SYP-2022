@@ -11,6 +11,8 @@ import NavItems from "../../data/NavItems.json";
 import { Link } from "react-router-dom";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
+
+
 import Fade from "react-reveal/Fade";
 interface HeaderProps{
     mode?: "HOMEPAGE" | "PAGE";

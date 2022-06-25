@@ -8,6 +8,23 @@
     width: 90vw;
 }
 
+.sponsoring {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.sponsoring h2 {
+    margin-bottom: 40px;
+    font-family: 'Futura BdCn BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: -2px;
+    color: #333333;
+}
+
 @media only screen and (max-width: 900px) {
     .sponsoring .twoElmContainer {
         gap: 50px;

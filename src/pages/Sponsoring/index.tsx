@@ -15,6 +15,8 @@ export default function Sponsoring() {
     return (
         <div className="sponsoring">
             <Header title={'SPONSORS'} description={<p>Meet our official sponsors</p>} />
+
+            <h2>IEEE Partners</h2>
             <Fade>
                 <Sponsors items={sponsorsList} />
             </Fade>
