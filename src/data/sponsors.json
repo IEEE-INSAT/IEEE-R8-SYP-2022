@@ -1,12 +1,12 @@
 [
   {
     "name": "HuaC",
-    "filename": "HuaC.png",
+    "filename": "HuaC.jpg",
     "type" : "Society"
   },
   {
-    "name": "IEEE IAS",
-    "filename": "ias.png",
+    "name": "IEEE EMB",
+    "filename": "EMB.jpg",
     "type" : "Society"
   }
 ]
