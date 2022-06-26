@@ -7,6 +7,7 @@ import Location from '../../components/Location';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Sponsors from '../../components/Sponsors';
+import partnersList from '../../data/partners.json';
 import sponsorsList from '../../data/sponsors.json';
 
 import './Home.css';
@@ -64,13 +65,17 @@ export default function Home() {
                 <div className="home-container">
                     <h4>EVENT SPONSORS</h4>
                     <h2>Official Sponsors</h2>
-                    <h3>IEEE Partners</h3>
                     <Sponsors items={sponsorsList} />
                     <p className="sponsors-description">
                         If you want to increase awareness for your company, You’re in the right place !
                     </p>
                     <Link to="/sponsors" ><ThemedButton text='CONTACT US' onClick={() => window.scrollTo(0, 0)} color='secondary' width='500px' /></Link>
                 </div>
+            </Fade>
+            <Fade>
+                <div className="home-container">
+                    <h2>IEEE Partners</h2>
+                    <Sponsors items={partnersList} /></div>
             </Fade>
             <Footer />
         </div>

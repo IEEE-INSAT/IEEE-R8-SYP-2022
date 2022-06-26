@@ -9,27 +9,34 @@ import TextBlock from '../../components/TextBlock';
 import sponsorshipDossier from '../../assets/images/sponsorshipDossier.png';
 import ThemedButton from '../../components/ThemedButton';
 import Sponsors from '../../components/Sponsors';
+import partnersList from '../../data/partners.json';
 import sponsorsList from '../../data/sponsors.json';
 
 export default function Sponsoring() {
     return (
         <div className="sponsoring">
-            <Header title={'SPONSORS'} description={<p>Meet our official sponsors</p>} />
-
+            <Header title={'SPONSORS'} description={<p>Meet our official sponsors</p>}/>
+            {/*Uncomment this when there is at least one sponsor*/}
+            {/*<h2>IEEE Sponsors</h2>*/}
+            {/*<Fade>*/}
+            {/*    <Sponsors items={sponsorsList}/>*/}
+            {/*</Fade>*/}
             <h2>IEEE Partners</h2>
             <Fade>
-                <Sponsors items={sponsorsList} />
+                <Sponsors items={partnersList}/>
             </Fade>
 
             <Fade>
                 <div className="twoElmContainer">
                     <TextBlock title="Do you want to be part of SYP?">
-                        The IEEE Region 8 Students and Young Professionals Congress is the largest student event in all of
+                        The IEEE Region 8 Students and Young Professionals Congress is the largest student event in all
+                        of
                         region 8 (Europe, Middle East, Africa). It occurs every two years and gathers both students and
                         young professionals members from all Sections in this Region. Sponsorship helps us bring
                         together this event, a Congress that not only consists of{' '}
                         <span className="gras">social and networking events</span>, but also{' '}
-                        <span className="gras">technical events</span>, such as <span className="gras">workshops</span>{' '}
+                        <span className="gras">technical events</span>, such as <span
+                        className="gras">workshops</span>{' '}
                         and <span className="gras">talks</span>.<br></br>
                         <br></br>
                         If you want to increase awareness for your company, showcase which great products and projects
@@ -42,19 +49,19 @@ export default function Sponsoring() {
                         free to <a href="mailto:r8syp@ieee.org">leave us a message!</a>
                     </TextBlock>
                     <div className="dossierContainer">
-                        <img src={sponsorshipDossier} alt="sponsorshipDossier" width={250} />
+                        <img src={sponsorshipDossier} alt="sponsorshipDossier" width={250}/>
                         <a href="/Sponsorship-Dossier.pdf" download>
                             <ThemedButton
                                 text="DOWNLOAD"
                                 color="secondary"
                                 width="300px"
-                                style={{ marginTop: '50px' }}
+                                style={{marginTop: '50px'}}
                             />
                         </a>
                     </div>
                 </div>
             </Fade>
-            <Footer />
+            <Footer/>
         </div>
     );
 }
