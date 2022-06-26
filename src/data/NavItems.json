@@ -5,5 +5,6 @@
     { "name": "Schedule", "path": "/schedule" },
     { "name": "Speakers", "path": "/speakers" },
     { "name": "Sponsors", "path": "/sponsors" },
+    { "name": "Partners", "path": "/partners" },
     { "name": "FAQ", "path": "/faq" }
 ]

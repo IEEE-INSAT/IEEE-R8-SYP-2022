@@ -10,21 +10,16 @@ import sponsorshipDossier from '../../assets/images/sponsorshipDossier.png';
 import ThemedButton from '../../components/ThemedButton';
 import Sponsors from '../../components/Sponsors';
 import partnersList from '../../data/partners.json';
-import sponsorsList from '../../data/sponsors.json';
 
 export default function Sponsoring() {
     return (
         <div className="sponsoring">
-            <Header title={'SPONSORS'} description={<p>Meet our official sponsors</p>}/>
+            <Header title={'SPONSORS'} description={""}/>
             {/*Uncomment this when there is at least one sponsor*/}
             {/*<h2>IEEE Sponsors</h2>*/}
             {/*<Fade>*/}
             {/*    <Sponsors items={sponsorsList}/>*/}
             {/*</Fade>*/}
-            <h2>IEEE Partners</h2>
-            <Fade>
-                <Sponsors items={partnersList}/>
-            </Fade>
 
             <Fade>
                 <div className="twoElmContainer">

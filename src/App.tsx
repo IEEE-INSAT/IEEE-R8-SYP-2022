@@ -8,8 +8,10 @@ import Sponsoring from './pages/Sponsoring';
 import AboutUs from './pages/About';
 import SpeakersPage from "./pages/Speakers";
 import Schedule from "./pages/Schedule";
+import PartnersPage from "./pages/Partners";
 
 import './components/Testimonials/Testimonials.css';
+
 
 function App() {
     return (
@@ -21,6 +23,7 @@ function App() {
                         <Route path="/faq" element={<FAQ/>}/>
                         <Route path="/tunisia" element={<AboutTn/>}/>
                         <Route path="/sponsors" element={<Sponsoring/>}/>
+                        <Route path="/partners" element={<PartnersPage/>}/>
                         <Route path="/about" element={<AboutUs/>}/>
                         <Route path="/speakers" element={<SpeakersPage/>}/>
                         <Route path="/schedule" element={<Schedule />} />
