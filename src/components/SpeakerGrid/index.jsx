@@ -4,7 +4,7 @@ import Speakers from '../../data/speakers.json'
 
 import './index.css'
 
-function SpeakerGrid() {
+function SpeakerGrid(props) {
     const gridElements = Speakers.map((speaker, index) =>
         <SpeakerCard
             name={speaker.name}
@@ -16,11 +16,13 @@ function SpeakerGrid() {
             image_dir='/images/speakers/'
         />
     )
+     /* eslint-disable react/prop-types */
+    const limit=props.limit?props.limit:undefined;
     return (
         <div className="container">
             <div className="auto-grid">
 
-                {gridElements}
+                {gridElements.slice(0,limit)}
 
             </div>
         </div>
