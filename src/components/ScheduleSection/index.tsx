@@ -55,6 +55,11 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
     }, []);
 
     useEffect(() => {
+        // The idea behind this is, when on big screens (>=600px) every matrix row with an odd index must be displayed
+        // from right to left, that's what this code is doing, reversing odd rows elements order.
+        // However when on small screens (<= 600px) the schedule timeline is displayed from top to bottom.
+        // That means, we don't need to change the order of the matrix elements in any way.
+        // So the changes I mentioned earlier (reversing odd rows order) need to be reverted.
 
         if (!isMobile && !isReversedRef.current) {
             setDisplayMatrix((displayMatrix.map((row, index) => {
