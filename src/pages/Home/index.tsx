@@ -74,7 +74,7 @@ export default function Home() {
             </Fade>
             <Fade>
                 <div className="home-container">
-                    <h4>EVENT Partners</h4>
+                    <h4>EVENT PARTNERS</h4>
                     <h2>IEEE Partners</h2>
                     <Sponsors items={partnersList} /></div>
             </Fade>
