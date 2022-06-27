@@ -1,18 +1,19 @@
-.videoImage{
-    width: calc(100%);
-    height: calc(100%);
+.videoImage {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
     margin-top: -5px;
     margin-left: -5px;
     position: absolute;
 }
 
-.blurry{
+.blurry {
     filter: blur(2px);
     width: calc(100% + 10px);
     height: calc(100% + 10px);
 }
 
-.video{
+.video {
     position: relative;
     width: 100%;
     height: 100%;
@@ -21,7 +22,7 @@
     margin-right: auto;
 }
 
-.videoContainer{
+.videoContainer {
     height: 45vh;
     display: flex;
     flex-direction: column;
@@ -31,22 +32,22 @@
     position: relative;
 }
 
-.deco{
+.deco {
     position: absolute;
 }
 
-.top-disk{
+.top-disk {
     left: 0;
     top: 0;
 }
 
-.bottom-disk{
+.bottom-disk {
     right: 0;
     bottom: 0;
 }
 
 @media only screen and (max-width: 550px) {
-    .videoContainer{
+    .videoContainer {
         flex-wrap: wrap;
     }
 }
