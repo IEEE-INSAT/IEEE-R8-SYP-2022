@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import {IScheduleDescription} from "../../pages/Schedule";
 import ScheduleDayEvent from "../ScheduleDayEvent";
 import ScheduleDaySelector from "../ScheduleDaySelector";
@@ -31,15 +31,11 @@ interface IProgram {
 export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
     const [selectedDay, setSelectedDay] = useState("1" as IProgramDays);
     const [selectedEvent, setSelectedEvent] = useState([0, 0]);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
 
-    const changeSelectedDay = (day: IProgramDays) => {
-        if (scheduleData[day]) {
-            setSelectedDay(day);
-        }
-    }
+    const isReversedRef = useRef(false);
 
-    //const backgroundStyle = schedule3bg;
-    let displayMatrix = (scheduleData[selectedDay].program as IProgram[]).reduce(
+    const [displayMatrix, setDisplayMatrix] = useState((scheduleData[selectedDay].program as IProgram[]).reduce(
         (rows, key, index) => {
             if (index % 3 === 0)
                 rows.push([key]);
@@ -47,11 +43,39 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
                 rows[rows.length - 1].push(key);
             return rows;
         }, [] as any[]
-    ) as IProgram[][];
+    ) as IProgram[][])
 
-    displayMatrix = displayMatrix.map((row, index) => {
-        return (index % 2 === 1) ? row.reverse() : row;
-    })
+    useEffect(() => {
+        window.addEventListener('resize', () => {
+            setIsMobile(window.innerWidth <= 600);
+        });
+        return window.removeEventListener('resize', () => {
+            setIsMobile(window.innerWidth <= 600);
+        });
+    }, []);
+
+    useEffect(() => {
+
+        if (!isMobile && !isReversedRef.current) {
+            setDisplayMatrix((displayMatrix.map((row, index) => {
+                return (index % 2 === 1) ? row.reverse() : row;
+            })));
+            isReversedRef.current = true;
+        } else if (isMobile && isReversedRef.current) {
+            setDisplayMatrix((displayMatrix.map((row, index) => {
+                return (index % 2 === 1) ? row.reverse() : row;
+            })));
+            isReversedRef.current = false;
+        }
+    }, [isMobile]);
+
+
+    const changeSelectedDay = (day: IProgramDays) => {
+        if (scheduleData[day]) {
+            setSelectedDay(day);
+        }
+    }
+
     return (
         <div className="planning-section">
             <div className="planning-month-section">
@@ -82,7 +106,6 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
 
                         displayMatrix.map((row, div_ind) => {
                             let backgroundStyle;
-                            console.log(displayMatrix);
                             if (displayMatrix.length == 1) {
                                 backgroundStyle = schedule3bg;
                             } else {
