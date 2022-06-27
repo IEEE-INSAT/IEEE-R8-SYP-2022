@@ -37,7 +37,7 @@ function SpeakerCard(props) {
                 </div>
             </Reveal>
         ) : (
-            <span></span>
+           ""
         );
 
     return (

@@ -5,7 +5,7 @@ import HeaderWave from "../../assets/images/headerWave.png";
 import HeaderWaveNav from "../../assets/images/headerWave nav.png";
 import logo from "../../assets/images/logo180-black.png";
 import beb from "../../assets/images/bebAzra9.png";
-import ThemedButton from "../ThemedButton";
+
 import NavBar from "../NavBar";
 import NavItems from "../../data/NavItems.json";
 import { Link } from "react-router-dom";
