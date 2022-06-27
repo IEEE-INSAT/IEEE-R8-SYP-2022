@@ -55,7 +55,7 @@ export default function Home() {
                     <h4>DISTINGUISHED GUESTS</h4>
                     <h2>Our Speakers</h2>
                 </Fade>
-                <Speakers />
+                <Speakers limit={true}/>
             </div>
           
             <Fade>
