@@ -29,7 +29,7 @@ interface IProgram {
 }
 
 export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
-    const dissplayMatrixRef = useRef();
+
     const updateDisplayMatrix = () => (scheduleData[selectedDay].program as IProgram[]).reduce(
         (rows, key, index) => {
             if (index % 3 === 0)

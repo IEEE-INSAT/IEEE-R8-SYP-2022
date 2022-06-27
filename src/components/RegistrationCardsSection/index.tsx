@@ -10,12 +10,12 @@ export default function RegistrationCardsSection() {
     return (
         <div className="registrationCardsSection">
             <Fade>
-
                 <RegistrationOffer
                     title="Students / Young Professionals Registrations"
                     twoBedPrice="365"
                     threeBedPrice="350"
                     noBedPrice="260"
+                    verticalPlacement="top"
                 />
             </Fade>
 
@@ -24,6 +24,7 @@ export default function RegistrationCardsSection() {
                     title="Regular Registration"
                     oneBedPrice="490"
                     noBedPrice="320"
+                    verticalPlacement="bottom"
                 />
             </Fade>
         </div>

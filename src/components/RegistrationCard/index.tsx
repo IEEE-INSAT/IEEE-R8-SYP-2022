@@ -8,24 +8,8 @@ import TransportIcon from './../../assets/images/registration/transport.svg';
 import BedIcon from './../../assets/images/registration/bed.svg';
 import BreakfastIcon from './../../assets/images/registration/breakfast.svg';
 
-/*
-import { ReactComponent as BedIcon } from './../../assets/images/registration/bed.svg';
-import { ReactComponent as ConferenceIcon } from './../../assets/images/registration/conference.svg';
-import { ReactComponent as HotelIcon } from './../../assets/images/registration/hotel.svg';
-import { ReactComponent as LunchIcon } from './../../assets/images/registration/lunch.svg';
-import { ReactComponent as DinnerIcon } from './../../assets/images/registration/meals.svg';
-import { ReactComponent as TransportIcon } from './../../assets/images/registration/transport.svg';
-*/
-/*const REGISTRATION_ICONS:ReactElement[] = [
-    <ConferenceIcon key={1} />,
-    <HotelIcon key={2} />,
-    <LunchIcon key={3} />,
-    <DinnerIcon key={4} />,
-    <TransportIcon key={5} />,
-];
-const BED_ICON: ReactElement = <BedIcon />;*/
 
-let benefits;
+let benefits: string[];
 
 interface RegistrationCardProps {
     title: string;
@@ -34,19 +18,38 @@ interface RegistrationCardProps {
     threeBedPrice?: string;
     noBedPrice?: string;
     oneBedPrice?: string;
+    verticalPlacement: "top" | "bottom"
+    horizontalPlacement: "right" | "left";
 }
 
 export default function RegistrationCard({
-    title,
-    type,
-    twoBedPrice,
-    threeBedPrice,
-    noBedPrice,
-    oneBedPrice,
-}: RegistrationCardProps) {
-    if (type !== 'withAcc') {
+                                             title,
+                                             type,
+                                             twoBedPrice,
+                                             threeBedPrice,
+                                             noBedPrice,
+                                             oneBedPrice,
+                                             verticalPlacement,
+                                             horizontalPlacement
+                                         }: RegistrationCardProps) {
+    let linearGradientDegree = 45;
+
+    if (verticalPlacement === 'top' && horizontalPlacement === 'right')
+        linearGradientDegree = 225;
+
+    if (verticalPlacement === 'top' && horizontalPlacement === 'left')
+        linearGradientDegree = 135;
+
+    if (verticalPlacement === 'bottom' && horizontalPlacement === 'right')
+        linearGradientDegree = 315;
+
+    if (verticalPlacement === 'bottom' && horizontalPlacement === 'left')
+        linearGradientDegree = 45;
+
+
+    if (type === 'withoutAcc') {
         benefits = ['Transportation between congress venues', 'Participation in all congress sessions'];
-    } else {
+    } else if (type === 'withAcc') {
         benefits = [
             'Transportation between congress venues',
             'Participation in all congress sessions',
@@ -58,26 +61,27 @@ export default function RegistrationCard({
         ];
     }
     return (
-        <div className="registrationCard">
+        <div className="registrationCard"
+             style={{background: `linear-gradient(${linearGradientDegree}deg, rgba(133, 22, 22, 0.73) 73%, #CB8B4E 92.57%)`}}>
             <div className="registrationCardContent">
                 <h3>{title}</h3>
                 {type === 'withAcc' ? (
                     <div className="registrationCardIcons">
-                        <img src={ConferenceIcon} alt="ConferenceIcon" />
-                        <img src={TransportIcon} alt="TransportIcon" />
-                        <img src={HotelIcon} alt="HotelIcon" />
-                        <img src={BreakfastIcon} alt="LunchIcon" />
-                        <img src={LunchIcon} alt="LunchIcon" />
-                        <img src={DinnerIcon} alt="DinnerIcon" />
+                        <img src={ConferenceIcon} alt="Conference"/>
+                        <img src={TransportIcon} alt="Transport"/>
+                        <img src={HotelIcon} alt="Hotel"/>
+                        <img src={BreakfastIcon} alt="Lunch"/>
+                        <img src={LunchIcon} alt="Lunch"/>
+                        <img src={DinnerIcon} alt="Dinner"/>
                     </div>
                 ) : (
                     <div className="registrationCardIcons">
-                        <img src={ConferenceIcon} alt="ConferenceIcon" />
-                        <img src={TransportIcon} alt="TransportIcon" />
+                        <img src={ConferenceIcon} alt="Conference"/>
+                        <img src={TransportIcon} alt="Transport"/>
                     </div>
                 )}
                 <ul className="registrationCardElements">
-                    {benefits.map((el, key) => (
+                    {benefits.map((el: string, key: number) => (
                         <li key={key}>{el}</li>
                     ))}
                 </ul>
@@ -87,30 +91,30 @@ export default function RegistrationCard({
                 <div className="registrationCardPrices">
                     <div className="priceInfoContainer twoBeds">
                         <div className="cardBedIcons">
-                            <img src={BedIcon} alt="BedIcon" />
-                            <img src={BedIcon} alt="BedIcon" />
+                            <img src={BedIcon} alt="Bed"/>
+                            <img src={BedIcon} alt="Bed"/>
                         </div>
                         <span className="price">{twoBedPrice} $</span>
                     </div>
                     <div className="priceInfoContainer threeBeds">
                         <div className="cardBedIcons">
-                            <img src={BedIcon} alt="BedIcon" />
-                            <img src={BedIcon} alt="BedIcon" />
-                            <img src={BedIcon} alt="BedIcon" />
+                            <img src={BedIcon} alt="Bed"/>
+                            <img src={BedIcon} alt="Bed"/>
+                            <img src={BedIcon} alt="Bed"/>
                         </div>
                         <span className="price">{threeBedPrice} $</span>
                     </div>
                 </div>
             ) : type === 'withAcc' && oneBedPrice ? (
-                <div className="registrationCardPrices" style={{ left: '59%' }}>
-                        <div className="cardBedIcons">
-                            <img src={BedIcon} alt="BedIcon" />
-                        </div>
-                        <span className="price">{oneBedPrice} $</span>
+                <div className="registrationCardPrices" style={{left: '59%'}}>
+                    <div className="cardBedIcons">
+                        <img src={BedIcon} alt="Bed"/>
+                    </div>
+                    <span className="price">{oneBedPrice} $</span>
 
                 </div>
             ) : (
-                <div className="registrationCardPrices " style={{ left: '74%' }}>
+                <div className="registrationCardPrices " style={{left: '74%'}}>
                     <div className="priceInfoContainer">
                         <span className="price">{noBedPrice} $</span>
                     </div>
