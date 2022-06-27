@@ -29,13 +29,8 @@ interface IProgram {
 }
 
 export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
-    const [selectedDay, setSelectedDay] = useState("1" as IProgramDays);
-    const [selectedEvent, setSelectedEvent] = useState([0, 0]);
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
-
-    const isReversedRef = useRef(false);
-
-    const [displayMatrix, setDisplayMatrix] = useState((scheduleData[selectedDay].program as IProgram[]).reduce(
+    const dissplayMatrixRef = useRef();
+    const updateDisplayMatrix = () => (scheduleData[selectedDay].program as IProgram[]).reduce(
         (rows, key, index) => {
             if (index % 3 === 0)
                 rows.push([key]);
@@ -43,7 +38,17 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
                 rows[rows.length - 1].push(key);
             return rows;
         }, [] as any[]
-    ) as IProgram[][])
+    ) as IProgram[][];
+
+
+    const [selectedDay, setSelectedDay] = useState("1" as IProgramDays);
+    const [selectedEvent, setSelectedEvent] = useState([0, 0]);
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
+    const [displayMatrix, setDisplayMatrix] = useState(updateDisplayMatrix());
+
+    const displayMatrixRef = useRef([...displayMatrix]);
+    const isReversedRef = useRef(false);
+
 
     useEffect(() => {
         window.addEventListener('resize', () => {
@@ -55,24 +60,31 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
     }, []);
 
     useEffect(() => {
+        displayMatrixRef.current = updateDisplayMatrix();
+        setDisplayMatrix(displayMatrixRef.current);
+    }, [selectedDay]);
+
+    useEffect(() => {
         // The idea behind this is, when on big screens (>=600px) every matrix row with an odd index must be displayed
         // from right to left, that's what this code is doing, reversing odd rows elements order.
         // However when on small screens (<= 600px) the schedule timeline is displayed from top to bottom.
         // That means, we don't need to change the order of the matrix elements in any way.
         // So the changes I mentioned earlier (reversing odd rows order) need to be reverted.
-
-        if (!isMobile && !isReversedRef.current) {
-            setDisplayMatrix((displayMatrix.map((row, index) => {
+        if (!isMobile && !isReversedRef.current || isMobile && isReversedRef.current) {
+            displayMatrixRef.current = displayMatrixRef.current.map((row, index) => {
                 return (index % 2 === 1) ? row.reverse() : row;
-            })));
-            isReversedRef.current = true;
-        } else if (isMobile && isReversedRef.current) {
-            setDisplayMatrix((displayMatrix.map((row, index) => {
-                return (index % 2 === 1) ? row.reverse() : row;
-            })));
-            isReversedRef.current = false;
+            });
+            isReversedRef.current = !isReversedRef.current;
         }
-    }, [isMobile]);
+        setDisplayMatrix(displayMatrixRef.current);
+    }, [isMobile, selectedDay]);
+
+    // useEffect(() => {
+    //     displayMatrixRef.current = displayMatrixRef.current.map((row, index) => {
+    //         return (index % 2 === 1) ? row.reverse() : row;
+    //     });
+    //     setDisplayMatrix(displayMatrixRef.current);
+    // }, [selectedDay]);
 
 
     const changeSelectedDay = (day: IProgramDays) => {
@@ -95,8 +107,9 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
                             date={scheduleData[day].date}
                             selected={day == selectedDay}
                             onclick={() => {
-                                setSelectedDay(day)
-                                setSelectedEvent([0, 0])
+                                isReversedRef.current = false;
+                                setSelectedDay(day);
+                                setSelectedEvent([0, 0]);
                             }}
                         />;
                     })
@@ -109,15 +122,15 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
 
                     {
 
-                        displayMatrix.map((row, div_ind) => {
+                        displayMatrixRef.current.map((row, div_ind) => {
                             let backgroundStyle;
-                            if (displayMatrix.length == 1) {
+                            if (displayMatrixRef.current.length == 1) {
                                 backgroundStyle = schedule3bg;
                             } else {
                                 if (div_ind == 0) {
                                     backgroundStyle = scheduleBeginBg;
-                                } else if (div_ind == displayMatrix.length - 1) {
-                                    if (displayMatrix.length % 2 == 0) {
+                                } else if (div_ind == displayMatrixRef.current.length - 1) {
+                                    if (displayMatrixRef.current.length % 2 == 0) {
                                         backgroundStyle = scheduleEndLBg;
                                     } else {
                                         backgroundStyle = scheduleEndRBg;
