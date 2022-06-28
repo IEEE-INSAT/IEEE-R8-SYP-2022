@@ -8,7 +8,7 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Sponsors from '../../components/Sponsors';
 import sponsorsList from '../../data/sponsors.json';
-
+import NumberCounter from '../../components/NumberCounter';
 import './Home.css';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
@@ -20,7 +20,7 @@ import PoweredBy from '../../components/PoweredBy';
 import Speakers from '../../components/Speakers';
 import {Link} from "react-router-dom";
 import ThemedButton from "../../components/ThemedButton";
-
+import speakerList from '../../data/speakers.json'
 const HeaderDescription = () => (
     <>
         <p className="date">See you from the 3rd to the 7th of August 2022 in Tunisia</p>
@@ -52,7 +52,7 @@ export default function Home() {
             <div className="home-container">
                 <Fade>
                     <h4>DISTINGUISHED GUESTS</h4>
-                    <h2>Our Speakers</h2>
+                    <h2>Meet our <NumberCounter number={speakerList.length}/> Speakers</h2>
                 </Fade>
                 <Speakers limit={true}/>
             </div>
