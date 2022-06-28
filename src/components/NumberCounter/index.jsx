@@ -16,6 +16,6 @@ export default function NumberCounter(props) {
     useEffect(()=>animate())
     animate.bind(this);
     return (
-        <b>{value}</b>
+        <span>{value}</span>
     );
 }
