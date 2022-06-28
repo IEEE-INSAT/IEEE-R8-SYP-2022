@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import Fade from 'react-reveal/Fade';
 
 export default function NumberCounter(props) {
     /* eslint-disable react/prop-types */
@@ -17,6 +16,6 @@ export default function NumberCounter(props) {
     useEffect(()=>animate())
     animate.bind(this);
     return (
-            <span >{value}</span>
+        <b>{value}</b>
     );
 }
