@@ -8,6 +8,7 @@ interface RegistrationOfferProps {
     threeBedPrice?: string;
     noBedPrice: string;
     oneBedPrice?: string;
+    verticalPlacement: 'top' | 'bottom';
 }
 
 export default function RegistrationOffer({
@@ -15,7 +16,8 @@ export default function RegistrationOffer({
                                               twoBedPrice,
                                               threeBedPrice,
                                               noBedPrice,
-                                              oneBedPrice
+                                              oneBedPrice,
+                                              verticalPlacement,
                                           }: RegistrationOfferProps) {
     return (
         <div className="registrationOffer">
@@ -26,9 +28,18 @@ export default function RegistrationOffer({
                     type="withAcc"
                     twoBedPrice={twoBedPrice}
                     threeBedPrice={threeBedPrice}
-                    oneBedPrice = {oneBedPrice}
+                    oneBedPrice={oneBedPrice}
+                    verticalPlacement={verticalPlacement}
+                    horizontalPlacement="left"
                 />
-                <RegistrationCard title="Without Accommodation" type="withoutAcc" noBedPrice={noBedPrice}/>
+                <RegistrationCard
+                    title="Without Accommodation"
+                    type="withoutAcc"
+                    noBedPrice={noBedPrice}
+                    verticalPlacement={verticalPlacement}
+                    horizontalPlacement="right"
+                />
+
             </div>
 
         </div>

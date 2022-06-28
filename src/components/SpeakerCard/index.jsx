@@ -37,7 +37,7 @@ function SpeakerCard(props) {
                 </div>
             </Reveal>
         ) : (
-            <span></span>
+           ""
         );
 
     return (
@@ -55,7 +55,7 @@ function SpeakerCard(props) {
                     {Tutorial}
 
                     <div className="speakerDescription">
-                        <a href={linkedin} style={{ lineHeight: '3em' }}>
+                        <a target="_blank" rel="noreferrer" href={linkedin} style={{ lineHeight: '3em' }}>
                             {' '}
                             <i className="fa-brands fa-linkedin SpeakerIcon"></i>
                         </a>

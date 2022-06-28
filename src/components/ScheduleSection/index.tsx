@@ -29,7 +29,7 @@ interface IProgram {
 }
 
 export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
-    const dissplayMatrixRef = useRef();
+
     const updateDisplayMatrix = () => (scheduleData[selectedDay].program as IProgram[]).reduce(
         (rows, key, index) => {
             if (index % 3 === 0)
@@ -49,7 +49,6 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
     const displayMatrixRef = useRef([...displayMatrix]);
     const isReversedRef = useRef(false);
 
-
     useEffect(() => {
         window.addEventListener('resize', () => {
             setIsMobile(window.innerWidth <= 600);
@@ -67,9 +66,14 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
     useEffect(() => {
         // The idea behind this is, when on big screens (>=600px) every matrix row with an odd index must be displayed
         // from right to left, that's what this code is doing, reversing odd rows elements order.
-        // However when on small screens (<= 600px) the schedule timeline is displayed from top to bottom.
+        // However, when on small screens (<= 600px) the schedule timeline is displayed from top to bottom.
         // That means, we don't need to change the order of the matrix elements in any way.
         // So the changes I mentioned earlier (reversing odd rows order) need to be reverted.
+        // The row reversing must be done when changing the selected day too.
+        // As for the use of useRef and useState at the same time, It was used because there was a bug where the state of the matrix
+        // inside the useEffect hook wasn't changing for some reason, hence the use of useRef.
+        // And I kept the State hook to re-render when the matrix changes.
+
         if (!isMobile && !isReversedRef.current || isMobile && isReversedRef.current) {
             displayMatrixRef.current = displayMatrixRef.current.map((row, index) => {
                 return (index % 2 === 1) ? row.reverse() : row;
@@ -78,14 +82,6 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
         }
         setDisplayMatrix(displayMatrixRef.current);
     }, [isMobile, selectedDay]);
-
-    // useEffect(() => {
-    //     displayMatrixRef.current = displayMatrixRef.current.map((row, index) => {
-    //         return (index % 2 === 1) ? row.reverse() : row;
-    //     });
-    //     setDisplayMatrix(displayMatrixRef.current);
-    // }, [selectedDay]);
-
 
     const changeSelectedDay = (day: IProgramDays) => {
         if (scheduleData[day]) {

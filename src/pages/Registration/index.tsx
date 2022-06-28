@@ -17,7 +17,6 @@ export default function Registration() {
             <Fade>
                 <RegistrationDescription/>
             </Fade>
-
             <Footer/>
         </div>
     );
