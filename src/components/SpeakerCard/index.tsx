@@ -1,20 +1,26 @@
 import './index.css';
 import React, { useState } from 'react';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import Zoom from 'react-reveal/Zoom';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import Reveal from 'react-reveal/Reveal';
-
-function SpeakerCard(props) {
+interface SpeakerCardProps{
+    name : string, linkedin : string, description : string, highlight : string, tutorial : boolean,image_dir : string
+}
+function SpeakerCard(props:SpeakerCardProps) {
     /* eslint-disable react/prop-types */
     const [hovered, setHover] = useState(false);
     const { name, linkedin, description, highlight, tutorial,image_dir } = props;
     const path=image_dir+name+'.jpg';
 
     //for handling different screen input
-    let touchSupport = window.matchMedia('(hover: none)');
-    let handleClick = () => {
+    const touchSupport = window.matchMedia('(hover: none)');
+    const handleClick = () => {
         if (touchSupport.matches) setHover(hovered ? false : true);
     };
-    let handleHover = () => {
+    const handleHover = () => {
         if (!touchSupport.matches) setHover(true);
     };
 
