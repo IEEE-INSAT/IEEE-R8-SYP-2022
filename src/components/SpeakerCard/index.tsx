@@ -71,7 +71,7 @@ function SpeakerCard(props:SpeakerCardProps) {
                     <div className="SpeakerCardRow" style={{ margin: '10px' }}>
                         <div className="SpeakerCardText">
                             <b>{name}</b>
-                            <br></br>
+                            <br/>
                             {highlight}
                         </div>
                     </div>

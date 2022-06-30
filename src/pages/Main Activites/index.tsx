@@ -6,11 +6,12 @@ import './style.css'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import Fade from "react-reveal/Fade";
+import MainActivityNavBar from '../../components/MainActivityNavBar';
 export default function MainActivitiesPage(){
     return(
         <div className="registration">
             <Header title={'Main Activities'} description={<p>See what&#39;s in the menu</p>}/>
-            <div style={{marginBottom:100}}></div>
+            
             <div className='ActivityPageTest'>
             <ActivityPage 
                 type={'Workshop'} 
@@ -24,6 +25,9 @@ export default function MainActivitiesPage(){
                 instructorHighlight={'Cyber Security Specialist'} 
                 linkedin={'https://www.linkedin.com/in/andrelukacakici/'}
             /></div>
+            <MainActivityNavBar items={[ "KeyNotes", "Workshops","Plenary"]} changeView={function (a: string) {
+                console.log(a);
+            } } default={'Workshops'}/>
             <Footer/>
         </div>
     );
