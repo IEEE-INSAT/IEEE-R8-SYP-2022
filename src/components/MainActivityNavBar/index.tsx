@@ -12,7 +12,7 @@ export default function MainActivityNavBar(props : MainActivityNavBarProps){
     <div className={`MainActivityNavBarItems ${selected===item?"selectedItem":""}`}  key={index}>
         <input 
             type="radio" 
-            id={`${index}`} 
+            id={`${item}`} 
             name="NavBarItems" 
             value={`${item}`} 
             defaultChecked={props.default===item} 
@@ -21,7 +21,7 @@ export default function MainActivityNavBar(props : MainActivityNavBarProps){
                 setSelected(event.target.value);
             }}
         />
-        <label htmlFor={`${index}`} >{item}</label>
+        <label htmlFor={`${item}`} >{item}</label>
     </div>
     )
     return(

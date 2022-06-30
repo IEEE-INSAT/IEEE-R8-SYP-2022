@@ -1,0 +1,22 @@
+input[type='radio'] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+}
+.ActivityList{
+    width: 220px;
+    background: #00ff40;
+    margin : 0 auto;
+    display: grid;
+    grid-template-columns: 220px;
+    grid-auto-rows: 70px;
+    
+}
+.ActivityListItem{
+    background: #fcf3ea84;
+    border-bottom: 1px solid #00000073;
+}

@@ -1,4 +1,4 @@
-input[type="radio"] {
+input[type='radio'] {
     /* Add if not using autoprefixer */
     -webkit-appearance: none;
     appearance: none;
@@ -13,75 +13,73 @@ input[type="radio"] {
  */
 
 /* Smartphones (portrait and landscape) ----------- */
-@media all 
-and (max-width : 768px) {
-  .MainActivityNavBarItems input[type="radio"]:checked+label{
-    font-size: 1.2em;
-    text-shadow: white 0 0 2px;
+@media all and (max-width: 768px) {
+    .MainActivityNavBarItems input[type='radio']:checked + label {
+        font-size: 1.2em;
+        text-shadow: white 0 0 2px;
+    }
+    .MainActivityNavBarItems {
+        width: 100%;
+        text-align: center;
+        display: grid;
+        grid-template-rows: 0 100%;
+        justify-items: center;
+        align-items: center;
+        color: white;
+        font-size: 1.1em;
+    }
+    .MainActivityNavBar {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        height: 50px;
+        overflow: hidden;
+        width: 100%;
+        justify-content: space-around;
+        background: radial-gradient(196.77% 386.32% at 11.46% -96.77%, #b03842 0%, #cb8b4e 100%)
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    }
+    .selectedItem {
+        background-color: #ffffff15;
+    }
 }
-.MainActivityNavBarItems{
-  width: 100%;
-  text-align: center;
-  display: grid;
-  grid-template-rows: 0 100%;
-  justify-items: center;
-  align-items: center;
-  color: white;
-  font-size: 1.1em;
-}
-.MainActivityNavBar{
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  height: 50px;
-  overflow: hidden;
-  width: 100%;
-  justify-content: space-around;
-  background: radial-gradient(196.77% 386.32% at 11.46% -96.77%, #B03842 0%, #CB8B4E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-}
-.selectedItem{
-  background-color: #ffffff15;
-}
-
-}
-@media all 
-and (min-width : 769px) {
-  .MainActivityNavBar{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: flex-end;
-  }
-  .MainActivityNavBarItems{
-    background-color:  #D9D9D9;
-    margin: 0 -5px;
-    box-shadow: -2px -4px 5px  rgba(0, 0, 0, 0.226);
-    border-radius: 300px 300px 0 0;
-    width: 200px;
-    height: 30px;
-    display: grid;
-    grid-template-rows: 0 100%;
-    justify-items: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    font-size: 1.1em;
-    transition: 100ms;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    z-index: 1;
-    box-sizing: content-box;
-  }
-  .selectedItem{
-    box-shadow: 0px 0px 0px ;
-    background-color: #ffffff;
-    position: relative;
-    width: 222px;
-    height: 34px;
-    margin: 0 -15px;
-    border-width: 3px 3px 0px 3px;
-    border-style: solid;
-    border-color: #CB8B4E;
-    border-radius: 300px 300px 0px 0px;
-    font-size: 1.3em ;
-    z-index: 2;
-  }
+@media all and (min-width: 769px) {
+    .MainActivityNavBar {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .MainActivityNavBarItems {
+        background-color: #d9d9d9;
+        margin: 0 -5px;
+        box-shadow: -2px -4px 5px rgba(0, 0, 0, 0.226);
+        border-radius: 300px 300px 0 0;
+        width: 200px;
+        height: 30px;
+        display: grid;
+        grid-template-rows: 0 100%;
+        justify-items: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        font-size: 1.1em;
+        transition: 100ms;
+        transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        z-index: 1;
+        box-sizing: content-box;
+    }
+    .selectedItem {
+        box-shadow: 0px 0px 0px;
+        background-color: #ffffff;
+        position: relative;
+        width: 222px;
+        height: 34px;
+        margin: 0 -15px;
+        border-width: 3px 3px 0px 3px;
+        border-style: solid;
+        border-color: #cb8b4e;
+        border-radius: 300px 300px 0px 0px;
+        font-size: 1.3em;
+        z-index: 2;
+    }
 }
