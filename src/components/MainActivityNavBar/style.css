@@ -7,8 +7,17 @@ input[type="radio"] {
     /* Not removed via appearance */
     margin: 0;
 }
-.MainActivityNavBarItems input[type="radio"]:checked+label{
-    font-size: 1.5em;
+
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media all 
+and (max-width : 768px) {
+  .MainActivityNavBarItems input[type="radio"]:checked+label{
+    font-size: 1.2em;
+    text-shadow: white 0 0 2px;
 }
 .MainActivityNavBarItems{
   width: 100%;
@@ -17,6 +26,8 @@ input[type="radio"] {
   grid-template-rows: 0 100%;
   justify-items: center;
   align-items: center;
+  color: white;
+  font-size: 1.1em;
 }
 .MainActivityNavBar{
   background-color: grey;
@@ -27,4 +38,10 @@ input[type="radio"] {
   overflow: hidden;
   width: 100%;
   justify-content: space-around;
+  background: radial-gradient(196.77% 386.32% at 11.46% -96.77%, #B03842 0%, #CB8B4E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.selectedItem{
+  background-color: #ffffff15;
+}
+
 }
