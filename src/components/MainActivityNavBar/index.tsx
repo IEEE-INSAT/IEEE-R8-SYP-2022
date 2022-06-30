@@ -8,14 +8,14 @@ interface MainActivityNavBarProps{
 }
 export default function MainActivityNavBar(props : MainActivityNavBarProps){
     const list=props.items.map((item,index)=>
-    <div className="MainActivityNavBar"  key={index}>
+    <div className="MainActivityNavBarItems"  key={index}>
         
         <input type="radio" id={`${index}`} name="NavBarItems" value={`${item}`} defaultChecked={props.default===item} onChange={(event)=>props.changeView(event.target.value)}/>
         <label htmlFor={`${index}`} >{item}</label>
     </div>
     )
     return(
-        <div>
+        <div className="MainActivityNavBar">
             {list}
         </div>
     );

@@ -6,7 +6,25 @@ input[type="radio"] {
     background-color: #fff;
     /* Not removed via appearance */
     margin: 0;
-  }
-.MainActivityNavBar input[type="radio"]:checked+label{
-    font-size: 3em;
+}
+.MainActivityNavBarItems input[type="radio"]:checked+label{
+    font-size: 1.5em;
+}
+.MainActivityNavBarItems{
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 0 100%;
+  justify-items: center;
+  align-items: center;
+}
+.MainActivityNavBar{
+  background-color: grey;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  overflow: hidden;
+  width: 100%;
+  justify-content: space-around;
 }
