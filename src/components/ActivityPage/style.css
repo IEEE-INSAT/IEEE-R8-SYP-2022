@@ -1,0 +1,33 @@
+.ActivityPage{
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.ActivityPage  h2,h1,p{
+    margin-bottom: 10px;
+}
+.ActivityPage .SpeakerCardContainer{
+    width: 360px;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-rows: 250px;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+}
+.ActivityPage hr{
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    border: 0px;
+    margin: 0 auto;
+}
+
+.ActivityPage > .dateTime > p{
+    display: inline;
+    line-height: 1.75em;
+    font-size: 1.1em;
+}
+.ActivityPage > div{
+    margin: 10px 0;
+}
