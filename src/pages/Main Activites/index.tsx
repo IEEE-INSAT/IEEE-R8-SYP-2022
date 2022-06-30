@@ -41,9 +41,9 @@ export default function MainActivitiesPage() {
             <ActivityList
                 activities={[
                     { name: 'computervision', instructor: 'Ahmad Belkahla' },
-                    { name: 'computervision', instructor: 'Ahmad Belkahla' },
-                    { name: 'computervision', instructor: 'Ahmad Belkahla' },
-                    { name: 'computervision', instructor: 'Ahmad Belkahla' },
+                    { name: 'computervision2', instructor: 'Ahmad Belkahla' },
+                    { name: 'computervision3', instructor: 'Ahmad Belkahla' },
+                    { name: 'computervision4', instructor: 'Ahmad Belkahla' },
                 ]}
                 changeView={function (a: string) {
                     console.log(a);
