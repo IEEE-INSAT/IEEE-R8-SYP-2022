@@ -1,20 +1,11 @@
 import SpeakerCard from "../SpeakerCard";
 import React, { ReactElement } from "react";
-import './style.css'
+import './style.css';
 interface ActivityPageProps{
-    type: string,
-    name: string,
-    description : string,
-    date: string,
-    time: string,
-    location : string,
-    instructorName : string,
-    instructorDesc : string,
-    instructorHighlight : string,
-    linkedin: string
+    activity: { id:number, type: string; name: string; description: string; date: string; time: string; location: string; instructorName: string; instructorDescription: string; instructorHighlight: string; linkedin: string; }
 }
 export default function ActivityPage(props:ActivityPageProps):ReactElement{
-    const {type,name,description,date,time,location,linkedin,instructorName,instructorDesc,instructorHighlight}=props;
+const {type,name,description,date,time,location,linkedin,instructorName,instructorDescription,instructorHighlight}=props.activity;
     return (
         <div className="ActivityPage">
             <div className="title">
@@ -37,7 +28,7 @@ export default function ActivityPage(props:ActivityPageProps):ReactElement{
             <div className="instructor">
                 <h2>About the instructor</h2>
                 <div className="SpeakerCardContainer">
-                    <SpeakerCard name={instructorName} linkedin={linkedin} description={instructorDesc} highlight={instructorHighlight} tutorial={true} image_dir={"/images/MainActivities/"} />
+                    <SpeakerCard name={instructorName} linkedin={linkedin} description={instructorDescription} highlight={instructorHighlight} tutorial={true} image_dir={"/images/MainActivities/"} />
                 </div>
             </div>
         </div>

@@ -2,34 +2,57 @@ import MainActivityNavBar from "../MainActivityNavBar";
 import ActivityPage from "../ActivityPage";
 import ActivityList from "../ActivityList";
 import activities from '../../data/MainActivities.json'
+import React,{ useState } from "react";
 export default function MainActivities(){
-    let workshops: { Type: string; name: string; description: string; date: string; time: string; location: string; instructorName: string; instructorDescription: string; instructorHighlight: string; linkedIn: string; }[]=[];
-    let keynotes: { Type: string; name: string; description: string; date: string; time: string; location: string; instructorName: string; instructorDescription: string; instructorHighlight: string; linkedIn: string; }[]=[];
-    let plenary: { Type: string; name: string; description: string; date: string; time: string; location: string; instructorName: string; instructorDescription: string; instructorHighlight: string; linkedIn: string; }[]=[];
+
+    //state/view management
+    const [type,setType]=useState(activities[0].type);
+    const [activity,setActivity]=useState(activities[0].id)
+    function changeType(a:string){
+        setType(a);
+    }
+    function changeActivity(id:number){
+        setActivity(id);
+        console.log(activity);
+    }
+    const empty={
+        id: 0,
+        type: "",
+        name: "",
+        description: "",
+        date: "",
+        time: "",
+        location: "",
+        instructorName: "",
+        instructorDescription: "",
+        instructorHighlight: "",
+        linkedin: ""
+    };
+
+
+    const Workshop: { id:number, type: string; name: string; description: string; date: string; time: string; location: string; instructorName: string; instructorDescription: string; instructorHighlight: string; linkedin: string; }[]=[];
+    const Keynote: { id:number, type: string; name: string; description: string; date: string; time: string; location: string; instructorName: string; instructorDescription: string; instructorHighlight: string; linkedin: string; }[]=[];
+    const Plenary: { id:number, type: string; name: string; description: string; date: string; time: string; location: string; instructorName: string; instructorDescription: string; instructorHighlight: string; linkedin: string; }[]=[];
     activities.forEach((item)=>{
-        switch (item.Type) {
-            case "Workshop": {workshops.push(item); break;};
-            case "Keynote": {keynotes.push(item); break;};
-            case "Plenary": {plenary.push(item); break;};
+        switch (item.type) {
+            case "Workshop": {Workshop.push(item); break;}
+            case "Keynote": {Keynote.push(item); break;}
+            case "Plenary": {Plenary.push(item); break;}
         }
     });
-    const workshopsList=workshops.map(
-        (item)=>{
-            return({name: item.name,instructor:item.instructorName});
-        }
+    const mainActivities={Workshop,Keynote,Plenary}
+    return(
+        <div>
+            <div>
+                <MainActivityNavBar 
+                    items={['Keynote','Workshop','Plenary']} 
+                    changeView={changeType } default={activities[0].type}/>
+            </div>
+            <div>
+                <div><ActivityList activities={mainActivities[(type as ('Workshop'|'Plenary'|'Keynote'))]} 
+                changeView={changeActivity}/></div>
+                <div><ActivityPage activity={mainActivities[(type as ('Workshop'|'Plenary'|'Keynote'))].find(element=>element.id==activity) || empty} /></div>
+            </div>
+        </div>
     );
-    const keynotesList=keynotes.map(
-        (item)=>{
-            return({name: item.name,instructor:item.instructorName});
-        }
-    );
-    const plenaryList=plenary.map(
-        (item)=>{
-            return({name: item.name,instructor:item.instructorName});
-        }
-    );
-    
-    return(<div>
-
-    </div>);
 }
