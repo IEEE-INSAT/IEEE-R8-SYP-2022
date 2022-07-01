@@ -80,6 +80,6 @@ input[type='radio'] {
         border-color: #cb8b4e;
         border-radius: 300px 300px 0px 0px;
         font-size: 1.3em;
-        z-index: 2;
+        z-index: 3;
     }
 }

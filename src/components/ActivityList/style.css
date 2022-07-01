@@ -8,12 +8,12 @@ input[type='radio'] {
     margin: 0;
 }
 .ActivityList{
-    margin : 0 auto;
     display: grid;
     width: fit-content;
-    grid-template-columns:260px;
-    grid-auto-rows: 70px;
+    grid-template-columns:200px;
+    grid-auto-rows: max-content;
     row-gap: 10px;
+    color: white;
 }
 .ActivityListItem{
     display: grid;
@@ -23,7 +23,7 @@ input[type='radio'] {
     border-width: 0px 0px 1px 0px;
     border-style: solid;
     border-color: #593B1E;
-    padding: 0 10px;
+    padding: 3px 10px;
     transition: 200ms;
 }
 
@@ -34,7 +34,7 @@ input[type='radio'] {
     }
 }
 .selectedActivityListItem{
-    background-color:rgba(255, 193, 37, 0.152); 
+    background-color:rgba(255, 186, 37, 0.152); 
     font-size: 110%;
 }
 

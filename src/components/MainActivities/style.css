@@ -1,0 +1,34 @@
+.MainActivities{
+
+}
+.MainActivityNavBarContainer{
+    z-index: 300;
+    
+}
+.mainContainer{
+    margin: -2px auto;
+    width: 65%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #CB8B4E;
+    border-radius: 36px;
+    z-index: 2;
+    overflow: hidden;
+    background-image: url("/public/images/back.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.listContainer{
+    overflow-y: scroll;
+    height: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    width: 200px;
+    overflow-x: hidden;
+}
+.pageContainer{
+    overflow-y: scroll;
+    height: 100%;
+    width: 50%;
+}

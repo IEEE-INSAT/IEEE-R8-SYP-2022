@@ -38,15 +38,15 @@
 }
 @media all and (min-width: 1024px)  {
     .ActivityPage .SpeakerCardContainer{
-        width: 370px;
-        grid-auto-rows: 260px;
+        width: 60%;
+        grid-auto-rows: 200px;
     }
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
     .ActivityPage .SpeakerCardContainer{
-        width: 360px;
-        grid-auto-rows: 260px;
+        width: 80%;
+        grid-auto-rows: 200px;
     }    
 }
 

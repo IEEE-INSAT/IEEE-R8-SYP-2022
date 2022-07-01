@@ -3,6 +3,7 @@ import ActivityPage from "../ActivityPage";
 import ActivityList from "../ActivityList";
 import activities from '../../data/MainActivities.json'
 import React,{ useState } from "react";
+import './style.css'
 export default function MainActivities(){
 
     //state/view management
@@ -42,16 +43,16 @@ export default function MainActivities(){
     });
     const mainActivities={Workshop,Keynote,Plenary}
     return(
-        <div>
-            <div>
+        <div className="MainActivities">
+            <div className="MainActivityNavBarContainer">
                 <MainActivityNavBar 
                     items={['Keynote','Workshop','Plenary']} 
                     changeView={changeType } default={activities[0].type}/>
             </div>
-            <div>
-                <div><ActivityList activities={mainActivities[(type as ('Workshop'|'Plenary'|'Keynote'))]} 
+            <div className="mainContainer">
+                <div className="listContainer"><ActivityList activities={mainActivities[(type as ('Workshop'|'Plenary'|'Keynote'))]} 
                 changeView={changeActivity}/></div>
-                <div><ActivityPage activity={mainActivities[(type as ('Workshop'|'Plenary'|'Keynote'))].find(element=>element.id==activity) || empty} /></div>
+                <div className="pageContainer"><ActivityPage activity={mainActivities[(type as ('Workshop'|'Plenary'|'Keynote'))].find(element=>element.id==activity) || empty} /></div>
             </div>
         </div>
     );
