@@ -22,7 +22,7 @@ export default function ActivityList(props: ActivityListProps) {
                 }}
             />
             <label htmlFor={`${item.name}`}>
-                <h3>{item.name}</h3>
+                <b>{item.name}</b>
                 <p>by {item.instructorName}</p>
             </label>
         </div>

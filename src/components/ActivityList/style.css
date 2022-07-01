@@ -10,7 +10,7 @@ input[type='radio'] {
 .ActivityList{
     display: grid;
     width: fit-content;
-    grid-template-columns:200px;
+    grid-template-columns:220px;
     grid-auto-rows: max-content;
     row-gap: 10px;
     color: white;
@@ -34,7 +34,7 @@ input[type='radio'] {
     }
 }
 .selectedActivityListItem{
-    background-color:rgba(255, 186, 37, 0.152); 
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 17%, rgba(255,255,255,0.1) 84%, rgba(255,255,255,0) 100%) ;
     font-size: 110%;
 }
 
