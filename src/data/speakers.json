@@ -13,12 +13,6 @@
   },
 
   {
-    "name": "David Koehler",
-    "highlight": "IEEE Vice President, Member and Geographic Activities",
-    "description": "",
-    "linkedin": "https://www.linkedin.com/in/davidakoehler"
-  },
-  {
     "name": "Michael Kreisberg",
     "highlight": "Senior Director, Member Experience",
     "description": "Distinguished career providing vision, strategy, and leadership for blue chip organizations in both the for-profit and association . Recognized for building, leading, and mobilizing cross-functional, multi-disciplinary teams around an aspirational vision. Skilled in working closely with Boards, volunteers and senior leadership.",
@@ -103,12 +97,6 @@
     "linkedin": "https://www.linkedin.com/in/fayrouz-fattoum/"
   },
   {
-    "name": "Zied Bouida",
-    "highlight": "Former IEEE Region 7 YPs Committee Chair",
-    "description": "Dr. Bouida is a Senior Researcher and a Cisco Chair technical manager at the IoT Lab at Carleton University, Ottawa, Canada. \nHe is a Senior Member of the IEEE, HKN Professional Member, and a Professional Engineer in Ontario. \nHe served as IEEE Qatar YPs Committee Chair in 2016 and as IEEE Canada (R7) YPs Committee Chair from 2017 to 2021.",
-    "linkedin": "https://www.linkedin.com/in/bouidazied"
-  },
-  {
     "name": "Aymen Tmar",
     "highlight": "chair of IEEE IAS Tunisia Section chapter",
     "description": "Aymen Tmar is a Tunisian electromechanical engineer, who is currently an asset Integrity Engineer at Shell. He was the Chairman of IEEE PES ENIS Student Branch Chapter in 2014 and occupied the position of IEEE Tunisia Young Professionals AG chairman in 2019. He is currently the chair of IEEE IAS Tunisia Section chapter.",
@@ -155,5 +143,11 @@
     "highlight": "HawKar founder",
     "description": "Khadija Jallouli is the founder of HawKar. She was selected by the Meaningful Business 100 among outstanding leaders across the world combining profit and purpose to help achieve the UN Sustainable Development Goals. She graduated from the National Institute of Applied science and technologies (INSAT) in 2020.",
     "linkedin": "https://www.linkedin.com/in/khadija-jallouli/"
+  },
+  {
+    "name": "Zied Bouida",
+    "highlight": "Former IEEE Region 7 YPs Committee Chair",
+    "description": "Dr. Bouida is a Senior Researcher and a Cisco Chair technical manager at the IoT Lab at Carleton University, Ottawa, Canada. \nHe is a Senior Member of the IEEE, HKN Professional Member, and a Professional Engineer in Ontario. \nHe served as IEEE Qatar YPs Committee Chair in 2016 and as IEEE Canada (R7) YPs Committee Chair from 2017 to 2021.",
+    "linkedin": "https://www.linkedin.com/in/bouidazied"
   }
 ]
