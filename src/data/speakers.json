@@ -11,6 +11,12 @@
     "description": "Antonio Luque is the IEEE Region 8 Director elected in 2019. He currently holds the position of Associate Professor in the Department of Electronics Engineering, University of Seville. He has authored 20 journal papers, 40 conference papers, 3 book chapters, and a textbook, in addition to supervising two PhD students.",
     "linkedin": "https://www.linkedin.com/in/antonio-luque-b678573/"
   },
+  {
+    "name": "David Koehler",
+    "highlight": "IEEE Vice President, Member and Geographic Activities",
+    "description": "",
+    "linkedin": "https://www.linkedin.com/in/antonio-luque-b678573/"
+  },
 
   {
     "name": "Michael Kreisberg",
@@ -91,6 +97,12 @@
     "linkedin": "https://www.linkedin.com/in/simay-akar-1868359/"
   },
   {
+    "name": "Zied Bouida",
+    "highlight": "Former IEEE Region 7 YPs Committee Chair",
+    "description": "Dr. Bouida is a Senior Researcher and a Cisco Chair technical manager at the IoT Lab at Carleton University, Ottawa, Canada. \nHe is a Senior Member of the IEEE, HKN Professional Member, and a Professional Engineer in Ontario. \nHe served as IEEE Qatar YPs Committee Chair in 2016 and as IEEE Canada (R7) YPs Committee Chair from 2017 to 2021.",
+    "linkedin": "https://www.linkedin.com/in/bouidazied"
+  },
+  {
     "name": "Fattoum Fairouz",
     "highlight": "Student Branch SIGHT Groups Coordinator, at IEEE R8 SAC",
     "description": "Fayrouz Fattoum is a Tunisian engineer, currently working as LPG deputy plant manager at Total Energies. She is the former chair of the IEEE ENIG Student Branch. she is now a member of the IEEE Region 8 humanitarian activities subcommittee; she is a student initiative subcommittee member at IEEE PES and SIGHT groups coordinators at IEEE R8 SAC.",
@@ -143,11 +155,5 @@
     "highlight": "HawKar founder",
     "description": "Khadija Jallouli is the founder of HawKar. She was selected by the Meaningful Business 100 among outstanding leaders across the world combining profit and purpose to help achieve the UN Sustainable Development Goals. She graduated from the National Institute of Applied science and technologies (INSAT) in 2020.",
     "linkedin": "https://www.linkedin.com/in/khadija-jallouli/"
-  },
-  {
-    "name": "Zied Bouida",
-    "highlight": "Former IEEE Region 7 YPs Committee Chair",
-    "description": "Dr. Bouida is a Senior Researcher and a Cisco Chair technical manager at the IoT Lab at Carleton University, Ottawa, Canada. \nHe is a Senior Member of the IEEE, HKN Professional Member, and a Professional Engineer in Ontario. \nHe served as IEEE Qatar YPs Committee Chair in 2016 and as IEEE Canada (R7) YPs Committee Chair from 2017 to 2021.",
-    "linkedin": "https://www.linkedin.com/in/bouidazied"
   }
 ]
