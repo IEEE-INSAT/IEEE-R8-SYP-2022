@@ -57,7 +57,7 @@ function SpeakerCard(props) {
                     <div className="speakerDescription">
                         <a target="_blank" rel="noreferrer" href={linkedin} style={{ lineHeight: '3em' }}>
                             {' '}
-                           <i className="fa-brands fa-linkedin SpeakerIcon"></i>
+                            <i className="fa-brands fa-linkedin SpeakerIcon"></i>
                         </a>
                         <p>{description && description.substring(0, 370)}</p>
                         {Xbutton}
