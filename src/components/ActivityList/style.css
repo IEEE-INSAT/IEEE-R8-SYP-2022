@@ -1,0 +1,41 @@
+input[type='radio'] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+}
+.ActivityList{
+    display: grid;
+    width: fit-content;
+    grid-template-columns:220px;
+    grid-auto-rows: max-content;
+    row-gap: 10px;
+    color: white;
+}
+.ActivityListItem{
+    display: grid;
+    grid-template-rows: 0 100%;
+    /* justify-items: center; */
+    align-items: center;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #593B1E;
+    padding: 3px 10px;
+    transition: 200ms;
+}
+
+@media all and (max-width: 768px) {
+    .ActivityListItem{
+        background: rgba(255, 193, 37, 0.108);
+        justify-items: center;
+    }
+}
+.selectedActivityListItem{
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 17%, rgba(255,255,255,0.1) 84%, rgba(255,255,255,0) 100%) ;
+    font-size: 110%;
+}
+
+

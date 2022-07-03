@@ -1,0 +1,66 @@
+.ActivityPage{
+    margin: 10px 20px;
+    text-align: center;
+}
+
+.ActivityPage  h2,h1,p{
+    margin-bottom: 10px;
+}
+.ActivityPage .SpeakerCardContainer{
+    margin: 0 auto;
+    display: grid;
+    
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+}
+.ActivityPage hr{
+    width: 40%;
+    height: 2px;
+    background-color: black;
+    border: 0px;
+    margin: 0 auto;
+}
+
+.ActivityPage > .dateTime > p{
+    display: inline;
+    line-height: 1.3em;
+    font-size: 1.1em;
+}
+.ActivityPage > div{
+    margin: 10px 0;
+}
+.synopsis p{
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+    text-align-last:center;
+}
+@media all and (min-width: 1024px)  {
+    .ActivityPage .SpeakerCardContainer{
+        width: 60%;
+        grid-auto-rows: 200px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .ActivityPage .SpeakerCardContainer{
+        width: 80%;
+        grid-auto-rows: 200px;
+    }    
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) { 
+    .ActivityPage .SpeakerCardContainer{
+        width: 360px;
+        grid-auto-rows: 260px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .SpeakerCardContainer {
+        font-size: 60% !important;
+        width: 260px;
+        grid-auto-rows: 187px;
+    }
+}
