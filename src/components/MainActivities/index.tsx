@@ -5,7 +5,7 @@ import activities from '../../data/MainActivities.json'
 import React,{ useState } from "react";
 import './style.css'
 export default function MainActivities(){
-
+    
     //state/view management
     const [type,setType]=useState(activities[0].type);
     const [activity,setActivity]=useState(activities[0].id)
