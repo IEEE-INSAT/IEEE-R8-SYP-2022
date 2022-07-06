@@ -1,6 +1,8 @@
 .ActivityPage{
     margin: 10px 20px;
     text-align: center;
+    z-index: inherit;
+
 }
 
 .ActivityPage  h2,h1,p{

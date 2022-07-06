@@ -2,36 +2,36 @@
 
 }
 .MainActivityNavBarContainer{
-    z-index: 300;
+    z-index: 5;
     
 }
 .mainContainer{
     margin: -2px auto;
     width: 65%;
     height: 80vh;
-    display: flex;
-    flex-grow: 0;
-    justify-content: space-between;
     border: 3px solid #CB8B4E;
     border-radius: 36px;
-    z-index: 2;
+    z-index: 99;
     overflow: hidden;
-    
+    background: url("/public/images/back.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:contain;
 }
 .listContainer{
     overflow-y: scroll;
     height: 100%;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;
-    width: 30%;
+    width: fit-content;
     overflow-x: hidden;
-    background: linear-gradient(180deg, #B03842 0%, #CB8B4E 100%);
+    
     padding: 10px;
+    float: left;
 }
+
 .pageContainer{
     overflow-y: scroll;
     height: 100%;
     width: 70%;
+    float: right;
 }

@@ -14,6 +14,7 @@ input[type='radio'] {
     grid-auto-rows: max-content;
     row-gap: 10px;
     color: white;
+    z-index: inherit;
 }
 .ActivityListItem{
     display: grid;
