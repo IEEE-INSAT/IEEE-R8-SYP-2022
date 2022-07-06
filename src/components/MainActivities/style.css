@@ -1,37 +1,47 @@
-.MainActivities{
-
+.MainActivities {
 }
-.MainActivityNavBarContainer{
-    z-index: 5;
-    
-}
-.mainContainer{
+.mainContainer {
     margin: -2px auto;
     width: 65%;
     height: 80vh;
-    border: 3px solid #CB8B4E;
+    border: 3px solid #cb8b4e;
     border-radius: 36px;
     z-index: 99;
     overflow: hidden;
-    background: url("/public/images/back.png");
+    background: url('/public/images/back.png');
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
 }
-.listContainer{
+.listContainer {
     overflow-y: scroll;
     height: 100%;
-    -ms-overflow-style: none;  /* IE and Edge */
+    -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none;
     width: fit-content;
     overflow-x: hidden;
-    
+
     padding: 10px;
     float: left;
 }
-
-.pageContainer{
+.pageContainer {
     overflow-y: scroll;
     height: 100%;
     width: 70%;
     float: right;
+}
+
+.listContainer::-webkit-scrollbar {
+    width: 6px;
+}
+
+.listContainer::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+.listContainer::-webkit-scrollbar-thumb {
+    background: rgba(255, 174, 0, 0.177);
+}
+
+.listContainer::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0.252);
 }

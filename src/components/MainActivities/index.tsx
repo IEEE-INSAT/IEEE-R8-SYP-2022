@@ -44,11 +44,10 @@ export default function MainActivities(){
     const mainActivities={Workshop,Keynote,Plenary}
     return(
         <div className="MainActivities">
-            <div className="MainActivityNavBarContainer">
                 <MainActivityNavBar 
                     items={['Keynote','Workshop','Plenary']} 
                     changeView={changeType } default={activities[0].type}/>
-            </div>
+            
             <div className="mainContainer">
                 <div className="listContainer"><ActivityList activities={mainActivities[(type as ('Workshop'|'Plenary'|'Keynote'))]} 
                 changeView={changeActivity}/></div>
