@@ -1,12 +1,12 @@
 .MainActivities {
 }
 .mainContainer {
-    margin: -2px auto 70px auto;
+    margin: 0px auto 70px auto;
     width: 65%;
     height: 80vh;
     border: 3px solid #cb8b4e;
     border-radius: 36px;
-    z-index: 99;
+    z-index: 1;
     overflow: hidden;
     background: url('/public/images/back.png');
     background-repeat: no-repeat;
