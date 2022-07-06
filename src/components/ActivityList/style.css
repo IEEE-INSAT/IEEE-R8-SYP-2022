@@ -9,12 +9,12 @@ input[type='radio'] {
 }
 .ActivityList{
     display: grid;
-    width: fit-content;
-    grid-template-columns:220px;
     grid-auto-rows: max-content;
+    grid-template-columns: repeat(1, 0.7fr);
     row-gap: 10px;
     color: white;
     z-index: inherit;
+    
 }
 .ActivityListItem{
     display: grid;
@@ -27,16 +27,36 @@ input[type='radio'] {
     padding: 3px 10px;
     transition: 200ms;
 }
-
+.selectedActivityListItem{
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 17%, rgba(255,255,255,0.1) 84%, rgba(255,255,255,0) 100%) ;
+    font-size: 110%;
+}
 @media all and (max-width: 768px) {
     .ActivityListItem{
         background: rgba(255, 193, 37, 0.108);
         justify-items: center;
+        color: black;
+        text-align: center;
+        border-radius: 0px;
+
     }
+    .selectedActivityListItem{
+        background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 17%, rgba(255,255,255,0.1) 84%, rgba(255,255,255,0) 100%), rgba(255, 193, 37, 0.108); ;
+        font-size: 110%;
+    }
+    
 }
-.selectedActivityListItem{
-    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 17%, rgba(255,255,255,0.1) 84%, rgba(255,255,255,0) 100%) ;
-    font-size: 110%;
+
+
+.ActivityListItem b{
+    font-family: FuturaBoldCondesedBT;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
+.ActivityListItem p{
+    font-family: futuraLtBt;
+    font-size: 1em;
 }
 
 
