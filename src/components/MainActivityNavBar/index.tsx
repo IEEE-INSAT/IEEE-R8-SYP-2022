@@ -23,7 +23,7 @@ export default function MainActivityNavBar(props: MainActivityNavBarProps) {
                 id={`${item}`}
                 name="NavBarItems"
                 value={`${item}`}
-                defaultChecked={props.default === item}
+                readOnly
                 checked={selected === item}
             />
             <label htmlFor={`${item}`}>{item}</label>

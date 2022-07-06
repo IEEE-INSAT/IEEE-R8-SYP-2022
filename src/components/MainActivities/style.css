@@ -1,4 +1,5 @@
 .MainActivities {
+    user-select: none;
 }
 .mainContainer {
     margin: 0px auto 70px auto;

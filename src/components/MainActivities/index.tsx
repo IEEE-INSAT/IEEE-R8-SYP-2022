@@ -11,10 +11,10 @@ export default function MainActivities(){
     const [activity,setActivity]=useState(activities[0].id)
     function changeType(a:string){
         setType(a);
+        setActivity(mainActivities[(a as ('Workshop'|'Plenary'|'Keynote'))][0].id);
     }
     function changeActivity(id:number){
         setActivity(id);
-        console.log(activity);
     }
     const empty={
         id: 0,
