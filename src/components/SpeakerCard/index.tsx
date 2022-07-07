@@ -52,7 +52,10 @@ function SpeakerCard(props:SpeakerCardProps) {
                 className={`card${hovered ? ' cardHovered' : ''}`}
                 style={{
                     backgroundImage: `linear-gradient(0deg, rgba(203, 138, 78, 0.69) 0%, rgba(203, 138, 78, 0) 40%) , url("${path}") ,url("https://de2g2pzerdhu6.cloudfront.net/wp-content/uploads/2019/05/dummy-man-570x570.png")`,
+                    backgroundSize:"",
+                    backgroundRepeat:"no-repeat"
                 }}
+
                 onMouseEnter={handleHover}
                 onMouseLeave={() => setHover(false)}
                 onClick={handleClick}
