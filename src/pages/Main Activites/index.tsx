@@ -12,7 +12,7 @@ export default function MainActivitiesPage() {
             <Header title={'Main Activities'} description={<p>See what&#39;s in the menu</p>} />
 
             <MainActivities/>
-            <Footer />
+            {window.matchMedia("all and (max-width: 768px)").matches?"": <Footer />}
         </div>
     );
 }

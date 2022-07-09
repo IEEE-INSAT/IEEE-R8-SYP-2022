@@ -7,19 +7,24 @@ interface MainActivityNavBarProps {
     default: string;
 }
 export default function MainActivityNavBar(props: MainActivityNavBarProps) {
-    const [selected, setSelected] = useState(props.items[1]);
+    const [selected, setSelected] = useState(props.default);
     const list = props.items.map((item, index) => (
-        <div className={`MainActivityNavBarItems ${selected === item ? 'selectedItem' : ''}`} key={index}>
+        <div
+            className={`MainActivityNavBarItems ${selected === item ? 'selectedItem' : ''}`}
+            key={index}
+            onClick={
+                () => {
+                    setSelected(item);
+                    props.changeView(item);
+                }}
+        >
             <input
                 type="radio"
                 id={`${item}`}
                 name="NavBarItems"
                 value={`${item}`}
-                defaultChecked={props.default === item}
-                onChange={(event) => {
-                    props.changeView(event.target.value);
-                    setSelected(event.target.value);
-                }}
+                readOnly
+                checked={selected === item}
             />
             <label htmlFor={`${item}`}>{item}</label>
         </div>

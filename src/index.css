@@ -76,8 +76,14 @@
   font-weight: 700;
   src: local('Amatica SC'), url('https://fonts.cdnfonts.com/s/29880/AmaticaSC-Bold.woff') format('woff');
 }
-
-
+@font-face {
+  font-family: 'FuturaBoldCondesedBT';
+  src: url("./assets//fonts/FuturaBoldCondensedBT.ttf");
+}
+@font-face {
+  font-family: futuraLtBt;
+  src: url("./assets/fonts/futura\ light\ bt.ttf");
+}
 
 
 body {

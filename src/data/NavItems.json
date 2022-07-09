@@ -3,8 +3,10 @@
     { "name": "About Tunisia", "path": "/tunisia" },
     { "name": "About us", "path": "/about" },
     { "name": "Schedule", "path": "/schedule" },
+    { "name": "Main Activites", "path": "/MainActivities"   },
     { "name": "Speakers", "path": "/speakers" },
     { "name": "Sponsors", "path": "/sponsors" },
     { "name": "Partners", "path": "/partners" },
     { "name": "FAQ", "path": "/faq" }
+    
 ]

@@ -21,12 +21,12 @@ const {type,name,description,date,time,location,linkedin,instructorName,instruct
             </div>
             <hr/>
             <div className="synopsis">
-                <h2>Synopsis</h2>
+                <h2 className="secondarytitle">Synopsis</h2>
                 <p>{description}</p>
             </div>
             <hr/>
             <div className="instructor">
-                <b>About the instructor</b>
+                <h2 className="secondarytitle">About the instructor</h2>
                 <div className="SpeakerCardContainer">
                     <SpeakerCard name={instructorName} linkedin={linkedin} description={instructorDescription} highlight={instructorHighlight} tutorial={true} image_dir={"/images/MainActivities/"} />
                 </div>
