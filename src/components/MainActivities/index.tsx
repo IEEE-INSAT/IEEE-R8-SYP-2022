@@ -1,3 +1,4 @@
+
 import MainActivityNavBar from '../MainActivityNavBar';
 import ActivityPage from '../ActivityPage';
 import ActivityList from '../ActivityList';
@@ -8,14 +9,17 @@ export default function MainActivities() {
     //state/view management
     const [type, setType] = useState(activities[0].type);
     const [activity, setActivity] = useState(activities[0].id);
+
     function changeType(a: string) {
         setType(a);
         setActivity(mainActivities[a as 'Workshop' | 'Plenary' | 'Keynote'][0].id);
     }
+
     function changeActivity(id: number) {
         setActivity(id);
         setViewPage(true);
     }
+
     const empty = {
         id: 0,
         type: '',
@@ -85,7 +89,7 @@ export default function MainActivities() {
             }
         }
     });
-    const mainActivities = { Workshop, Keynote, Plenary };
+    const mainActivities = {Workshop, Keynote, Plenary};
 
     const [viewPage, setViewPage] = useState(false);
     return (
