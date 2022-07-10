@@ -4,7 +4,6 @@ import './style.css';
 interface ActivityListProps {
     activities: { id: number; name: string; instructorName: string }[];
     changeView(a: number): any;
-
 }
 
 export default function ActivityList(props: ActivityListProps) {

@@ -1,6 +1,6 @@
 
 import MainActivityNavBar from '../MainActivityNavBar';
-import ActivityPage from '../ActivityPage';
+import ActivityPage from '../../pages/ActivityPage';
 import ActivityList from '../ActivityList';
 import activities from '../../data/MainActivities.json';
 import React, { useState } from 'react';
@@ -12,7 +12,7 @@ export default function MainActivities() {
 
     function changeType(a: string) {
         setType(a);
-        setActivity(mainActivities[a as 'Workshop' | 'Plenary' | 'Keynote'][0].id);
+        setActivity(mainActivities[a as 'Workshops' | /*'Plenary' |*/ 'Keynotes'][0].id);
     }
 
     function changeActivity(id: number) {
@@ -34,7 +34,7 @@ export default function MainActivities() {
         linkedin: '',
     };
 
-    const Workshop: {
+    const Workshops: {
         id: number;
         type: string;
         name: string;
@@ -47,7 +47,7 @@ export default function MainActivities() {
         instructorHighlight: string;
         linkedin: string;
     }[] = [];
-    const Keynote: {
+    const Keynotes: {
         id: number;
         type: string;
         name: string;
@@ -75,12 +75,12 @@ export default function MainActivities() {
     }[] = [];
     activities.forEach((item) => {
         switch (item.type) {
-            case 'Workshop': {
-                Workshop.push(item);
+            case 'Workshops': {
+                Workshops.push(item);
                 break;
             }
-            case 'Keynote': {
-                Keynote.push(item);
+            case 'Keynotes': {
+                Keynotes.push(item);
                 break;
             }
             case 'Plenary': {
@@ -89,13 +89,13 @@ export default function MainActivities() {
             }
         }
     });
-    const mainActivities = {Workshop, Keynote, Plenary};
+    const mainActivities = {Workshops, Keynotes/*, Plenary*/};
 
     const [viewPage, setViewPage] = useState(false);
     return (
         <div className="MainActivities">
             <MainActivityNavBar
-                items={['Keynote', 'Workshop', 'Plenary']}
+                items={['Keynotes', 'Workshops'/*, 'Plenary'*/]}
                 changeView={changeType}
                 default={activities[0].type}
             />
@@ -103,7 +103,7 @@ export default function MainActivities() {
             <div className="mainContainer">
                 <div className={`${viewPage ? 'hidden ' : 'showed '}listContainer`}>
                     <ActivityList
-                        activities={mainActivities[type as 'Workshop' | 'Plenary' | 'Keynote']}
+                        activities={mainActivities[type as 'Workshops' /*| 'Plenary'*/ | 'Keynotes']}
                         changeView={changeActivity}
                     />
                 </div>
@@ -113,7 +113,7 @@ export default function MainActivities() {
                     </div>
                     <ActivityPage
                         activity={
-                            mainActivities[type as 'Workshop' | 'Plenary' | 'Keynote'].find(
+                            mainActivities[type as 'Workshops' /*| 'Plenary'*/ | 'Keynotes'].find(
                                 (element) => element.id == activity,
                             ) || empty
                         }
