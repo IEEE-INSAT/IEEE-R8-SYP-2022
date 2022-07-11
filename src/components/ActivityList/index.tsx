@@ -9,8 +9,7 @@ interface ActivityListProps {
 export default function ActivityList(props: ActivityListProps) {
     const [selected, setSelected] = useState(props.activities[0].id);
 	useEffect(() => {
-	  setSelected(props.activities[0].id)
-	
+	  setSelected(props.activities[0].id);
 	}, [props.activities[0].id])
     const list = props.activities.map((item, index) => (
         <div
