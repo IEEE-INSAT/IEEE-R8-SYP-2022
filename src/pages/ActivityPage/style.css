@@ -1,19 +1,35 @@
 .ActivityPage{
     margin: 10px 20px;
     text-align: center;
+    z-index: inherit;
+
 }
 
 .ActivityPage  h2,h1,p{
     margin-bottom: 10px;
 }
 .ActivityPage .SpeakerCardContainer{
-    margin: 0 auto;
-    display: grid;
+    margin: 10px auto;
+    /* display: grid;
     
     grid-template-columns: auto;
     justify-items: center;
-    align-items: center;
+    align-items: center; */
+    width: 70%;
+    max-width: 360px;
+    height:280px;
 }
+.title{
+    font-family: FuturaBoldCondesedBT;
+    font-size: 1.3em;
+}
+.secondarytitle{
+    font-family: futura;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+
 .ActivityPage hr{
     width: 40%;
     height: 2px;
@@ -24,8 +40,9 @@
 
 .ActivityPage > .dateTime > p{
     display: inline;
-    line-height: 1.3em;
-    font-size: 1.1em;
+    line-height: 1.6em;
+    font-size: 1.2em;
+    font-family: futuraLtBt;
 }
 .ActivityPage > div{
     margin: 10px 0;
@@ -35,8 +52,10 @@
     text-align: justify;
     margin: 0 auto;
     text-align-last:center;
+    font-size: 1.3em;
+    font-family: futuraLtBt;
 }
-@media all and (min-width: 1024px)  {
+/* @media all and (min-width: 1024px)  {
     .ActivityPage .SpeakerCardContainer{
         width: 60%;
         grid-auto-rows: 200px;
@@ -63,4 +82,4 @@
         width: 260px;
         grid-auto-rows: 187px;
     }
-}
+} */

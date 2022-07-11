@@ -1,4 +1,4 @@
-import SpeakerCard from "../SpeakerCard";
+import SpeakerCard from "../../components/SpeakerCard";
 import React, { ReactElement } from "react";
 import './style.css';
 interface ActivityPageProps{
@@ -9,7 +9,7 @@ const {type,name,description,date,time,location,linkedin,instructorName,instruct
     return (
         <div className="ActivityPage">
             <div className="title">
-                <h1>{type} : {name}</h1>
+                <h1> {name}</h1>
             </div>
             <hr/>
             <div className="dateTime">
@@ -21,14 +21,14 @@ const {type,name,description,date,time,location,linkedin,instructorName,instruct
             </div>
             <hr/>
             <div className="synopsis">
-                <h2>Synopsis</h2>
+                <h2 className="secondarytitle">Synopsis</h2>
                 <p>{description}</p>
             </div>
             <hr/>
             <div className="instructor">
-                <b>About the instructor</b>
+                <h2 className="secondarytitle">About the instructor</h2>
                 <div className="SpeakerCardContainer">
-                    <SpeakerCard name={instructorName} linkedin={linkedin} description={instructorDescription} highlight={instructorHighlight} tutorial={true} image_dir={"/images/MainActivities/"} />
+                    <SpeakerCard name={instructorName} linkedin={linkedin} description={instructorDescription} highlight={instructorHighlight} tutorial={true} image_dir={"/images/speakers/"} />
                 </div>
             </div>
         </div>

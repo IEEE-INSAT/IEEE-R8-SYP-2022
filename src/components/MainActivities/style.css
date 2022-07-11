@@ -1,0 +1,87 @@
+.MainActivities {
+    user-select: none;
+}
+@media all and (min-width: 769px){
+    .mainContainer {
+        margin: 0px auto 70px auto;
+        width: 65%;
+        height: 80vh;
+        border: 3px solid #cb8b4e;
+        border-radius: 36px;
+        z-index: 1;
+        overflow: hidden;
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    .listContainer {
+        overflow-y: scroll;
+        height: 100%;
+        width: 30%;
+        padding: 10px;
+        float: left;
+        background: url('/public/images/back.png');
+        background-repeat: no-repeat;
+        background-size: 120% 100%;
+    }
+    .pageContainer {
+        overflow-y: scroll;
+        height: 100%;
+        width: 70%;
+
+        float: right;
+    }
+    .backButton{
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px){
+    .mainContainer{
+        width: 100%;
+    }
+    .listContainer{
+        display: grid;
+        justify-content: space-around
+    }
+    .hidden{
+        display: none;
+    }
+    .mainContainer > *{
+        margin: 10px auto 70px;
+        width: 80%;
+    }
+    .listCollapse{
+        color:black;
+    }
+    .backButton{
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.23);
+        width: 100px;
+        height: 30px;
+        margin: 0 auto;
+        line-height: 30px;
+        border-radius: 3px;
+    }
+        
+}
+
+
+
+
+
+.listContainer::-webkit-scrollbar {
+    width: 0px;
+}
+
+.listContainer::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+
+.listContainer::-webkit-scrollbar-thumb {
+    background: rgba(255, 174, 0, 0.177);
+}
+
+.listContainer::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0.252);
+}
