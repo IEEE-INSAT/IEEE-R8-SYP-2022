@@ -71,7 +71,7 @@ nav{
         display: inline-block;
     }
     .items.active{
-        z-index: 1;
+        z-index: 1000;
         position:absolute;
         top:0px;
         right:0px;
