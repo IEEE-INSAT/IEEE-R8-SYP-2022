@@ -53,7 +53,7 @@ export default function Home() {
             <div className="home-container">
                 <Fade>
                     <h4>DISTINGUISHED GUESTS</h4>
-                    <h2>Meet our <NumberCounter number={speakerList.length}/> Speakers</h2>
+                    <h2>More than <NumberCounter number={speakerList.length}/> speakers will be present</h2>
                 </Fade>
                 <Speakers limit={true}/>
             </div>
