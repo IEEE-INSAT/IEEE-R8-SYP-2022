@@ -8,6 +8,7 @@ header {
     top: 0;
     right: 0;
     z-index: -50000;
+    width: 90vw
 }
 
 .headerWavePage {
