@@ -1,13 +1,13 @@
-import SpeakerCard from "../../components/SpeakerCard";
+import SpeakerCard from "../SpeakerCard";
 import React, { ReactElement } from "react";
 import './style.css';
-interface ActivityPageProps{
+interface ActivityDetailsProps{
     activity: { id:number, type: string; name: string; description: string; date: string; time: string; location: string; instructorName: string; instructorDescription: string; instructorHighlight: string; linkedin: string; }
 }
-export default function ActivityPage(props:ActivityPageProps):ReactElement{
+export default function ActivityDetails(props:ActivityDetailsProps):ReactElement{
 const {type,name,description,date,time,location,linkedin,instructorName,instructorDescription,instructorHighlight}=props.activity;
     return (
-        <div className="ActivityPage">
+        <div className="ActivityDetails">
             <div className="title">
                 <h1> {name}</h1>
             </div>
