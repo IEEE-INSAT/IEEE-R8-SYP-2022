@@ -11,7 +11,7 @@
 .ActivityDetails .SpeakerCardContainer{
     margin: 10px auto;
     display: grid;
-    
+    text-align: start;
     grid-template-columns: auto;
     justify-items: center;
     align-items: center;
