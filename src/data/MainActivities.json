@@ -26,19 +26,6 @@
     "linkedin": "https://www.linkedin.com/in/andrelukacakici/"
   },
   {
-    "id": 3,
-    "type": "Workshops",
-    "name": "Introduction to cybersecurity",
-    "description": "In this Workshops we will explore the fundamental building blocks of cybersecurity and the most recent techniques used by red teamers and offensive security experts along with the most important resources to start your career in Cyber Security.",
-    "date": "04/08/2022",
-    "time": "10:00am",
-    "location": "Elmouradi Gammarth Hotel",
-    "instructorName": "Ahmed Belkahla",
-    "instructorDescription": "Ahmed Belkahla is Studying Computer Science & Networks Engineering at the National Institute of Applied Science and Technology (INSAT) and is a Cyber Security Specialist at Yogosha. He occupied the position of vice chairman of Securinets and was the Media manager of IEEE CS INSAT Chapter in 2019.\n",
-    "instructorHighlight": "Cyber Secutiry Specialist",
-    "linkedin": "https://www.linkedin.com/in/ahmed-belkahla/"
-  },
-  {
     "id": 4,
     "type": "Keynotes",
     "name": "Healthcare Innovation and Entrepreneurship ",
@@ -128,5 +115,18 @@
     "instructorDescription": "",
     "instructorHighlight": "",
     "linkedin": " "
+  },
+  {
+    "id": 3,
+    "type": "Workshops",
+    "name": "Introduction to cybersecurity",
+    "description": "In this Workshops we will explore the fundamental building blocks of cybersecurity and the most recent techniques used by red teamers and offensive security experts along with the most important resources to start your career in Cyber Security.",
+    "date": "04/08/2022",
+    "time": "10:00am",
+    "location": "Elmouradi Gammarth Hotel",
+    "instructorName": "Ahmed Belkahla",
+    "instructorDescription": "Ahmed Belkahla is Studying Computer Science & Networks Engineering at the National Institute of Applied Science and Technology (INSAT) and is a Cyber Security Specialist at Yogosha. He occupied the position of vice chairman of Securinets and was the Media manager of IEEE CS INSAT Chapter in 2019.\n",
+    "instructorHighlight": "Cyber Secutiry Specialist",
+    "linkedin": "https://www.linkedin.com/in/ahmed-belkahla/"
   }
 ]

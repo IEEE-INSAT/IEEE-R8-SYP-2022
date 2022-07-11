@@ -9,7 +9,7 @@ import MainActivities from '../../components/MainActivities';
 export default function MainActivitiesPage() {
     return (
         <div className="registration">
-            <Header title={'Main Activities'} description={<p>See what&#39;s in the menu</p>} />
+            <Header title={'Technical Activities'} description={<p>See what&#39;s in the menu</p>} />
 
             <MainActivities/>
             {window.matchMedia("all and (max-width: 768px)").matches?"": <Footer />}

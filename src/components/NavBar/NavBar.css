@@ -65,6 +65,7 @@ nav{
         transition: .4s;
         display: none;
         margin: 0px;
+        z-index: 1000;
     }
     .MenuIcon{
         display: inline-block;

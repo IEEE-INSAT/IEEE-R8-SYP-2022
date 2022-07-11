@@ -1,6 +1,5 @@
-
 import MainActivityNavBar from '../MainActivityNavBar';
-import ActivityPage from '../../pages/ActivityPage';
+import ActivityDetails from '../ActivityDetails';
 import ActivityList from '../ActivityList';
 import activities from '../../data/MainActivities.json';
 import React, { useState } from 'react';
@@ -89,13 +88,13 @@ export default function MainActivities() {
             }
         }
     });
-    const mainActivities = {Workshops, Keynotes/*, Plenary*/};
+    const mainActivities = { Workshops, Keynotes /*, Plenary*/ };
 
     const [viewPage, setViewPage] = useState(false);
     return (
         <div className="MainActivities">
             <MainActivityNavBar
-                items={['Keynotes', 'Workshops'/*, 'Plenary'*/]}
+                items={['Keynotes', 'Workshops' /*, 'Plenary'*/]}
                 changeView={changeType}
                 default={activities[0].type}
             />
@@ -111,7 +110,7 @@ export default function MainActivities() {
                     <div className="backButton" onClick={() => setViewPage(false)}>
                         <i className="fa-solid fa-backward"></i> Back
                     </div>
-                    <ActivityPage
+                    <ActivityDetails
                         activity={
                             mainActivities[type as 'Workshops' /*| 'Plenary'*/ | 'Keynotes'].find(
                                 (element) => element.id == activity,
