@@ -31,7 +31,7 @@ input[type='radio'] {
     }
     .MainActivityNavBar {
         display: flex;
-        position: fixed;
+        position: sticky;
         bottom: 0;
         height: 50px;
         overflow: hidden;
@@ -54,6 +54,7 @@ input[type='radio'] {
         align-items: flex-end;
         user-select: none;
         z-index: 1;
+        position: relative;
     }
     .MainActivityNavBarItems {
         background-color: #d9d9d9;
