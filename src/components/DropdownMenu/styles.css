@@ -1,0 +1,13 @@
+.dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    opacity: 0;
+    transition: ease-out;
+    transition-duration: 0.3s;
+    position: absolute;
+    overflow: visible;
+}
+.show{
+    opacity: 1;
+}

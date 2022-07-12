@@ -1,12 +1,50 @@
 [
-    { "name": "Home", "path": "/" },
-    { "name": "About Tunisia", "path": "/tunisia" },
-    { "name": "About us", "path": "/about" },
-    { "name": "Schedule", "path": "/schedule" },
-    { "name": "Technical Activities", "path": "/MainActivities"   },
-    { "name": "Speakers", "path": "/speakers" },
-    { "name": "Sponsors", "path": "/sponsors" },
-    { "name": "Partners", "path": "/partners" },
-    { "name": "FAQ", "path": "/faq" }
-    
+  {
+    "submenus": [],
+    "name": "Home",
+    "path": "/"
+  },
+  {
+    "submenus": [],
+    "name": "About Tunisia",
+    "path": "/tunisia"
+  },
+  {
+    "submenus": [],
+    "name": "About us",
+    "path": "/about"
+  },
+  {
+    "name": "Program",
+    "path": "#",
+    "submenus": [
+      {
+        "name": "Schedule",
+        "path": "/schedule"
+      },
+      {
+        "name": "Technical Activities",
+        "path": "/MainActivities"
+      },
+      {
+        "name": "Speakers",
+        "path": "/speakers"
+      }
+    ]
+  },
+  {
+    "submenus": [],
+    "name": "Sponsors",
+    "path": "/sponsors"
+  },
+  {
+    "submenus": [],
+    "name": "Partners",
+    "path": "/partners"
+  },
+  {
+    "submenus": [],
+    "name": "FAQ",
+    "path": "/faq"
+  }
 ]

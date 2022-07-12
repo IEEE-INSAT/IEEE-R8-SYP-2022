@@ -1,14 +1,17 @@
-nav{
+nav {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.items{
+.items {
     margin: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.NavItem{
+.NavItem {
     font-family: 'Futura Hv BT';
     font-style: normal;
     font-weight: 900;
@@ -19,14 +22,15 @@ nav{
     text-decoration: none;
     margin: 0 15px;
     transition: .4s;
+    width: max-content;
 }
 
 
-.NavItem:hover{
+.NavItem:hover {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.MenuIcon{
+.MenuIcon {
     display: none;
     cursor: pointer;
     margin: 10px;
@@ -47,45 +51,47 @@ nav{
 }
 
 .active .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
 }
-  
+
 .active .bar2 {
     opacity: 0;
-  }
+}
 
 .active .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-  }
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
 
-@media screen and (max-width: 1230px){
-    .items{
+@media screen and (max-width: 1230px) {
+    .items {
         transition: .4s;
         display: none;
         margin: 0px;
         z-index: 1000;
     }
-    .MenuIcon{
+
+    .MenuIcon {
         display: inline-block;
     }
-    .items.active{
+
+    .items.active {
         z-index: 1000;
-        position:absolute;
-        top:0px;
-        right:0px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         background-color: var(--complementary-color);
-        height: 100%;
         width: 100vw;
         height: 100vh;
-        padding: 0px;
+        padding: 0;
     }
-    .items.active .NavItem{
+
+    .items.active .NavItem {
         font-size: 22px;
         line-height: 32px;
         text-align: right;
@@ -93,5 +99,18 @@ nav{
         text-decoration: none;
         margin: 15px 15px;
     }
-    
+
+}
+
+.dropdownMenuWrapper {
+    position: relative;
+}
+
+.dropdownMenuWrapper:after {
+    background: url("/public/images/arrow-drop-down.svg")  no-repeat;
+    content: "";
+    height: 24px;
+    width: 20px;
+    margin-left: -15px;
+    float: right;
 }
