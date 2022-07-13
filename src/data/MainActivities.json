@@ -128,5 +128,31 @@
     "instructorDescription": "Ahmed Belkahla is Studying Computer Science & Networks Engineering at the National Institute of Applied Science and Technology (INSAT) and is a Cyber Security Specialist at Yogosha. He occupied the position of vice chairman of Securinets and was the Media manager of IEEE CS INSAT Chapter in 2019.\n",
     "instructorHighlight": "Cyber Secutiry Specialist",
     "linkedin": "https://www.linkedin.com/in/ahmed-belkahla/"
+  },
+  {
+    "id": 11,
+    "type": "Workshops",
+    "name": "ICT for Good, How can we utilize technology for humanity",
+    "description": "With the rapid change in our lives and the huge role of technology in the digitalization of all aspects from industry to daily life, technology can also serve both the development and humanitarian needs and save our planet. In this session, we will tackle the concept of ICT4D from a theoretical aspect, alongside best practices of utilizing technologies, what technologies can be utilized for this, and sharing some skills in the effective planning, development, implementation and management of ICT4D initiatives. Adding to that, sharing some knowledge about existing initiatives in R8, and how they can be adapted to our local contexts to meet the local needs and prevent their potential risks and failures.",
+    "time": "15:00",
+    "date": "05/08/2022",
+    "location": "Salle 4",
+    "instructorName": "Amjad Badr",
+    "instructorDescription": " Mr Shwehdy is specialized in utilizing ICT4D & Social Innovation & currently, he is pursuing his master's in eGovernance and Digital Transformation. ",
+    "instructorHighlight": "Mr Shwehdy, Amjad-Badr is a social entrepreneur, a digital nomad from Libya, passionate about technology & its applications, & advocates for digital transformation & rights and good governance.",
+    "linkedin": " https://www.linkedin.com/in/abshwehdy/"
+  },
+  {
+    "id": 12,
+    "type": "Workshops",
+    "name": "Open discussion on Internet Governance",
+    "description": "We always have these questions in our minds, \"who owns the internet? how do they are managing it? what will happen to the world wide web in case of conflict?\" and many other questions about connectivity and net neutrality; all these questions and more will be opened for discussion with the participants to come up with ideas and share some of the best practices on the internet governance both international and local efforts to tackle these issues and coordinate with all related stakeholders for the benefits of the citizens. Moreover, we will also focus on the efforts led by the Internet Governance Forum, what is it, and how SYP will join these task forces.",
+    "time": "11:30",
+    "date": "04/08/2022",
+    "location": "Salle 5",
+    "instructorName": "Amjad Badr",
+    "instructorDescription": "Mr Shwehdy is specialized in utilizing ICT4D & Social Innovation & currently, he is pursuing his master's in eGovernance and Digital Transformation. ",
+    "instructorHighlight": "Mr Shwehdy, Amjad-Badr is a social entrepreneur, a digital nomad from Libya, passionate about technology & its applications, & advocates for digital transformation & rights and good governance. ",
+    "linkedin": "https://www.linkedin.com/in/abshwehdy/"
   }
 ]
