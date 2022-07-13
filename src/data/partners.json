@@ -8,5 +8,10 @@
     "name": "IEEE EMB",
     "filename": "EMB.jpg",
     "type" : "Society"
+  },
+  {
+    "name": "MTT-S",
+    "filename": "MTT-S.png",
+    "type" : "Society"
   }
 ]

@@ -23,7 +23,7 @@ export default function ScrollToTop() {
     };
     return (
         <div onClick={scrollToTop} className={`scroll-button-container `}>
-            <div className={`scroll-icon-style ${isVisible ? 'visible': 'invisible'}`}>
+            <div className={`scroll-icon-style ${isVisible ? 'visible' : 'invisible'}`}>
                 <ArrowUp/>
             </div>
         </div>
