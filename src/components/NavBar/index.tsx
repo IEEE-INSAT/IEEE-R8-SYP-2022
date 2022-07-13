@@ -35,6 +35,8 @@ export default function NavBar({navItems}: NavBarProps) {
                 <div className="bar3"></div>
             </div>
             <div className={active ? "items active" : "items"}>
+                {/*If on mobile( active ==true) if an item has sub menus, */}
+                {/*its title won't show on the navbar, and the content of its submenu will be displayed*/}
                 {active ?
                     navItems.map((item, i) => {
                         if (item.submenus.length > 0) {
@@ -42,9 +44,9 @@ export default function NavBar({navItems}: NavBarProps) {
                                 <Link to={item.path} key={i} className="NavItem">{item.name}</Link>)
                         } else
                             return <Link to={item.path} key={i} className="NavItem">{item.name}</Link>
-
                     })
                     : navItems.map((item, i) => {
+                        // If the the screen is wide, there will be a dropdown on items where there is a submenu
                         if (item.submenus.length > 0)
                             return (
                                 <div className="dropdownMenuWrapper"
@@ -57,8 +59,6 @@ export default function NavBar({navItems}: NavBarProps) {
                                     >{item.name}</Link>
                                     <DropdownMenu submenus={item.submenus} dropmenuIsVisible={showDropmenu}/>
                                 </div>)
-
-
                         else
                             return <Link to={item.path} key={i} className="NavItem">{item.name}</Link>
                     })
