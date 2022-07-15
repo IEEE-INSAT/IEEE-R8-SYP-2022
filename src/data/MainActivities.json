@@ -134,7 +134,7 @@
     "type": "Workshops",
     "name": "ICT for Good, How can we utilize technology for humanity",
     "description": "With the rapid change in our lives and the huge role of technology in the digitalization of all aspects from industry to daily life, technology can also serve both the development and humanitarian needs and save our planet. In this session, we will tackle the concept of ICT4D from a theoretical aspect, alongside best practices of utilizing technologies, what technologies can be utilized for this, and sharing some skills in the effective planning, development, implementation and management of ICT4D initiatives. Adding to that, sharing some knowledge about existing initiatives in R8, and how they can be adapted to our local contexts to meet the local needs and prevent their potential risks and failures.",
-    "time": "15:00",
+    "time": "3:00pm",
     "date": "05/08/2022",
     "location": "Salle 4",
     "instructorName": "Amjad Badr",
@@ -147,12 +147,26 @@
     "type": "Workshops",
     "name": "Open discussion on Internet Governance",
     "description": "We always have these questions in our minds, \"who owns the internet? how do they are managing it? what will happen to the world wide web in case of conflict?\" and many other questions about connectivity and net neutrality; all these questions and more will be opened for discussion with the participants to come up with ideas and share some of the best practices on the internet governance both international and local efforts to tackle these issues and coordinate with all related stakeholders for the benefits of the citizens. Moreover, we will also focus on the efforts led by the Internet Governance Forum, what is it, and how SYP will join these task forces.",
-    "time": "11:30",
+    "time": "11:30am",
     "date": "04/08/2022",
     "location": "Salle 5",
     "instructorName": "Amjad Badr",
     "instructorDescription": "Mr Shwehdy is specialized in utilizing ICT4D & Social Innovation & currently, he is pursuing his master's in eGovernance and Digital Transformation. ",
     "instructorHighlight": "Mr Shwehdy, Amjad-Badr is a social entrepreneur, a digital nomad from Libya, passionate about technology & its applications, & advocates for digital transformation & rights and good governance. ",
     "linkedin": "https://www.linkedin.com/in/abshwehdy/"
+  },
+
+  {
+    "id": 13,
+    "type": "Keynotes",
+    "name": "Managing a career along with a successful volunteering journey",
+    "description": "This keynote will focus on the importance of volunteering and how it is considered as a career booster at work, what you learn as a volunteer and how to use that knowledge at in life and at work,  how to chose your volunteering activities to support your professional development as leader and manager and of course how volunteering makes you a better manager and leader",
+    "time": "3:00pm",
+    "date": "05/08/2022",
+    "location": "Elmouradi Gammarth",
+    "instructorName": "Margaretha Eriksson",
+    "instructorDescription": "Margaretha Eriksson received her M.Sc. degree in Electrical Engineering from The Royal\nInstitute of Technology, Stockholm, Sweden, in 1988. She has studied Information\nSecurity at Stockholm University/KTH, as well as Business Intelligence. She became the first female Director of IEEE R8 in 2017.",
+    "instructorHighlight": "IEEE Region 8 Past Director",
+    "linkedin": "https://www.linkedin.com/in/margaretha-eriksson-434819/"
   }
 ]

@@ -43,6 +43,12 @@
     "linkedin": "https://www.linkedin.com/in/eayranci"
   },
   {
+    "name": "Margaretha Eriksson",
+    "highlight": "IEEE Region 8 Past director",
+    "description": "Margaretha Eriksson received her M.Sc. degree in Electrical Engineering from The Royal\nInstitute of Technology, Stockholm, Sweden, in 1988. She has studied Information\nSecurity at Stockholm University/KTH, as well as Business Intelligence. She became the first female Director of IEEE R8 in 2017.",
+    "linkedin": "https://www.linkedin.com/in/margaretha-eriksson-434819/"
+  },
+  {
     "name": "Metin Akay",
     "highlight": "IEEE EMBS Society president",
     "description": "Metin Akay received his B.S. and M.S. in Electrical Engineering from the Bogazici University, Istanbul, Turkey in 1981 and 1984, respectively and a Ph.D. degree from Rutgers University in 1990. He is currently the founding chair of the new Biomedical Engineering Department and the John S. Dunn professor of biomedical engineering at the University of Houston.",
@@ -173,5 +179,11 @@
     "highlight": "IEEE Region 8 Young Professionals member",
     "description": "Seif El HAJJEM is a Tunisian Industrial Engineer graduated from ENITin 2015. Currently, he's an SAP Functional Consultant at WYNSYS Tunisia. Seif currently servesas IEEE Tunisia Section Vice-Chair for members activities, as a Member of the IEEE Region 8 Young Professionals Subcommittee and as a Vice Chair of the IEEE Region 8 Entrepreneurship Subcommittee.",
     "linkedin": "https://www.linkedin.com/in/seif-elhajjem-92091084"
+  },
+  {
+    "name": "Asma Sliti",
+    "highlight": "QA web/mobile engineer",
+    "description": "Asma Sliti is a QA web/mobile engineer graduated from INSAT and international soft skills Trainer graduated from the American institute AIPS. certified ISTQB Foundation level 2018, A4Q Selenium Foundation level, PSPO, PSM level I and Six lean Sigma",
+    "linkedin": "https://www.linkedin.com/in/asma-sliti-b80ba0168/"
   }
 ]

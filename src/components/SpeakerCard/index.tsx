@@ -13,7 +13,7 @@ function SpeakerCard(props:SpeakerCardProps) {
     /* eslint-disable react/prop-types */
     const [hovered, setHover] = useState(false);
     const { name, linkedin, description, highlight, tutorial,image_dir } = props;
-    const path=image_dir+name+'.jpg';
+    const path=image_dir+name;
 
     //for handling different screen input
     const touchSupport = window.matchMedia('(hover: none)');
@@ -51,7 +51,7 @@ function SpeakerCard(props:SpeakerCardProps) {
             <div
                 className={`card${hovered ? ' cardHovered' : ''}`}
                 style={{
-                    backgroundImage: `linear-gradient(0deg, rgba(203, 138, 78, 0.69) 0%, rgba(203, 138, 78, 0) 40%) , url("${path}") ,url("https://de2g2pzerdhu6.cloudfront.net/wp-content/uploads/2019/05/dummy-man-570x570.png")`,
+                    backgroundImage: `linear-gradient(0deg, rgba(203, 138, 78, 0.69) 0%, rgba(203, 138, 78, 0) 40%) , url("${path+'.jpg'}") ,url("${path+'.png'}") ,url("https://de2g2pzerdhu6.cloudfront.net/wp-content/uploads/2019/05/dummy-man-570x570.png")`,
                 }}
                 onMouseEnter={handleHover}
                 onMouseLeave={() => setHover(false)}
