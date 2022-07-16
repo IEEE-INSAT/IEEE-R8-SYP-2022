@@ -1,16 +1,22 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import './style.css';
 
 interface ActivityListProps {
-    activities: { id: number; name: string; instructorName: string }[];
+    activities: {
+        id: number;
+        name: string;
+        instructorName: string;
+        instructor2Name?: string
+    }[];
+
     changeView(a: number): any;
 }
 
 export default function ActivityList(props: ActivityListProps) {
     const [selected, setSelected] = useState(props.activities[0].id);
-	useEffect(() => {
-	  setSelected(props.activities[0].id);
-	}, [props.activities[0].id])
+    useEffect(() => {
+        setSelected(props.activities[0].id);
+    }, [props.activities[0].id])
     const list = props.activities.map((item, index) => (
         <div
             className={`ActivityListItem ${selected === item.id ? 'selectedActivityListItem' : ''}`}
@@ -30,10 +36,10 @@ export default function ActivityList(props: ActivityListProps) {
             />
             <label htmlFor={`${item.name}`}>
                 <b>{item.name}</b>
-                <p>by {item.instructorName}</p>
+                <p>by {item.instructorName} {item.instructor2Name ? 'and ' + item.instructor2Name : ''}</p>
             </label>
         </div>
-    ));	
+    ));
 
     return <div className="ActivityList">{list}</div>;
 }

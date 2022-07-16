@@ -26,6 +26,23 @@
     "linkedin": "https://www.linkedin.com/in/andrelukacakici/"
   },
   {
+    "id": 8,
+    "type": "Workshops",
+    "name": "2022 MGA Activities with a Spotlight on Students and Young Professionals",
+    "description": "2022 has been a productive year thus far for IEEE's Member and Geographic Activities (MGA) organization. MGA Vice President David Koehler and IEEE's Senior Director of Member Experience, Michael Kreisberg will highlight current MGA data and trends, focusing on Region 8.  They will share some of the exciting programs and activities that are impacting our Student and Young Professional member growth.  In addition, they will provide an overview of the MGA volunteer organizational structure and share the pathways that volunteers can take to enhance their engagement with IEEE.",
+    "date": "05/08/2022",
+    "time": "10:00am",
+    "location": "Elmouradi Gammarth Hotel",
+    "instructorName": "Michael Kreisberg",
+    "instructorDescription": "Distinguished career providing vision, strategy, and leadership for blue chip organizations in both the for-profit and association . Recognized for building, leading, and mobilizing cross-functional, multi-disciplinary teams around an aspirational vision. Skilled in working closely with Boards, volunteers and senior leadership.",
+    "instructorHighlight": "Senior Director, Member Experience",
+    "linkedin": "https://www.linkedin.com/in/michael-kreisberg-821273241/",
+    "instructor2Name": "David Koehler",
+    "instructor2Description": "David is the 2022 Vice President for IEEE Member and Geographic Activities (MGA).He is the Global Business Development Manager for Doble Engineering Company.David has 23 years of experience in the testing of insulating liquids and management of analytical laboratories.  He has provided numerous technical presentations and published articles within the power industry.",
+    "instructor2Highlight": "IEEE Vice President, Member and Geographic Activities",
+    "linkedin2": "https://www.linkedin.com/in/davidakoehler/"
+  },
+  {
     "id": 4,
     "type": "Keynotes",
     "name": "Healthcare Innovation and Entrepreneurship ",
@@ -52,21 +69,8 @@
     "linkedin": "https:"
   },
   {
-    "id": 6,
-    "type": "Workshops ",
-    "name": "Introduction to Neuromuscular Interfaces: Applications for Human/Machine \nInterfaces and Neurophysiology",
-    "description": "The aim of this Workshops is to provide an intensive and practical introduction to \nneuromuscular interfaces and neuroengineering applications for studying the neural \ncontrol of movement and developing human-centered assistive devices (e.g. \nneuroprostheses, exoskeletons). The acquisition, analysis, and interpretation of \nelectrophysiological data (specifically electromyography - EMG) will be discussed in \ndepth. A MATLAB demo will demonstrate the decomposition and processing of \nsurface EMG signal. State-of-the-art research will be mentioned, and resources will \nbe provided for those interested in this technical field.",
-    "date": "05/08/2022",
-    "time": "10:00am",
-    "location": "Elmouradi Gammarth Hotel",
-    "instructorName": "Andre Luka Çakıcı",
-    "instructorDescription": "Andre Cakici is currently an M.Sc. student at the Department of Medical Engineering, Friedrich-Alexander Universität Erlangen-Nürnberg. He served as a student representative at EMBS Turkey Chapter. He is currently the AdCom Student Representative for the IEEE engineering in Medicine and Biology Society.",
-    "instructorHighlight": "EMBS AdCom Student Representative",
-    "linkedin": "https://www.linkedin.com/in/andrelukacakici/"
-  },
-  {
     "id": 7,
-    "type": "Workshops ",
+    "type": "Workshops",
     "name": "Advanced Corrosion monitoring systems",
     "description": "In the evolution of inspection programs, the fixed interval inspection strategy has been replaced by a condition-based monitoring approach. Condition-based monitoring is followed by risk-based inspection (RBI), where inspection programs are defined on a risk basis, considering damage mechanisms, failure probability and associated consequences. The use of new inspection technologies such as PAUT, TOFD, Remote Operated Vehicles (ROV) and Intelligent Pigging Inspection, etc. was able to make informed decisions regarding the remaining life of pressure systems and pipelines. In this Workshops, you will learn about advances in corrosion monitoring technologies. We will highlight how these new technologies can help provide the most effective data to manage and mitigate potential pressure vessels and pipelines integrity risks.",
     "date": "05/08/2022",
@@ -76,19 +80,6 @@
     "instructorDescription": "Aymen Tmar is a Tunisian electromechanical engineer, who is currently an asset Integrity Engineer at Shell. He was the Chairman of IEEE PES ENIS Student Branch Chapter in 2014 and occupied the position of IEEE Tunisia Young Professionals AG chairman in 2019. He is currently the chair of IEEE IAS Tunisia Section chapter.\n",
     "instructorHighlight": "IEEE IAS Tunisia Chapter Chair ",
     "linkedin": "https://www.linkedin.com/in/aymentmar/"
-  },
-  {
-    "id": 8,
-    "type": "Workshops",
-    "name": "2022 MGA Activities with a Spotlight on Students and Young Professionals",
-    "description": "2022 has been a productive year thus far for IEEE's Member and Geographic Activities (MGA) organization. MGA Vice President David Koehler and IEEE's Senior Director of Member Experience, Michael Kreisberg will highlight current MGA data and trends, focusing on Region 8.  They will share some of the exciting programs and activities that are impacting our Student and Young Professional member growth.  In addition, they will provide an overview of the MGA volunteer organizational structure and share the pathways that volunteers can take to enhance their engagement with IEEE.",
-    "date": "05/08/2022",
-    "time": "10:00am",
-    "location": "Elmouradi Gammarth Hotel",
-    "instructorName": "Michael Kreisberg and David Koehler",
-    "instructorDescription": "David Koehler is Vice President, Member and Geographic Activities at IEEE/Global \n",
-    "instructorHighlight": "",
-    "linkedin": "https://www.linkedin.com/in/davidakoehler/\nhttps://www.linkedin.com/in/michael-kreisberg-821273241/"
   },
   {
     "id": 9,
@@ -115,6 +106,19 @@
     "instructorDescription": "",
     "instructorHighlight": "",
     "linkedin": " "
+  },
+  {
+    "id": 6,
+    "type": "Workshops",
+    "name": "Introduction to Neuromuscular Interfaces: Applications for Human/Machine \nInterfaces and Neurophysiology",
+    "description": "The aim of this Workshops is to provide an intensive and practical introduction to \nneuromuscular interfaces and neuroengineering applications for studying the neural \ncontrol of movement and developing human-centered assistive devices (e.g. \nneuroprostheses, exoskeletons). The acquisition, analysis, and interpretation of \nelectrophysiological data (specifically electromyography - EMG) will be discussed in \ndepth. A MATLAB demo will demonstrate the decomposition and processing of \nsurface EMG signal. State-of-the-art research will be mentioned, and resources will \nbe provided for those interested in this technical field.",
+    "date": "05/08/2022",
+    "time": "10:00am",
+    "location": "Elmouradi Gammarth Hotel",
+    "instructorName": "Andre Luka Çakıcı",
+    "instructorDescription": "Andre Cakici is currently an M.Sc. student at the Department of Medical Engineering, Friedrich-Alexander Universität Erlangen-Nürnberg. He served as a student representative at EMBS Turkey Chapter. He is currently the AdCom Student Representative for the IEEE engineering in Medicine and Biology Society.",
+    "instructorHighlight": "EMBS AdCom Student Representative",
+    "linkedin": "https://www.linkedin.com/in/andrelukacakici/"
   },
   {
     "id": 3,

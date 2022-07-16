@@ -1,11 +1,46 @@
 import SpeakerCard from "../SpeakerCard";
-import React, { ReactElement } from "react";
+import React, {ReactElement} from "react";
 import './style.css';
-interface ActivityDetailsProps{
-    activity: { id:number, type: string; name: string; description: string; date: string; time: string; location: string; instructorName: string; instructorDescription: string; instructorHighlight: string; linkedin: string; }
+
+interface ActivityData {
+    id: number;
+    type: string;
+    name: string;
+    description: string;
+    date: string;
+    time: string;
+    location: string;
+    instructorName: string;
+    instructorDescription: string;
+    instructorHighlight: string;
+    linkedin: string;
+    instructor2Name?: string;
+    instructor2Description?: string;
+    instructor2Highlight?: string;
+    linkedin2?: string;
 }
-export default function ActivityDetails(props:ActivityDetailsProps):ReactElement{
-const {type,name,description,date,time,location,linkedin,instructorName,instructorDescription,instructorHighlight}=props.activity;
+
+interface ActivityDetailsProps {
+    activity: ActivityData
+}
+
+export default function ActivityDetails(props: ActivityDetailsProps): ReactElement {
+    const {
+        type,
+        name,
+        description,
+        date,
+        time,
+        location,
+        linkedin,
+        instructorName,
+        instructorDescription,
+        instructorHighlight,
+        instructor2Name,
+        instructor2Description,
+        instructor2Highlight,
+        linkedin2,
+    } = props.activity;
     return (
         <div className="ActivityDetails">
             <div className="title">
@@ -26,11 +61,20 @@ const {type,name,description,date,time,location,linkedin,instructorName,instruct
             </div>
             <hr/>
             <div className="instructor">
-                <h2 className="secondarytitle">About the instructor</h2>
+                <h2 className="secondarytitle">About the instructor{instructor2Name ? 's' : ''}</h2>
                 <div className="SpeakerCardContainer">
-                    <SpeakerCard name={instructorName} linkedin={linkedin} description={instructorDescription} highlight={instructorHighlight} tutorial={true} image_dir={"/images/speakers/"} />
+                    <SpeakerCard name={instructorName} linkedin={linkedin} description={instructorDescription}
+                                 highlight={instructorHighlight} tutorial={true} image_dir={"/images/speakers/"}/>
                 </div>
             </div>
+            {
+                instructor2Name && linkedin2 && instructor2Description && instructor2Highlight ?
+                    <div className="SpeakerCardContainer">
+                        <SpeakerCard name={instructor2Name} linkedin={linkedin2} description={instructor2Description}
+                                     highlight={instructor2Highlight} tutorial={true} image_dir={"/images/speakers/"}/>
+                    </div>
+                    : null
+            }
         </div>
     );
 }

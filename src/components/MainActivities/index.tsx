@@ -2,8 +2,40 @@ import MainActivityNavBar from '../MainActivityNavBar';
 import ActivityDetails from '../ActivityDetails';
 import ActivityList from '../ActivityList';
 import activities from '../../data/MainActivities.json';
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import './style.css';
+
+interface ActivityData {
+    id: number;
+    type: string;
+    name: string;
+    description: string;
+    date: string;
+    time: string;
+    location: string;
+    instructorName: string;
+    instructorDescription: string;
+    instructorHighlight: string;
+    linkedin: string;
+    instructor2Name?: string;
+    instructor2Description?: string;
+    instructor2Highlight?: string;
+    linkedin2?: string;
+}
+
+const empty = {
+    id: 0,
+    type: '',
+    name: '',
+    description: '',
+    date: '',
+    time: '',
+    location: '',
+    instructorName: '',
+    instructorDescription: '',
+    instructorHighlight: '',
+    linkedin: '',
+};
 export default function MainActivities() {
     //state/view management
     const [type, setType] = useState(activities[0].type);
@@ -19,59 +51,10 @@ export default function MainActivities() {
         setViewPage(true);
     }
 
-    const empty = {
-        id: 0,
-        type: '',
-        name: '',
-        description: '',
-        date: '',
-        time: '',
-        location: '',
-        instructorName: '',
-        instructorDescription: '',
-        instructorHighlight: '',
-        linkedin: '',
-    };
 
-    const Workshops: {
-        id: number;
-        type: string;
-        name: string;
-        description: string;
-        date: string;
-        time: string;
-        location: string;
-        instructorName: string;
-        instructorDescription: string;
-        instructorHighlight: string;
-        linkedin: string;
-    }[] = [];
-    const Keynotes: {
-        id: number;
-        type: string;
-        name: string;
-        description: string;
-        date: string;
-        time: string;
-        location: string;
-        instructorName: string;
-        instructorDescription: string;
-        instructorHighlight: string;
-        linkedin: string;
-    }[] = [];
-    const Plenary: {
-        id: number;
-        type: string;
-        name: string;
-        description: string;
-        date: string;
-        time: string;
-        location: string;
-        instructorName: string;
-        instructorDescription: string;
-        instructorHighlight: string;
-        linkedin: string;
-    }[] = [];
+    const Workshops: ActivityData[] = [];
+    const Keynotes: ActivityData[] = [];
+    const Plenary: ActivityData[] = [];
     activities.forEach((item) => {
         switch (item.type) {
             case 'Workshops': {
@@ -88,7 +71,7 @@ export default function MainActivities() {
             }
         }
     });
-    const mainActivities = { Workshops, Keynotes /*, Plenary*/ };
+    const mainActivities = {Workshops, Keynotes /*, Plenary*/};
 
     const [viewPage, setViewPage] = useState(false);
     return (
