@@ -9,17 +9,16 @@ import TextBlock from '../../components/TextBlock';
 import sponsorshipDossier from '../../assets/images/sponsorshipDossier.png';
 import ThemedButton from '../../components/ThemedButton';
 import Sponsors from '../../components/Sponsors';
-import partnersList from '../../data/partners.json';
+import sponsorsList from '../../data/sponsors.json';
 
 export default function Sponsoring() {
     return (
         <div className="sponsoring">
             <Header title={'SPONSORS'} description={""}/>
-            {/*Uncomment this when there is at least one sponsor*/}
-            {/*<h2>IEEE Sponsors</h2>*/}
-            {/*<Fade>*/}
-            {/*    <Sponsors items={sponsorsList}/>*/}
-            {/*</Fade>*/}
+
+            <Fade>
+                <Sponsors items={sponsorsList}/>
+            </Fade>
 
             <Fade>
                 <div className="twoElmContainer">
