@@ -13,10 +13,11 @@
 }
 
 .sponsor-logo-row .sponsor-container img {
-    width: 144px;
-    height: 144px;
+    width: 237px;
+    height: 150px;
     display: block;
     border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px var(--primary-color);
 }
 
 .sponsor-type-overlay {

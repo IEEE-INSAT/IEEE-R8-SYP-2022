@@ -58,7 +58,7 @@
         "color": "white"
       },
       {
-        "title": "Party",
+        "title": "Free time",
         "icon": "party",
         "location": "Hotel",
         "time": "22:00 - 00:00",
@@ -112,18 +112,10 @@
         "scrollRefInd": 4
       },
       {
-        "title": "Break / Networking",
-        "icon": "break",
-        "location": "Hotel",
-        "time": "11:30 - 12:00",
-        "color": "white",
-        "scrollRefInd": 12
-      },
-      {
         "title": "Workshops",
         "icon": "workshop",
         "location": "Hotel",
-        "time": "12:00 - 13:30",
+        "time": "11:30 - 13:00",
         "color": "white",
         "scrollRefInd": 4
       },
@@ -131,21 +123,21 @@
         "title": "Lunch",
         "icon": "lunch",
         "location": "Hotel",
-        "time": "13:30 - 14:30",
+        "time": "13:00 - 14:00",
         "color": "white"
       },
       {
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "14:30 - 15:30",
+        "time": "14:00 - 15:00",
         "color": "white"
       },
       {
         "title": "Touristic Tour and Group Photo",
         "icon": "tour",
         "location": "Carthage",
-        "time": "15:30 - 18:30",
+        "time": "15:00 - 18:00",
         "color": "white",
         "scrollRefInd": 5
       },
@@ -153,28 +145,28 @@
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "18:30 - 19:00",
+        "time": "18:00 - 18:30",
         "color": "white"
       },
       {
         "title": "Preparations",
         "icon": "preparations",
         "location": "Hotel",
-        "time": "19:00 - 20:00",
+        "time": "18:30 - 19:30",
         "color": "white"
       },
       {
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "20:00 - 20:30",
+        "time": "19:30 - 20:00",
         "color": "white"
       },
       {
         "title": "Tunisian Dinner",
         "icon": "tunisian",
         "location": "La Perle du Lac",
-        "time": "20:30 - 23:30",
+        "time": "20:00 - 23:00",
         "color": "white",
         "scrollRefInd": 6
       },
@@ -182,7 +174,7 @@
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "23:30 - 00:00",
+        "time": "23:00 - 00:00",
         "color": "white"
       }
     ]
@@ -232,18 +224,10 @@
         "scrollRefInd": 4
       },
       {
-        "title": "Break / Networking",
-        "icon": "break",
-        "location": "Hotel",
-        "time": "11:30 - 12:00",
-        "color": "white",
-        "scrollRefInd": 12
-      },
-      {
         "title": "Workshops",
         "icon": "workshop",
         "location": "Hotel",
-        "time": "12:00 - 13:30",
+        "time": "11:30 - 13:00",
         "color": "white",
         "scrollRefInd": 4
       },
@@ -251,14 +235,14 @@
         "title": "Lunch",
         "icon": "meals",
         "location": "Hotel",
-        "time": "13:30 - 14:30",
+        "time": "13:00 - 14:00",
         "color": "white"
       },
       {
         "title": "Break / Networking",
         "icon": "break",
         "location": "Hotel",
-        "time": "14:30 - 15:00",
+        "time": "14:00 - 14:30",
         "color": "white",
         "scrollRefInd": 12
       },
@@ -266,15 +250,22 @@
         "title": "Keynotes",
         "icon": "keynotes",
         "location": "Hotel",
-        "time": "15:00 - 16:00",
+        "time": "14:30 - 16:00",
         "color": "white",
         "scrollRefInd": 3
+      },
+      {
+        "title": "Preparations",
+        "icon": "preparations",
+        "location": "Hotel",
+        "time": "16:00 - 16:30",
+        "color": "white"
       },
       {
         "title": "Career Fair",
         "icon": "career",
         "location": "Hotel",
-        "time": "16:00 - 17:30",
+        "time": "16:30 - 18:00",
         "color": "white",
         "scrollRefInd": 7
       },
@@ -282,7 +273,7 @@
         "title": "Break / Networking",
         "icon": "break",
         "location": "Hotel",
-        "time": "17:30 - 18:00",
+        "time": "18:00 - 18:30",
         "color": "white",
         "scrollRefInd": 12
       },
@@ -290,7 +281,7 @@
         "title": "Poster Session",
         "icon": "poster",
         "location": "Hotel",
-        "time": "18:00 - 20:00",
+        "time": "18:30 - 20:30",
         "color": "white",
         "scrollRefInd": 8
       },
@@ -298,14 +289,14 @@
         "title": "Preparations",
         "icon": "preparations",
         "location": "Hotel",
-        "time": "20:00 - 21:00",
+        "time": "20:30 - 21:30",
         "color": "white"
       },
       {
         "title": "Multicultural Evening",
         "icon": "multiculture",
         "location": "Hotel",
-        "time": "21:00 - 00:00",
+        "time": "21:30 - 00:00",
         "color": "white",
         "scrollRefInd": 9
       }
