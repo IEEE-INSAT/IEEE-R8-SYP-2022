@@ -1,7 +1,7 @@
-import MainActivityNavBar from '../MainActivityNavBar';
+import TechnicalActivityNavBar from '../TechnicalActivityNavBar';
 import ActivityDetails from '../ActivityDetails';
 import ActivityList from '../ActivityList';
-import activities from '../../data/MainActivities.json';
+import activities from '../../data/TechnicalActivities.json';
 import React, {useState} from 'react';
 import './style.css';
 
@@ -36,14 +36,14 @@ const empty = {
     instructorhighlight: '',
     linkedin: '',
 };
-export default function MainActivities() {
+export default function TechnicalActivities() {
     //state/view management
     const [type, setType] = useState(activities[0].type);
     const [activity, setActivity] = useState(activities[0].id);
 
     function changeType(a: string) {
         setType(a);
-        setActivity(mainActivities[a as 'Workshops' | /*'Plenary' |*/ 'Keynotes'][0].id);
+        setActivity(TechnicalActivities[a as 'Workshops' | /*'Plenary' |*/ 'Keynotes'][0].id);
     }
 
     function changeActivity(id: number) {
@@ -71,12 +71,12 @@ export default function MainActivities() {
             }
         }
     });
-    const mainActivities = {Workshops, Keynotes /*, Plenary*/};
+    const TechnicalActivities = {Workshops, Keynotes /*, Plenary*/};
 
     const [viewPage, setViewPage] = useState(false);
     return (
-        <div className="MainActivities">
-            <MainActivityNavBar
+        <div className="TechnicalActivities">
+            <TechnicalActivityNavBar
                 items={['Keynotes', 'Workshops' /*, 'Plenary'*/]}
                 changeView={changeType}
                 default={activities[0].type}
@@ -85,7 +85,7 @@ export default function MainActivities() {
             <div className="mainContainer">
                 <div className={`${viewPage ? 'hidden ' : 'showed '}listContainer`}>
                     <ActivityList
-                        activities={mainActivities[type as 'Workshops' /*| 'Plenary'*/ | 'Keynotes']}
+                        activities={TechnicalActivities[type as 'Workshops' /*| 'Plenary'*/ | 'Keynotes']}
                         changeView={changeActivity}
                     />
                 </div>
@@ -95,7 +95,7 @@ export default function MainActivities() {
                     </div>
                     <ActivityDetails
                         activity={
-                            mainActivities[type as 'Workshops' /*| 'Plenary'*/ | 'Keynotes'].find(
+                            TechnicalActivities[type as 'Workshops' /*| 'Plenary'*/ | 'Keynotes'].find(
                                 (element) => element.id == activity,
                             ) || empty
                         }

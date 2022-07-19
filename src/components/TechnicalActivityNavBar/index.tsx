@@ -6,7 +6,7 @@ interface MainActivityNavBarProps {
     changeView(a: string): any;
     default: string;
 }
-export default function MainActivityNavBar(props: MainActivityNavBarProps) {
+export default function TechnicalActivityNavBar(props: MainActivityNavBarProps) {
     const [selected, setSelected] = useState(props.default);
     const list = props.items.map((item, index) => (
         <div
