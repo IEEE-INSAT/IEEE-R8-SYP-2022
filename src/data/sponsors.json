@@ -1,7 +1,12 @@
 [
-  {
-    "name": "MITSUBISHI ELECTRIC",
-    "filename": "Mits.jpg",
-    "type": "MITSUBISHI ELECTRIC"
-  }
+    {
+        "name": "MITSUBISHI ELECTRIC",
+        "filename": "Mits.jpg",
+        "type": "MITSUBISHI ELECTRIC"
+    },
+    {
+        "name": "Asteelflash Group",
+        "filename": "asteelflash.svg",
+        "type": "Asteelflash Group"
+    }
 ]
