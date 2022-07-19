@@ -5,8 +5,8 @@ interface ActivityListProps {
     activities: {
         id: number;
         name: string;
-        instructorName: string;
-        instructor2Name?: string
+        instructorname: string;
+        instructor2name?: string
     }[];
 
     changeView(a: number): any;
@@ -36,7 +36,7 @@ export default function ActivityList(props: ActivityListProps) {
             />
             <label htmlFor={`${item.name}`}>
                 <b>{item.name}</b>
-                <p>by {item.instructorName} {item.instructor2Name ? 'and ' + item.instructor2Name : ''}</p>
+                <p>by {item.instructorname} {item.instructor2name ? 'and ' + item.instructor2name : ''}</p>
             </label>
         </div>
     ));

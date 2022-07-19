@@ -13,13 +13,13 @@ interface ActivityData {
     date: string;
     time: string;
     location: string;
-    instructorName: string;
-    instructorDescription: string;
-    instructorHighlight: string;
+    instructorname: string;
+    instructordescription: string;
+    instructorhighlight: string;
     linkedin: string;
-    instructor2Name?: string;
-    instructor2Description?: string;
-    instructor2Highlight?: string;
+    instructor2name?: string;
+    instructor2description?: string;
+    instructor2highlight?: string;
     linkedin2?: string;
 }
 
@@ -31,9 +31,9 @@ const empty = {
     date: '',
     time: '',
     location: '',
-    instructorName: '',
-    instructorDescription: '',
-    instructorHighlight: '',
+    instructorname: '',
+    instructordescription: '',
+    instructorhighlight: '',
     linkedin: '',
 };
 export default function MainActivities() {

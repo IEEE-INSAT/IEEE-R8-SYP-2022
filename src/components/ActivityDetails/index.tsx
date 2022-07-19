@@ -10,13 +10,13 @@ interface ActivityData {
     date: string;
     time: string;
     location: string;
-    instructorName: string;
-    instructorDescription: string;
-    instructorHighlight: string;
+    instructorname: string;
+    instructordescription: string;
+    instructorhighlight: string;
     linkedin: string;
-    instructor2Name?: string;
-    instructor2Description?: string;
-    instructor2Highlight?: string;
+    instructor2name?: string;
+    instructor2description?: string;
+    instructor2highlight?: string;
     linkedin2?: string;
 }
 
@@ -33,12 +33,12 @@ export default function ActivityDetails(props: ActivityDetailsProps): ReactEleme
         time,
         location,
         linkedin,
-        instructorName,
-        instructorDescription,
-        instructorHighlight,
-        instructor2Name,
-        instructor2Description,
-        instructor2Highlight,
+        instructorname,
+        instructordescription,
+        instructorhighlight,
+        instructor2name,
+        instructor2description,
+        instructor2highlight,
         linkedin2,
     } = props.activity;
     return (
@@ -61,17 +61,17 @@ export default function ActivityDetails(props: ActivityDetailsProps): ReactEleme
             </div>
             <hr/>
             <div className="instructor">
-                <h2 className="secondarytitle">About the instructor{instructor2Name ? 's' : ''}</h2>
+                <h2 className="secondarytitle">About the instructor{instructor2name ? 's' : ''}</h2>
                 <div className="SpeakerCardContainer">
-                    <SpeakerCard name={instructorName} linkedin={linkedin} description={instructorDescription}
-                                 highlight={instructorHighlight} tutorial={true} image_dir={"/images/speakers/"}/>
+                    <SpeakerCard name={instructorname} linkedin={linkedin} description={instructordescription}
+                                 highlight={instructorhighlight} tutorial={true} image_dir={"/images/speakers/"}/>
                 </div>
             </div>
             {
-                instructor2Name && linkedin2 && instructor2Description && instructor2Highlight ?
+                instructor2name && linkedin2 && instructor2description && instructor2highlight ?
                     <div className="SpeakerCardContainer">
-                        <SpeakerCard name={instructor2Name} linkedin={linkedin2} description={instructor2Description}
-                                     highlight={instructor2Highlight} tutorial={true} image_dir={"/images/speakers/"}/>
+                        <SpeakerCard name={instructor2name} linkedin={linkedin2} description={instructor2description}
+                                     highlight={instructor2highlight} tutorial={true} image_dir={"/images/speakers/"}/>
                     </div>
                     : null
             }
