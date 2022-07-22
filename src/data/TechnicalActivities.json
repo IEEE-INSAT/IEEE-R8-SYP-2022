@@ -1,5 +1,18 @@
 [
   {
+    "id": 0,
+    "type": "Keynotes",
+    "name": "IEEE YP, Volunteering Platform and Career management for YPs",
+    "description": "This talk will share highlights of IEEE YP committee goals and initiatives, how YPs can enhance their careers and IEEE Volunteering platform.",
+    "date": "05/08/2022",
+    "time": "3:00 PM",
+    "location": "ElMouradi Ghammarth Hotel",
+    "instructorname": "Emre Ayranci",
+    "instructordescription": "Emre Ayranci is currently an RFIC Design manager and principal engineer at pSemi Murata. He is the IEEE Young Professionals Committee chair and SSCS Secretary/ Governance Chair. He was the SSCS YP Committee Chair, IEEE YP Vice Chair, Benelux YP and Professional activities Chair and founder of DTU and Sabanci University IEEE Student Branch.",
+    "instructorhighlight": "IEEE Young Professionals Committee Chair",
+    "linkedin": "https://www.linkedin.com/in/eayranci/"
+  },
+  {
     "id": 1,
     "type": "Keynotes",
     "name": "Internet of Things and real-time\ncomputing",
@@ -184,23 +197,24 @@
     "instructordescription": "Safa is the Head of Operations of Tayara. As an experienced Tech training Program Manager & Coach and a history of working in the information technology and services industry, Safa is contributing in making Tayara a home for young innovative talents who have a passion for game changing products",
     "instructorhighlight": " Head Of Operation- Tayara Group",
     "linkedin": "linkedin.com/in/safa-gaja"
-  },  {
-  "id": 15,
-  "type": "Workshops",
-  "name": "HAC Capacity Building workshop",
-  "description": "This session will present various global programs offered by HAC and the best practices for the design and development of the IEEE HAC/SIGHT sustainable development program.  This workshop will focus on how emerging technologies offer a transformative opportunity to address pressing global sustainable development challenges. We will discuss real-world examples of sustainable technologies that are relevant to achieving the Sustainable Development Goals. We will explore how IEEE Humanitarian Activities Committee (IEEE HAC) offers high-impact engagement opportunities for IEEE members to advance technologies for the benefit of marginalized communities globally.  The audience will have an opportunity to network and learn about the successfully implemented  HAC  projects,",
-  "date": "04/08/2022",
-  "time": "10:00am",
-  "location": "Elmouradi Gammarth",
-  "instructorname": "Sampathkumar Veeraraghavan",
-  "instructordescription": "Sampathkumar Veeraraghavan is a globally renowned technologist best known for his technological innovations in addressing global humanitarian and sustainable development challenges. As the 2021-2022 IEEE Humanitarian Activities Committee (HAC) Global Chair, Sampath spearheads the global strategy and has delivered record-breaking growth for IEEE  sustainable development and humanitarian engineering programs globally. ",
-  "instructorhighlight": "Global Chair, 2021 - 2022 IEEE Humanitarian Activities Committee",
-  "linkedin": "https://www.linkedin.com/in/sampathkumar-veeraraghavan-826b1a25/",
-  "instructor2name": "Abdullateef Aliyu",
-  "instructor2description": "Abdullateef has over 15 years experience working in the information and communication technology (ICT) /Telecommunication industry focusing on providing broadband services to the urban and rural areas in Nigeria and across West Africa; he heads the infrastructure roll-out and deployment department in Phase 3 telecom. ",
-  "instructor2highlight": " Chair, IEEE R8 Humanitarian Activities Committee ",
-  "linkedin2": "https://www.linkedin.com/in/abdulndigital/"
-},
+  },
+  {
+    "id": 15,
+    "type": "Workshops",
+    "name": "HAC Capacity Building workshop",
+    "description": "This session will present various global programs offered by HAC and the best practices for the design and development of the IEEE HAC/SIGHT sustainable development program.  This workshop will focus on how emerging technologies offer a transformative opportunity to address pressing global sustainable development challenges. We will discuss real-world examples of sustainable technologies that are relevant to achieving the Sustainable Development Goals. We will explore how IEEE Humanitarian Activities Committee (IEEE HAC) offers high-impact engagement opportunities for IEEE members to advance technologies for the benefit of marginalized communities globally.  The audience will have an opportunity to network and learn about the successfully implemented  HAC  projects,",
+    "date": "04/08/2022",
+    "time": "10:00am",
+    "location": "Elmouradi Gammarth",
+    "instructorname": "Sampathkumar Veeraraghavan",
+    "instructordescription": "Sampathkumar Veeraraghavan is a globally renowned technologist best known for his technological innovations in addressing global humanitarian and sustainable development challenges. As the 2021-2022 IEEE Humanitarian Activities Committee (HAC) Global Chair, Sampath spearheads the global strategy and has delivered record-breaking growth for IEEE  sustainable development and humanitarian engineering programs globally. ",
+    "instructorhighlight": "Global Chair, 2021 - 2022 IEEE Humanitarian Activities Committee",
+    "linkedin": "https://www.linkedin.com/in/sampathkumar-veeraraghavan-826b1a25/",
+    "instructor2name": "Abdullateef Aliyu",
+    "instructor2description": "Abdullateef has over 15 years experience working in the information and communication technology (ICT) /Telecommunication industry focusing on providing broadband services to the urban and rural areas in Nigeria and across West Africa; he heads the infrastructure roll-out and deployment department in Phase 3 telecom. ",
+    "instructor2highlight": " Chair, IEEE R8 Humanitarian Activities Committee ",
+    "linkedin2": "https://www.linkedin.com/in/abdulndigital/"
+  },
   {
     "id": 16,
     "type": "Workshops",
@@ -260,5 +274,31 @@
     "instructor2description": "Dr.sc.ing., MBA, Associate Professor and Senior Researcher at the Information Technology Institute, Head of Dept. of Modelling and Simulation, Riga Technical University . He has 20 years academic experiences teaching numerous post-graduate courses at the RTU, as well as over 30 years professional experience .",
     "instructor2highlight": "Chair, IEEE Region 8 Chapter Cordination Committee",
     "linkedin2": "https://www.linkedin.com/in/andrejs-romanovs-86585181"
+  },
+  {
+    "id": 20,
+    "type": "Keynotes",
+    "name": "Getting Involved with IEEE: How does it help Students and Young Professionals?",
+    "description": "Every one of us wants to get a successful career. While we select diverse paths to achieve that goal, we all need resources that help us develop personally, professionally, \nand technically. Those resources include building a network of successful people, accessing the latest updates in our field of expertise, and being equipped with the tools to deliver our work \nto others. In this keynote, I will highlight how IEEE brings all of these resources to us. Then, I will give key points to achieve our goals when volunteering with IEEE. Last, but not least, I open \nthe floor for students and Young Professionals for a discussion where all of us can interact, ask questions, and learn from each other.",
+    "date": "05/07/2022",
+    "time": "8:30 AM",
+    "location": "ElMouradi Ghammart Hotel",
+    "instructorname": "Zied Bouida",
+    "instructordescription": "Dr. Bouida is a Senior Researcher and a Cisco Chair Technical Manager at the IOT Lab at Carleton University, Ottawa, Canada. He is a Senior Member of the IEEE, HKN Professional Member, and a professional Engineer in Ontario. He served as IEEE Qatar YPs Committee Chair in 2016 and as IEEE Canada (R7) YPs Committee Chair from 2017 to 2021.",
+    "instructorhighlight": "Former IEEE Region 7 YPs Committee Chair ",
+    "linkedin": "https://www.linkedin.com/in/bouidazied/"
+  },
+  {
+    "id": 21,
+    "type": "Workshops",
+    "name": " IEEE Region 8 Pitch Final 2022",
+    "description": "IEEE Region 8 Pitch is the flagship program of IEEE Region 8 Entrepreneurship. After 10+ national pitch competitions in 2021, and 30+ startups competing, 5 made it to the fina! Startups pitching are: FeelMe from Greece, Greeners from Palestine, EFert from UAE, LangSmart from Palestine, and Noisure from Georgia. Join us to learn more about their ventures in agri-tech, bio-tech and AI, and connect with our judges from IEEE, RedStart Tunisia Accelerator, Founder Institute Tunisia, and Oxfam. ",
+    "date": "05/08/2022",
+    "time": "2:30 PM",
+    "location": "ElMouradi Ghammarth Hotel",
+    "instructorname": "none",
+    "instructordescription": "none",
+    "instructorhighlight": "none",
+    "linkedin": "none"
   }
 ]
