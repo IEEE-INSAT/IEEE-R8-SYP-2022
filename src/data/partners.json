@@ -2,16 +2,19 @@
   {
     "name": "HuaC",
     "filename": "HuaC.png",
-    "type" : "Society"
+    "type" : "Society",
+    "link": ""
   },
   {
     "name": "IEEE EMB",
     "filename": "EMB.jpg",
-    "type" : "Society"
+    "type" : "Society",
+    "link": ""
   },
   {
     "name": "MTT-S",
     "filename": "MTT-S.png",
-    "type" : "Society"
+    "type" : "Society",
+    "link": ""
   }
 ]

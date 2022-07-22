@@ -2,11 +2,13 @@
     {
         "name": "MITSUBISHI ELECTRIC",
         "filename": "Mits.jpg",
-        "type": "MITSUBISHI ELECTRIC"
+        "type": "MITSUBISHI ELECTRIC",
+        "link": "https://www.mitsubishielectric.com/en/index.html"
     },
     {
         "name": "Asteelflash Group",
         "filename": "asteelflash.svg",
-        "type": "Asteelflash Group"
+        "type": "Asteelflash Group",
+        "link": "https://www.asteelflash.com/"
     }
 ]
