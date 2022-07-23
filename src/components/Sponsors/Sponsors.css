@@ -17,7 +17,7 @@
     height: 150px;
     display: block;
     border-radius: 20px;
-    box-shadow: 1px 1px 20px 1px var(--primary-color);
+    box-shadow: 1px 1px 20px 1px var(--secondary-color);
 }
 
 .sponsor-type-overlay {
