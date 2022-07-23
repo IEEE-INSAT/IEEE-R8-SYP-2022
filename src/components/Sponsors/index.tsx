@@ -32,7 +32,7 @@ export default function Sponsors({items}: SponsorsProps) {
                                  alt={sponsor.name}/>
 
                             <div className="sponsor-type-overlay">
-                                <span>{sponsor.type} sponsor</span>
+                                <span>{sponsor.type}</span>
                             </div>
 
                         </a>
