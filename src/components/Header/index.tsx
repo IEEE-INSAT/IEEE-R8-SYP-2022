@@ -28,7 +28,7 @@ export default function Header({mode = "PAGE", title, description, buttonText, h
         <header>
 
             <img className="headerWave" src={(mode == "HOMEPAGE") ? HeaderWave : HeaderWaveNav}
-                 style={mode == "PAGE" ? {width: "80vw", minHeight: "230px"} : {}} alt=""/>
+                 style={mode == "PAGE" ? {width: "80vw", minHeight: "230px"} : {height: "150vh"}} alt=""/>
             <NavBar navItems={NavItems}/>
             <Link to="/"><img className="logo" src={logo} alt="SYP"/></Link>
             <Fade>

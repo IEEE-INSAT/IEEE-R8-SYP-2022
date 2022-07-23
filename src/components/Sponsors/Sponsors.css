@@ -8,25 +8,18 @@
     margin-bottom: 36px;
 }
 
-
 .sponsor-container {
     position: relative;
 }
 
 .sponsor-logo-row .sponsor-container img {
-    display: block;
-    border-radius: 20px
-}
-.sponsor-logo-row .sponsor-container .gold {
     width: 237px;
     height: 150px;
-    box-shadow: 1px 1px 20px 1px #fae600;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px 1px var(--primary-color);
 }
-.sponsor-logo-row .sponsor-container .platinum {
-    width: 270px;
-    height: 180px;
-    box-shadow: 1px 1px 20px 1px #0adf13;
-}
+
 .sponsor-type-overlay {
     position: absolute;
     top: 0;

@@ -25,7 +25,8 @@ export default function Sponsors({items}: SponsorsProps) {
                     <Fade key={i}>
                         <a className="sponsor-container"
                            href={sponsor.link}
-                           target="_blank" rel="noreferrer">
+                           target="_blank"
+                           rel="noreferrer">
                             <img className={sponsor.type === 'Platinum' ? "platinum" : "gold"}
                                  src={require(`../../assets/images/sponsors/${sponsor.filename}`)}
                                  alt={sponsor.name}/>
