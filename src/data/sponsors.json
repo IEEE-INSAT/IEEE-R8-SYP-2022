@@ -10,5 +10,17 @@
         "filename": "asteelflash.svg",
         "type": "Asteelflash Group",
         "link": "https://www.asteelflash.com/"
+    },
+    {
+        "name": "STB BANK",
+        "filename": "STB.png",
+        "type": "STB BANK",
+        "link": "https://www.stb.com.tn/"
+    },
+    {
+        "name": "Draexlmaier",
+        "filename": "draexlmaier.png",
+        "type": "Draexlmaier",
+        "link": "https://tn.draexlmaier.com/"
     }
 ]
