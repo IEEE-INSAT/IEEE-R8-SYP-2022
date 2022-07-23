@@ -2,25 +2,25 @@
     {
         "name": "MITSUBISHI ELECTRIC",
         "filename": "Mits.jpg",
-        "type": "MITSUBISHI ELECTRIC",
+        "type": "Gold",
         "link": "https://www.mitsubishielectric.com/en/index.html"
     },
     {
         "name": "Asteelflash Group",
         "filename": "asteelflash.svg",
-        "type": "Asteelflash Group",
+        "type": "Gold",
         "link": "https://www.asteelflash.com/"
     },
     {
         "name": "STB BANK",
         "filename": "STB.png",
-        "type": "STB BANK",
+        "type": "Gold",
         "link": "https://www.stb.com.tn/"
     },
     {
         "name": "Draexlmaier",
         "filename": "draexlmaier.png",
-        "type": "Draexlmaier",
+        "type": "Platinum",
         "link": "https://tn.draexlmaier.com/"
     }
 ]
