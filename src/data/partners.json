@@ -1,7 +1,7 @@
 [
   {
     "name": "HuaC",
-    "filename": "HuaC.png",
+    "filename": "HuaC.jpg",
     "type" : "Society",
     "link": "https://hac.ieee.org/"
   },
@@ -16,11 +16,5 @@
     "filename": "MTT-S.png",
     "type" : "Society",
     "link": "https://mtt.org/"
-  },
-  {
-    "name": "IEEE Region 8 Entrepreneurship Initiative",
-    "filename": "IEEE Region 8 Entrepreneurship Initiative.jpg",
-    "type" : "Society",
-    "link": ""
   }
 ]

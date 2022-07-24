@@ -13,7 +13,7 @@ export default function PartnersPage() {
         <div className="sponsoring">
             <Header title={'IEEE PARTNERS'} description={<p>Meet our partners</p>}/>
             <Fade>
-                <Sponsors items={partnersList}/>
+                <Sponsors items={partnersList} types={["Society" ]}/>
             </Fade>
             <Footer/>
         </div>

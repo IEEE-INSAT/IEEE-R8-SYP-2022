@@ -22,6 +22,7 @@ import Speakers from '../../components/Speakers';
 import {Link} from "react-router-dom";
 import ThemedButton from "../../components/ThemedButton";
 import speakerList from '../../data/speakers.json'
+
 const HeaderDescription = () => (
     <>
         <p className="date">See you from the 3rd to the 7th of August 2022 in Tunisia</p>
@@ -35,21 +36,21 @@ export default function Home() {
             <Header
                 title={'IEEE R8 SYP CONGRESS'}
                 mode="HOMEPAGE"
-                description={<HeaderDescription />}
+                description={<HeaderDescription/>}
             />
             <Zoom>
-                <AboutEvent />
+                <AboutEvent/>
             </Zoom>
             <Fade>
-                <Location />
+                <Location/>
             </Fade>
             <Fade>
-                <Countdown />
+                <Countdown/>
             </Fade>
             <Zoom>
-                <AboutLocation />
+                <AboutLocation/>
             </Zoom>
-            
+
             <div className="home-container">
                 <Fade>
                     <h4>DISTINGUISHED GUESTS</h4>
@@ -57,28 +58,29 @@ export default function Home() {
                 </Fade>
                 <Speakers limit={true}/>
             </div>
-          
+
             <Fade>
-                <PoweredBy />
+                <PoweredBy/>
             </Fade>
             <Fade>
                 <div className="home-container">
                     <h4>EVENT SPONSORS</h4>
                     <h2>Official Sponsors</h2>
-                    <Sponsors items={sponsorsList} />
+                    <Sponsors items={sponsorsList} types={["Platinum", "Gold"]}/>
                     <p className="sponsors-description">
                         If you want to increase awareness for your company, You’re in the right place !
                     </p>
-                    <Link to="/sponsors" ><ThemedButton text='CONTACT US' onClick={() => window.scrollTo(0, 0)} color='secondary' width='500px' /></Link>
+                    <Link to="/sponsors"><ThemedButton text='CONTACT US' onClick={() => window.scrollTo(0, 0)}
+                                                       color='secondary' width='500px'/></Link>
                 </div>
             </Fade>
             <Fade>
                 <div className="home-container">
                     <h4>EVENT PARTNERS</h4>
                     <h2>IEEE Partners</h2>
-                    <Sponsors items={partnersList} /></div>
+                    <Sponsors items={partnersList} types={["Society"]}/></div>
             </Fade>
-            <Footer />
+            <Footer/>
         </div>
     );
 }
