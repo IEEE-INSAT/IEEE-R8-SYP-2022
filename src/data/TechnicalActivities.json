@@ -137,7 +137,6 @@
     "instructor2highlight": "IEEE Vice President, Member and Geographic Activities",
     "linkedin2": "https://www.linkedin.com/in/davidakoehler/"
   },
-
   {
     "id": 15,
     "type": "Workshops",
@@ -262,5 +261,18 @@
     "instructordescription": "Ahmed Belkahla is Studying Computer Science & Networks Engineering at the National Institute of Applied Science and Technology (INSAT) and is a Cyber Security Specialist at Yogosha. He occupied the position of vice chairman of Securinets and was the Media manager of IEEE CS INSAT Chapter in 2019.\n",
     "instructorhighlight": "Cyber Secutiry Specialist",
     "linkedin": "https://www.linkedin.com/in/ahmed-belkahla/"
+  },
+  {
+    "id": 50,
+    "type": "Keynotes",
+    "name": "Hawkar's success story",
+    "description": "Khadija, CEO of HawKar, with more than 5 years of experience in team leadership, project management, sales, and marketing in the automotive field. A disabled person who has always struggled to be independent and who decided to solve the mobility problem of disabled people. Being in a wheelchair did not prevent her from being active in life. She has set herself a mission to make the freedom of mobility accessible to all.\nHas been selected and recognized in 2020 by the Meaningful Business 100 among outstanding leaders across the world combining profit and purpose to help achieve the UN Sustainable Development Goals.\"",
+    "date": "04/08/2022",
+    "time": "8:30 AM",
+    "location": "Elmouradi Gammarth",
+    "instructorname": "Khadija Jallouli",
+    "instructordescription": "Khadija Jallouli is the founder of HawKar. She was selected by the Meaningful Business 100 among outstanding leaders across the world combining profit and purpose to help achieve the UN Sustainable Development Goals. She graduated from the National Institute of Applied science and technologies (INSAT) in 2020.",
+    "instructorhighlight": "HawKar Founder",
+    "linkedin": "https://www.linkedin.com/in/khadija-jallouli/"
   }
 ]
