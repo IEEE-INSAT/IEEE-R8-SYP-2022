@@ -11,34 +11,41 @@ interface SponsorItem {
     link: string;
 }
 
+type sponsorTypes = "Platinum" | "Gold" | "Silver" | "Bronze" | "Society";
+
 interface SponsorsProps {
-    items: SponsorItem[]
+    items: SponsorItem[];
+    types: sponsorTypes[]
 }
 
 
-export default function Sponsors({items}: SponsorsProps) {
+export default function Sponsors({items, types}: SponsorsProps) {
     return (
-        <div className="sponsor-logo-row">
-            {
+        <>
+            {types.map((type, indx) => <div className={"sponsor-logo-row " + type} key={indx}>
+                {
+                    items.filter(sponsor => {
+                        return sponsor.type === type
+                    })
+                        .map((sponsor, i) => (
+                            <Fade key={i}>
+                                <a className="sponsor-container"
+                                   href={sponsor.link}
+                                   target="_blank"
+                                   rel="noreferrer">
+                                    <img className={sponsor.type.toLowerCase()}
+                                         src={require(`../../assets/images/sponsors/${sponsor.filename}`)}
+                                         alt={sponsor.name}/>
+                                    <div className="sponsor-type-overlay">
+                                        <span>{sponsor.type + (type !== 'Society' ? " sponsor" : "")}</span>
+                                    </div>
 
-                items.map((sponsor, i) => (
-                    <Fade key={i}>
-                        <a className="sponsor-container"
-                           href={sponsor.link}
-                           target="_blank"
-                           rel="noreferrer">
-                            <img className={sponsor.type === 'Platinum' ? "platinum" : "gold"}
-                                 src={require(`../../assets/images/sponsors/${sponsor.filename}`)}
-                                 alt={sponsor.name}/>
-
-                            <div className="sponsor-type-overlay">
-                                <span>{sponsor.type}</span>
-                            </div>
-
-                        </a>
-
-                    </Fade>
-                ))
-            } </div>
+                                </a>
+                            </Fade>
+                        ))
+                }
+            </div>)
+            }
+        </>
     );
 }
