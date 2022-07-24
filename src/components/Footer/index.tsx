@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Logo from './../../assets/images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faInstagram, faTwitter, faLinkedin, } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram} from '@fortawesome/free-brands-svg-icons';
 import { Link } from "react-router-dom";
 import NavItems from "../../data/NavItems.json";
 import SocialMedia from "../../data/SocialMedia.json";

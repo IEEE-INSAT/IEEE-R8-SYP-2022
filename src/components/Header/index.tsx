@@ -23,7 +23,7 @@ interface HeaderProps {
     handleBtnClick?: () => void;
 }
 
-export default function Header({mode = "PAGE", title, description, buttonText, handleBtnClick}: HeaderProps) {
+export default function Header({mode = "PAGE", title, description}: HeaderProps) {
     return (
         <header>
 

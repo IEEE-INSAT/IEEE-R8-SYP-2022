@@ -3,12 +3,7 @@ import top_disk from './../../assets/images/browndisk.svg';
 import bot_disk from './../../assets/images/bluedisk.svg';
 import './style.css';
 
-interface IVideoDisplay {
-    pictureOnly?: boolean;
-    img?: string;
-}
-
-export default function VideoDisplay({ pictureOnly = false, img }: IVideoDisplay) {
+export default function VideoDisplay() {
     return (
         <div className='videoContainer blockElement'>
             <img className="deco top-disk" src={top_disk} />

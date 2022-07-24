@@ -10,7 +10,7 @@ interface ActivityListProps {
         instructor3name?: string
     }[];
 
-    changeView(a: number): any;
+    changeView(a: number): void;
 }
 
 export default function ActivityList(props: ActivityListProps) {

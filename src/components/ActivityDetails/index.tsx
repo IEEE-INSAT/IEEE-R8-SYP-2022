@@ -30,7 +30,6 @@ interface ActivityDetailsProps {
 
 export default function ActivityDetails(props: ActivityDetailsProps): ReactElement {
     const {
-        type,
         name,
         description,
         date,

@@ -3,7 +3,7 @@ import './style.css';
 
 interface MainActivityNavBarProps {
     items: string[];
-    changeView(a: string): any;
+    changeView(a: string): void;
     default: string;
 }
 export default function TechnicalActivityNavBar(props: MainActivityNavBarProps) {

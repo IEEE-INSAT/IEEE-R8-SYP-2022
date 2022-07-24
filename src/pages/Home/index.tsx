@@ -59,7 +59,7 @@ export default function Home() {
                 <Speakers limit={true}/>
             </div>
 
-            <Fade>
+            <Fade>.
                 <PoweredBy/>
             </Fade>
             <Fade>
