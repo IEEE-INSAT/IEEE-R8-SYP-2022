@@ -18,6 +18,10 @@ interface ActivityData {
     instructor2description?: string;
     instructor2highlight?: string;
     linkedin2?: string;
+    instructor3name?: string;
+    instructor3description?: string;
+    instructor3highlight?: string;
+    linkedin3?: string;
 }
 
 interface ActivityDetailsProps {
@@ -40,6 +44,10 @@ export default function ActivityDetails(props: ActivityDetailsProps): ReactEleme
         instructor2description,
         instructor2highlight,
         linkedin2,
+        instructor3name,
+        instructor3description,
+        instructor3highlight,
+        linkedin3,
     } = props.activity;
     return (
         <div className="ActivityDetails">
@@ -72,6 +80,14 @@ export default function ActivityDetails(props: ActivityDetailsProps): ReactEleme
                     <div className="SpeakerCardContainer">
                         <SpeakerCard name={instructor2name} linkedin={linkedin2} description={instructor2description}
                                      highlight={instructor2highlight} tutorial={true} image_dir={"/images/speakers/"}/>
+                    </div>
+                    : null
+            }
+            {
+                instructor3name && linkedin3 && instructor3description && instructor3highlight ?
+                    <div className="SpeakerCardContainer">
+                        <SpeakerCard name={instructor3name} linkedin={linkedin3} description={instructor3description}
+                                     highlight={instructor3highlight} tutorial={true} image_dir={"/images/speakers/"}/>
                     </div>
                     : null
             }

@@ -21,6 +21,10 @@ interface ActivityData {
     instructor2description?: string;
     instructor2highlight?: string;
     linkedin2?: string;
+    instructor3name?: string;
+    instructor3description?: string;
+    instructor3highlight?: string;
+    linkedin3?: string;
 }
 
 const empty = {

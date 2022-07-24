@@ -6,13 +6,14 @@ import './style.css';
 // @ts-ignore
 import Fade from 'react-reveal/Fade';
 import TechnicalActivities from '../../components/TechnicalActivities';
+
 export default function MainActivitiesPage() {
     return (
         <div className="registration">
-            <Header title={'Technical Activities'} description={<p>See what&#39;s in the menu</p>} />
+            <Header title={'Technical Activities'} description={<p>See what&#39;s in the menu</p>}/>
 
             <TechnicalActivities/>
-            {window.matchMedia("all and (max-width: 768px)").matches?"": <Footer />}
+            {window.matchMedia("all and (max-width: 768px)").matches ? "" : <Footer/>}
         </div>
     );
 }
