@@ -83,12 +83,6 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
         setDisplayMatrix(displayMatrixRef.current);
     }, [isMobile, selectedDay]);
 
-    const changeSelectedDay = (day: IProgramDays) => {
-        if (scheduleData[day]) {
-            setSelectedDay(day);
-        }
-    }
-
     return (
         <div className="planning-section">
             <div className="planning-month-section">
