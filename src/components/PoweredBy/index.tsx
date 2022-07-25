@@ -1,6 +1,6 @@
 import './style.css';
 import React from 'react';
-import logos from '../../data/Powered-By-Logos.json';
+import logos from '../../data/Abouts and other fixed files/Powered-By-Logos.json';
 
 export default function PoweredBy({ }) {
     return (

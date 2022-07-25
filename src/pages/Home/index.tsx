@@ -7,8 +7,8 @@ import Location from '../../components/Location';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Sponsors from '../../components/Sponsors';
-import partnersList from '../../data/partners.json';
-import sponsorsList from '../../data/sponsors.json';
+import partnersList from '../../data/sponsors and partners/partners.json';
+import sponsorsList from '../../data/sponsors and partners/sponsors.json';
 import NumberCounter from '../../components/NumberCounter';
 import './Home.css';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -21,7 +21,7 @@ import PoweredBy from '../../components/PoweredBy';
 import Speakers from '../../components/Speakers';
 import {Link} from "react-router-dom";
 import ThemedButton from "../../components/ThemedButton";
-import speakerList from '../../data/speakers.json'
+import speakerList from '../../data/program/speakers.json'
 
 const HeaderDescription = () => (
     <>
@@ -54,7 +54,7 @@ export default function Home() {
             <div className="home-container">
                 <Fade>
                     <h4>DISTINGUISHED GUESTS</h4>
-                    <h2>More than <NumberCounter number={speakerList.length}/> speakers will be present</h2>
+                    <h2>More than <NumberCounter number={speakerList.length }/> speakers will be present</h2>
                 </Fade>
                 <Speakers limit={true}/>
             </div>

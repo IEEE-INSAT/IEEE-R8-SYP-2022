@@ -9,11 +9,12 @@ import TextBlock from '../../components/TextBlock';
 import ThemedButton from '../../components/ThemedButton';
 import DecoratedImage from '../../components/DecoratedImage';
 import Footer from '../../components/Footer';
-import AboutSYPSection from '../../components/AboutSYPSection';
+import ParagraphBlock from '../../components/AboutSYPSection';
 import Carousel from '../../components/Carousel';
 import top_disk from './../../assets/images/browndisk.svg';
 import bot_disk from './../../assets/images/bluedisk.svg';
 import '../../components/VideoDisplay/style.css';
+import aboutSYPContent from "../../data/Abouts and other fixed files/AboutUs - SYP Section.json";
 
 export default function AboutUs() {
     return (
@@ -28,8 +29,7 @@ export default function AboutUs() {
                         opportunities, and to develop technology and its applications for humanitarian goals. The
                         section supports chapters, special interest groups, student activities and student awards.
                         <div className='about-explore-btn'>
-                            <a href='https://ieee.tn/' target="_blank" rel="noreferrer"><ThemedButton text='Explore'
-                                                                                                      color='secondary'/></a>
+                            <a href='https://ieee.tn/' target="_blank" rel="noreferrer"><ThemedButton text='Explore' color='secondary'/></a>
                         </div>
                     </TextBlock>
                     <div className='videoContainer blockElement'>
@@ -56,7 +56,7 @@ export default function AboutUs() {
                 </TwoElementsBlock>
             </Fade>
             <Fade>
-                <AboutSYPSection/>
+                <ParagraphBlock data={aboutSYPContent}/>
             </Fade>
             <Fade>
                 <Carousel/>

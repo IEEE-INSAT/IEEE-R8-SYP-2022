@@ -1,6 +1,6 @@
 import React from "react";
 import SpeakerCard from "../SpeakerCard";
-import Speakers from '../../data/speakers.json'
+import Speakers from '../../data/program/speakers.json'
 
 import './index.css'
 

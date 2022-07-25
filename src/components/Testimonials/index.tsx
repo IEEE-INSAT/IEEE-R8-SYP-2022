@@ -4,7 +4,7 @@ import {useState, useEffect} from "react";
 import TestimonialXL from '../TestimonialXL';
 import TestimonialSM from '../TestimonialSM';
 
-import data from '../../data/Testimonials.json';
+import data from '../../data/Abouts and other fixed files/Testimonials.json';
 import LeftArrow from '../../assets/LeftArrow.png';
 import RightArrow from '../../assets/RightArrow.png';
 

@@ -9,7 +9,7 @@ import ReactCardCarousel from 'react-card-carousel';
 import Card from "../Card";
 import "./Carousel.css"
 import arrow from "../../assets/arrow.svg";
-import data from "../../data/Team.json"
+import data from "../../data/Abouts and other fixed files/Team.json"
 
 export default function Carousel(){
     const [carousel, setCarousel] = useState(null);

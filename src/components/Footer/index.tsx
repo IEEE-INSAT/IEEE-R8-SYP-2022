@@ -4,8 +4,8 @@ import Logo from './../../assets/images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram} from '@fortawesome/free-brands-svg-icons';
 import { Link } from "react-router-dom";
-import NavItems from "../../data/NavItems.json";
-import SocialMedia from "../../data/SocialMedia.json";
+import NavItems from "../../data/Abouts and other fixed files/NavItems.json";
+import SocialMedia from "../../data/Abouts and other fixed files/SocialMedia.json";
 import insatsb from "../../assets/images/IEEESB.png";
 
 export default function Footer() {

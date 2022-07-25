@@ -7,7 +7,7 @@ import logo from "../../assets/images/logo180-black.png";
 import beb from "../../assets/images/bebAzra9.png";
 
 import NavBar from "../NavBar";
-import NavItems from "../../data/NavItems.json";
+import NavItems from "../../data/Abouts and other fixed files/NavItems.json";
 import {Link} from "react-router-dom";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore

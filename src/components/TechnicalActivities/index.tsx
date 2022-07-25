@@ -1,7 +1,7 @@
 import TechnicalActivityNavBar from '../TechnicalActivityNavBar';
 import ActivityDetails from '../ActivityDetails';
 import ActivityList from '../ActivityList';
-import activities from '../../data/TechnicalActivities.json';
+import activities from '../../data/program/TechnicalActivities.json';
 import React, {useState} from 'react';
 import './style.css';
 

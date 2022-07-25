@@ -10,11 +10,11 @@ import Fade from 'react-reveal/Fade';
 function Speakers(props) {
      /* eslint-disable react/prop-types */
     const mobile = window.matchMedia('all and (max-width: 480px)');
-    const limit=mobile.matches?props.limit&&4:props.limit&&9;
+    const limit=mobile.matches?props.limit&&4:props.limit&&12;
     const button=props.limit?
         <Fade>
             <Link to="/Speakers" >
-                <ThemedButton text="show more" mode="light" color="secondary" onClick={()=>window.scrollTo(0, 0)} style={{marginTop:"30px", opacity:"80%"}} />
+                <ThemedButton text="Show more" mode="light" color="secondary" onClick={()=>window.scrollTo(0, 0)} style={{marginTop:"30px", opacity:"80%"}} />
             </Link>
         </Fade> :"";
 

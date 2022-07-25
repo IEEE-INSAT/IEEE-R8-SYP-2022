@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Sponsors from '../../components/Sponsors';
-import partnersList from '../../data/partners.json';
+import partnersList from '../../data/sponsors and partners/partners.json';
 
 export default function PartnersPage() {
     return (

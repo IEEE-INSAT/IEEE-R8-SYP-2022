@@ -5,7 +5,7 @@ import MiddleSection from "../../components/MiddleSection";
 import ScheduleSection from "../../components/ScheduleSection";
 import Gallery from "../../components/Gallery";
 
-import ScheduleDescription from './../../data/ScheduleDescription.json';
+import ScheduleDescription from '../../data/program/ScheduleDescription.json';
 import ScrollToTop from "../../components/ScrollToTop";
 
 

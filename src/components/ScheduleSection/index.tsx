@@ -4,7 +4,7 @@ import ScheduleDayEvent from "../ScheduleDayEvent";
 import ScheduleDaySelector from "../ScheduleDaySelector";
 import './style.css'
 
-import scheduleData from './../../data/ScheduleData.json';
+import scheduleData from '../../data/program/ScheduleData.json';
 
 import schedule3bg from '../../assets/images/schedule_bg/schedule-bg.svg';
 import scheduleBeginBg from '../../assets/images/schedule_bg/bg-begin.png';
@@ -37,7 +37,7 @@ export default function ScheduleSection({scrollRefs}: IScheduleDescription) {
             else
                 rows[rows.length - 1].push(key);
             return rows;
-        }, [] as any[]
+        }, [] as IProgram[][]
     ) as IProgram[][];
 
 

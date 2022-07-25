@@ -9,7 +9,9 @@ import TextBlock from '../../components/TextBlock';
 import sponsorshipDossier from '../../assets/images/sponsorshipDossier.png';
 import ThemedButton from '../../components/ThemedButton';
 import Sponsors from '../../components/Sponsors';
-import sponsorsList from '../../data/sponsors.json';
+import sponsorsList from '../../data/sponsors and partners/sponsors.json';
+import ParagraphBlock from "../../components/AboutSYPSection";
+import SponsorsParagraphs from '../../data/sponsors and partners/Sponsors Paragraphs.json';
 
 export default function Sponsoring() {
     return (
@@ -18,6 +20,10 @@ export default function Sponsoring() {
 
             <Fade>
                 <Sponsors items={sponsorsList} types={["Platinum" , "Gold" ]}/>
+            </Fade>
+
+            <Fade>
+                <ParagraphBlock data={SponsorsParagraphs}/>
             </Fade>
 
             <Fade>

@@ -28,7 +28,7 @@ import {ReactComponent as PlenaryIcon} from '../../assets/images/schedule/plenar
 import {ReactComponent as PosterIcon} from '../../assets/images/schedule/poster.svg';
 import {ReactComponent as MulticultureIcon} from '../../assets/images/schedule/multiculture.svg';
 
-import ScheduleDescription from './../../data/ScheduleDescription.json';
+import ScheduleDescription from '../../data/program/ScheduleDescription.json';
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore

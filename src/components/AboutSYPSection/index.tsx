@@ -1,19 +1,39 @@
 import './style.css';
 import React from 'react';
-import aboutSYPContent from '../../data/AboutUs - SYP Section.json';
 
-export default function AboutSYPSection({ }) {
+interface paragraphItem {
+    title: string;
+    content: string;
+    picture?: string;
+}
+
+interface ParagraphBlockProps {
+    data: paragraphItem[];
+}
+
+export default function ParagraphBlock({data}: ParagraphBlockProps) {
     return (
-        <div className='about-syp-section'>
-            <div className='about-syp-section-title'>
-                {aboutSYPContent.title}
-            </div>
-            <div className='about-syp-section-content'>
-                {aboutSYPContent.content}
-            </div>
-            <div className='about-syp-section-picture'>
-                <img src={aboutSYPContent.picture} />
-            </div>
+        <div className='paragraph-block-section'>
+            {
+                data.map((el, indx) => {
+                    return <div key={indx}>
+                        <div className='paragraph-block-title'>
+                            {el.title}
+                        </div>
+                        <div className='paragraph-block-content'>
+                            {el.content}
+                        </div>
+                        {
+                            (el.picture) ?
+                                <div className='paragraph-block-picture'>
+                                    <img src={el.picture}/>
+                                </div>
+                                : ""}
+                    </div>
+
+                })
+            }
+
         </div>
     );
 }

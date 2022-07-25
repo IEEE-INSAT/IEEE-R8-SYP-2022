@@ -8,7 +8,7 @@ export default function NumberCounter(props) {
     valueRef.current = value;
     const animate = () => {
         
-        if (valueRef.current <= props.number)
+        if (valueRef.current < props.number + 5 - (props.number % 5))
             setTimeout(() => {
                 setValue(valueRef.current + 1);
             }, 70);        

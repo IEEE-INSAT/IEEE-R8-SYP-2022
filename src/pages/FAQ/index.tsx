@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 
-import {faqCategories, FAQs} from "../../data/FAQs";
+import {faqCategories, FAQs} from "../../data/Abouts and other fixed files/FAQs";
 import FAQelement from "../../components/FAQelement";
 import "./faq.css";
 
