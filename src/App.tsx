@@ -20,7 +20,6 @@ import './components/Testimonials/Testimonials.css';
 function App() {
     return (
         <div className="App">
-            <Fade>
                 <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<Home/>}/>
@@ -35,7 +34,6 @@ function App() {
                         <Route path="/TechnicalActivities" element={<TechnicalActivities/>}/>
                     </Routes>
                 </BrowserRouter>
-            </Fade>
         </div>
     );
 }
