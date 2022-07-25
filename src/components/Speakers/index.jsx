@@ -10,7 +10,7 @@ import Fade from 'react-reveal/Fade';
 function Speakers(props) {
      /* eslint-disable react/prop-types */
     const mobile = window.matchMedia('all and (max-width: 480px)');
-    const limit=mobile.matches?props.limit&&4:props.limit&&12;
+    const limit=mobile.matches?props.limit&&4:props.limit&&9;
     const button=props.limit?
         <Fade>
             <Link to="/Speakers" >

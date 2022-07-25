@@ -22,9 +22,9 @@ export default function Sponsoring() {
                 <Sponsors items={sponsorsList} types={["Platinum" , "Gold" ]}/>
             </Fade>
 
-            <Fade>
-                <ParagraphBlock data={SponsorsParagraphs}/>
-            </Fade>
+            {/*<Fade>*/}
+            {/*    <ParagraphBlock data={SponsorsParagraphs}/>*/}
+            {/*</Fade>*/}
 
             <Fade>
                 <div className="twoElmContainer">
