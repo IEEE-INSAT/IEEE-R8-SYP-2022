@@ -12,6 +12,7 @@ import Sponsors from '../../components/Sponsors';
 import sponsorsList from '../../data/sponsors and partners/sponsors.json';
 import ParagraphBlock from "../../components/AboutSYPSection";
 import SponsorsParagraphs from '../../data/sponsors and partners/Sponsors Paragraphs.json';
+import ScrollToTop from "../../components/ScrollToTop";
 
 export default function Sponsoring() {
     return (
@@ -22,9 +23,9 @@ export default function Sponsoring() {
                 <Sponsors items={sponsorsList} types={["Platinum" , "Gold" ]}/>
             </Fade>
 
-            {/*<Fade>*/}
-            {/*    <ParagraphBlock data={SponsorsParagraphs}/>*/}
-            {/*</Fade>*/}
+            <Fade>
+                <ParagraphBlock data={SponsorsParagraphs}/>
+            </Fade>
 
             <Fade>
                 <div className="twoElmContainer">
@@ -62,6 +63,7 @@ export default function Sponsoring() {
                 </div>
             </Fade>
             <Footer/>
+            <ScrollToTop/>
         </div>
     );
 }

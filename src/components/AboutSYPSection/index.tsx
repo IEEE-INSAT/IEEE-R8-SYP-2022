@@ -16,7 +16,7 @@ export default function ParagraphBlock({data}: ParagraphBlockProps) {
         <div className='paragraph-block-section'>
             {
                 data.map((el, indx) => {
-                    return <div key={indx}>
+                    return <div className={indx % 2 ? "paragraph-block-item" : "paragraph-block-item odd"} key={indx} >
                         <div className='paragraph-block-title'>
                             {el.title}
                         </div>
