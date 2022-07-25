@@ -38,8 +38,9 @@
   {
     "name": "SPS",
     "filename": "SPS.jpg",
-    "type" : "Society",
+    "type": "Society",
     "link": "https://signalprocessingsociety.org/"
+  },
   {
     "name": "PES",
     "filename": "pes.png",
