@@ -22,5 +22,28 @@
     "filename": "HuaC.png",
     "type" : "Society",
     "link": "https://www.facebook.com/Region8SIGHT/"
+  },
+  {
+    "name": "AESS",
+    "filename": "AESS.png",
+    "type" : "Society",
+    "link": "https://ieee-aess.org/"
+  },
+  {
+    "name": "IEEE Volunteering",
+    "filename": "IEEE-Volunteering.jpg",
+    "type" : "Society",
+    "link": "https://volunteer.ieee.org/"
+  },
+  {
+    "name": "SPS",
+    "filename": "SPS.jpg",
+    "type" : "Society",
+    "link": "https://signalprocessingsociety.org/"
+  {
+    "name": "PES",
+    "filename": "pes.png",
+    "type" : "Society",
+    "link": "https://pes-yp.org/"
   }
 ]
