@@ -66,7 +66,7 @@ export default function Home() {
                 <div className="home-container">
                     <h4>EVENT SPONSORS</h4>
                     <h2>Official Sponsors</h2>
-                    <Sponsors items={sponsorsList} types={["Platinum", "Gold"]}/>
+                    <Sponsors items={sponsorsList} types={["Platinum", "Gold","Silver","Bronze"]}/>
                     <p className="sponsors-description">
                         If you want to increase awareness for your company, You’re in the right place !
                     </p>
