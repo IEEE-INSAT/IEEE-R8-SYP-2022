@@ -6,7 +6,7 @@ import Countdown from '../../components/Countdown';
 import Location from '../../components/Location';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
-import Sponsors from '../../components/Sponsors';
+import Sponsors,{SponsorItem} from '../../components/Sponsors';
 import partnersList from '../../data/sponsors and partners/partners.json';
 import sponsorsList from '../../data/sponsors and partners/sponsors.json';
 import NumberCounter from '../../components/NumberCounter';
@@ -66,7 +66,7 @@ export default function Home() {
                 <div className="home-container">
                     <h4>EVENT SPONSORS</h4>
                     <h2>Official Sponsors</h2>
-                    <Sponsors items={sponsorsList} types={["Platinum", "Gold"]}/>
+                    <Sponsors items={sponsorsList as SponsorItem[]} types={["Platinum", "Gold"]}/>
                     <p className="sponsors-description">
                         If you want to increase awareness for your company, You’re in the right place !
                     </p>
@@ -78,7 +78,7 @@ export default function Home() {
                 <div className="home-container">
                     <h4>EVENT PARTNERS</h4>
                     <h2>IEEE Partners</h2>
-                    <Sponsors items={partnersList} types={["Society"]}/></div>
+                    <Sponsors items={partnersList as SponsorItem[]} types={["Society"]}/></div>
             </Fade>
             <Footer/>
         </div>

@@ -4,10 +4,10 @@ import './Sponsors.css';
 // @ts-ignore
 import Fade from "react-reveal/Fade";
 
-interface SponsorItem {
+export interface SponsorItem {
     name: string;
     filename: string;
-    type: string;
+    type: sponsorTypes;
     link: string;
 }
 

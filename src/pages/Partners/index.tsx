@@ -5,17 +5,17 @@ import '../Sponsoring/sponsoring.css'; //the page style is the same as sponsorsh
 import Fade from 'react-reveal/Fade';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
-import Sponsors from '../../components/Sponsors';
+import Sponsors, { SponsorItem } from '../../components/Sponsors';
 import partnersList from '../../data/sponsors and partners/partners.json';
 
 export default function PartnersPage() {
     return (
         <div className="sponsoring">
-            <Header title={'IEEE PARTNERS'} description={<p>Meet our partners</p>}/>
+            <Header title={'IEEE PARTNERS'} description={<p>Meet our partners</p>} />
             <Fade>
-                <Sponsors items={partnersList} types={["Society" ]}/>
+                <Sponsors items={partnersList as SponsorItem[]} types={['Society']} />
             </Fade>
-            <Footer/>
+            <Footer />
         </div>
     );
 }
