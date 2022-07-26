@@ -325,5 +325,39 @@
     "instructordescription": "N/A",
     "instructorhighlight": "N/A",
     "linkedin": "N/A"
+  },
+  {
+    "id": 60,
+    "type": "Workshops",
+    "name": "How to start your Tech Startup?",
+    "description": "The workshop will give you briefly how to start a tech-based startup  from Ideation to getting into the market \n",
+    "date": "04/08/2022",
+    "time": "10:00 AM",
+    "location": "Elmouradi Gammarth",
+    "instructorname": "Mohamed El Dallal",
+    "instructordescription": "Mohamed El Dallal is a serial Entrepreneur currently the Co-founder & CEO of \"Techne\" and Co-founder & CEO \"Of Innovideas LLC. for Marketing & Advertising\".\nHe has conducted hundreds of Talks/ Panels /workshops in 30+ countries about his Entrepreneurship, Marketing, and business development. In addition, he works as a lecturer at the AAST University as well as working on Marketing & offering Business Consultations for Egyptian SMEs and mentoring Startups over the EMEA region.",
+    "instructorhighlight": "IEEE Entrepreneurship Vice Chair\n",
+    "linkedin": "https://www.linkedin.com/in/mohamed-el-dallal/"
+  },
+  {
+    "id": 61,
+    "type": "Workshops",
+    "name": "Preparing yourself for a successful career",
+    "description": "IEEE offers various employment and career opportunities for students and professionals from the engineering and technology sectors. IEEE looks to promote career progression among engineers and technical professionals from a variety of disciplines. IEEE Region 8 Action for Industry offers to members mentoring and internships at various industry corporations of different sizes and sectors. At the Career fair you can learn about internship positions secured by IEEE, collaboration of IEEE with various industry corporations and mentoring of members who work in industry, entrepreneurs, YPs and students. In addition the presenters will share anecdotes of how to position yourself for a successful career.",
+    "date": "05/08/2022",
+    "time": "10:00 AM",
+    "location": "Elmouradi Gammarth",
+    "instructorname": "Kithinji Muriungi",
+    "instructordescription": "Kithinji is a skilled, passionate, and interested in electronics & software engineering projects, emerging technologies (AI & IoT), their applications, and people interactions with the ability to work in teams or independently by applying design thinking, problem-solving, critical and analytical thinking. He is also an AFI subcomitte member.",
+    "instructorhighlight": "IEEE region 8 AFI Subcomittee member",
+    "linkedin": "https://www.linkedin.com/in/kithinjimuriungi/",
+    "instructor2name": "Marios Antoniou",
+    "instructor2highlight": "IEEE region 8 AFI Subcomittee member",
+    "instructor2description": "Result driven and result oriented leader in technology and communication. Key interest areas are ICT, circular economy, AI, Data Analytics, Cloud, IoT and entrepreneurship. Want to contribute to the improvement of humanity through nonprofit technology activities.",
+    "linkedin2": " https://www.linkedin.com/in/marios-antoniou-a2345b3/",
+    "instructor3name": "John Matogo",
+    "instructor3description": "John Matogo is the Global University Programs Leader for IBM Africa. John joined IBM in Sept 2014 bringing with him vast experience from the academic community in East Africa. His role involves leading IBM academic programmes with universities in countries in the African region. He is an active volunteer with IEEE in Region 8 (EMEA region) and is serving as the current Chair for the Action for Industry sub-committee in Region 8. (EMEA region).",
+    "instructor3highlight": "IEEE Region 8 AFI Chair",
+    "linkedin3": "https://www.linkedin.com/in/johnmatogo/"
   }
 ]

@@ -28,5 +28,23 @@
         "filename": "GAT.jpg",
         "type": "Platinum",
         "link": "https://www.gat.com.tn/"
+    },
+    {
+        "name": "Topnet",
+        "filename": "topnet.png",
+        "type": "Silver",
+        "link": "https://www.topnet.tn/"
+    },
+    {
+        "name": "UBCI",
+        "filename": "ubci.png",
+        "type": "Bronze",
+        "link": "https://www.ubci.tn"
+    },
+    {
+        "name": "SMU",
+        "filename": "SMU.png",
+        "type": "Gold",
+        "link": "https://www.smu.tn/"
     }
 ]

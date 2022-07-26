@@ -20,7 +20,7 @@ export default function Sponsoring() {
             <Header title={'SPONSORS'} description={""}/>
 
             <Fade>
-                <Sponsors items={sponsorsList} types={["Platinum" , "Gold" ]}/>
+                <Sponsors items={sponsorsList} types={["Platinum" , "Gold", "Silver","Bronze" ]}/>
             </Fade>
 
             <Fade>
