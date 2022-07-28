@@ -13,6 +13,23 @@
         "linkedin": "https://www.linkedin.com/in/eayranci/"
     },
     {
+        "id": 62,
+        "type": "Keynotes",
+        "name": "The importance of certification in career development",
+        "description": "- The certification as a skills validation way at the international level\n- Skills technology market demand\n- Alignment with international benchmarks of excellence\n- Career paths and design\n- Promote your ( employee/employer) brand in the marketplace\n- Clevory ACADEMY: a new fast-track training model with compressed programs that aim to make certification more widely available to the general public for international recognition \n- Clevory ACADEMY is your gateway to certification for more Job opportunities",
+        "date": "08/04/2022",
+        "time": "8:30 AM",
+        "location": "Mouradi Gammarth hotel",
+        "instructorname": "M.Zied BACHA",
+        "instructordescription": "Senior IT Professional with an Executive MBA degree and fourteen years\nexperience in Enterprise and SP industry including four years as an Account\nManager for Cisco.",
+        "instructorhighlight": "CEO of Clevory Training, an IT, Telco & Business Skills Traning Company",
+        "linkedin": "https://www.linkedin.com/in/mohamedziedbacha/",
+        "instructor2name": "Hassene HOSNI",
+        "instructor2description": "Consultant and Trainer in Network and Security, Virtualization and Automation and an IT Engineer: TEK-UP university.",
+        "instructor2highlight": "Consultant and Trainer Cisco & VMware/ Audit, Design and Integration of network\nand data Center Solutions",
+        "linkedin2": "https://www.linkedin.com/in/hassen-hosni/"
+    },
+    {
         "id": 1,
         "type": "Keynotes",
         "name": "Internet of Things and real-time\ncomputing",
@@ -119,6 +136,19 @@
         "instructordescription": "",
         "instructorhighlight": "",
         "linkedin": ""
+    },
+    {
+        "id": 63,
+        "type": "Workshops",
+        "name": "Digital transformation and its economic impact",
+        "description": "- Core technology trends that make Digital transformation possible.\n- Barriers to Digital Transformation\n- Digital transformation phases and approach \n- Technologies to consider to reach Strategic Objectives",
+        "date": "04/08/2022",
+        "time": "11:30 AM",
+        "location": "ElMouradi Ghammarth Hotel",
+        "instructorname": "M.Zied BACHA",
+        "instructordescription": "Senior IT Professional with an Executive MBA degree and fourteen years’\nexperience in Enterprise and SP industry including four years as an Account\nManager for Cisco.",
+        "instructorhighlight": "CEO of Clevory Training, an IT, Telco & Business Skills Traning Company",
+        "linkedin": "www.linkedin.com/in/mohamedziedbacha/"
     },
     {
         "id": 8,
@@ -359,36 +389,6 @@
         "instructor3description": "John Matogo is the Global University Programs Leader for IBM Africa. John joined IBM in Sept 2014 bringing with him vast experience from the academic community in East Africa. His role involves leading IBM academic programmes with universities in countries in the African region. He is an active volunteer with IEEE in Region 8 (EMEA region) and is serving as the current Chair for the Action for Industry sub-committee in Region 8. (EMEA region).",
         "instructor3highlight": "IEEE Region 8 AFI Chair",
         "linkedin3": "https://www.linkedin.com/in/johnmatogo/"
-    },
-    {
-        "id": 62,
-        "type": "Keynotes",
-        "name": "The importance of certification in career development",
-        "description": "- The certification as a skills validation way at the international level\n- Skills technology market demand\n- Alignment with international benchmarks of excellence\n- Career paths and design\n- Promote your ( employee/employer) brand in the marketplace\n- Clevory ACADEMY: a new fast-track training model with compressed programs that aim to make certification more widely available to the general public for international recognition \n- Clevory ACADEMY is your gateway to certification for more Job opportunities",
-        "date": "08/04/2022",
-        "time": "8:30 AM",
-        "location": "Mouradi Gammarth hotel",
-        "instructorname": "M.Zied BACHA",
-        "instructordescription": "Senior IT Professional with an Executive MBA degree and fourteen years\nexperience in Enterprise and SP industry including four years as an Account\nManager for Cisco.",
-        "instructorhighlight": "CEO of Clevory Training, an IT, Telco & Business Skills Traning Company",
-        "linkedin": "https://www.linkedin.com/in/mohamedziedbacha/",
-        "instructor2name": "Hassene HOSNI",
-        "instructor2description": "Consultant and Trainer in Network and Security, Virtualization and Automation and an IT Engineer: TEK-UP university.",
-        "instructor2highlight": "Consultant and Trainer Cisco & VMware/ Audit, Design and Integration of network\nand data Center Solutions",
-        "linkedin2": "https://www.linkedin.com/in/hassen-hosni/"
-    },
-    {
-        "id": 63,
-        "type": "Workshops",
-        "name": "Digital transformation and its economic impact",
-        "description": "- Core technology trends that make Digital transformation possible.\n- Barriers to Digital Transformation\n- Digital transformation phases and approach \n- Technologies to consider to reach Strategic Objectives",
-        "date": "04/08/2022",
-        "time": "11:30 AM",
-        "location": "ElMouradi Ghammarth Hotel",
-        "instructorname": "M.Zied BACHA",
-        "instructordescription": "Senior IT Professional with an Executive MBA degree and fourteen years’\nexperience in Enterprise and SP industry including four years as an Account\nManager for Cisco.",
-        "instructorhighlight": "CEO of Clevory Training, an IT, Telco & Business Skills Traning Company",
-        "linkedin": "www.linkedin.com/in/mohamedziedbacha/"
     },
     {
         "id": 64,
