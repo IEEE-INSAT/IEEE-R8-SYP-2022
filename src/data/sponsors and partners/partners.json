@@ -46,5 +46,11 @@
     "filename": "pes.png",
     "type" : "Society",
     "link": "https://pes-yp.org/"
+  },
+  {
+    "name": "IES",
+    "filename": "ies.png",
+    "type" : "Society",
+    "link": "http://www.ieee-ies.org/"
   }
 ]
