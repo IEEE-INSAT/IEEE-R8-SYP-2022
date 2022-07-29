@@ -332,7 +332,7 @@
       {
         "title": "Plenary session",
         "icon": "plenary",
-        "location": "INSAT",
+        "location": "Hotel",
         "time": "09:30 - 11:00",
         "color": "white",
         "scrollRefInd": 10
@@ -340,7 +340,7 @@
       {
         "title": "Break / Networking",
         "icon": "break",
-        "location": "INSAT",
+        "location": "Hotel",
         "time": "11:00 - 11:30",
         "color": "white",
         "scrollRefInd": 12
@@ -348,7 +348,7 @@
       {
         "title": "Plenary session",
         "icon": "plenary",
-        "location": "INSAT",
+        "location": "Hotel",
         "time": "11:30 - 13:00",
         "color": "white",
         "scrollRefInd": 10
@@ -356,14 +356,14 @@
       {
         "title": "Lunch",
         "icon": "lunch",
-        "location": "INSAT",
+        "location": "Hotel",
         "time": "13:00 - 14:30",
         "color": "white"
       },
       {
         "title": "Break / Networking",
         "icon": "break",
-        "location": "INSAT",
+        "location": "Hotel",
         "time": "14:30 - 15:00",
         "color": "white",
         "scrollRefInd": 12
@@ -371,7 +371,7 @@
       {
         "title": "Plenary session",
         "icon": "plenary",
-        "location": "INSAT",
+        "location": "Hotel",
         "time": "15:00 - 17:00",
         "color": "white",
         "scrollRefInd": 10
