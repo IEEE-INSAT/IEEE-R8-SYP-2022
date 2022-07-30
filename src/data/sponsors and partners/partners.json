@@ -52,5 +52,11 @@
     "filename": "ies.png",
     "type" : "Society",
     "link": "http://www.ieee-ies.org/"
+  },
+  {
+    "name": "IEEE Students",
+    "filename": "IEEES.png",
+    "type" : "Society",
+    "link": "https://students.ieee.org/"
   }
 ]
