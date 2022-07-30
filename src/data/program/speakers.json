@@ -121,6 +121,12 @@
         "linkedin": "https://www.linkedin.com/in/mohamed-el-dallal/"
     },
     {
+        "name": "Sohaib Sheikh",
+        "highlight": "IEEE Region 8 PEASC Distinguished Lecture",
+        "description": "Sohaib Sheikh is a senior ICT and Smart Buildings professional with multidisciplinary, cross-sector, global consultancy experience.  Sheikh has previously delivered keynotes and workshops at 40+ international events including the UNESCO World Science Forum, IEEE Sections Congress, and the World Engineering Education Forum.",
+        "linkedin": ""
+    },
+    {
         "name": "Theodoros Chatzinikolaou",
         "highlight": "Region 8 Student Reprenstative ",
         "description": "Theodoros is PhD Candidate in the Democritus University of Thrace and serves the IEEE Region 8 as the Regional Student Representative. His IEEE journey began back in 2016 when he joined his local Student Branch on which he served as the Chair for one year and as the Mentor and Past-Chair for two years. He, also, chaired the IEEE HSYP Congress 2019 and he has received the IEEE Larry K. Wilson Award.",
@@ -149,6 +155,26 @@
         "highlight": "AdCom Student Representative for the IEEE EMBS",
         "description": "Andre Cakici is currently an M.Sc. student at the Department of Medical Engineering, Friedrich-Alexander Universität Erlangen-Nürnberg. He served as a student representative at EMBS Turkey Chapter. He is currently the AdCom Student Representative for the IEEE engineering in Medicine and Biology Society.",
         "linkedin": "https://www.linkedin.com/in/andrelukacakici/"
+    },
+
+    {
+        "name": "Kithinji Muriungi",
+        "highlight": "IEEE region 8 AFI Subcomittee member",
+        "description": "Kithinji is askilled, passionate, and interested in electronics & software engineering projects, emerging technologies (AI & IoT), their applications, and people interactions with the ability to work in teams or independently by applying design thinking, problem-solving, critical and analytical thinking. He is also an AFI subcomitte member.    ",
+        "linkedin": "https://www.linkedin.com/in/kithinjimuriungi/"
+    },
+
+    {
+        "name": "Deepak Mathur",
+        "highlight": "IEEE Region 10 Director",
+        "description": "Deepak Mathur is the Director of IEEE Region 10 (Asia-Pacific). Deepak has also served in various volunteer leadership roles within IEEE at Section, Council, Region and MGA (Member Geographic Activities). Previously, he was the IEEE India Council Chair in 2015-16, overseeing the activities of Sections across India, representing more than 40,000 member",
+        "linkedin": "https://www.linkedin.com/in/deepakmathur25/"
+    },
+    {
+        "name": "Conrad Attard",
+        "highlight": "Region 8 IEEE Professional and Education Activities Sub Committee Chair",
+        "description": "Conrad Attard PhD is the Chair of IEEE Region 8 Professional and Education activities subcommittee and Chair of IEEE Malta Computer Society. He is a Senior Lecturer and researcher at the Faculty of ICT (FICT) at the University of Malta and also the Deputy Dean of the same Faculty. He is organiser of IEEE R8 Robot Championship Malta 2022.",
+        "linkedin": "https://www.linkedin.com/in/conradattard/"
     },
     {
         "name": "Nihel Ben Youssef",
@@ -267,27 +293,9 @@
         "linkedin": "https://tn.linkedin.com/in/mohamedziedbacha"
     },
     {
-        "name": "Kithinji Muriungi",
-        "highlight": "IEEE region 8 AFI Subcomittee member",
-        "description": "Kithinji is askilled, passionate, and interested in electronics & software engineering projects, emerging technologies (AI & IoT), their applications, and people interactions with the ability to work in teams or independently by applying design thinking, problem-solving, critical and analytical thinking. He is also an AFI subcomitte member.    ",
-        "linkedin": "https://www.linkedin.com/in/kithinjimuriungi/"
-    },
-    {
         "name": "Ghazi Saddem",
         "highlight": "Mentor",
         "description": "Ghazi Saddem is an Organizational Management and Digital Transformation Consultant. He has accompanied many Startups in Tunisia, in the Mediterranean region, in the MENA region and in sub-Saharan Africa. Ghazi is currently a mentor within the Seedstars Mentor Hub",
         "linkedin": "https://www.linkedin.com/in/ghazi-saddem/"
-    },
-    {
-        "name": "Deepak Mathur",
-        "highlight": "IEEE Region 10 Director",
-        "description": "Deepak Mathur is the Director of IEEE Region 10 (Asia-Pacific). Deepak has also served in various volunteer leadership roles within IEEE at Section, Council, Region and MGA (Member Geographic Activities). Previously, he was the IEEE India Council Chair in 2015-16, overseeing the activities of Sections across India, representing more than 40,000 member",
-        "linkedin": "https://www.linkedin.com/in/deepakmathur25/"
-    },
-    {
-        "name": "Conrad Attard",
-        "highlight": "Region 8 IEEE Professional and Education Activities Sub Committee Chair",
-        "description": "Conrad Attard PhD is the Chair of IEEE Region 8 Professional and Education activities subcommittee and Chair of IEEE Malta Computer Society. He is a Senior Lecturer and researcher at the Faculty of ICT (FICT) at the University of Malta and also the Deputy Dean of the same Faculty. He is organiser of IEEE R8 Robot Championship Malta 2022.",
-        "linkedin": "https://www.linkedin.com/in/conradattard/"
     }
 ]
