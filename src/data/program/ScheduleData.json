@@ -9,7 +9,7 @@
         "title": "Arrivals",
         "icon": "plane",
         "location": "Airport",
-        "time": "07:00 - 13:00",
+        "time": "07:00 - 12:00",
         "color": "special",
         "scrollRefInd": 0
       },
@@ -17,7 +17,7 @@
         "title": "Congress Check-In",
         "icon": "checkin",
         "location": "Hotel",
-        "time": "13:00 - 15:00",
+        "time": "12:00 - 14:00",
         "color": "special",
         "scrollRefInd": 0
       },
@@ -25,7 +25,7 @@
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "15:00 - 16:00",
+        "time": "14:00 - 16:00",
         "color": "white"
       },
       {
@@ -40,28 +40,21 @@
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "18:30 - 19:30",
+        "time": "18:30 - 20:00",
         "color": "white"
       },
       {
         "title": "Dinner",
         "icon": "dinner",
         "location": "Hotel",
-        "time": "19:30 - 21:00",
-        "color": "white"
-      },
-      {
-        "title": "Preparations",
-        "icon": "preparations",
-        "location": "Hotel",
-        "time": "21:00 - 22:00",
+        "time": "20:00 - 21:00",
         "color": "white"
       },
       {
         "title": "Free time",
         "icon": "party",
         "location": "Hotel",
-        "time": "22:00 - 00:00",
+        "time": "21:00 - 00:00",
         "color": "white",
         "scrollRefInd":2
       }
@@ -145,28 +138,28 @@
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "18:00 - 18:30",
+        "time": "18:00 - 19:00",
         "color": "white"
       },
       {
         "title": "Preparations",
         "icon": "preparations",
         "location": "Hotel",
-        "time": "18:30 - 19:30",
+        "time": "19:00 - 20:00",
         "color": "white"
       },
       {
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "19:30 - 20:00",
+        "time": "20:00 - 21:00",
         "color": "white"
       },
       {
         "title": "Tunisian Dinner",
         "icon": "tunisian",
         "location": "La Perle du Lac",
-        "time": "20:00 - 23:00",
+        "time": "21:00 - 23:30",
         "color": "white",
         "scrollRefInd": 6
       },
@@ -174,7 +167,7 @@
         "title": "Transport",
         "icon": "transport",
         "location": "",
-        "time": "23:00 - 00:00",
+        "time": "23:30 - 00:00",
         "color": "white"
       }
     ]
@@ -242,7 +235,7 @@
         "title": "Break / Networking",
         "icon": "break",
         "location": "Hotel",
-        "time": "14:00 - 14:30",
+        "time": "14:00 - 15:00",
         "color": "white",
         "scrollRefInd": 12
       },
@@ -250,13 +243,13 @@
         "title": "Keynotes",
         "icon": "keynotes",
         "location": "Hotel",
-        "time": "14:30 - 16:00",
+        "time": "15:00 - 16:00",
         "color": "white",
         "scrollRefInd": 3
       },
       {
-        "title": "Preparations",
-        "icon": "preparations",
+        "title": "Break / Networking",
+        "icon": "break",
         "location": "Hotel",
         "time": "16:00 - 16:30",
         "color": "white"
@@ -323,17 +316,10 @@
         "color": "white"
       },
       {
-        "title": "Transport",
-        "icon": "transport",
-        "location": "",
-        "time": "08:30 - 09:30",
-        "color": "white"
-      },
-      {
         "title": "Plenary session",
         "icon": "plenary",
         "location": "Hotel",
-        "time": "09:30 - 11:00",
+        "time": "08:30 - 10:00",
         "color": "white",
         "scrollRefInd": 10
       },
@@ -341,7 +327,7 @@
         "title": "Break / Networking",
         "icon": "break",
         "location": "Hotel",
-        "time": "11:00 - 11:30",
+        "time": "10:00 - 10:30",
         "color": "white",
         "scrollRefInd": 12
       },
@@ -349,7 +335,7 @@
         "title": "Plenary session",
         "icon": "plenary",
         "location": "Hotel",
-        "time": "11:30 - 13:00",
+        "time": "10:30 - 12:00",
         "color": "white",
         "scrollRefInd": 10
       },
@@ -357,44 +343,37 @@
         "title": "Lunch",
         "icon": "lunch",
         "location": "Hotel",
-        "time": "13:00 - 14:30",
+        "time": "12:00 - 13:30",
         "color": "white"
-      },
-      {
-        "title": "Break / Networking",
-        "icon": "break",
-        "location": "Hotel",
-        "time": "14:30 - 15:00",
-        "color": "white",
-        "scrollRefInd": 12
       },
       {
         "title": "Plenary session",
         "icon": "plenary",
         "location": "Hotel",
-        "time": "15:00 - 17:00",
+        "time": "13:30 - 15:00",
         "color": "white",
         "scrollRefInd": 10
       },
       {
-        "title": "Transport",
-        "icon": "transport",
+        "title": "Free Time",
+        "icon": "party",
         "location": "",
-        "time": "17:00 - 18:00",
-        "color": "white"
+        "time": "15:00 - 19:30",
+        "color": "white",
+        "scrollRefInd": 12
       },
       {
         "title": "Preparations",
         "icon": "preparations",
         "location": "Hotel",
-        "time": "18:00 - 19:30",
+        "time": "19:30 - 20:00",
         "color": "white"
       },
       {
         "title": "Gala Dinner",
         "icon": "gala",
         "location": "Hotel",
-        "time": "19:30 - 00:00",
+        "time": "20:00 - 00:00",
         "color": "white",
         "scrollRefInd": 12
       }
