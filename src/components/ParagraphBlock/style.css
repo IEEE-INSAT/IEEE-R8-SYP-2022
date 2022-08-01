@@ -1,0 +1,54 @@
+.paragraph-block-section {
+    width: 100vw;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    line-height: 25px;
+}
+
+.paragraph-block-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .paragraph-block-item {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.paragraph-block-item.odd {
+    background-color: rgba(236, 236, 236, 0.74);
+}
+
+.paragraph-block-title {
+    margin-bottom: 8vh;
+    font-size: 2.5rem;
+    color: #222F5D;
+    text-align: center;
+}
+
+.paragraph-block-content {
+    color: #333333;
+    font-family: "Futura BdCn BT";
+}
+
+.paragraph-block-picture {
+    margin-top: 4vh;
+    height: 75vh;
+    max-height: calc(80vw * 0.9);
+}
+
+.paragraph-block-picture img {
+    height: 100%;
+    width: 100%;
+}

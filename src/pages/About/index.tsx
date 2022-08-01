@@ -9,7 +9,7 @@ import TextBlock from '../../components/TextBlock';
 import ThemedButton from '../../components/ThemedButton';
 import DecoratedImage from '../../components/DecoratedImage';
 import Footer from '../../components/Footer';
-import ParagraphBlock from '../../components/AboutSYPSection';
+import ParagraphBlock from '../../components/ParagraphBlock';
 import Carousel from '../../components/Carousel';
 import top_disk from './../../assets/images/browndisk.svg';
 import bot_disk from './../../assets/images/bluedisk.svg';

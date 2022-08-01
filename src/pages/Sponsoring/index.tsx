@@ -10,7 +10,7 @@ import sponsorshipDossier from '../../assets/images/sponsorshipDossier.png';
 import ThemedButton from '../../components/ThemedButton';
 import Sponsors from '../../components/Sponsors';
 import sponsorsList from '../../data/sponsors and partners/sponsors.json';
-import ParagraphBlock from "../../components/AboutSYPSection";
+import ParagraphBlock from "../../components/ParagraphBlock";
 import SponsorsParagraphs from '../../data/sponsors and partners/Sponsors Paragraphs.json';
 import ScrollToTop from "../../components/ScrollToTop";
 
@@ -22,10 +22,7 @@ export default function Sponsoring() {
             <Fade>
                 <Sponsors items={sponsorsList} types={["Platinum" , "Gold", "Silver","Bronze" ]}/>
             </Fade>
-
-            <Fade>
                 <ParagraphBlock data={SponsorsParagraphs}/>
-            </Fade>
 
             <Fade>
                 <div className="twoElmContainer">

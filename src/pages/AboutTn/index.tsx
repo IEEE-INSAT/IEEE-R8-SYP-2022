@@ -28,7 +28,7 @@ export default function AboutTn() {
                             traditions and customs and a rich historical heritage. We are delighted to introduce you to
                             these regions by breaking them down into this video.
                         </TextBlock>
-                        <VideoDisplay/>
+                        <VideoDisplay link="https://www.youtube.com/embed/cR8mH08xNVw"/>
                     </TwoElementsBlock>
                 </Fade>
                 <Fade>
