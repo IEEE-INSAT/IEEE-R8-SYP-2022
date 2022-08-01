@@ -47,7 +47,7 @@ export default function TechnicalActivities() {
 
     function changeType(a: string) {
         setType(a);
-        setActivity(TechnicalActivities[a as 'Workshops' | /*'Plenary' |*/ 'Keynotes'][0].id);
+        setActivity(TechnicalActivities[a as 'Workshops' | 'Plenary' | 'Keynotes'][0].id);
     }
 
     function changeActivity(id: number) {
@@ -75,13 +75,13 @@ export default function TechnicalActivities() {
             }
         }
     });
-    const TechnicalActivities = {Workshops, Keynotes /*, Plenary*/};
+    const TechnicalActivities = {Workshops, Keynotes , Plenary};
 
     const [viewPage, setViewPage] = useState(false);
     return (
         <div className="TechnicalActivities">
             <TechnicalActivityNavBar
-                items={['Keynotes', 'Workshops' /*, 'Plenary'*/]}
+                items={['Keynotes', 'Workshops' , 'Plenary']}
                 changeView={changeType}
                 default={activities[0].type}
             />
@@ -89,7 +89,7 @@ export default function TechnicalActivities() {
             <div className="mainContainer">
                 <div className={`${viewPage ? 'hidden ' : 'showed '}listContainer`}>
                     <ActivityList
-                        activities={TechnicalActivities[type as 'Workshops' /*| 'Plenary'*/ | 'Keynotes']}
+                        activities={TechnicalActivities[type as 'Workshops' | 'Plenary' | 'Keynotes']}
                         changeView={changeActivity}
                     />
                 </div>
@@ -99,7 +99,7 @@ export default function TechnicalActivities() {
                     </div>
                     <ActivityDetails
                         activity={
-                            TechnicalActivities[type as 'Workshops' /*| 'Plenary'*/ | 'Keynotes'].find(
+                            TechnicalActivities[type as 'Workshops' | 'Plenary' | 'Keynotes'].find(
                                 (element) => element.id == activity,
                             ) || empty
                         }

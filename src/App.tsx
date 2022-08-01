@@ -16,6 +16,7 @@ import PartnersPage from "./pages/Partners";
 import Fade from "react-reveal/Fade";
 
 import './components/Testimonials/Testimonials.css';
+import Plenary from './pages/Plenary';
 
 function App() {
     return (
@@ -30,8 +31,10 @@ function App() {
                         <Route path="/about" element={<AboutUs/>}/>
                         <Route path="/speakers" element={<SpeakersPage/>}/>
                         <Route path="/schedule" element={<Schedule />} />
-                        <Route path='*' element={<Navigate replace to="/"/>}/>
                         <Route path="/TechnicalActivities" element={<TechnicalActivities/>}/>
+                        <Route path="/Plenary" element={<Plenary/>}/>
+                        {/*<Route path="/Keynotes" element={<Keynotes/>}/>*/}
+                        <Route path='*' element={<Navigate replace to="/"/>}/>
                     </Routes>
                 </BrowserRouter>
         </div>

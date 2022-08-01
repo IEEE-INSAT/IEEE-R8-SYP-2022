@@ -48,9 +48,15 @@
         "link": "https://www.clevoryacademy.com/"
     },
     {
-        "name": "Clevory Training",
-        "filename": "clevory training.png",
+        "name": "Clevory Academy",
+        "filename": "clevory_academy.png",
         "type": "Gold",
-        "link": "https://www.clevory.com/"
+        "link": "https://www.clevoryacademy.com/"
+    },
+    {
+        "name": "Integration Objects",
+        "filename": "io.png",
+        "type": "Silver",
+        "link": "https://integrationobjects.com/"
     }
 ]
