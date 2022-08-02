@@ -1,38 +1,44 @@
 [
   {
+    "name": "INSAT",
+    "filename": "INSAT.png",
+    "type": "Society",
+    "link": "http://www.insat.rnu.tn/"
+  },
+  {
     "name": "HAC",
     "filename": "HuaC.jpg",
-    "type" : "Society",
+    "type": "Society",
     "link": "https://hac.ieee.org/"
   },
   {
     "name": "IEEE EMB",
     "filename": "EMB.jpg",
-    "type" : "Society",
+    "type": "Society",
     "link": "https://www.embs.org/"
   },
   {
     "name": "MTT-S",
     "filename": "MTT-S.png",
-    "type" : "Society",
+    "type": "Society",
     "link": "https://mtt.org/"
   },
   {
     "name": "HuaC",
     "filename": "HuaC.png",
-    "type" : "Society",
+    "type": "Society",
     "link": "https://www.facebook.com/Region8SIGHT/"
   },
   {
     "name": "AESS",
     "filename": "AESS.png",
-    "type" : "Society",
+    "type": "Society",
     "link": "https://ieee-aess.org/"
   },
   {
     "name": "IEEE Volunteering",
     "filename": "IEEE-Volunteering.jpg",
-    "type" : "Society",
+    "type": "Society",
     "link": "https://volunteer.ieee.org/"
   },
   {
@@ -44,19 +50,19 @@
   {
     "name": "PES",
     "filename": "pes.png",
-    "type" : "Society",
+    "type": "Society",
     "link": "https://pes-yp.org/"
   },
   {
     "name": "IES",
     "filename": "ies.png",
-    "type" : "Society",
+    "type": "Society",
     "link": "http://www.ieee-ies.org/"
   },
   {
     "name": "IEEE Students",
     "filename": "IEEES.png",
-    "type" : "Society",
+    "type": "Society",
     "link": "https://students.ieee.org/"
   }
 ]
