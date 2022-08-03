@@ -2,7 +2,7 @@ import React from 'react';
 import './Sponsors.css';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import Fade from "react-reveal/Fade";
+import Fade from 'react-reveal/Fade';
 
 interface SponsorItem {
     name: string;
@@ -11,41 +11,39 @@ interface SponsorItem {
     link: string;
 }
 
-type sponsorTypes = "Platinum" | "Gold" | "Silver" | "Bronze" | "Society";
+type sponsorTypes = 'Platinum' | 'Gold' | 'Silver' | 'Bronze' | 'Society';
 
 interface SponsorsProps {
     items: SponsorItem[];
-    types: sponsorTypes[]
+    types: sponsorTypes[];
 }
 
-
-export default function Sponsors({items, types}: SponsorsProps) {
+export default function Sponsors({ items, types }: SponsorsProps) {
     return (
         <>
-            {types.map((type, indx) => <div className={"sponsor-logo-row " + type} key={indx}>
-                {
-                    items.filter(sponsor => {
-                        return sponsor.type === type
-                    })
+            {types.map((type, indx) => (
+                <div className={'sponsor-logo-row ' + type} key={indx}>
+                    {items
+                        .filter((sponsor) => {
+                            return sponsor.type === type;
+                        })
                         .map((sponsor, i) => (
                             <Fade key={i}>
-                                <a className="sponsor-container"
-                                   href={sponsor.link}
-                                   target="_blank"
-                                   rel="noreferrer">
-                                    <img className={sponsor.type.toLowerCase()}
-                                         src={require(`../../assets/images/sponsors/${sponsor.filename}`)}
-                                         alt={sponsor.name}/>
+                                <a className="sponsor-container" href={sponsor.link} target="_blank" rel="noreferrer">
+                                    <img
+                                        className={sponsor.type.toLowerCase()}
+                                        style={{ objectFit: 'contain' }}
+                                        src={require(`../../assets/images/sponsors/${sponsor.filename}`)}
+                                        alt={sponsor.name}
+                                    />
                                     <div className="sponsor-type-overlay">
-                                        <span>{sponsor.type + (type !== 'Society' ? " sponsor" : "")}</span>
+                                        <span>{sponsor.type + (type !== 'Society' ? ' sponsor' : '')}</span>
                                     </div>
-
                                 </a>
                             </Fade>
-                        ))
-                }
-            </div>)
-            }
+                        ))}
+                </div>
+            ))}
         </>
     );
 }
