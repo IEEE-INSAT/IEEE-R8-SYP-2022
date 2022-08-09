@@ -1,46 +1,46 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="syp" src="https://r8syp.ieee.tn/static/media/logo.7940aac513451aa9bc9d.png" />
+</p
+<p>
+<h1 align="center"> IEEE Region 8 Students & Young Professionals congress - Tunisia 2022</h1>
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+##   Site
+https://r8syp.ieee.tn/
 
-### `npm start`
+## ️  Team 
+Special thanks to the volunteers who made this website as awsome as it is.
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center">
+    <a href="https://www.linkedin.com/in/ahmed-bechir-mezhoud-2a17ba12b/">
+    <img src="https://avatars.githubusercontent.com/u/79605129?v=4" width="100px;" alt="Ahmed Bechir Mezhoud"/>
+    <br />
+    <sub><b>Ahmed Bechir Mezhoud</b></sub>
+    </a>
+    <br />
+    </td>
+  <td align="center">
+  <a href="https://www.linkedin.com/in/sellami-habib/">
+  <img src="https://avatars.githubusercontent.com/u/77359892?s=400&u=0eb28dd8c49c7ea3ed141aef94db3d3e2175b96a&v=4" width="100px;" alt="Habib Sellami"/>
+  <br />
+  <sub><b>Habib Sellami</b></sub>
+  </a><br />
+  </td>
+    <td align="center"><a href="https://www.linkedin.com/in/mahdi-chaari-5195421b9/"><img src="https://avatars.githubusercontent.com/u/92325467?v=4" width="100px;" alt="Mahdi Chaari"/><br /><sub><b>Mahdi Chaari</b></sub></a><br /></td>
+    <td align="center"><a href="https://www.linkedin.com/in/m0ngi/"><img src="https://scontent.ftun1-2.fna.fbcdn.net/v/t39.30808-6/272126469_1871818466353387_5788356545780499613_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ocaAeBd5R_wAX-dFPLp&_nc_ht=scontent.ftun1-2.fna&oh=00_AT-hk0IplEJfyMHkslRe352wA6VUNJtuNRlSNY90kKqxiw&oe=62F77997" height="100px;" width="100px" alt="# Mohamed Mongi Saidane"/><br /><sub><b>Mohamed Mongi Saidane</b></sub></a><br /></td>
+    <td align="center"><a href="https://www.linkedin.com/in/mahmoud-nefzi/"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQHgHC96C0r9Bw/profile-displayphoto-shrink_800_800/0/1647470685853?e=1665619200&v=beta&t=xx7UNpjZPkCs3Pw4T4AqjurNnnSnareEP8m6_hHvv7g" width="100px;" alt="Mahmoud Nefzi"/><br /><sub><b>Mahmoud Nefzi</b></sub></a><br /></td>
+    <td align="center"><a href="https://www.linkedin.com/in/anascherni/"><img src="https://avatars.githubusercontent.com/u/5806588?v=4" width="100px;" alt="Anas Cherni"/><br /><sub><b>Anas Cherni</b></sub></a><br /></td>
+    <td align="center"><a href="https://www.linkedin.com/in/aziz-ben-rejeb-b4417423a/"><img src="https://media-exp1.licdn.com/dms/image/C5603AQF9xEsyLaJzww/profile-displayphoto-shrink_800_800/0/1652229864224?e=1665619200&v=beta&t=l_CCblOAct0-3cvVuwJH9Ac8ExlbYy5R8WBUhWg8wsc" width="100px;" alt="Aziz Ben Rejeb"/><br /><sub><b>Aziz Ben Rejeb</b></sub></a><br /></td>
+  </tr>
+  
+</table>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
