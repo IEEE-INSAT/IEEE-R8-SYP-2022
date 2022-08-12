@@ -20,12 +20,16 @@
 }
 
 .countdown h2 {
+    font-family: "Futura Hv BT";
     margin-top: 10px;
     margin-bottom: 40px;
     color: #fff;
-    font-weight: 500;
-    font-size: 56px;
+    font-weight: 300;
+    font-size: 42px;
     padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
 }
 
 .timer{

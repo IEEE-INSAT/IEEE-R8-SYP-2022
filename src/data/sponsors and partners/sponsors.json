@@ -64,5 +64,11 @@
         "filename": "topnet.png",
         "type": "Silver",
         "link": "https://www.topnet.tn/"
+    },
+    {
+        "name": "Monétique Tunisie",
+        "filename": "monetique.png",
+        "type": "Bronze",
+        "link": "https://www.monetiquetunisie.com/"
     }
 ]

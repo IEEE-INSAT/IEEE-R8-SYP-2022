@@ -18,7 +18,7 @@ export default function CountdownSection(){
           return (
             <div className="countdown" >
                 <h4>EVENT TIMER</h4>
-                <h2>THE EVENT HAS STARTED</h2>
+                <h2>The event has ended and lifelong memories have been made! Highlights will soon be posted in our social media and in the website.</h2>
             </div>
           );
         } else {
