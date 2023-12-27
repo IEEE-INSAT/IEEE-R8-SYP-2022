@@ -65,7 +65,7 @@ export default function NavBar({navItems}: NavBarProps) {
 
                 }
                 <a target='_blank' rel="noreferrer" href="https://forms.gle/SiZqTqL5J978S1uk6"><ThemedButton
-                    style={{margin: "10px 10px 0 0"}} text="Register Now" color="secondary" mode="dark"/></a>
+                    text="Register Now" color="secondary" mode="dark"/></a>
             </div>
         </nav>
     )
