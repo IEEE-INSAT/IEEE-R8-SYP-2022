@@ -32,13 +32,14 @@
     text-align: center;
 }
 
-.timer{
+.timer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 800px;
 }
-.timer div{
+
+.timer div {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -46,11 +47,11 @@
     margin: 0 50px;
 }
 
-.timer div:first-of-type{
+.timer div:first-of-type {
     padding-right: 50px;
 }
 
-.numbers{
+.numbers {
     font-family: 'Futura BdCn BT';
     font-style: normal;
     font-weight: 700;
@@ -59,7 +60,7 @@
     color: #FFFFFF;
 }
 
-.unit:last-child{
+.unit:last-child {
     font-family: 'Futura BdCn BT';
     font-style: normal;
     font-weight: 700;
@@ -67,38 +68,64 @@
     color: #CB8B4E;
 }
 
+.facebook-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
 
-@media screen and (max-width: 1230px){
-    .countdown h2{
+.facebook-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media screen and (max-width: 1230px) {
+    .countdown h2 {
         font-size: 30px;
     }
-    .numbers{
+
+    .numbers {
         font-size: 30px;
     }
-    .timer div{
+
+    .timer div {
         margin: 0 20px;
     }
-    .timer div:first-of-type{
+
+    .timer div:first-of-type {
         padding-right: 30px;
     }
 }
 
 @media only screen and (max-width: 550px) {
-    .countdown h2{
+    .countdown h2 {
         font-size: 20px;
     }
-    .numbers{
+
+    .numbers {
         font-size: 20px;
         padding: 0 10px;
     }
-    .timer div{
+
+    .timer div {
         margin: 0 5px;
     }
-    .timer div:first-of-type{
+
+    .timer div:first-of-type {
         padding-right: 10px;
     }
+
     .countdown {
         height: 300px;
+    }
+
+    .countdown {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 }
 
